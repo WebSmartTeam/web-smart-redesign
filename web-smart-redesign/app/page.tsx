@@ -70,7 +70,7 @@ export default function HomePage() {
               </h1>
 
               <p className="text-xl md:text-2xl mb-8 leading-relaxed max-w-3xl mx-auto">
-                It all starts with a clean, slick web design that captures your brand and engages your audience.
+                It all starts with a clean, slick web design that captures your brand and engages your audience. Once your website is ready, begin your marketing journey with our <strong>SEO Foundation Pack</strong> – designed to drive traffic and attract quality leads. Our services blend beautiful design with an effective SEO strategy to ensure your online presence stands out and delivers results.
               </p>
 
               {/* CTA Buttons */}
@@ -118,11 +118,11 @@ export default function HomePage() {
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
             >
               <div className="text-4xl mb-4">🤝</div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3 uppercase tracking-wide">
                 Personal Consultation
               </h3>
               <p className="text-gray-600">
-                Expert one-on-one guidance tailored to your specific needs and goals.
+                We provide personalised one-on-one consultations, ensuring expert guidance tailored specifically to your business goals and challenges.
               </p>
             </motion.div>
 
@@ -134,11 +134,11 @@ export default function HomePage() {
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
             >
               <div className="text-4xl mb-4">🎨</div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3 uppercase tracking-wide">
                 Full Website Ownership
               </h3>
               <p className="text-gray-600">
-                Complete ownership with no design file restrictions or hidden fees.
+                You own your website and every design file we create—no restrictions, no licensing fees. Just complete control and freedom.
               </p>
             </motion.div>
 
@@ -150,11 +150,11 @@ export default function HomePage() {
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
             >
               <div className="text-4xl mb-4">✅</div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3 uppercase tracking-wide">
                 Satisfaction Guaranteed
               </h3>
               <p className="text-gray-600">
-                Collaborative refinement process until you&apos;re completely happy.
+                We work collaboratively until you&apos;re 100% happy with the result. Your satisfaction is our priority, and we&apos;re committed to delivering excellence.
               </p>
             </motion.div>
 
@@ -166,19 +166,19 @@ export default function HomePage() {
               className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
             >
               <div className="text-4xl mb-4">🚀</div>
-              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3 uppercase tracking-wide">
                 Ongoing Expert Support
               </h3>
               <p className="text-gray-600">
-                Continuous support and guidance for sustained business growth.
+                Whether you need technical assistance, strategic advice, or ongoing optimisation, our expert team is here to support your continued growth.
               </p>
             </motion.div>
           </div>
         </div>
       </section>
 
-      {/* Services Section */}
-      <section className="w-full section-padding bg-gray-50">
+      {/* Website Packages Section */}
+      <section className="w-full section-padding bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -194,58 +194,197 @@ export default function HomePage() {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            {services.map((service, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-              >
-                <Link href={service.link}>
-                  <div className={`relative h-full p-8 rounded-xl transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 ${
-                    service.featured
-                      ? 'bg-gradient-to-br from-primary to-primary-600 text-white'
-                      : 'bg-white border-2 border-gray-100 hover:border-primary'
-                  }`}>
-                    {service.featured && (
-                      <div className="absolute -top-3 -right-3 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">
-                        POPULAR
-                      </div>
-                    )}
-                    <div className={`inline-flex items-center justify-center w-16 h-16 rounded-xl mb-6 ${
-                      service.featured
-                        ? 'bg-white/20 text-white'
-                        : 'bg-primary/10 text-primary'
-                    }`}>
-                      <service.icon size={32} />
-                    </div>
-                    <div className={`text-3xl font-heading font-bold mb-2 ${
-                      service.featured ? 'text-white' : 'text-primary'
-                    }`}>
-                      {service.price}
-                    </div>
-                    <h3 className={`text-xl font-heading font-bold mb-4 ${
-                      service.featured ? 'text-white' : 'text-gray-900'
-                    }`}>
-                      {service.title}
-                    </h3>
-                    <p className={`mb-6 ${
-                      service.featured ? 'text-white/90' : 'text-gray-600'
-                    }`}>
-                      {service.description}
-                    </p>
-                    <div className={`flex items-center gap-2 font-medium ${
-                      service.featured ? 'text-white' : 'text-primary'
-                    }`}>
-                      Learn More
-                      <ArrowRight size={18} />
-                    </div>
-                  </div>
-                </Link>
-              </motion.div>
-            ))}
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {/* Static Business Website Package */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
+            >
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6">
+                <Globe size={32} />
+              </div>
+              <div className="text-3xl font-heading font-bold text-primary mb-2">
+                £500
+              </div>
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">
+                Static Business Website
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Perfect for small businesses and startups needing a professional online presence.
+              </p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Up to 5 pages of engaging content</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Fully responsive design</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Contact forms integrated</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Basic SEO optimisation</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Google Analytics setup</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Fast loading performance</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Hosting setup assistance</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">SSL certificate included</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">3 rounds of revisions</span>
+                </li>
+              </ul>
+              <Button href="/services#static" variant="outline" className="w-full">
+                Learn More
+              </Button>
+            </motion.div>
+
+            {/* Self-Managed WordPress Package - FEATURED */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="relative bg-gradient-to-br from-primary to-primary-600 text-white rounded-xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+            >
+              <div className="absolute -top-3 -right-3 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">
+                POPULAR
+              </div>
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-white/20 text-white mb-6">
+                <Globe size={32} />
+              </div>
+              <div className="text-3xl font-heading font-bold text-white mb-2">
+                £1,000+
+              </div>
+              <h3 className="text-xl font-heading font-bold text-white mb-4">
+                Self-Managed WordPress
+              </h3>
+              <p className="text-white/90 mb-6">
+                Ideal for businesses wanting full control over their content with WordPress power.
+              </p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-white/90">Custom WordPress theme design</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-white/90">Unlimited pages capability</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-white/90">Full CMS training included</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-white/90">Advanced SEO optimisation</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-white/90">E-commerce ready (WooCommerce)</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-white/90">Blog functionality</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-white/90">Social media integration</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-white/90">Security hardening</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-white/90">3 months support included</span>
+                </li>
+              </ul>
+              <Button href="/services#wordpress" variant="secondary" className="w-full">
+                Learn More
+              </Button>
+            </motion.div>
+
+            {/* Fully Managed & Bespoke Package */}
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
+            >
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6">
+                <Globe size={32} />
+              </div>
+              <div className="text-3xl font-heading font-bold text-primary mb-2">
+                Custom
+              </div>
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">
+                Fully Managed & Bespoke
+              </h3>
+              <p className="text-gray-600 mb-6">
+                Enterprise-level solutions with ongoing management and custom features.
+              </p>
+              <ul className="space-y-3 mb-8">
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Fully custom design & development</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Advanced features & integrations</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Complete ongoing management</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Regular updates & maintenance</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Priority support access</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Performance monitoring</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Monthly analytics reporting</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Content updates included</span>
+                </li>
+                <li className="flex items-start gap-2">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
+                  <span className="text-sm text-gray-700">Dedicated account manager</span>
+                </li>
+              </ul>
+              <Button href="/services#bespoke" variant="outline" className="w-full">
+                Learn More
+              </Button>
+            </motion.div>
           </div>
 
           <motion.div
