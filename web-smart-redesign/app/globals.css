@@ -20,6 +20,9 @@
 
 html {
   scroll-behavior: smooth;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -29,6 +32,10 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 @layer utilities {
@@ -36,12 +43,14 @@ body {
     text-wrap: balance;
   }
 
+  /* Content container - centered with max-width */
   .container-custom {
-    @apply max-w-container mx-auto px-4 sm:px-6 lg:px-8;
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
   }
 
-  .container-full {
-    @apply w-full px-4 sm:px-6 lg:px-8;
+  /* Full-width section wrapper */
+  .section-full {
+    @apply w-full;
   }
 
   .section-padding {
