@@ -72,6 +72,22 @@ export default function HomePage() {
               <p className="text-xl md:text-2xl mb-8 leading-relaxed max-w-3xl mx-auto">
                 It all starts with a clean, slick web design that captures your brand and engages your audience.
               </p>
+
+              {/* CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <Button href="/portfolio" variant="secondary" size="lg">
+                  See What We Can Build For You
+                </Button>
+                <Button href="/contact" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
+                  Tell Us About Your Project → Get a Quote
+                </Button>
+                <a
+                  href="tel:01462544738"
+                  className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-accent hover:bg-accent-dark rounded-lg transition-all duration-200"
+                >
+                  🔥🔥 Leverage 25 Years of Expertise in 1 Call → Book Now
+                </a>
+              </div>
             </motion.div>
           </div>
         </div>
