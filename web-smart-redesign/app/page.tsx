@@ -65,8 +65,19 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="w-full bg-gradient-to-br from-primary via-primary-600 to-primary-700 text-white">
-        <div className="container-custom py-20 md:py-32">
+      <section className="relative w-full text-white overflow-hidden">
+        {/* Background Image with Overlay */}
+        <div className="absolute inset-0 z-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/services/Web-Design-1662.jpg"
+            alt="Web Design Background"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary-600/90 to-primary-700/95"></div>
+        </div>
+
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
             <motion.div

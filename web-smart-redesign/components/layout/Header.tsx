@@ -48,14 +48,9 @@ const Header = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <div className="flex flex-col">
-              <span className="text-xl font-heading font-bold text-primary">
-                Web-Smart.Co
-              </span>
-              <span className="text-xs text-gray-600">
-                Digital Marketing Agency
-              </span>
-            </div>
+            <span className="text-2xl font-heading font-bold text-primary">
+              Web-Smart.Co
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
