@@ -107,6 +107,76 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Value Propositions Section */}
+      <section className="w-full bg-gray-50 py-16">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
+            >
+              <div className="text-4xl mb-4">🤝</div>
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+                Personal Consultation
+              </h3>
+              <p className="text-gray-600">
+                Expert one-on-one guidance tailored to your specific needs and goals.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
+            >
+              <div className="text-4xl mb-4">🎨</div>
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+                Full Website Ownership
+              </h3>
+              <p className="text-gray-600">
+                Complete ownership with no design file restrictions or hidden fees.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.2 }}
+              className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
+            >
+              <div className="text-4xl mb-4">✅</div>
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+                Satisfaction Guaranteed
+              </h3>
+              <p className="text-gray-600">
+                Collaborative refinement process until you&apos;re completely happy.
+              </p>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3 }}
+              className="bg-white p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow"
+            >
+              <div className="text-4xl mb-4">🚀</div>
+              <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+                Ongoing Expert Support
+              </h3>
+              <p className="text-gray-600">
+                Continuous support and guidance for sustained business growth.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Services Section */}
       <section className="w-full section-padding bg-gray-50">
         <div className="container-custom">
