@@ -66,15 +66,8 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-primary via-primary-600 to-primary-700 text-white overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute inset-0" style={{
-            backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-          }} />
-        </div>
-
-        <div className="container-custom section-padding relative z-10">
+      <section className="w-full bg-gradient-to-br from-primary via-primary-600 to-primary-700 text-white">
+        <div className="container-custom py-20 md:py-32">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
             <motion.div
@@ -82,8 +75,8 @@ export default function HomePage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="inline-block px-4 py-2 bg-white/20 backdrop-blur-sm rounded-full text-sm font-medium mb-6">
-                🏆 Best SEO Agency in Hertfordshire
+              <div className="inline-block px-4 py-2 bg-white/20 rounded-full text-sm font-medium mb-6">
+                Best SEO Agency in Hertfordshire
               </div>
 
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6 leading-tight">
@@ -115,17 +108,15 @@ export default function HomePage() {
               </div>
 
               {/* Quick Contact */}
-              <div className="flex items-center gap-6 text-sm">
+              <div className="flex items-center gap-4">
                 <a
                   href="tel:01462544738"
-                  className="flex items-center gap-2 hover:text-accent-light transition-colors"
+                  className="flex items-center gap-3 text-white hover:text-accent-light transition-colors"
                 >
-                  <div className="w-10 h-10 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center">
-                    📞
-                  </div>
+                  <div className="text-2xl">📞</div>
                   <div>
-                    <div className="text-white/80">Call us now</div>
-                    <div className="font-bold">01462 544738</div>
+                    <div className="text-sm text-white/80">Call us now</div>
+                    <div className="font-bold text-lg">01462 544738</div>
                   </div>
                 </a>
               </div>
@@ -138,34 +129,23 @@ export default function HomePage() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="relative hidden lg:block"
             >
-              <div className="relative aspect-square max-w-md mx-auto">
-                <div className="absolute inset-0 bg-white/10 backdrop-blur-sm rounded-3xl rotate-6"></div>
-                <div className="absolute inset-0 bg-accent/20 rounded-3xl -rotate-6"></div>
-                <div className="relative bg-white rounded-3xl p-8 shadow-2xl">
-                  <Image
-                    src="/images/logos/web-smart-ape.png"
-                    alt="Web-Smart.Co Mascot"
-                    width={400}
-                    height={400}
-                    className="w-full h-auto"
-                    priority
-                  />
-                </div>
+              <div className="relative w-full max-w-md mx-auto">
+                <Image
+                  src="/images/logos/ape-face0defined-transparent-1-1011x1024.png"
+                  alt="Web-Smart.Co Mascot"
+                  width={500}
+                  height={500}
+                  className="w-full h-auto drop-shadow-2xl"
+                  priority
+                />
               </div>
             </motion.div>
           </div>
         </div>
-
-        {/* Wave Divider */}
-        <div className="absolute bottom-0 left-0 right-0">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" className="w-full h-auto">
-            <path fill="#ffffff" d="M0,64L80,69.3C160,75,320,85,480,80C640,75,800,53,960,48C1120,43,1280,53,1360,58.7L1440,64L1440,120L1360,120C1280,120,1120,120,960,120C800,120,640,120,480,120C320,120,160,120,80,120L0,120Z"></path>
-          </svg>
-        </div>
       </section>
 
       {/* Stats Section */}
-      <section className="bg-gray-50 py-12">
+      <section className="w-full bg-gray-50 py-12">
         <div className="container-custom">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -193,7 +173,7 @@ export default function HomePage() {
       </section>
 
       {/* Services Section */}
-      <section className="section-padding bg-white">
+      <section className="w-full section-padding bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -272,7 +252,7 @@ export default function HomePage() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="section-padding bg-gradient-to-br from-secondary to-white">
+      <section className="w-full section-padding bg-gradient-to-br from-secondary to-white">
         <div className="container-custom">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <motion.div
@@ -314,7 +294,7 @@ export default function HomePage() {
             >
               <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
                 <Image
-                  src="/images/team/pete-gypps-1.jpg"
+                  src="/images/team/linkedin-profile-image2.jpg"
                   alt="Web-Smart.Co Team"
                   width={600}
                   height={600}
@@ -331,7 +311,7 @@ export default function HomePage() {
       </section>
 
       {/* CTA Section */}
-      <section className="section-padding gradient-purple text-white">
+      <section className="w-full section-padding gradient-purple text-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}

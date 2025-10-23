@@ -43,7 +43,7 @@ const Header = () => {
           <Link href="/" className="flex items-center gap-3">
             <div className="relative w-12 h-12">
               <Image
-                src="/images/logos/web-smart-ape.png"
+                src="/images/logos/ape-face0defined-transparent-1-1011x1024.png"
                 alt="Web-Smart.Co"
                 fill
                 className="object-contain"
