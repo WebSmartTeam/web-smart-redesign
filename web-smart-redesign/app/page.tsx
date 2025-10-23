@@ -284,7 +284,7 @@ export default function HomePage() {
                 Why Choose Web-Smart.Co?
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                We're not just another digital agency. We're your partner in growth, combining local expertise with cutting-edge technology to deliver measurable results.
+                We&apos;re not just another digital agency. We&apos;re your partner in growth, combining local expertise with cutting-edge technology to deliver measurable results.
               </p>
               <div className="space-y-4 mb-8">
                 {benefits.map((benefit, index) => (
