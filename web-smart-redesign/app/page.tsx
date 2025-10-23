@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
   ArrowRight,
@@ -18,30 +17,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 export default function HomePage() {
-  const services = [
-    {
-      icon: Globe,
-      title: 'Static Business Website',
-      price: '£500',
-      description: 'Professional, responsive sites with up to 5 pages, analytics, and SEO optimisation.',
-      link: '/services#static',
-    },
-    {
-      icon: Globe,
-      title: 'Self-Managed WordPress',
-      price: '£1,000+',
-      description: 'Custom WordPress with CMS training and 3 months support.',
-      link: '/services#wordpress',
-      featured: true,
-    },
-    {
-      icon: Globe,
-      title: 'Fully Managed & Bespoke',
-      price: 'Custom',
-      description: 'Advanced custom solutions with ongoing management tailored to your needs.',
-      link: '/services#bespoke',
-    },
-  ];
 
   const benefits = [
     'Personalised one-on-one consultations tailored to your business goals',
