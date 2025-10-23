@@ -65,8 +65,8 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full text-white overflow-hidden">
-        {/* Background Image with Overlay */}
+      <section className="relative w-full min-h-[600px] flex items-center mt-20">
+        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -74,67 +74,23 @@ export default function HomePage() {
             alt="Web Design Background"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary-600/90 to-primary-700/95"></div>
+          <div className="absolute inset-0 bg-black/40"></div>
         </div>
 
-        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            {/* Hero Content */}
+        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+          <div className="max-w-4xl mx-auto text-center text-white">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6 leading-tight">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold mb-6 leading-tight">
                 Grow Your Business with Expert Digital Marketing
               </h1>
 
-              <p className="text-lg md:text-xl text-white/90 mb-8 leading-relaxed">
+              <p className="text-xl md:text-2xl mb-8 leading-relaxed max-w-3xl mx-auto">
                 Transform your online presence with cutting-edge web design, powerful SEO, and data-driven marketing strategies that deliver real results.
               </p>
-
-              <div className="flex flex-col sm:flex-row gap-4 mb-8">
-                <Button
-                  href="/contact"
-                  variant="secondary"
-                  size="lg"
-                  className="group"
-                >
-                  Get Your Free Quote
-                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-                </Button>
-              </div>
-
-              {/* Quick Contact */}
-              <div className="flex items-center gap-4">
-                <a
-                  href="tel:01462544738"
-                  className="flex items-center gap-3 text-white hover:text-accent-light transition-colors"
-                >
-                  <div className="text-2xl">📞</div>
-                  <div>
-                    <div className="text-sm text-white/80">Call us now</div>
-                    <div className="font-bold text-lg">01462 544738</div>
-                  </div>
-                </a>
-              </div>
-            </motion.div>
-
-            {/* Hero Image */}
-            <motion.div
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.2 }}
-              className="relative hidden lg:block"
-            >
-              <div className="relative w-full max-w-md mx-auto">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src="/images/logos/ape-face0defined-transparent-1-1011x1024.png"
-                  alt="Web-Smart.Co Mascot"
-                  className="w-full h-auto drop-shadow-2xl"
-                />
-              </div>
             </motion.div>
           </div>
         </div>
