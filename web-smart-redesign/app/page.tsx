@@ -37,10 +37,10 @@ export default function HomePage() {
   ];
 
   const benefits = [
-    'Personal consultation with expert one-on-one guidance',
-    'Full website ownership with no design file restrictions',
-    'Satisfaction guarantee with collaborative refinement',
-    'Ongoing expert support for sustained growth',
+    'Personalised one-on-one consultations tailored to your business goals',
+    'Complete website ownership—no restrictions, no licensing fees',
+    'Collaborative process ensuring 100% satisfaction with results',
+    'Ongoing expert support for technical assistance and strategic advice',
   ];
 
   return (
@@ -433,7 +433,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* CTA Section */}
+      {/* Final CTA Section */}
       <section className="w-full section-padding gradient-purple text-white">
         <div className="container-custom">
           <motion.div
@@ -443,10 +443,10 @@ export default function HomePage() {
             className="text-center max-w-3xl mx-auto"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
-              Ready to Get Started?
+              Ready to Transform Your Online Presence?
             </h2>
             <p className="text-lg text-white/90 mb-8">
-              Contact us today for a free consultation and let&apos;s create something amazing together.
+              Let&apos;s create a website that not only looks stunning but drives real results for your business. Get in touch today for a free consultation.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button
@@ -455,7 +455,7 @@ export default function HomePage() {
                 size="lg"
                 className="group"
               >
-                Get in Touch
+                Start Your Project Today
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
               </Button>
               <a
