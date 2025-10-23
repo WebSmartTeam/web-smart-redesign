@@ -1,0 +1,165 @@
+{
+  "downloadDate": "2025-10-23T09:49:45.552Z",
+  "totalImages": 18,
+  "downloaded": 18,
+  "failed": 0,
+  "categories": {
+    "logos": [
+      {
+        "filename": "ape-face0defined-transparent-1-1011x1024.png",
+        "src": "https://web-smart.co/wp-content/uploads/ape-face0defined-transparent-1-1011x1024.png",
+        "alt": "",
+        "width": 800,
+        "height": 810,
+        "page": "web-design-services"
+      },
+      {
+        "filename": "mobile-design-first-with-monkey.jpeg",
+        "src": "https://web-smart.co/wp-content/uploads/mobile-design-first-with-monkey.jpeg",
+        "alt": "mobile design first - with monkey",
+        "width": 1680,
+        "height": 720,
+        "page": "web-design-services"
+      }
+    ],
+    "team": [
+      {
+        "filename": "SEO-Strategy-guide-book-by-pete-gypps.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/SEO-Strategy-guide-book-by-pete-gypps.jpg",
+        "alt": "Hitchin Advanced SEO strategy book by Pete Gypps",
+        "width": 1069,
+        "height": 1604,
+        "page": "seo-services"
+      },
+      {
+        "filename": "linkedin-profile-image2.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/linkedin-profile-image2.jpg",
+        "alt": "Avatar of Pete Gypps",
+        "width": 911,
+        "height": 911,
+        "page": "blogs"
+      }
+    ],
+    "portfolio": [
+      {
+        "filename": "webdesignagency-hertfordshire-location3.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/webdesignagency-hertfordshire-location3.jpg",
+        "alt": "Badlock Web Design Agency",
+        "width": 1284,
+        "height": 2144,
+        "page": "web-design-services"
+      },
+      {
+        "filename": "buzz-website.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/buzz-website.jpg",
+        "alt": "Buzz Website",
+        "width": 800,
+        "height": 800,
+        "page": "portfolio"
+      },
+      {
+        "filename": "branding-website-design.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/branding-website-design.jpg",
+        "alt": "Branding website",
+        "width": 800,
+        "height": 800,
+        "page": "portfolio"
+      },
+      {
+        "filename": "webdesign-cat-1024x682.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/webdesign-cat-1024x682.jpg",
+        "alt": "Web Designer- Cat",
+        "width": 800,
+        "height": 532,
+        "page": "portfolio"
+      }
+    ],
+    "services": [
+      {
+        "filename": "website-multidevice-resize.png",
+        "src": "https://web-smart.co/wp-content/uploads/website-multidevice-resize.png",
+        "alt": "Your Stevenage Website Design Layout",
+        "width": 1024,
+        "height": 1024,
+        "page": "web-design-services"
+      },
+      {
+        "filename": "Web-Design-1225.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/Web-Design-1225.jpg",
+        "alt": "Web Design",
+        "width": 1800,
+        "height": 771,
+        "page": "web-design-services"
+      },
+      {
+        "filename": "Web-Design-1662.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/Web-Design-1662.jpg",
+        "alt": "Understanding Web Design",
+        "width": 1800,
+        "height": 771,
+        "page": "web-design-services"
+      },
+      {
+        "filename": "banner-foundation-seo-pack1499-scaled.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/banner-foundation-seo-pack1499-scaled.jpg",
+        "alt": "SEO Foundation pack £1499",
+        "width": 1920,
+        "height": 250,
+        "page": "seo-services"
+      },
+      {
+        "filename": "ai-seo-strategy.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/ai-seo-strategy.jpg",
+        "alt": "Hitchin Ai seo strategy",
+        "width": 1069,
+        "height": 1604,
+        "page": "seo-services"
+      },
+      {
+        "filename": "neve-patterns-21.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/neve-patterns-21.jpg",
+        "alt": "websmart.co",
+        "width": 600,
+        "height": 600,
+        "page": "content-writing"
+      },
+      {
+        "filename": "neve-patterns-20.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/neve-patterns-20.jpg",
+        "alt": "web seo neve patterns 20",
+        "width": 600,
+        "height": 600,
+        "page": "content-writing"
+      },
+      {
+        "filename": "neve-patterns-6.1.png",
+        "src": "https://web-smart.co/wp-content/uploads/neve-patterns-6.1.png",
+        "alt": "web seo neve patterns 6.1",
+        "width": 600,
+        "height": 600,
+        "page": "content-writing"
+      }
+    ],
+    "blog": [
+      {
+        "filename": "Get-smart-strategies-image-1-scaled-e1739190957561.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/Get-smart-strategies-image-1-scaled-e1739190957561.jpg",
+        "alt": "",
+        "width": 1594,
+        "height": 374,
+        "page": "blogs"
+      }
+    ],
+    "branding": [],
+    "misc": [
+      {
+        "filename": "Get-smart-strategies-image-scaled.jpg",
+        "src": "https://web-smart.co/wp-content/uploads/Get-smart-strategies-image-scaled.jpg",
+        "alt": "Gat Smart Strategies",
+        "width": 1920,
+        "height": 374,
+        "page": "ai-images"
+      }
+    ]
+  }
+}
