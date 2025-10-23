@@ -6,9 +6,16 @@ import { motion } from 'framer-motion';
 import {
   ArrowRight,
   CheckCircle,
-  Globe
+  Globe,
+  Star,
+  Quote
 } from 'lucide-react';
 import Button from '@/components/ui/Button';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 export default function HomePage() {
   const services = [
@@ -41,6 +48,33 @@ export default function HomePage() {
     'Complete website ownership—no restrictions, no licensing fees',
     'Collaborative process ensuring 100% satisfaction with results',
     'Ongoing expert support for technical assistance and strategic advice',
+  ];
+
+  const testimonials = [
+    {
+      name: 'Sarah Thompson',
+      business: 'Thompson & Associates',
+      location: 'Hitchin',
+      rating: 5,
+      text: 'Web-Smart transformed our online presence completely. The SEO Foundation Pack delivered results within 3 months—we\'re now ranking on page 1 for our key terms. Pete and his team are knowledgeable, responsive, and truly care about our success.',
+      image: '/images/team/placeholder-avatar.jpg',
+    },
+    {
+      name: 'James Miller',
+      business: 'Miller Property Services',
+      location: 'Stevenage',
+      rating: 5,
+      text: 'Outstanding service from start to finish. Our new WordPress website is beautiful, fast, and easy to manage. The training was thorough and the ongoing support has been invaluable. Highly recommend Web-Smart to any business in Hertfordshire.',
+      image: '/images/team/placeholder-avatar.jpg',
+    },
+    {
+      name: 'Emma Clarke',
+      business: 'Clarke\'s Boutique',
+      location: 'Letchworth',
+      rating: 5,
+      text: 'We needed an e-commerce solution that could grow with our business. Web-Smart delivered exactly that. The site is gorgeous, sales have increased by 40%, and their Google Ads management is bringing in quality leads every day.',
+      image: '/images/team/placeholder-avatar.jpg',
+    },
   ];
 
   return (
@@ -93,11 +127,47 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Partner Logos Section */}
+      <section className="w-full bg-white py-12 border-b border-gray-100">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
+            <p className="text-center text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
+              Powered by Industry-Leading Technology
+            </p>
+            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16">
+              {[
+                { name: 'Google Cloud', width: 'w-32' },
+                { name: 'Meta Business', width: 'w-28' },
+                { name: 'Microsoft', width: 'w-32' },
+                { name: 'OpenAI', width: 'w-28' },
+                { name: 'Claude AI', width: 'w-28' },
+                { name: 'ElevenLabs', width: 'w-32' },
+                { name: 'Runway', width: 'w-24' },
+              ].map((partner) => (
+                <div
+                  key={partner.name}
+                  className={`${partner.width} h-12 flex items-center justify-center`}
+                >
+                  <span className="text-gray-400 font-semibold text-sm opacity-60 hover:opacity-100 transition-opacity">
+                    {partner.name}
+                  </span>
+                </div>
+              ))}
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Intro Section */}
-      <section className="w-full bg-white py-16">
+      <section className="w-full bg-white py-20">
         <div className="container-custom">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-6">
+            <h2 className="text-3xl md:text-4xl font-heading font-black text-gray-900 mb-6">
               We Don&apos;t Just Make Websites — We Make Them Work
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
@@ -400,6 +470,89 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Portfolio/Case Studies Section */}
+      <section className="w-full section-padding bg-gradient-to-br from-secondary to-white">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
+              Our Work Speaks For Itself
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Explore our portfolio of successful web design projects across Hertfordshire
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: 'Buzz Website',
+                image: '/images/portfolio/buzz-website.jpg',
+                category: 'Web Design',
+              },
+              {
+                title: 'Branding & Design',
+                image: '/images/portfolio/branding-website-design.jpg',
+                category: 'Branding',
+              },
+              {
+                title: 'Web Design Agency',
+                image: '/images/portfolio/webdesign-cat-1024x682.jpg',
+                category: 'Web Design',
+              },
+              {
+                title: 'Hertfordshire Location',
+                image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
+                category: 'Local Business',
+              },
+            ].map((project, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="group relative bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              >
+                <div className="aspect-video overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6">
+                  <p className="text-sm font-medium text-primary mb-2">{project.category}</p>
+                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">
+                    {project.title}
+                  </h3>
+                  <div className="flex items-center gap-2 text-primary font-medium">
+                    View Case Study
+                    <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mt-12"
+          >
+            <Button href="/portfolio" size="lg">
+              View Full Portfolio
+            </Button>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Why Choose Us Section */}
       <section className="w-full section-padding bg-white">
         <div className="container-custom">
@@ -410,7 +563,7 @@ export default function HomePage() {
               viewport={{ once: true }}
               className="text-center"
             >
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-gray-900 mb-12">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-12">
                 Our Commitment to You
               </h2>
               <div className="grid md:grid-cols-2 gap-8">
@@ -429,6 +582,76 @@ export default function HomePage() {
                 ))}
               </div>
             </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="w-full section-padding bg-gradient-to-br from-secondary via-white to-secondary">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
+              Creating Happy Clients
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Don&apos;t just take our word for it—hear from businesses we&apos;ve helped succeed
+            </p>
+          </motion.div>
+
+          <div className="max-w-4xl mx-auto">
+            <Swiper
+              modules={[Autoplay, Pagination, Navigation]}
+              spaceBetween={30}
+              slidesPerView={1}
+              autoplay={{
+                delay: 5000,
+                disableOnInteraction: false,
+              }}
+              pagination={{
+                clickable: true,
+                bulletClass: 'swiper-pagination-bullet !bg-primary',
+                bulletActiveClass: 'swiper-pagination-bullet-active !bg-primary',
+              }}
+              navigation={true}
+              className="testimonials-swiper pb-16"
+            >
+              {testimonials.map((testimonial, index) => (
+                <SwiperSlide key={index}>
+                  <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
+                    <div className="flex justify-center mb-6">
+                      <Quote className="text-primary opacity-20" size={48} />
+                    </div>
+
+                    <div className="flex justify-center gap-1 mb-6">
+                      {[...Array(testimonial.rating)].map((_, i) => (
+                        <Star key={i} className="text-accent fill-accent" size={20} />
+                      ))}
+                    </div>
+
+                    <p className="text-lg md:text-xl text-gray-700 text-center leading-relaxed mb-8 italic">
+                      &quot;{testimonial.text}&quot;
+                    </p>
+
+                    <div className="flex flex-col items-center">
+                      <div className="font-heading font-bold text-xl text-gray-900">
+                        {testimonial.name}
+                      </div>
+                      <div className="text-primary font-medium">
+                        {testimonial.business}
+                      </div>
+                      <div className="text-sm text-gray-500">
+                        {testimonial.location}, Hertfordshire
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </section>
