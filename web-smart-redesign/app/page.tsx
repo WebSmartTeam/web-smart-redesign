@@ -1,7 +1,6 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import {
@@ -75,10 +74,6 @@ export default function HomePage() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6 }}
             >
-              <div className="inline-block px-4 py-2 bg-white/20 rounded-full text-sm font-medium mb-6">
-                Best SEO Agency in Hertfordshire
-              </div>
-
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold mb-6 leading-tight">
                 Grow Your Business with Expert Digital Marketing
               </h1>
@@ -96,14 +91,6 @@ export default function HomePage() {
                 >
                   Get Your Free Quote
                   <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-                </Button>
-                <Button
-                  href="/services"
-                  variant="outline"
-                  size="lg"
-                  className="border-white text-white hover:bg-white hover:text-primary"
-                >
-                  View Our Services
                 </Button>
               </div>
 
@@ -130,13 +117,11 @@ export default function HomePage() {
               className="relative hidden lg:block"
             >
               <div className="relative w-full max-w-md mx-auto">
-                <Image
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
                   src="/images/logos/ape-face0defined-transparent-1-1011x1024.png"
                   alt="Web-Smart.Co Mascot"
-                  width={500}
-                  height={500}
                   className="w-full h-auto drop-shadow-2xl"
-                  priority
                 />
               </div>
             </motion.div>
@@ -293,11 +278,10 @@ export default function HomePage() {
               className="relative"
             >
               <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
-                <Image
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
                   src="/images/team/linkedin-profile-image2.jpg"
                   alt="Web-Smart.Co Team"
-                  width={600}
-                  height={600}
                   className="w-full h-full object-cover"
                 />
               </div>

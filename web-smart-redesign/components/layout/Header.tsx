@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
 import { Menu, X, Phone } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import { cn } from '@/lib/utils';
@@ -41,13 +40,12 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-3">
-            <div className="relative w-12 h-12">
-              <Image
+            <div className="w-12 h-12">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
                 src="/images/logos/ape-face0defined-transparent-1-1011x1024.png"
                 alt="Web-Smart.Co"
-                fill
-                className="object-contain"
-                priority
+                className="w-full h-full object-contain"
               />
             </div>
             <div className="flex flex-col">
@@ -55,7 +53,7 @@ const Header = () => {
                 Web-Smart.Co
               </span>
               <span className="text-xs text-gray-600">
-                Best SEO Agency in Hertfordshire
+                Digital Marketing Agency
               </span>
             </div>
           </Link>
