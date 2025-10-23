@@ -38,6 +38,22 @@ body {
   overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+h3 {
+  font-weight: 700;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
@@ -54,7 +70,7 @@ body {
   }
 
   .section-padding {
-    @apply py-16 md:py-24 lg:py-32;
+    @apply py-20 md:py-28 lg:py-32;
   }
 
   .gradient-purple {
@@ -63,5 +79,19 @@ body {
 
   .gradient-text {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-primary-400;
+  }
+
+  /* Swiper custom styles */
+  .testimonials-swiper .swiper-button-next,
+  .testimonials-swiper .swiper-button-prev {
+    color: #672F8F;
+  }
+
+  .testimonials-swiper .swiper-pagination-bullet {
+    background: #672F8F;
+  }
+
+  .testimonials-swiper .swiper-pagination-bullet-active {
+    background: #672F8F;
   }
 }
