@@ -55,7 +55,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full min-h-[600px] flex items-center mt-20">
+      <section className="relative w-full min-h-[700px] flex items-center mt-20">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -64,40 +64,46 @@ export default function HomePage() {
             alt="Web Design Background"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/40"></div>
+          <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-primary/30"></div>
         </div>
 
-        <div className="relative z-10 w-full px-4 sm:px-6 lg:px-8 py-20 md:py-32">
-          <div className="max-w-4xl mx-auto text-center text-white">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6 }}
-            >
-              <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-heading font-bold mb-6 leading-tight">
-                Create a Stunning Website
-              </h1>
+        <div className="relative z-10 w-full py-24 md:py-32">
+          <div className="container-custom">
+            <div className="max-w-5xl mx-auto text-center text-white">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+              >
+                <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black mb-8 leading-tight">
+                  Best SEO Agency in<br />Hertfordshire
+                </h1>
 
-              <p className="text-xl md:text-2xl mb-8 leading-relaxed max-w-3xl mx-auto">
-                It all starts with a clean, slick web design that captures your brand and engages your audience. Once your website is ready, begin your marketing journey with our <strong>SEO Foundation Pack</strong> – designed to drive traffic and attract quality leads. Our services blend beautiful design with an effective SEO strategy to ensure your online presence stands out and delivers results.
-              </p>
+                <p className="text-xl md:text-2xl mb-12 leading-relaxed max-w-3xl mx-auto font-light">
+                  Professional web design meets powerful SEO strategy. We create stunning websites that drive traffic and generate quality leads for your business.
+                </p>
 
-              {/* CTA Buttons */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button href="/portfolio" variant="secondary" size="lg">
-                  See What We Can Build For You
-                </Button>
-                <Button href="/contact" variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-primary">
-                  Tell Us About Your Project → Get a Quote
-                </Button>
-                <a
-                  href="tel:01462544738"
-                  className="inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-accent hover:bg-accent-dark rounded-lg transition-all duration-200"
-                >
-                  🔥🔥 Leverage 25 Years of Expertise in 1 Call → Book Now
-                </a>
-              </div>
-            </motion.div>
+                {/* CTA Buttons */}
+                <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                  <Button href="/portfolio" variant="secondary" size="lg" className="min-w-[240px]">
+                    View Our Work
+                  </Button>
+                  <Button href="/contact" variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-primary min-w-[240px]">
+                    Get Free Quote
+                  </Button>
+                </div>
+
+                <div className="mt-8">
+                  <a
+                    href="tel:01462544738"
+                    className="inline-flex items-center gap-2 text-lg font-medium text-white hover:text-secondary transition-colors"
+                  >
+                    <span className="text-2xl">📞</span>
+                    <span>Call Us: 01462 544738</span>
+                  </a>
+                </div>
+              </motion.div>
+            </div>
           </div>
         </div>
       </section>
@@ -139,23 +145,42 @@ export default function HomePage() {
       </section>
 
       {/* Intro Section */}
-      <section className="w-full bg-white py-20">
+      <section className="w-full bg-white py-16 md:py-20">
         <div className="container-custom">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-heading font-black text-gray-900 mb-6">
-              We Don&apos;t Just Make Websites — We Make Them Work
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-3xl mx-auto text-center"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
+              We Don&apos;t Just Make Websites<br />We Make Them Work
             </h2>
-            <p className="text-lg text-gray-600 leading-relaxed">
-              We combine beautiful design with effective SEO strategy to drive traffic and attract quality leads to your business.
+            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+              Combining beautiful design with effective SEO strategy to drive traffic and attract quality leads to your business.
             </p>
-          </div>
+          </motion.div>
         </div>
       </section>
 
       {/* Value Propositions Section */}
-      <section className="w-full bg-gray-50 py-16">
+      <section className="w-full bg-gray-50 py-16 md:py-24">
         <div className="container-custom">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-12"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
+              Why Choose Web-Smart.Co
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Our commitment to delivering exceptional results for every client
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -223,7 +248,7 @@ export default function HomePage() {
       </section>
 
       {/* Website Packages Section */}
-      <section className="w-full section-padding bg-white">
+      <section className="w-full py-16 md:py-24 lg:py-32 bg-white">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -231,15 +256,15 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
               Website Packages
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Choose the perfect package for your business needs
+            <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
+              Choose the perfect solution for your business
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {/* Static Business Website Package */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
