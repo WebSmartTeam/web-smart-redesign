@@ -209,6 +209,54 @@ export default function HomePage() {
             ))}
           </div>
 
+          {/* AI Works Subsection */}
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mt-20"
+          >
+            <div className="bg-gradient-to-br from-primary to-primary-600 rounded-2xl p-8 md:p-12 text-white">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-white/20 text-white mb-6">
+                    <Sparkles size={28} />
+                  </div>
+                  <h3 className="text-2xl md:text-3xl lg:text-4xl font-heading font-black mb-4">
+                    Explore Our AI Works
+                  </h3>
+                  <p className="text-lg text-white/90 mb-6">
+                    Discover cutting-edge AI-powered platforms, tools, and solutions we&apos;re building. From intelligent website platforms to innovative AI applications—see the future of digital innovation.
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <Button href="/ai-works" variant="secondary" size="lg">
+                      View AI Projects
+                      <ArrowRight className="ml-2" size={20} />
+                    </Button>
+                  </div>
+                </div>
+                <div className="grid grid-cols-2 gap-4">
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition-all">
+                    <div className="text-3xl font-heading font-bold mb-2">10+</div>
+                    <div className="text-sm text-white/80">AI Platforms</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition-all">
+                    <div className="text-3xl font-heading font-bold mb-2">500+</div>
+                    <div className="text-sm text-white/80">AI Images Created</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition-all">
+                    <div className="text-3xl font-heading font-bold mb-2">50+</div>
+                    <div className="text-sm text-white/80">AI Tools Built</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition-all">
+                    <div className="text-3xl font-heading font-bold mb-2">24/7</div>
+                    <div className="text-sm text-white/80">AI Support</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </motion.div>
+
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
