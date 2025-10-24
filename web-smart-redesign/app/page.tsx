@@ -7,7 +7,13 @@ import {
   CheckCircle,
   Globe,
   Star,
-  Quote
+  Quote,
+  Download,
+  Sparkles,
+  Palette,
+  FileText,
+  TrendingUp,
+  Lightbulb
 } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -114,8 +120,52 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Intro Section */}
+      {/* Resources CTA Section */}
+      <section className="w-full bg-gradient-to-br from-primary to-primary-600 py-16">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center max-w-3xl mx-auto"
+          >
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/20 text-white mb-6">
+              <Download size={32} />
+            </div>
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
+              Download Web & Marketing Resources
+            </h2>
+            <p className="text-lg text-white/90 mb-8">
+              Actionable guides to help you build a stronger, faster, and more effective website. Whether you&apos;re planning a new site or improving an existing one, these resources will give you the edge.
+            </p>
+            <Button href="/resources" variant="secondary" size="lg">
+              Get Free Resources
+            </Button>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* The Web Creation Hub Section */}
       <section className="w-full bg-white py-16 md:py-20">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-4xl mx-auto text-center"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
+              The Web Creation Hub
+            </h2>
+            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+              Your central hub for all web and marketing needs. We&apos;re not just a web design agency—we&apos;re a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* Intro Section */}
+      <section className="w-full bg-secondary py-16 md:py-20">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -375,6 +425,154 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Strategic Branding Section */}
+      <section className="w-full section-padding bg-gradient-to-br from-secondary to-white">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6">
+                <Palette size={32} />
+              </div>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
+                Strategic Branding for Lasting Impact
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                Your brand is more than just a logo—it&apos;s the complete experience your customers have with your business. We create memorable brand identities that resonate with your target audience and set you apart from the competition.
+              </p>
+              <p className="text-lg text-gray-600 leading-relaxed mb-8">
+                From visual identity to brand messaging, we ensure every touchpoint reinforces your unique value proposition and builds trust with your customers.
+              </p>
+              <Button href="/services" size="lg">
+                Explore Branding Services
+              </Button>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="relative"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/services/Purple-Laptop.jpg"
+                alt="Strategic Branding Services"
+                className="w-full rounded-2xl shadow-2xl"
+              />
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Unique Content Creation Section */}
+      <section className="w-full section-padding bg-white">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6 mx-auto">
+              <FileText size={32} />
+            </div>
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
+              Unique Content Creation
+            </h2>
+            <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+              Stand out with exceptional content that engages your audience and drives results. Our content creation services combine professional copywriting, custom visual design, and AI-powered solutions.
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {[
+              {
+                icon: <FileText size={24} />,
+                title: 'Professional Copywriting',
+                description: 'SEO-optimized copy that captures your brand voice and converts visitors into customers',
+              },
+              {
+                icon: <Palette size={24} />,
+                title: 'Custom Visual Design',
+                description: 'Eye-catching graphics, images, and visual assets tailored to your brand',
+              },
+              {
+                icon: <Sparkles size={24} />,
+                title: 'AI Video Creation',
+                description: 'Modern AI-powered video content that engages and informs your audience',
+              },
+              {
+                icon: <FileText size={24} />,
+                title: 'Blog & Article Writing',
+                description: 'Well-researched, informative content that establishes your expertise',
+              },
+              {
+                icon: <TrendingUp size={24} />,
+                title: 'Social Media Content',
+                description: 'Engaging posts and campaigns that grow your social presence',
+              },
+              {
+                icon: <Lightbulb size={24} />,
+                title: 'AI-Assisted Content',
+                description: 'Leverage advanced AI technology for depth, breadth, and efficiency',
+              },
+            ].map((service, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-white border border-gray-200 rounded-xl p-6 hover:shadow-lg hover:border-primary transition-all duration-300"
+              >
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-lg bg-primary/10 text-primary mb-4">
+                  {service.icon}
+                </div>
+                <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+                  {service.title}
+                </h3>
+                <p className="text-gray-600">
+                  {service.description}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mt-12"
+          >
+            <Button href="/services/content-writing" size="lg">
+              Learn More About Content Services
+            </Button>
+          </motion.div>
+        </div>
+      </section>
+
+      {/* One Success Story at a Time Section */}
+      <section className="w-full py-20 bg-gradient-to-br from-primary to-primary-600 text-white">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-4xl mx-auto text-center"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
+              One Success Story at a Time
+            </h2>
+            <p className="text-lg md:text-xl text-white/90 leading-relaxed">
+              We don&apos;t believe in one-size-fits-all solutions. Every business is unique, and we treat each project with the individual attention it deserves. Your success is our success, and we&apos;re committed to building that success incrementally, strategically, and sustainably.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Testimonials Section */}
       <section className="w-full section-padding bg-gradient-to-br from-secondary via-white to-secondary">
         <div className="container-custom">
@@ -441,6 +639,81 @@ export default function HomePage() {
                 </SwiperSlide>
               ))}
             </Swiper>
+          </div>
+        </div>
+      </section>
+
+      {/* AI Solutions Section */}
+      <section className="w-full section-padding bg-white">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="order-2 md:order-1"
+            >
+              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6">
+                <Sparkles size={32} />
+              </div>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
+                Get AI Solutions Tailored to Your Business
+              </h2>
+              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+                Harness the power of artificial intelligence to transform your digital presence. Our AI-powered services combine cutting-edge technology with marketing expertise to deliver results that traditional methods simply can&apos;t match.
+              </p>
+              <ul className="space-y-4 mb-8">
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={20} />
+                  <div>
+                    <span className="font-semibold text-gray-900">AI-Generated Content</span>
+                    <p className="text-gray-600">Well-researched articles and copy produced efficiently</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={20} />
+                  <div>
+                    <span className="font-semibold text-gray-900">AI-Enhanced SEO Strategies</span>
+                    <p className="text-gray-600">Data-driven optimization for better rankings</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={20} />
+                  <div>
+                    <span className="font-semibold text-gray-900">Free AI-Generated Images</span>
+                    <p className="text-gray-600">Professional visuals created with advanced AI</p>
+                  </div>
+                </li>
+                <li className="flex items-start gap-3">
+                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={20} />
+                  <div>
+                    <span className="font-semibold text-gray-900">Modern AI-Driven Marketing</span>
+                    <p className="text-gray-600">Stay ahead with the latest AI marketing approaches</p>
+                  </div>
+                </li>
+              </ul>
+              <div className="flex flex-col sm:flex-row gap-4">
+                <Button href="/ai-images" size="lg">
+                  Get Free AI Images
+                </Button>
+                <Button href="/contact" variant="outline" size="lg">
+                  Book AI Consultation
+                </Button>
+              </div>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="order-1 md:order-2"
+            >
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="/images/services/AI-Images2.jpg"
+                alt="AI Solutions for Your Business"
+                className="w-full rounded-2xl shadow-2xl"
+              />
+            </motion.div>
           </div>
         </div>
       </section>
