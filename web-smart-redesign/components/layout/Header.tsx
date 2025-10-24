@@ -39,8 +39,8 @@ const Header = () => {
       <div className="container-custom">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3">
-            <div className="w-12 h-12">
+          <Link href="/" className="flex items-center">
+            <div className="w-16 h-16">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src="/images/logos/ape-face0defined-transparent-1-1011x1024.png"
@@ -48,9 +48,6 @@ const Header = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <span className="text-2xl font-heading font-bold text-primary">
-              Web-Smart.Co
-            </span>
           </Link>
 
           {/* Desktop Navigation */}

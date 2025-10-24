@@ -82,27 +82,42 @@ export default function HomePage() {
                 <p className="text-xl md:text-2xl mb-12 leading-relaxed font-light">
                   It all starts with a clean, slick web design that captures your brand and engages your audience.
                 </p>
-
-                {/* CTA Buttons - Exact from live site */}
-                <div className="flex flex-col sm:flex-row gap-4">
-                  <Button href="/portfolio" variant="secondary" size="lg">
-                    See What We Can Build For You
-                  </Button>
-                  <Button href="/contact" variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-primary">
-                    Tell Us About Your Project → Get a Quote
-                  </Button>
-                </div>
-
-                <div className="mt-6">
-                  <a
-                    href="tel:01462544738"
-                    className="inline-flex items-center gap-2 px-6 py-3 text-base md:text-lg font-medium bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors"
-                  >
-                    🔥🔥 Leverage 25 Years of Expertise in 1 Call → Book Now
-                  </a>
-                </div>
               </motion.div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Buttons Section */}
+      <section className="w-full bg-white py-12">
+        <div className="container-custom">
+          <div className="flex flex-col items-center gap-6 max-w-4xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.3 }}
+              className="flex flex-col sm:flex-row gap-4 w-full justify-center"
+            >
+              <Button href="/portfolio" variant="secondary" size="lg">
+                See What We Can Build For You
+              </Button>
+              <Button href="/contact" variant="primary" size="lg">
+                Tell Us About Your Project → Get a Quote
+              </Button>
+            </motion.div>
+
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: 0.4 }}
+            >
+              <a
+                href="tel:01462544738"
+                className="inline-flex items-center gap-2 px-6 py-3 text-base md:text-lg font-medium bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors"
+              >
+                🔥🔥 Leverage 25 Years of Expertise in 1 Call → Book Now
+              </a>
+            </motion.div>
           </div>
         </div>
       </section>
@@ -207,6 +222,89 @@ export default function HomePage() {
               </p>
             </motion.div>
           </div>
+        </div>
+      </section>
+
+      {/* Portfolio/Case Studies Section */}
+      <section className="w-full section-padding bg-gradient-to-br from-secondary to-white">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
+              Our Work Speaks For Itself
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Explore our portfolio of successful web design projects across Hertfordshire
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                title: 'Buzz Website',
+                image: '/images/portfolio/buzz-website.jpg',
+                category: 'Web Design',
+              },
+              {
+                title: 'Branding & Design',
+                image: '/images/portfolio/branding-website-design.jpg',
+                category: 'Branding',
+              },
+              {
+                title: 'Web Design Agency',
+                image: '/images/portfolio/webdesign-cat-1024x682.jpg',
+                category: 'Web Design',
+              },
+              {
+                title: 'Hertfordshire Location',
+                image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
+                category: 'Local Business',
+              },
+            ].map((project, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="group relative bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              >
+                <div className="aspect-video overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
+                <div className="p-6">
+                  <p className="text-sm font-medium text-primary mb-2">{project.category}</p>
+                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">
+                    {project.title}
+                  </h3>
+                  <div className="flex items-center gap-2 text-primary font-medium">
+                    View Case Study
+                    <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
+                  </div>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mt-12"
+          >
+            <Button href="/portfolio" size="lg">
+              View Full Portfolio
+            </Button>
+          </motion.div>
         </div>
       </section>
 
@@ -366,122 +464,6 @@ export default function HomePage() {
               View All Services
             </Button>
           </motion.div>
-        </div>
-      </section>
-
-      {/* Portfolio/Case Studies Section */}
-      <section className="w-full section-padding bg-gradient-to-br from-secondary to-white">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
-              Our Work Speaks For Itself
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Explore our portfolio of successful web design projects across Hertfordshire
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                title: 'Buzz Website',
-                image: '/images/portfolio/buzz-website.jpg',
-                category: 'Web Design',
-              },
-              {
-                title: 'Branding & Design',
-                image: '/images/portfolio/branding-website-design.jpg',
-                category: 'Branding',
-              },
-              {
-                title: 'Web Design Agency',
-                image: '/images/portfolio/webdesign-cat-1024x682.jpg',
-                category: 'Web Design',
-              },
-              {
-                title: 'Hertfordshire Location',
-                image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
-                category: 'Local Business',
-              },
-            ].map((project, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="group relative bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-              >
-                <div className="aspect-video overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <p className="text-sm font-medium text-primary mb-2">{project.category}</p>
-                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">
-                    {project.title}
-                  </h3>
-                  <div className="flex items-center gap-2 text-primary font-medium">
-                    View Case Study
-                    <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
-
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mt-12"
-          >
-            <Button href="/portfolio" size="lg">
-              View Full Portfolio
-            </Button>
-          </motion.div>
-        </div>
-      </section>
-
-      {/* Why Choose Us Section */}
-      <section className="w-full section-padding bg-white">
-        <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="text-center"
-            >
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-12">
-                Our Commitment to You
-              </h2>
-              <div className="grid md:grid-cols-2 gap-8">
-                {benefits.map((benefit, index) => (
-                  <motion.div
-                    key={index}
-                    initial={{ opacity: 0, y: 20 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.1 }}
-                    className="flex items-start gap-4 text-left"
-                  >
-                    <CheckCircle className="text-accent flex-shrink-0 mt-1" size={24} />
-                    <span className="text-lg text-gray-700">{benefit}</span>
-                  </motion.div>
-                ))}
-              </div>
-            </motion.div>
-          </div>
         </div>
       </section>
 
