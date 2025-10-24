@@ -55,51 +55,41 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full min-h-[700px] flex items-center mt-20">
+      <section className="relative w-full min-h-[850px] flex items-center mt-20">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/services/banner-foundation-seo-pack1499-scaled.jpg"
+            src="/images/services/Web-Design-1225.jpg"
             alt="Web Design & SEO Services"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/70"></div>
         </div>
 
-        <div className="relative z-10 w-full py-24 md:py-32">
+        <div className="relative z-10 w-full py-32 md:py-40">
           <div className="container-custom">
-            <div className="max-w-4xl text-white">
+            <div className="max-w-3xl text-white">
               <motion.div
                 initial={{ opacity: 0, x: -30 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black mb-8 leading-tight">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-heading font-black mb-8 leading-tight">
                   Best SEO Agency in<br />Hertfordshire
                 </h1>
 
-                <p className="text-xl md:text-2xl mb-12 leading-relaxed max-w-2xl font-light">
+                <p className="text-xl md:text-2xl lg:text-3xl mb-12 leading-relaxed font-light">
                   Professional web design meets powerful SEO strategy. We create stunning websites that drive traffic and generate quality leads for your business.
                 </p>
 
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-6">
-                  <Button href="/portfolio" variant="secondary" size="lg" className="sm:min-w-[220px]">
-                    View Our Work
-                  </Button>
-                  <Button href="/contact" variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-primary sm:min-w-[220px]">
-                    Get Free Quote
-                  </Button>
-                </div>
-
-                <div className="mt-8">
+                <div className="mt-10">
                   <a
                     href="tel:01462544738"
-                    className="inline-flex items-center gap-2 text-lg font-medium text-white hover:text-secondary transition-colors"
+                    className="inline-flex items-center gap-3 text-xl md:text-2xl font-medium text-white hover:text-secondary transition-colors"
                   >
-                    <span className="text-2xl">📞</span>
-                    <span>Call Us: 01462 544738</span>
+                    <span className="text-3xl">📞</span>
+                    <span>01462 544738</span>
                   </a>
                 </div>
               </motion.div>
