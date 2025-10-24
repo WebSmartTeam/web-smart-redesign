@@ -60,35 +60,35 @@ export default function HomePage() {
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/services/Web-Design-1662.jpg"
-            alt="Web Design Background"
+            src="/images/services/banner-foundation-seo-pack1499-scaled.jpg"
+            alt="Web Design & SEO Services"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-black/60 via-black/50 to-primary/30"></div>
+          <div className="absolute inset-0 bg-black/70"></div>
         </div>
 
         <div className="relative z-10 w-full py-24 md:py-32">
           <div className="container-custom">
-            <div className="max-w-5xl mx-auto text-center text-white">
+            <div className="max-w-4xl text-white">
               <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                animate={{ opacity: 1, y: 0 }}
+                initial={{ opacity: 0, x: -30 }}
+                animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
               >
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-black mb-8 leading-tight">
                   Best SEO Agency in<br />Hertfordshire
                 </h1>
 
-                <p className="text-xl md:text-2xl mb-12 leading-relaxed max-w-3xl mx-auto font-light">
+                <p className="text-xl md:text-2xl mb-12 leading-relaxed max-w-2xl font-light">
                   Professional web design meets powerful SEO strategy. We create stunning websites that drive traffic and generate quality leads for your business.
                 </p>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-                  <Button href="/portfolio" variant="secondary" size="lg" className="min-w-[240px]">
+                <div className="flex flex-col sm:flex-row gap-6">
+                  <Button href="/portfolio" variant="secondary" size="lg" className="sm:min-w-[220px]">
                     View Our Work
                   </Button>
-                  <Button href="/contact" variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-primary min-w-[240px]">
+                  <Button href="/contact" variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-primary sm:min-w-[220px]">
                     Get Free Quote
                   </Button>
                 </div>
