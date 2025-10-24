@@ -17,14 +17,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 export default function HomePage() {
-
-  const benefits = [
-    'Personalised one-on-one consultations tailored to your business goals',
-    'Complete website ownership—no restrictions, no licensing fees',
-    'Collaborative process ensuring 100% satisfaction with results',
-    'Ongoing expert support for technical assistance and strategic advice',
-  ];
-
   const testimonials = [
     {
       name: 'Sarah Thompson',
