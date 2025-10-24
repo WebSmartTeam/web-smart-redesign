@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 import {
   ArrowRight,
   CheckCircle,
@@ -207,55 +208,35 @@ export default function HomePage() {
                 </div>
               </motion.div>
             ))}
-          </div>
 
-          {/* AI Works Subsection */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="mt-20"
-          >
-            <div className="bg-gradient-to-br from-primary to-primary-600 rounded-2xl p-8 md:p-12 text-white">
-              <div className="grid md:grid-cols-2 gap-8 items-center">
-                <div>
-                  <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-white/20 text-white mb-6">
-                    <Sparkles size={28} />
-                  </div>
-                  <h3 className="text-2xl md:text-3xl lg:text-4xl font-heading font-black mb-4">
-                    Explore Our AI Works
+            {/* AI Works Card - 5th Card */}
+            <Link href="/ai-works">
+              <motion.div
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: 0.4 }}
+                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+              >
+                <div className="aspect-video overflow-hidden bg-primary/20 flex items-center justify-center">
+                  <Sparkles size={80} className="text-white/30" />
+                </div>
+                <div className="p-6 text-white">
+                  <p className="text-sm font-medium text-white/90 mb-2">AI Innovation</p>
+                  <h3 className="text-xl font-heading font-bold text-white mb-4">
+                    Our AI Works
                   </h3>
-                  <p className="text-lg text-white/90 mb-6">
-                    Discover cutting-edge AI-powered platforms, tools, and solutions we&apos;re building. From intelligent website platforms to innovative AI applications—see the future of digital innovation.
+                  <p className="text-sm text-white/80 mb-4">
+                    Explore cutting-edge AI platforms, tools, and website solutions we&apos;re building
                   </p>
-                  <div className="flex flex-col sm:flex-row gap-4">
-                    <Button href="/ai-works" variant="secondary" size="lg">
-                      View AI Projects
-                      <ArrowRight className="ml-2" size={20} />
-                    </Button>
+                  <div className="flex items-center gap-2 text-white font-medium">
+                    View AI Projects
+                    <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
                   </div>
                 </div>
-                <div className="grid grid-cols-2 gap-4">
-                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition-all">
-                    <div className="text-3xl font-heading font-bold mb-2">10+</div>
-                    <div className="text-sm text-white/80">AI Platforms</div>
-                  </div>
-                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition-all">
-                    <div className="text-3xl font-heading font-bold mb-2">500+</div>
-                    <div className="text-sm text-white/80">AI Images Created</div>
-                  </div>
-                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition-all">
-                    <div className="text-3xl font-heading font-bold mb-2">50+</div>
-                    <div className="text-sm text-white/80">AI Tools Built</div>
-                  </div>
-                  <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition-all">
-                    <div className="text-3xl font-heading font-bold mb-2">24/7</div>
-                    <div className="text-sm text-white/80">AI Support</div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
+              </motion.div>
+            </Link>
+          </div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
