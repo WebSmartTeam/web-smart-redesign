@@ -75,62 +75,35 @@ export default function HomePage() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-heading font-black mb-8 leading-tight">
-                  Best SEO Agency in<br />Hertfordshire
+                <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-heading font-black mb-6 leading-tight">
+                  Create a Stunning Website
                 </h1>
 
-                <p className="text-xl md:text-2xl lg:text-3xl mb-12 leading-relaxed font-light">
-                  Professional web design meets powerful SEO strategy. We create stunning websites that drive traffic and generate quality leads for your business.
+                <p className="text-xl md:text-2xl mb-12 leading-relaxed font-light">
+                  It all starts with a clean, slick web design that captures your brand and engages your audience.
                 </p>
 
-                <div className="mt-10">
+                {/* CTA Buttons - Exact from live site */}
+                <div className="flex flex-col sm:flex-row gap-4">
+                  <Button href="/portfolio" variant="secondary" size="lg">
+                    See What We Can Build For You
+                  </Button>
+                  <Button href="/contact" variant="outline" size="lg" className="border-2 border-white text-white hover:bg-white hover:text-primary">
+                    Tell Us About Your Project → Get a Quote
+                  </Button>
+                </div>
+
+                <div className="mt-6">
                   <a
                     href="tel:01462544738"
-                    className="inline-flex items-center gap-3 text-xl md:text-2xl font-medium text-white hover:text-secondary transition-colors"
+                    className="inline-flex items-center gap-2 px-6 py-3 text-base md:text-lg font-medium bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors"
                   >
-                    <span className="text-3xl">📞</span>
-                    <span>01462 544738</span>
+                    🔥🔥 Leverage 25 Years of Expertise in 1 Call → Book Now
                   </a>
                 </div>
               </motion.div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Partner Logos Section */}
-      <section className="w-full bg-white py-12 border-b border-gray-100">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
-          >
-            <p className="text-center text-sm font-medium text-gray-500 uppercase tracking-wider mb-8">
-              Powered by Industry-Leading Technology
-            </p>
-            <div className="flex flex-wrap justify-center items-center gap-8 md:gap-12 lg:gap-16">
-              {[
-                { name: 'Google Cloud', width: 'w-32' },
-                { name: 'Meta Business', width: 'w-28' },
-                { name: 'Microsoft', width: 'w-32' },
-                { name: 'OpenAI', width: 'w-28' },
-                { name: 'Claude AI', width: 'w-28' },
-                { name: 'ElevenLabs', width: 'w-32' },
-                { name: 'Runway', width: 'w-24' },
-              ].map((partner) => (
-                <div
-                  key={partner.name}
-                  className={`${partner.width} h-12 flex items-center justify-center`}
-                >
-                  <span className="text-gray-400 font-semibold text-sm opacity-60 hover:opacity-100 transition-opacity">
-                    {partner.name}
-                  </span>
-                </div>
-              ))}
-            </div>
-          </motion.div>
         </div>
       </section>
 
@@ -272,44 +245,24 @@ export default function HomePage() {
                 Static Business Website
               </h3>
               <p className="text-gray-600 mb-6">
-                Perfect for small businesses and startups needing a professional online presence.
+                Professional, fast-loading website perfect for businesses with stable content
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Up to 5 pages of engaging content</span>
+                  <span className="text-sm text-gray-700">Responsive design</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Fully responsive design</span>
+                  <span className="text-sm text-gray-700">Up to 5 pages</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Contact forms integrated</span>
+                  <span className="text-sm text-gray-700">Contact form</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Basic SEO optimisation</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Google Analytics setup</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Fast loading performance</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Hosting setup assistance</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">SSL certificate included</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">3 rounds of revisions</span>
+                  <span className="text-sm text-gray-700">SEO optimization</span>
                 </li>
               </ul>
               <Button href="/services#static" variant="outline" className="w-full">
@@ -338,44 +291,24 @@ export default function HomePage() {
                 Self-Managed WordPress
               </h3>
               <p className="text-white/90 mb-6">
-                Ideal for businesses wanting full control over their content with WordPress power.
+                Custom-designed WordPress website with training for self-management
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-white/90">Custom WordPress theme design</span>
+                  <span className="text-sm text-white/90">Custom design</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-white/90">Unlimited pages capability</span>
+                  <span className="text-sm text-white/90">CMS (Content Management System)</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-white/90">Full CMS training included</span>
+                  <span className="text-sm text-white/90">Advanced SEO</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-white/90">Advanced SEO optimisation</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-white/90">E-commerce ready (WooCommerce)</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-white/90">Blog functionality</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-white/90">Social media integration</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-white/90">Security hardening</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-white/90">3 months support included</span>
+                  <span className="text-sm text-white/90">3 months support</span>
                 </li>
               </ul>
               <Button href="/services#wordpress" variant="secondary" className="w-full">
@@ -401,44 +334,20 @@ export default function HomePage() {
                 Fully Managed & Bespoke
               </h3>
               <p className="text-gray-600 mb-6">
-                Enterprise-level solutions with ongoing management and custom features.
+                A completely custom website with advanced features and ongoing management
               </p>
               <ul className="space-y-3 mb-8">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Fully custom design & development</span>
+                  <span className="text-sm text-gray-700">Modern tech stack</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Advanced features & integrations</span>
+                  <span className="text-sm text-gray-700">Lightning-fast performance</span>
                 </li>
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Complete ongoing management</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Regular updates & maintenance</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Priority support access</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Performance monitoring</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Monthly analytics reporting</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Content updates included</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
-                  <span className="text-sm text-gray-700">Dedicated account manager</span>
+                  <span className="text-sm text-gray-700">Full management</span>
                 </li>
               </ul>
               <Button href="/services#bespoke" variant="outline" className="w-full">
