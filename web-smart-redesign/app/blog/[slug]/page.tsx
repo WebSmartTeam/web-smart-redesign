@@ -154,18 +154,31 @@ export default function BlogPostPage() {
   const currentPost = blogPosts[slug as keyof typeof blogPosts] || blogPosts['maximising-wordpress-support'];
 
   const recentPosts = [
-    { title: 'Maximising Your Website\'s Potential with Elite WordPress Support', date: 'October 2024', slug: 'maximising-wordpress-support' },
-    { title: 'Web Design Essentials for Small Businesses in Aldenham', date: 'October 2024', slug: 'web-design-essentials-aldenham' },
-    { title: 'Effective Email Marketing Content Techniques', date: 'October 2024', slug: 'email-marketing-content-techniques' },
+    {
+      title: 'Maximising Your Website\'s Potential with Elite WordPress Support',
+      date: 'October 2024',
+      slug: 'maximising-wordpress-support',
+      image: '/images/services/Web-Design-1225.jpg',
+    },
+    {
+      title: 'Web Design Essentials for Small Businesses in Aldenham',
+      date: 'October 2024',
+      slug: 'web-design-essentials-aldenham',
+      image: '/images/services/Web-Design-1662.jpg',
+    },
+    {
+      title: 'Effective Email Marketing Content Techniques',
+      date: 'October 2024',
+      slug: 'email-marketing-content-techniques',
+      image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
+    },
   ];
 
   return (
     <>
-      {/* Header */}
-      <Header />
-
-      {/* Hero Section with Featured Image */}
-      <section className="relative w-full h-[500px] flex items-center">
+      {/* Hero Section with Featured Image and Header */}
+      <section className="relative w-full min-h-screen flex items-center">
+        {/* Background Image */}
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -176,7 +189,13 @@ export default function BlogPostPage() {
           <div className="absolute inset-0 bg-black/75"></div>
         </div>
 
-        <div className="relative z-10 w-full py-24">
+        {/* Header - Inside Hero Section */}
+        <div className="absolute top-0 left-0 right-0 z-50">
+          <Header />
+        </div>
+
+        {/* Hero Content */}
+        <div className="relative z-10 w-full py-32 md:py-40">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto text-white">
               <motion.div
@@ -184,7 +203,7 @@ export default function BlogPostPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <div className="flex items-center gap-4 mb-4">
+                <div className="flex flex-wrap items-center gap-4 mb-6">
                   <span className="bg-primary px-4 py-2 rounded-full text-sm font-semibold">
                     {currentPost.category}
                   </span>
@@ -284,11 +303,21 @@ export default function BlogPostPage() {
                   </h3>
                   <div className="space-y-4">
                     {recentPosts.map((post, index) => (
-                      <Link key={index} href={`/blog/${post.slug}`} className="group block">
-                        <h4 className="text-sm font-semibold text-gray-900 group-hover:text-primary transition-colors line-clamp-2 mb-1">
-                          {post.title}
-                        </h4>
-                        <p className="text-xs text-gray-500">{post.date}</p>
+                      <Link key={index} href={`/blog/${post.slug}`} className="group flex gap-3 cursor-pointer">
+                        <div className="w-20 h-20 flex-shrink-0 rounded-lg overflow-hidden">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={post.image}
+                            alt={post.title}
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                          />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-semibold text-gray-900 group-hover:text-primary transition-colors line-clamp-2 mb-1">
+                            {post.title}
+                          </h4>
+                          <p className="text-xs text-gray-500">{post.date}</p>
+                        </div>
                       </Link>
                     ))}
                   </div>

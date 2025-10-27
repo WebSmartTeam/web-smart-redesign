@@ -35,7 +35,7 @@ export default function BlogPage() {
       image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
-      category: 'SEO',
+      category: 'Digital Marketing',
       slug: 'email-marketing-content-techniques',
     },
     {
@@ -44,7 +44,7 @@ export default function BlogPage() {
       image: '/images/services/ai-seo-strategy.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
-      category: 'Web Design',
+      category: 'SEO',
       slug: 'wordpress-analytics-data-driven',
     },
     {
@@ -53,7 +53,7 @@ export default function BlogPage() {
       image: '/images/services/neve-patterns-21.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
-      category: 'Web Design',
+      category: 'Digital Marketing',
       slug: 'content-repurposing-strategies',
     },
     {
@@ -71,7 +71,7 @@ export default function BlogPage() {
       image: '/images/portfolio/branding-website-design.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
-      category: 'Web Design',
+      category: 'Video Optimisation',
       slug: 'woocommerce-ecommerce-success',
     },
     {
@@ -105,7 +105,38 @@ export default function BlogPage() {
 
   const categories = ['All', 'Digital Marketing', 'Fixed!', 'SEO', 'Uncategorised', 'Video Optimisation', 'Web Design'];
 
-  const recentPosts = blogPosts.slice(0, 5);
+  const recentPosts = [
+    {
+      title: 'Maximising Your Website\'s Potential with Elite WordPress Support',
+      date: 'October 2024',
+      slug: 'maximising-wordpress-support',
+      image: '/images/services/Web-Design-1225.jpg',
+    },
+    {
+      title: 'Web Design Essentials for Small Businesses in Aldenham',
+      date: 'October 2024',
+      slug: 'web-design-essentials-aldenham',
+      image: '/images/services/Web-Design-1662.jpg',
+    },
+    {
+      title: 'Effective Email Marketing Content Techniques',
+      date: 'October 2024',
+      slug: 'email-marketing-content-techniques',
+      image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
+    },
+    {
+      title: 'Data-Driven Decision Making with WordPress Analytics',
+      date: 'October 2024',
+      slug: 'wordpress-analytics-data-driven',
+      image: '/images/services/ai-seo-strategy.jpg',
+    },
+    {
+      title: 'Maximising Web Presence: Content Repurposing',
+      date: 'October 2024',
+      slug: 'content-repurposing-strategies',
+      image: '/images/services/neve-patterns-21.jpg',
+    },
+  ];
 
   const filteredPosts = activeCategory === 'All'
     ? blogPosts
@@ -289,11 +320,21 @@ export default function BlogPage() {
                   </h3>
                   <div className="space-y-4">
                     {recentPosts.map((post, index) => (
-                      <Link key={index} href={`/blog/${post.slug}`} className="group block cursor-pointer">
-                        <h4 className="text-sm font-semibold text-gray-900 group-hover:text-primary transition-colors line-clamp-2 mb-1">
-                          {post.title}
-                        </h4>
-                        <p className="text-xs text-gray-500">{post.date}</p>
+                      <Link key={index} href={`/blog/${post.slug}`} className="group flex gap-3 cursor-pointer">
+                        <div className="w-20 h-20 flex-shrink-0 rounded-lg overflow-hidden">
+                          {/* eslint-disable-next-line @next/next/no-img-element */}
+                          <img
+                            src={post.image}
+                            alt={post.title}
+                            className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
+                          />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="text-sm font-semibold text-gray-900 group-hover:text-primary transition-colors line-clamp-2 mb-1">
+                            {post.title}
+                          </h4>
+                          <p className="text-xs text-gray-500">{post.date}</p>
+                        </div>
                       </Link>
                     ))}
                   </div>
