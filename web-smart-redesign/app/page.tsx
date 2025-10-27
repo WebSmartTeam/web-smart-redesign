@@ -516,7 +516,7 @@ export default function HomePage() {
               <img
                 src="/images/services/Web-Design-1662.jpg"
                 alt="Strategic Branding Services"
-                className="w-full max-h-[400px] object-cover rounded-2xl"
+                className="w-full h-[400px] object-cover rounded-2xl"
               />
             </motion.div>
           </div>
@@ -729,7 +729,7 @@ export default function HomePage() {
             >
               {testimonials.map((testimonial, index) => (
                 <SwiperSlide key={index} className="h-auto">
-                  <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 h-full min-h-[400px] flex flex-col">
+                  <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 h-[450px] flex flex-col">
                     <div className="flex justify-center gap-1 mb-6">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star key={i} className="text-accent fill-accent" size={20} />
