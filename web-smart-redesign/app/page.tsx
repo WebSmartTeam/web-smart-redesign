@@ -8,7 +8,6 @@ import {
   CheckCircle,
   Globe,
   Star,
-  Quote,
   Download,
   Sparkles,
   Palette,
@@ -78,31 +77,32 @@ export default function HomePage() {
                   Create a Stunning Website
                 </h1>
 
-                <p className="text-xl md:text-2xl mb-12 leading-relaxed font-light">
+                <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light">
                   It all starts with a clean, slick web design that captures your brand and engages your audience.
                 </p>
+
+                {/* Google Review Widget */}
+                <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3">
+                  <div className="flex items-center gap-1">
+                    {[...Array(5)].map((_, i) => (
+                      <Star
+                        key={i}
+                        className={i < 4 ? "text-yellow-400 fill-yellow-400" : "text-yellow-400 fill-yellow-400"}
+                        size={18}
+                      />
+                    ))}
+                  </div>
+                  <div className="h-5 w-px bg-white/30"></div>
+                  <div className="flex items-center gap-2">
+                    <span className="text-white font-bold text-lg">4.9</span>
+                    <span className="text-white/80 text-sm">Google Rating</span>
+                  </div>
+                  <div className="h-5 w-px bg-white/30"></div>
+                  <span className="text-white/80 text-sm">200+ Reviews</span>
+                </div>
               </motion.div>
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* CTA Buttons Section */}
-      <section className="w-full bg-white py-8">
-        <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex items-center justify-center"
-          >
-            <a
-              href="/contact"
-              className="inline-flex items-center gap-2 px-8 md:px-10 py-4 md:py-4.5 text-base md:text-lg font-semibold bg-primary text-white rounded-full hover:bg-primary-600 transition-all duration-300 shadow-md hover:shadow-xl"
-            >
-              Tell Us About Your Project → Get a Quote
-            </a>
-          </motion.div>
         </div>
       </section>
 
@@ -209,7 +209,7 @@ export default function HomePage() {
                 <div className="w-1/2 overflow-hidden relative">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/images/services/AI-Images2.jpg"
+                    src="/images/services/ai-seo-strategy.jpg"
                     alt="AI Works and Solutions"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
@@ -238,9 +238,17 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mt-12"
           >
-            <Button href="/portfolio" size="lg">
-              View Full Portfolio
-            </Button>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <a
+                href="/contact"
+                className="inline-flex items-center gap-2 px-8 md:px-10 py-4 md:py-4.5 text-base md:text-lg font-semibold bg-primary text-white rounded-full hover:bg-primary-600 transition-all duration-300 shadow-md hover:shadow-xl"
+              >
+                Tell Us About Your Project → Get a Quote
+              </a>
+              <Button href="/portfolio" size="lg" variant="outline">
+                View Full Portfolio
+              </Button>
+            </div>
           </motion.div>
         </div>
       </section>
@@ -641,37 +649,12 @@ export default function HomePage() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/services/AI-Images2.jpg"
+                src="/images/services/ai-seo-strategy.jpg"
                 alt="AI Solutions for Your Business"
                 className="w-full rounded-2xl shadow-2xl"
               />
             </motion.div>
           </div>
-        </div>
-      </section>
-
-      {/* Resources CTA Section */}
-      <section className="w-full bg-gradient-to-br from-primary to-primary-600 py-16">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center max-w-3xl mx-auto"
-          >
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-full bg-white/20 text-white mb-6">
-              <Download size={32} />
-            </div>
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-white mb-4">
-              Download Web & Marketing Resources
-            </h2>
-            <p className="text-lg text-white/90 mb-8">
-              Actionable guides to help you build a stronger, faster, and more effective website. Whether you&apos;re planning a new site or improving an existing one, these resources will give you the edge.
-            </p>
-            <Button href="/resources" variant="secondary" size="lg">
-              Get Free Resources
-            </Button>
-          </motion.div>
         </div>
       </section>
 
@@ -698,6 +681,7 @@ export default function HomePage() {
               spaceBetween={30}
               slidesPerView={1}
               slidesPerGroup={1}
+              loop={true}
               breakpoints={{
                 640: {
                   slidesPerView: 2,
@@ -709,9 +693,11 @@ export default function HomePage() {
                 },
               }}
               autoplay={{
-                delay: 5000,
+                delay: 3000,
                 disableOnInteraction: false,
+                pauseOnMouseEnter: true,
               }}
+              speed={800}
               pagination={{
                 clickable: true,
                 bulletClass: 'swiper-pagination-bullet !bg-primary',
@@ -722,11 +708,7 @@ export default function HomePage() {
             >
               {testimonials.map((testimonial, index) => (
                 <SwiperSlide key={index}>
-                  <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12">
-                    <div className="flex justify-center mb-6">
-                      <Quote className="text-primary opacity-20" size={48} />
-                    </div>
-
+                  <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 h-full">
                     <div className="flex justify-center gap-1 mb-6">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star key={i} className="text-accent fill-accent" size={20} />
@@ -757,43 +739,45 @@ export default function HomePage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="relative w-full section-padding text-white overflow-hidden">
-        {/* Background Image */}
-        <div className="absolute inset-0 z-0">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img
-            src="/images/services/Web-Design-1225.jpg"
-            alt="Start Your Project"
-            className="w-full h-full object-cover"
-          />
-          {/* Sleek Overlay - Purple gradient for brand consistency */}
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary/90 to-primary-600/95"></div>
-        </div>
+      <section className="w-full px-[10px] pb-[10px]">
+        <div className="relative w-full section-padding text-white overflow-hidden rounded-3xl">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0 rounded-3xl overflow-hidden">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/images/services/Web-Design-1225.jpg"
+              alt="Start Your Project"
+              className="w-full h-full object-cover"
+            />
+            {/* Black overlay for text visibility */}
+            <div className="absolute inset-0 bg-black/75"></div>
+          </div>
 
-        {/* Content */}
-        <div className="relative z-10 container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center max-w-3xl mx-auto"
-          >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
-              Ready to Transform Your Online Presence?
-            </h2>
-            <p className="text-lg text-white/95 mb-8">
-              Let&apos;s create a website that not only looks stunning but drives real results for your business. Get in touch today for a free consultation.
-            </p>
-            <Button
-              href="/contact"
-              variant="secondary"
-              size="lg"
-              className="group"
+          {/* Content */}
+          <div className="relative z-10 container-custom">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center max-w-3xl mx-auto"
             >
-              Start Your Project Today
-              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-            </Button>
-          </motion.div>
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
+                Ready to Transform Your Online Presence?
+              </h2>
+              <p className="text-lg text-white/95 mb-8">
+                Let&apos;s create a website that not only looks stunning but drives real results for your business. Get in touch today for a free consultation.
+              </p>
+              <Button
+                href="/contact"
+                variant="secondary"
+                size="lg"
+                className="group"
+              >
+                Start Your Project Today
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+              </Button>
+            </motion.div>
+          </div>
         </div>
       </section>
     </>

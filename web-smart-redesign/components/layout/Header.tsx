@@ -28,15 +28,15 @@ const Header = () => {
   ];
 
   return (
-    <header
-      className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        isScrolled
-          ? 'bg-white shadow-lg py-1'
-          : 'bg-white/95 backdrop-blur-sm py-2'
-      )}
-    >
-      <div className="container-custom">
+    <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-4">
+      <div
+        className={cn(
+          'mx-auto max-w-[1600px] transition-all duration-300 rounded-b-2xl px-4 sm:px-6 lg:px-8',
+          isScrolled
+            ? 'bg-white shadow-lg py-1'
+            : 'bg-white/95 backdrop-blur-sm py-2'
+        )}
+      >
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center">
