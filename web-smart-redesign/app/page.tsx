@@ -88,36 +88,27 @@ export default function HomePage() {
       </section>
 
       {/* CTA Buttons Section */}
-      <section className="w-full bg-white py-12">
+      <section className="w-full bg-white py-8">
         <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col items-center gap-6 w-full">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.3 }}
-              className="flex flex-col sm:flex-row gap-4 w-full justify-center"
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+            className="flex flex-wrap items-center justify-center gap-3 md:gap-4"
+          >
+            <a
+              href="/contact"
+              className="inline-flex items-center gap-2 px-6 md:px-8 py-3 md:py-3.5 text-base md:text-lg font-semibold bg-primary text-white rounded-full hover:bg-primary-600 transition-all duration-300 shadow-md hover:shadow-xl"
             >
-              <Button href="/portfolio" variant="secondary" size="lg">
-                See What We Can Build For You
-              </Button>
-              <Button href="/contact" variant="primary" size="lg">
-                Tell Us About Your Project → Get a Quote
-              </Button>
-            </motion.div>
-
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.6, delay: 0.4 }}
+              Tell Us About Your Project → Get a Quote
+            </a>
+            <a
+              href="tel:01462544738"
+              className="inline-flex items-center gap-2 px-6 md:px-8 py-3 md:py-3.5 text-base md:text-lg font-semibold bg-accent text-white rounded-full hover:bg-accent/90 transition-all duration-300 shadow-md hover:shadow-xl"
             >
-              <a
-                href="tel:01462544738"
-                className="inline-flex items-center gap-2 px-6 py-3 text-base md:text-lg font-medium bg-accent text-white rounded-lg hover:bg-accent/90 transition-colors"
-              >
-                🔥🔥 Leverage 25 Years of Expertise in 1 Call → Book Now
-              </a>
-            </motion.div>
-          </div>
+              🔥 Leverage 25 Years of Expertise → Call Now
+            </a>
+          </motion.div>
         </div>
       </section>
 
@@ -133,9 +124,12 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
               We Don&apos;t Just Make Websites<br />We Make Them Work
             </h2>
-            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+            <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-8">
               Combining beautiful design with effective SEO strategy to drive traffic and attract quality leads to your business.
             </p>
+            <Button href="/portfolio" variant="primary" size="lg">
+              See What We Can Build For You
+            </Button>
           </motion.div>
         </div>
       </section>
@@ -160,9 +154,9 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: 'Buzz Website',
-                image: '/images/portfolio/buzz-website.jpg',
-                category: 'Web Design',
+                title: 'Hertfordshire Business',
+                image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
+                category: 'Local Business',
               },
               {
                 title: 'Branding & Design',
@@ -175,9 +169,9 @@ export default function HomePage() {
                 category: 'Web Design',
               },
               {
-                title: 'Hertfordshire Location',
-                image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
-                category: 'Local Business',
+                title: 'E-commerce Platform',
+                image: '/images/portfolio/buzz-website.jpg',
+                category: 'E-commerce',
               },
             ].map((project, index) => (
               <motion.div
@@ -216,17 +210,17 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.4 }}
-                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer h-full"
+                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer flex items-center"
               >
-                <div className="aspect-video overflow-hidden bg-primary/20 flex items-center justify-center">
+                <div className="flex items-center justify-center w-1/3 h-full bg-primary/20 p-8">
                   <Sparkles size={80} className="text-white/30" />
                 </div>
-                <div className="p-6 text-white">
+                <div className="flex-1 p-8 text-white">
                   <p className="text-sm font-medium text-white/90 mb-2">AI Innovation</p>
-                  <h3 className="text-xl font-heading font-bold text-white mb-4">
+                  <h3 className="text-2xl font-heading font-bold text-white mb-3">
                     Our AI Works
                   </h3>
-                  <p className="text-sm text-white/80 mb-4">
+                  <p className="text-base text-white/80 mb-4">
                     Explore cutting-edge AI platforms, tools, and website solutions we&apos;re building
                   </p>
                   <div className="flex items-center gap-2 text-white font-medium">
