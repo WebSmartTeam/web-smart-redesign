@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle, Globe } from 'lucide-react';
+import { ArrowRight, CheckCircle } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Header from '@/components/layout/Header';
 
@@ -147,7 +147,7 @@ export default function ServicesPage() {
                 Ready to Get Started?
               </h2>
               <p className="text-lg text-white/95 mb-8">
-                Let's discuss how we can help your business grow online. Get in touch for a free consultation.
+                Let&apos;s discuss how we can help your business grow online. Get in touch for a free consultation.
               </p>
               <Button href="/contact" variant="secondary" size="lg" className="group">
                 Start Your Project Today

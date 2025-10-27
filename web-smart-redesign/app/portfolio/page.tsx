@@ -2,7 +2,6 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import Link from 'next/link';
 import { ArrowRight } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Header from '@/components/layout/Header';
@@ -126,7 +125,7 @@ export default function PortfolioPage() {
                 Start Your Project Today
               </h2>
               <p className="text-lg text-white/95 mb-8">
-                Ready to create something amazing? Let's bring your vision to life.
+                Ready to create something amazing? Let&apos;s bring your vision to life.
               </p>
               <Button href="/contact" variant="secondary" size="lg" className="group">
                 Get In Touch
