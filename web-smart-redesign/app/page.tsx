@@ -210,12 +210,18 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.4 }}
-                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer flex"
               >
-                <div className="aspect-video overflow-hidden bg-primary/20 flex items-center justify-center">
-                  <Sparkles size={80} className="text-white/30" />
+                <div className="w-1/2 overflow-hidden relative">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src="/images/services/AI-Images2.jpg"
+                    alt="AI Works and Solutions"
+                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-primary/30"></div>
                 </div>
-                <div className="p-6 text-white">
+                <div className="w-1/2 p-6 text-white flex flex-col justify-center">
                   <p className="text-sm font-medium text-white/90 mb-2">AI Innovation</p>
                   <h3 className="text-xl font-heading font-bold text-white mb-4">
                     Our AI Works
@@ -305,17 +311,14 @@ export default function HomePage() {
               </Button>
             </motion.div>
 
-            {/* Self-Managed WordPress Package - FEATURED */}
+            {/* Self-Managed WordPress Package */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="relative flex flex-col bg-gradient-to-br from-primary to-primary-600 text-white rounded-xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              className="flex flex-col bg-gradient-to-br from-primary to-primary-600 text-white rounded-xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
-              <div className="absolute -top-3 -right-3 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">
-                POPULAR
-              </div>
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-white/20 text-white mb-6">
                 <Globe size={32} />
               </div>
