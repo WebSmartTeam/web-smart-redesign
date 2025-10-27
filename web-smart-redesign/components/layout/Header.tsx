@@ -51,31 +51,34 @@ const Header = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8">
-            {navLinks.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="text-gray-700 hover:text-primary font-medium transition-colors duration-200"
-              >
-                {link.label}
-              </Link>
-            ))}
-          </nav>
+          {/* Desktop Navigation and CTA - Right Side */}
+          <div className="hidden lg:flex items-center gap-8">
+            {/* Navigation Links */}
+            <nav className="flex items-center gap-8">
+              {navLinks.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-gray-700 hover:text-primary font-medium transition-colors duration-200"
+                >
+                  {link.label}
+                </Link>
+              ))}
+            </nav>
 
-          {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center gap-4">
-            <a
-              href="tel:01462544738"
-              className="flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors"
-            >
-              <Phone size={18} />
-              <span>01462 544738</span>
-            </a>
-            <Button href="/contact" size="md">
-              Get Started
-            </Button>
+            {/* CTA Buttons */}
+            <div className="flex items-center gap-4 ml-4">
+              <a
+                href="tel:01462544738"
+                className="flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors"
+              >
+                <Phone size={18} />
+                <span>01462 544738</span>
+              </a>
+              <Button href="/contact" size="md">
+                Get Started
+              </Button>
+            </div>
           </div>
 
           {/* Mobile Menu Button */}
