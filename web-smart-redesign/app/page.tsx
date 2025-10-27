@@ -16,6 +16,7 @@ import {
   Lightbulb
 } from 'lucide-react';
 import Button from '@/components/ui/Button';
+import Header from '@/components/layout/Header';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -48,12 +49,41 @@ export default function HomePage() {
       text: 'We needed an e-commerce solution that could grow with our business. Web-Smart delivered exactly that. The site is gorgeous, sales have increased by 40%, and their Google Ads management is bringing in quality leads every day.',
       image: '/images/team/placeholder-avatar.jpg',
     },
+    {
+      name: 'David Richards',
+      business: 'Richards Accounting',
+      location: 'Baldock',
+      rating: 5,
+      text: 'Professional, knowledgeable, and always willing to go the extra mile. Our website redesign exceeded expectations, and the SEO improvements have brought us consistent new enquiries. Web-Smart is our go-to for all digital marketing needs.',
+      image: '/images/team/placeholder-avatar.jpg',
+    },
+    {
+      name: 'Lisa Patel',
+      business: 'Patel Legal Services',
+      location: 'Hitchin',
+      rating: 5,
+      text: 'The team at Web-Smart created a sophisticated, user-friendly website that perfectly represents our law firm. Their attention to detail and understanding of our sector was impressive. We\'ve seen a significant increase in client enquiries.',
+      image: '/images/team/placeholder-avatar.jpg',
+    },
+    {
+      name: 'Tom Harrison',
+      business: 'Harrison Construction',
+      location: 'Letchworth',
+      rating: 5,
+      text: 'Best decision we made was working with Web-Smart. They built us a modern website showcasing our projects beautifully. The Google Ads campaign they manage delivers quality leads every week. Fantastic ROI and brilliant service throughout.',
+      image: '/images/team/placeholder-avatar.jpg',
+    },
   ];
 
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full min-h-[850px] flex items-center mt-20">
+      <section className="relative w-full min-h-screen flex items-center">
+        {/* Header - Inside Hero Section */}
+        <div className="absolute top-0 left-0 right-0 z-50">
+          <Header />
+        </div>
+
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -412,45 +442,19 @@ export default function HomePage() {
       {/* The Web Creation Hub Section */}
       <section className="w-full bg-gradient-to-br from-secondary to-white py-16 md:py-20">
         <div className="container-custom">
-          <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-start">
-            {/* Left Side - Content */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="md:col-span-2"
-            >
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
-                The Web Creation Hub
-              </h2>
-              <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                Your central hub for all web and marketing needs. We&apos;re not just a web design agency—we&apos;re a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
-              </p>
-            </motion.div>
-
-            {/* Right Side - Resources Download Box */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="md:col-span-1"
-            >
-              <div className="bg-gradient-to-br from-primary to-primary-600 rounded-2xl p-6 text-white shadow-xl">
-                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-white/20 text-white mb-4">
-                  <Download size={24} />
-                </div>
-                <h3 className="text-xl font-heading font-bold text-white mb-3">
-                  Download Web & Marketing Resources
-                </h3>
-                <p className="text-sm text-white/90 mb-6">
-                  Actionable guides to help you build a stronger, faster, and more effective website.
-                </p>
-                <Button href="/resources" variant="secondary" size="md" className="w-full">
-                  Get Free Resources
-                </Button>
-              </div>
-            </motion.div>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-4xl mx-auto text-center"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
+              The Web Creation Hub
+            </h2>
+            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+              Your central hub for all web and marketing needs. We&apos;re not just a web design agency—we&apos;re a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
+            </p>
+          </motion.div>
         </div>
       </section>
 
@@ -487,7 +491,7 @@ export default function HomePage() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/services/Purple-Laptop.jpg"
+                src="/images/services/website-multidevice-resize.png"
                 alt="Strategic Branding Services"
                 className="w-full rounded-2xl shadow-2xl"
               />
@@ -651,7 +655,7 @@ export default function HomePage() {
               <img
                 src="/images/services/ai-seo-strategy.jpg"
                 alt="AI Solutions for Your Business"
-                className="w-full rounded-2xl shadow-2xl"
+                className="w-full max-h-[500px] object-cover rounded-2xl shadow-2xl"
               />
             </motion.div>
           </div>
@@ -707,15 +711,15 @@ export default function HomePage() {
               className="testimonials-swiper pb-16"
             >
               {testimonials.map((testimonial, index) => (
-                <SwiperSlide key={index}>
-                  <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 h-full">
+                <SwiperSlide key={index} className="h-auto">
+                  <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 h-full min-h-[400px] flex flex-col">
                     <div className="flex justify-center gap-1 mb-6">
                       {[...Array(testimonial.rating)].map((_, i) => (
                         <Star key={i} className="text-accent fill-accent" size={20} />
                       ))}
                     </div>
 
-                    <p className="text-lg md:text-xl text-gray-700 text-center leading-relaxed mb-8 italic">
+                    <p className="text-lg md:text-xl text-gray-700 text-center leading-relaxed mb-8 italic flex-grow">
                       &quot;{testimonial.text}&quot;
                     </p>
 
