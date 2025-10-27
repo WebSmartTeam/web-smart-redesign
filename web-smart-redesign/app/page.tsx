@@ -89,8 +89,8 @@ export default function HomePage() {
 
       {/* CTA Buttons Section */}
       <section className="w-full bg-white py-12">
-        <div className="container-custom">
-          <div className="flex flex-col items-center gap-6 max-w-4xl mx-auto">
+        <div className="w-full px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center gap-6 w-full">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -209,14 +209,14 @@ export default function HomePage() {
               </motion.div>
             ))}
 
-            {/* AI Works Card - 5th Card */}
-            <Link href="/ai-works">
+            {/* AI Works Card - 5th Card - Spans 2 columns on large screens */}
+            <Link href="/ai-works" className="lg:col-span-2">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.4 }}
-                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer h-full"
               >
                 <div className="aspect-video overflow-hidden bg-primary/20 flex items-center justify-center">
                   <Sparkles size={80} className="text-white/30" />
