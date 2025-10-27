@@ -40,7 +40,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero Section with Background Image and Header */}
-      <section className="relative w-full min-h-screen flex items-center">
+      <section className="relative w-full min-h-[500px] flex items-center">
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -56,7 +56,7 @@ export default function AboutPage() {
           <Header />
         </div>
 
-        <div className="relative z-10 w-full py-32 md:py-40">
+        <div className="relative z-10 w-full py-24 md:py-32">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center text-white">
               <motion.div
