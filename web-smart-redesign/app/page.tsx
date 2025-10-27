@@ -8,6 +8,7 @@ import {
   CheckCircle,
   Globe,
   Star,
+  Download,
   Sparkles,
   Palette,
   FileText,
@@ -441,19 +442,45 @@ export default function HomePage() {
       {/* The Web Creation Hub Section */}
       <section className="w-full bg-gradient-to-br from-secondary to-white py-16 md:py-20">
         <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="max-w-4xl mx-auto text-center"
-          >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
-              The Web Creation Hub
-            </h2>
-            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              Your central hub for all web and marketing needs. We&apos;re not just a web design agency—we&apos;re a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
-            </p>
-          </motion.div>
+          <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-start">
+            {/* Left Side - Content */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="md:col-span-2"
+            >
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
+                The Web Creation Hub
+              </h2>
+              <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+                Your central hub for all web and marketing needs. We&apos;re not just a web design agency—we&apos;re a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
+              </p>
+            </motion.div>
+
+            {/* Right Side - Resources Download Box */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="md:col-span-1"
+            >
+              <div className="bg-gradient-to-br from-primary to-primary-600 rounded-2xl p-6 text-white shadow-xl">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-white/20 text-white mb-4">
+                  <Download size={24} />
+                </div>
+                <h3 className="text-xl font-heading font-bold text-white mb-3">
+                  Download Web & Marketing Resources
+                </h3>
+                <p className="text-sm text-white/90 mb-6">
+                  Actionable guides to help you build a stronger, faster, and more effective website.
+                </p>
+                <Button href="/resources" variant="secondary" size="md" className="w-full">
+                  Get Free Resources
+                </Button>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
