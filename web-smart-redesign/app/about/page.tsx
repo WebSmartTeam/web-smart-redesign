@@ -42,11 +42,21 @@ export default function AboutPage() {
       {/* Header */}
       <Header />
 
-      {/* Hero Section */}
-      <section className="relative w-full min-h-[500px] flex items-center bg-gradient-to-br from-primary to-primary-600 text-white">
+      {/* Hero Section with Background Image */}
+      <section className="relative w-full min-h-[500px] flex items-center">
+        <div className="absolute inset-0 z-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/services/ai-seo-strategy.jpg"
+            alt="About Web-Smart.Co"
+            className="w-full h-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary-600/90"></div>
+        </div>
+
         <div className="relative z-10 w-full py-24 md:py-32">
           <div className="container-custom">
-            <div className="max-w-3xl mx-auto text-center">
+            <div className="max-w-3xl mx-auto text-center text-white">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
