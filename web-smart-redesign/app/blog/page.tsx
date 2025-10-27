@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, User, Search, Tag } from 'lucide-react';
 import Header from '@/components/layout/Header';
+import Link from 'next/link';
 
 export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState('All');
@@ -179,47 +180,48 @@ export default function BlogPage() {
             <div className="lg:col-span-3">
               <div className="grid md:grid-cols-2 gap-8">
                 {filteredPosts.map((post, index) => (
-                  <motion.article
-                    key={index}
-                    initial={{ opacity: 0, y: 30 }}
-                    whileInView={{ opacity: 1, y: 0 }}
-                    viewport={{ once: true }}
-                    transition={{ delay: index * 0.1 }}
-                    className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-                  >
-                    <div className="aspect-video overflow-hidden">
-                      {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img
-                        src={post.image}
-                        alt={post.title}
-                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                      />
-                    </div>
-                    <div className="p-6">
-                      <div className="flex items-center gap-3 mb-3">
-                        <span className="bg-primary/10 text-primary px-3 py-1 rounded-full font-medium text-xs">
-                          {post.category}
-                        </span>
-                        <span className="text-xs text-gray-500">{post.date}</span>
+                  <Link key={index} href={`/blog/${post.slug}`}>
+                    <motion.article
+                      initial={{ opacity: 0, y: 30 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: index * 0.1 }}
+                      className="group bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer h-full"
+                    >
+                      <div className="aspect-video overflow-hidden">
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img
+                          src={post.image}
+                          alt={post.title}
+                          className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                        />
                       </div>
-                      <h2 className="text-xl font-heading font-bold text-gray-900 mb-3 group-hover:text-primary transition-colors line-clamp-2">
-                        {post.title}
-                      </h2>
-                      <p className="text-gray-600 mb-4 text-sm leading-relaxed line-clamp-3">
-                        {post.excerpt}
-                      </p>
-                      <div className="flex items-center justify-between pt-4 border-t border-gray-100">
-                        <div className="flex items-center gap-2 text-sm text-gray-600">
-                          <User size={16} />
-                          <span>{post.author}</span>
+                      <div className="p-6">
+                        <div className="flex items-center gap-3 mb-3">
+                          <span className="bg-primary/10 text-primary px-3 py-1 rounded-full font-medium text-xs">
+                            {post.category}
+                          </span>
+                          <span className="text-xs text-gray-500">{post.date}</span>
                         </div>
-                        <div className="flex items-center gap-2 text-primary font-semibold text-sm">
-                          Read More
-                          <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
+                        <h2 className="text-xl font-heading font-bold text-gray-900 mb-3 group-hover:text-primary transition-colors line-clamp-2">
+                          {post.title}
+                        </h2>
+                        <p className="text-gray-600 mb-4 text-sm leading-relaxed line-clamp-3">
+                          {post.excerpt}
+                        </p>
+                        <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+                          <div className="flex items-center gap-2 text-sm text-gray-600">
+                            <User size={16} />
+                            <span>{post.author}</span>
+                          </div>
+                          <div className="flex items-center gap-2 text-primary font-semibold text-sm">
+                            Read More
+                            <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                  </motion.article>
+                    </motion.article>
+                  </Link>
                 ))}
               </div>
 
@@ -287,12 +289,12 @@ export default function BlogPage() {
                   </h3>
                   <div className="space-y-4">
                     {recentPosts.map((post, index) => (
-                      <div key={index} className="group cursor-pointer">
+                      <Link key={index} href={`/blog/${post.slug}`} className="group block cursor-pointer">
                         <h4 className="text-sm font-semibold text-gray-900 group-hover:text-primary transition-colors line-clamp-2 mb-1">
                           {post.title}
                         </h4>
                         <p className="text-xs text-gray-500">{post.date}</p>
-                      </div>
+                      </Link>
                     ))}
                   </div>
                 </motion.div>
