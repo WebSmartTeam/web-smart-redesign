@@ -210,17 +210,17 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.4 }}
-                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer flex items-center"
+                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
               >
-                <div className="flex items-center justify-center w-1/3 h-full bg-primary/20 p-8">
+                <div className="aspect-video overflow-hidden bg-primary/20 flex items-center justify-center">
                   <Sparkles size={80} className="text-white/30" />
                 </div>
-                <div className="flex-1 p-8 text-white">
+                <div className="p-6 text-white">
                   <p className="text-sm font-medium text-white/90 mb-2">AI Innovation</p>
-                  <h3 className="text-2xl font-heading font-bold text-white mb-3">
+                  <h3 className="text-xl font-heading font-bold text-white mb-4">
                     Our AI Works
                   </h3>
-                  <p className="text-base text-white/80 mb-4">
+                  <p className="text-sm text-white/80 mb-4">
                     Explore cutting-edge AI platforms, tools, and website solutions we&apos;re building
                   </p>
                   <div className="flex items-center gap-2 text-white font-medium">
