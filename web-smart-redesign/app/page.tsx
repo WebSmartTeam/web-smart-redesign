@@ -512,7 +512,7 @@ export default function HomePage() {
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
-                src="/images/services/website-multidevice-resize.png"
+                src="/images/services/Web-Design-1662.jpg"
                 alt="Strategic Branding Services"
                 className="w-full max-h-[400px] object-cover rounded-2xl"
               />
