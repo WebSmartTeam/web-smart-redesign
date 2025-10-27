@@ -268,7 +268,7 @@ export default function HomePage() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
+              className="flex flex-col bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
             >
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6">
                 <Globe size={32} />
@@ -282,7 +282,7 @@ export default function HomePage() {
               <p className="text-gray-600 mb-6">
                 Professional, fast-loading website perfect for businesses with stable content
               </p>
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-3 mb-8 flex-grow">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
                   <span className="text-sm text-gray-700">Responsive design</span>
@@ -300,7 +300,7 @@ export default function HomePage() {
                   <span className="text-sm text-gray-700">SEO optimization</span>
                 </li>
               </ul>
-              <Button href="/services#static" variant="outline" className="w-full">
+              <Button href="/services#static" variant="outline" className="w-full mt-auto">
                 Learn More
               </Button>
             </motion.div>
@@ -311,7 +311,7 @@ export default function HomePage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="relative bg-gradient-to-br from-primary to-primary-600 text-white rounded-xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+              className="relative flex flex-col bg-gradient-to-br from-primary to-primary-600 text-white rounded-xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
             >
               <div className="absolute -top-3 -right-3 bg-accent text-white text-xs font-bold px-3 py-1 rounded-full">
                 POPULAR
@@ -328,7 +328,7 @@ export default function HomePage() {
               <p className="text-white/90 mb-6">
                 Custom-designed WordPress website with training for self-management
               </p>
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-3 mb-8 flex-grow">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-white flex-shrink-0 mt-1" size={18} />
                   <span className="text-sm text-white/90">Custom design</span>
@@ -346,7 +346,7 @@ export default function HomePage() {
                   <span className="text-sm text-white/90">3 months support</span>
                 </li>
               </ul>
-              <Button href="/services#wordpress" variant="secondary" className="w-full">
+              <Button href="/services#wordpress" variant="secondary" className="w-full mt-auto">
                 Learn More
               </Button>
             </motion.div>
@@ -357,7 +357,7 @@ export default function HomePage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
+              className="flex flex-col bg-white border-2 border-gray-200 rounded-xl p-8 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
             >
               <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6">
                 <Globe size={32} />
@@ -371,7 +371,7 @@ export default function HomePage() {
               <p className="text-gray-600 mb-6">
                 A completely custom website with advanced features and ongoing management
               </p>
-              <ul className="space-y-3 mb-8">
+              <ul className="space-y-3 mb-8 flex-grow">
                 <li className="flex items-start gap-2">
                   <CheckCircle className="text-accent flex-shrink-0 mt-1" size={18} />
                   <span className="text-sm text-gray-700">Modern tech stack</span>
@@ -385,7 +385,7 @@ export default function HomePage() {
                   <span className="text-sm text-gray-700">Full management</span>
                 </li>
               </ul>
-              <Button href="/services#bespoke" variant="outline" className="w-full">
+              <Button href="/services#bespoke" variant="outline" className="w-full mt-auto">
                 Learn More
               </Button>
             </motion.div>
