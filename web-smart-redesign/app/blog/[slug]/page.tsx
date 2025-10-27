@@ -176,8 +176,11 @@ export default function BlogPostPage() {
 
   return (
     <>
-      {/* Hero Section with Featured Image and Header */}
-      <section className="relative w-full min-h-screen flex items-center">
+      {/* Header - Sticky throughout site */}
+      <Header />
+
+      {/* Hero Section with Featured Image */}
+      <section className="relative w-full min-h-[500px] flex items-center -mt-[88px]">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -189,13 +192,8 @@ export default function BlogPostPage() {
           <div className="absolute inset-0 bg-black/75"></div>
         </div>
 
-        {/* Header - Inside Hero Section */}
-        <div className="absolute top-0 left-0 right-0 z-50">
-          <Header />
-        </div>
-
         {/* Hero Content */}
-        <div className="relative z-10 w-full py-32 md:py-40">
+        <div className="relative z-10 w-full py-24 md:py-32 pt-32 md:pt-40">
           <div className="container-custom">
             <div className="max-w-4xl mx-auto text-white">
               <motion.div

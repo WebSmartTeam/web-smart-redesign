@@ -56,8 +56,11 @@ export default function ContactPage() {
 
   return (
     <>
-      {/* Hero Section with Background Image and Header */}
-      <section className="relative w-full min-h-[500px] flex items-center">
+      {/* Header - Sticky throughout site */}
+      <Header />
+
+      {/* Hero Section with Background Image */}
+      <section className="relative w-full min-h-[500px] flex items-center -mt-[88px]">
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -68,12 +71,7 @@ export default function ContactPage() {
           <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary-600/90"></div>
         </div>
 
-        {/* Header - Inside Hero Section */}
-        <div className="absolute top-0 left-0 right-0 z-50">
-          <Header />
-        </div>
-
-        <div className="relative z-10 w-full py-24 md:py-32">
+        <div className="relative z-10 w-full py-24 md:py-32 pt-32 md:pt-40">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center text-white">
               <motion.div

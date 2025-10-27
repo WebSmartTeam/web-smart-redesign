@@ -144,8 +144,11 @@ export default function BlogPage() {
 
   return (
     <>
-      {/* Hero Section with Background Image, Black Overlay and Header */}
-      <section className="relative w-full min-h-[500px] flex items-center">
+      {/* Header - Sticky throughout site */}
+      <Header />
+
+      {/* Hero Section with Background Image and Black Overlay */}
+      <section className="relative w-full min-h-[500px] flex items-center -mt-[88px]">
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
@@ -156,12 +159,7 @@ export default function BlogPage() {
           <div className="absolute inset-0 bg-black/75"></div>
         </div>
 
-        {/* Header - Inside Hero Section */}
-        <div className="absolute top-0 left-0 right-0 z-50">
-          <Header />
-        </div>
-
-        <div className="relative z-10 w-full py-24 md:py-32">
+        <div className="relative z-10 w-full py-24 md:py-32 pt-32 md:pt-40">
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center text-white">
               <motion.div
