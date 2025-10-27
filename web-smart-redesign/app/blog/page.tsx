@@ -2,17 +2,18 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, User, Home, Mail, Phone, Linkedin, Facebook, Instagram } from 'lucide-react';
+import { ArrowRight, User, Search, Tag } from 'lucide-react';
 import Header from '@/components/layout/Header';
 
 export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState('All');
+  const [searchQuery, setSearchQuery] = useState('');
 
   const blogPosts = [
     {
       title: 'Maximising Your Website\'s Potential with Elite WordPress Support',
       excerpt: 'For businesses aiming to thrive online, ensuring your WordPress website receives top-tier support and maintenance is non-negotiable. To not just survive but excel in the ...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/services/Web-Design-1225.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Web Design',
@@ -21,7 +22,7 @@ export default function BlogPage() {
     {
       title: 'Web Design Essentials for Small Businesses in Aldenham, Hertfordshire',
       excerpt: 'Welcome to the definitive guide on kickstarting your small business\'s online presence with the right web design strategies in Aldenham, Hertfordshire. In today\'s digital age...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/services/Web-Design-1662.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Web Design',
@@ -30,7 +31,7 @@ export default function BlogPage() {
     {
       title: 'Effective Email Marketing Content Techniques to Boost Engagement',
       excerpt: 'Discover how to elevate your email marketing campaigns with content that captivates your audience and drives engagement. In the realm of digital marketing, email remains ...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'SEO',
@@ -39,7 +40,7 @@ export default function BlogPage() {
     {
       title: 'Data-Driven Decision Making with WordPress Analytics',
       excerpt: 'In today\'s competitive online landscape, leveraging data for making informed decisions is not just preferable but indispensable for businesses. Especially when utilising platforms like WordPress, analytics can play a ...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/services/ai-seo-strategy.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Web Design',
@@ -48,7 +49,7 @@ export default function BlogPage() {
     {
       title: 'Maximising Web Presence: Content Repurposing Strategies',
       excerpt: 'In the realm of web design and development, the efficiency of content utilisation can often determine a site\'s visibility and engagement levels. As a followed...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/services/neve-patterns-21.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Web Design',
@@ -57,7 +58,7 @@ export default function BlogPage() {
     {
       title: 'Optimising Your WordPress Site for Mobile-First Design',
       excerpt: 'With the increasing prevalence of smartphones, optimising your WordPress site for mobile-first design is no longer optional. It\'s essential for enhancing user experience, improving search ...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Web Design',
@@ -66,7 +67,7 @@ export default function BlogPage() {
     {
       title: 'Maximising WooCommerce for Advanced E-commerce Success',
       excerpt: 'In the realm of e-commerce, creating a robust online store that caters to the evolving needs of customers can be a challenging endeavour. Utilising advanced ...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/portfolio/branding-website-design.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Web Design',
@@ -75,7 +76,7 @@ export default function BlogPage() {
     {
       title: 'Maximising Web Design for Enhanced SEO Performance',
       excerpt: 'In today\'s competitive digital landscape, understanding the synergy between web design and SEO is crucial for any business aiming to enhance its online visibility. Incorporating ...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/portfolio/webdesign-cat-1024x682.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Web Design',
@@ -84,7 +85,7 @@ export default function BlogPage() {
     {
       title: 'Maximising WordPress Analytics for Data-Driven Decisions',
       excerpt: 'Understanding your website\'s data is crucial for making informed decisions that drive growth. WordPress, being one of the most popular content management systems, offers comprehensive ...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/portfolio/buzz-website.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Web Design',
@@ -93,15 +94,17 @@ export default function BlogPage() {
     {
       title: 'Effective SEO Tactics for WordPress E-Commerce Sites',
       excerpt: 'Mastering the art of Search Engine Optimisation (SEO) is essential for any WordPress e-commerce site looking to stand out in the highly competitive online marketplace ...',
-      image: '/images/team/petegypps-4.jpg',
+      image: '/images/blog/pexels-rdne-7414280-1-scaled.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
-      category: 'Web Design',
+      category: 'SEO',
       slug: 'seo-tactics-wordpress-ecommerce',
     },
   ];
 
   const categories = ['All', 'Digital Marketing', 'Fixed!', 'SEO', 'Uncategorised', 'Video Optimisation', 'Web Design'];
+
+  const recentPosts = blogPosts.slice(0, 5);
 
   const filteredPosts = activeCategory === 'All'
     ? blogPosts
@@ -112,7 +115,7 @@ export default function BlogPage() {
       {/* Header */}
       <Header />
 
-      {/* Hero Section with Background Image */}
+      {/* Hero Section with Background Image and Black Overlay */}
       <section className="relative w-full min-h-[500px] flex items-center">
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -121,7 +124,7 @@ export default function BlogPage() {
             alt="Blog"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary-600/90"></div>
+          <div className="absolute inset-0 bg-black/75"></div>
         </div>
 
         <div className="relative z-10 w-full py-24 md:py-32">
@@ -171,88 +174,10 @@ export default function BlogPage() {
       {/* Blog Grid with Sidebar */}
       <section className="w-full py-20 md:py-28 bg-gradient-to-br from-secondary to-white">
         <div className="container-custom">
-          <div className="grid lg:grid-cols-4 gap-8">
-            {/* Sidebar */}
-            <aside className="lg:col-span-1">
-              <div className="sticky top-40 space-y-6">
-                {/* Social Links */}
-                <motion.div
-                  initial={{ opacity: 0, x: -30 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  className="bg-white rounded-2xl p-6 shadow-md"
-                >
-                  <div className="flex flex-col gap-4">
-                    <a
-                      href="/"
-                      className="flex items-center justify-center gap-2 bg-primary hover:bg-primary-600 text-white p-3 rounded-lg transition-all duration-300"
-                    >
-                      <Home size={20} />
-                    </a>
-                    <a
-                      href="tel:01462544738"
-                      className="flex items-center justify-center gap-2 bg-primary hover:bg-primary-600 text-white p-3 rounded-lg transition-all duration-300"
-                    >
-                      <Phone size={20} />
-                    </a>
-                    <a
-                      href="mailto:enquiries@web-smart.co"
-                      className="flex items-center justify-center gap-2 bg-primary hover:bg-primary-600 text-white p-3 rounded-lg transition-all duration-300"
-                    >
-                      <Mail size={20} />
-                    </a>
-                    <a
-                      href="https://www.linkedin.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 bg-primary hover:bg-primary-600 text-white p-3 rounded-lg transition-all duration-300"
-                    >
-                      <Linkedin size={20} />
-                    </a>
-                    <a
-                      href="https://www.facebook.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 bg-primary hover:bg-primary-600 text-white p-3 rounded-lg transition-all duration-300"
-                    >
-                      <Facebook size={20} />
-                    </a>
-                    <a
-                      href="https://www.instagram.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 bg-primary hover:bg-primary-600 text-white p-3 rounded-lg transition-all duration-300"
-                    >
-                      <Instagram size={20} />
-                    </a>
-                  </div>
-                </motion.div>
-
-                {/* Featured Widget */}
-                <motion.div
-                  initial={{ opacity: 0, x: -30 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  transition={{ delay: 0.1 }}
-                  className="bg-gradient-to-br from-primary to-primary-600 rounded-2xl p-6 text-white shadow-md"
-                >
-                  <h3 className="text-xl font-heading font-bold mb-3">
-                    Need Help?
-                  </h3>
-                  <p className="text-sm text-white/90 mb-4">
-                    Get in touch with our team for expert advice on digital marketing and web design.
-                  </p>
-                  <a
-                    href="/contact"
-                    className="inline-block bg-secondary hover:bg-secondary/90 text-primary font-semibold py-2 px-4 rounded-lg transition-all duration-300 text-sm"
-                  >
-                    Contact Us
-                  </a>
-                </motion.div>
-              </div>
-            </aside>
-
+          <div className="grid lg:grid-cols-4 gap-12">
             {/* Blog Posts Grid */}
             <div className="lg:col-span-3">
-              <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-6">
+              <div className="grid md:grid-cols-2 gap-8">
                 {filteredPosts.map((post, index) => (
                   <motion.article
                     key={index}
@@ -270,26 +195,27 @@ export default function BlogPage() {
                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                       />
                     </div>
-                    <div className="p-5">
-                      <div className="mb-3">
+                    <div className="p-6">
+                      <div className="flex items-center gap-3 mb-3">
                         <span className="bg-primary/10 text-primary px-3 py-1 rounded-full font-medium text-xs">
                           {post.category}
                         </span>
+                        <span className="text-xs text-gray-500">{post.date}</span>
                       </div>
-                      <h2 className="text-lg font-heading font-bold text-gray-900 mb-2 group-hover:text-primary transition-colors line-clamp-2">
+                      <h2 className="text-xl font-heading font-bold text-gray-900 mb-3 group-hover:text-primary transition-colors line-clamp-2">
                         {post.title}
                       </h2>
                       <p className="text-gray-600 mb-4 text-sm leading-relaxed line-clamp-3">
                         {post.excerpt}
                       </p>
-                      <div className="flex items-center justify-between pt-3 border-t border-gray-100">
-                        <div className="flex items-center gap-2 text-xs text-gray-600">
-                          <User size={14} />
+                      <div className="flex items-center justify-between pt-4 border-t border-gray-100">
+                        <div className="flex items-center gap-2 text-sm text-gray-600">
+                          <User size={16} />
                           <span>{post.author}</span>
                         </div>
                         <div className="flex items-center gap-2 text-primary font-semibold text-sm">
-                          Read
-                          <ArrowRight size={14} className="group-hover:translate-x-2 transition-transform" />
+                          Read More
+                          <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
                         </div>
                       </div>
                     </div>
@@ -322,6 +248,132 @@ export default function BlogPage() {
                 </button>
               </motion.div>
             </div>
+
+            {/* Blog Sidebar */}
+            <aside className="lg:col-span-1">
+              <div className="sticky top-40 space-y-6">
+                {/* Search Widget */}
+                <motion.div
+                  initial={{ opacity: 0, x: 30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  className="bg-white rounded-2xl p-6 shadow-md"
+                >
+                  <h3 className="text-lg font-heading font-bold text-gray-900 mb-4">
+                    Search
+                  </h3>
+                  <div className="relative">
+                    <input
+                      type="text"
+                      placeholder="Search posts..."
+                      value={searchQuery}
+                      onChange={(e) => setSearchQuery(e.target.value)}
+                      className="w-full px-4 py-3 pr-12 rounded-lg border-2 border-gray-200 focus:border-primary focus:outline-none transition-colors"
+                    />
+                    <button className="absolute right-3 top-1/2 -translate-y-1/2 text-primary">
+                      <Search size={20} />
+                    </button>
+                  </div>
+                </motion.div>
+
+                {/* Recent Posts Widget */}
+                <motion.div
+                  initial={{ opacity: 0, x: 30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.1 }}
+                  className="bg-white rounded-2xl p-6 shadow-md"
+                >
+                  <h3 className="text-lg font-heading font-bold text-gray-900 mb-4">
+                    Recent Posts
+                  </h3>
+                  <div className="space-y-4">
+                    {recentPosts.map((post, index) => (
+                      <div key={index} className="group cursor-pointer">
+                        <h4 className="text-sm font-semibold text-gray-900 group-hover:text-primary transition-colors line-clamp-2 mb-1">
+                          {post.title}
+                        </h4>
+                        <p className="text-xs text-gray-500">{post.date}</p>
+                      </div>
+                    ))}
+                  </div>
+                </motion.div>
+
+                {/* Categories Widget */}
+                <motion.div
+                  initial={{ opacity: 0, x: 30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.2 }}
+                  className="bg-white rounded-2xl p-6 shadow-md"
+                >
+                  <h3 className="text-lg font-heading font-bold text-gray-900 mb-4">
+                    Categories
+                  </h3>
+                  <div className="space-y-2">
+                    {categories.filter(cat => cat !== 'All').map((category, index) => (
+                      <button
+                        key={index}
+                        onClick={() => setActiveCategory(category)}
+                        className="w-full flex items-center justify-between px-3 py-2 rounded-lg hover:bg-secondary transition-colors text-left group"
+                      >
+                        <div className="flex items-center gap-2">
+                          <Tag size={14} className="text-primary" />
+                          <span className="text-sm text-gray-700 group-hover:text-primary transition-colors">
+                            {category}
+                          </span>
+                        </div>
+                        <span className="text-xs text-gray-400">
+                          {blogPosts.filter(post => post.category === category).length}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                </motion.div>
+
+                {/* Newsletter Widget */}
+                <motion.div
+                  initial={{ opacity: 0, x: 30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.3 }}
+                  className="bg-gradient-to-br from-primary to-primary-600 rounded-2xl p-6 text-white shadow-md"
+                >
+                  <h3 className="text-xl font-heading font-bold mb-3">
+                    Newsletter
+                  </h3>
+                  <p className="text-sm text-white/90 mb-4">
+                    Subscribe to get the latest posts delivered to your inbox.
+                  </p>
+                  <input
+                    type="email"
+                    placeholder="Your email address"
+                    className="w-full px-4 py-3 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-white mb-3"
+                  />
+                  <button className="w-full bg-secondary hover:bg-secondary/90 text-primary font-semibold py-3 rounded-lg transition-all duration-300">
+                    Subscribe
+                  </button>
+                </motion.div>
+
+                {/* Tags Widget */}
+                <motion.div
+                  initial={{ opacity: 0, x: 30 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: 0.4 }}
+                  className="bg-white rounded-2xl p-6 shadow-md"
+                >
+                  <h3 className="text-lg font-heading font-bold text-gray-900 mb-4">
+                    Popular Tags
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {['WordPress', 'SEO', 'Web Design', 'E-commerce', 'Marketing', 'Analytics', 'Content'].map((tag, index) => (
+                      <button
+                        key={index}
+                        className="px-3 py-1 bg-secondary hover:bg-primary hover:text-white text-gray-700 rounded-full text-xs font-medium transition-all duration-300"
+                      >
+                        {tag}
+                      </button>
+                    ))}
+                  </div>
+                </motion.div>
+              </div>
+            </aside>
           </div>
         </div>
       </section>
