@@ -89,7 +89,7 @@ export default function HomePage() {
 
       {/* CTA Buttons Section */}
       <section className="w-full bg-white py-12">
-        <div className="w-full px-4 sm:px-6 lg:px-8">
+        <div className="w-full max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center gap-6 w-full">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
