@@ -491,9 +491,6 @@ export default function HomePage() {
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6">
-                <Palette size={32} />
-              </div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
                 Strategic Branding for Lasting Impact
               </h2>
@@ -517,7 +514,7 @@ export default function HomePage() {
               <img
                 src="/images/services/website-multidevice-resize.png"
                 alt="Strategic Branding Services"
-                className="w-full rounded-2xl shadow-2xl"
+                className="w-full max-h-[400px] object-cover rounded-2xl"
               />
             </motion.div>
           </div>
@@ -533,9 +530,6 @@ export default function HomePage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6 mx-auto">
-              <FileText size={32} />
-            </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
               Unique Content Creation
             </h2>
@@ -621,9 +615,6 @@ export default function HomePage() {
               viewport={{ once: true }}
               className="order-2 md:order-1"
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 rounded-xl bg-primary/10 text-primary mb-6">
-                <Sparkles size={32} />
-              </div>
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
                 Get AI Solutions Tailored to Your Business
               </h2>
