@@ -94,19 +94,13 @@ export default function HomePage() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.3 }}
-            className="flex flex-wrap items-center justify-center gap-3 md:gap-4"
+            className="flex items-center justify-center"
           >
             <a
               href="/contact"
-              className="inline-flex items-center gap-2 px-6 md:px-8 py-3 md:py-3.5 text-base md:text-lg font-semibold bg-primary text-white rounded-full hover:bg-primary-600 transition-all duration-300 shadow-md hover:shadow-xl"
+              className="inline-flex items-center gap-2 px-8 md:px-10 py-4 md:py-4.5 text-base md:text-lg font-semibold bg-primary text-white rounded-full hover:bg-primary-600 transition-all duration-300 shadow-md hover:shadow-xl"
             >
               Tell Us About Your Project → Get a Quote
-            </a>
-            <a
-              href="tel:01462544738"
-              className="inline-flex items-center gap-2 px-6 md:px-8 py-3 md:py-3.5 text-base md:text-lg font-semibold bg-accent text-white rounded-full hover:bg-accent/90 transition-all duration-300 shadow-md hover:shadow-xl"
-            >
-              🔥 Leverage 25 Years of Expertise → Call Now
             </a>
           </motion.div>
         </div>
@@ -210,7 +204,7 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.4 }}
-                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer flex"
+                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer flex h-[421px]"
               >
                 <div className="w-1/2 overflow-hidden relative">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -410,19 +404,45 @@ export default function HomePage() {
       {/* The Web Creation Hub Section */}
       <section className="w-full bg-gradient-to-br from-secondary to-white py-16 md:py-20">
         <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="max-w-4xl mx-auto text-center"
-          >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
-              The Web Creation Hub
-            </h2>
-            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              Your central hub for all web and marketing needs. We&apos;re not just a web design agency—we&apos;re a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
-            </p>
-          </motion.div>
+          <div className="grid md:grid-cols-3 gap-8 md:gap-12 items-start">
+            {/* Left Side - Content */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="md:col-span-2"
+            >
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
+                The Web Creation Hub
+              </h2>
+              <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
+                Your central hub for all web and marketing needs. We&apos;re not just a web design agency—we&apos;re a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
+              </p>
+            </motion.div>
+
+            {/* Right Side - Resources Download Box */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="md:col-span-1"
+            >
+              <div className="bg-gradient-to-br from-primary to-primary-600 rounded-2xl p-6 text-white shadow-xl">
+                <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-white/20 text-white mb-4">
+                  <Download size={24} />
+                </div>
+                <h3 className="text-xl font-heading font-bold text-white mb-3">
+                  Download Web & Marketing Resources
+                </h3>
+                <p className="text-sm text-white/90 mb-6">
+                  Actionable guides to help you build a stronger, faster, and more effective website.
+                </p>
+                <Button href="/resources" variant="secondary" size="md" className="w-full">
+                  Get Free Resources
+                </Button>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
@@ -655,25 +675,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* One Success Story at a Time Section */}
-      <section className="w-full py-20 bg-white">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="max-w-4xl mx-auto text-center"
-          >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
-              One Success Story at a Time
-            </h2>
-            <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              We don&apos;t believe in one-size-fits-all solutions. Every business is unique, and we treat each project with the individual attention it deserves. Your success is our success, and we&apos;re committed to building that success incrementally, strategically, and sustainably.
-            </p>
-          </motion.div>
-        </div>
-      </section>
-
       {/* Testimonials Section */}
       <section className="w-full section-padding bg-gradient-to-br from-secondary via-white to-secondary">
         <div className="container-custom">
@@ -691,11 +692,22 @@ export default function HomePage() {
             </p>
           </motion.div>
 
-          <div className="max-w-4xl mx-auto">
+          <div className="w-full">
             <Swiper
               modules={[Autoplay, Pagination, Navigation]}
               spaceBetween={30}
               slidesPerView={1}
+              slidesPerGroup={1}
+              breakpoints={{
+                640: {
+                  slidesPerView: 2,
+                  slidesPerGroup: 1,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  slidesPerGroup: 1,
+                },
+              }}
               autoplay={{
                 delay: 5000,
                 disableOnInteraction: false,
@@ -745,8 +757,21 @@ export default function HomePage() {
       </section>
 
       {/* Final CTA Section */}
-      <section className="w-full section-padding gradient-purple text-white">
-        <div className="container-custom">
+      <section className="relative w-full section-padding text-white overflow-hidden">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/services/Web-Design-1225.jpg"
+            alt="Start Your Project"
+            className="w-full h-full object-cover"
+          />
+          {/* Sleek Overlay - Purple gradient for brand consistency */}
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/95 via-primary/90 to-primary-600/95"></div>
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -756,26 +781,18 @@ export default function HomePage() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
               Ready to Transform Your Online Presence?
             </h2>
-            <p className="text-lg text-white/90 mb-8">
+            <p className="text-lg text-white/95 mb-8">
               Let&apos;s create a website that not only looks stunning but drives real results for your business. Get in touch today for a free consultation.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button
-                href="/contact"
-                variant="secondary"
-                size="lg"
-                className="group"
-              >
-                Start Your Project Today
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-              </Button>
-              <a
-                href="tel:01462544738"
-                className="inline-flex items-center justify-center px-8 py-4 text-lg font-medium text-white border-2 border-white rounded-lg hover:bg-white hover:text-primary transition-all duration-200"
-              >
-                Call 01462 544738
-              </a>
-            </div>
+            <Button
+              href="/contact"
+              variant="secondary"
+              size="lg"
+              className="group"
+            >
+              Start Your Project Today
+              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+            </Button>
           </motion.div>
         </div>
       </section>
