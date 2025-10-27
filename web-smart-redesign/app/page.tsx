@@ -77,11 +77,13 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Header - Sticky throughout site */}
-      <Header />
-
       {/* Hero Section */}
       <section className="relative w-full min-h-screen flex items-center">
+        {/* Header - Inside Hero Section, Sticky */}
+        <div className="absolute top-0 left-0 right-0 z-50">
+          <Header />
+        </div>
+
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
