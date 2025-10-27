@@ -8,7 +8,6 @@ import {
   CheckCircle,
   Globe,
   Star,
-  Download,
   Sparkles,
   Palette,
   FileText,
