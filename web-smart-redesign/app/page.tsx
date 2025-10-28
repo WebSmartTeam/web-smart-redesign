@@ -79,7 +79,7 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative w-full min-h-screen flex items-center">
+      <section className="relative w-full min-h-[600px] md:min-h-[700px] flex items-center">
         {/* Header - Inside Hero Section, Sticky */}
         <div className="absolute top-0 left-0 right-0 z-50">
           <Header />
