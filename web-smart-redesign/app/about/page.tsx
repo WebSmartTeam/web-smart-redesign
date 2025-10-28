@@ -30,13 +30,6 @@ export default function AboutPage() {
     },
   ];
 
-  const stats = [
-    { value: '10+', label: 'Years Experience' },
-    { value: '200+', label: 'Happy Clients' },
-    { value: '500+', label: 'Projects Completed' },
-    { value: '4.9/5', label: 'Client Rating' },
-  ];
-
   return (
     <>
       {/* Header - Sticky throughout site */}
@@ -47,8 +40,8 @@ export default function AboutPage() {
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/services/ai-seo-strategy.jpg"
-            alt="About Web-Smart.Co"
+            src="/images/services/Web-Design-1225.jpg"
+            alt="About Us"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-black/75"></div>
@@ -63,10 +56,10 @@ export default function AboutPage() {
                 transition={{ duration: 0.6 }}
               >
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-black mb-6 leading-tight">
-                  About Web-Smart.Co
+                  About Us
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/90">
-                  Your trusted partner in Hertfordshire
+                  Your trusted digital partner in Hertfordshire
                 </p>
               </motion.div>
             </div>
@@ -109,43 +102,6 @@ export default function AboutPage() {
                 className="w-full h-[400px] object-cover rounded-2xl"
               />
             </motion.div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="w-full py-20 md:py-28 bg-gradient-to-br from-secondary to-white">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              Our Track Record
-            </h2>
-            <p className="text-lg text-gray-600">
-              Numbers that showcase our commitment to excellence
-            </p>
-          </motion.div>
-
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="text-center"
-              >
-                <div className="text-4xl md:text-5xl font-heading font-black text-primary mb-2">
-                  {stat.value}
-                </div>
-                <div className="text-gray-600 font-medium">{stat.label}</div>
-              </motion.div>
-            ))}
           </div>
         </div>
       </section>
@@ -223,7 +179,7 @@ export default function AboutPage() {
                 <div className="aspect-square overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
-                    src="/images/team/petegypps-4.jpg"
+                    src="/images/team/linkedin-profile-image2.jpg"
                     alt="Pete Gypps"
                     className="w-full h-full object-cover"
                   />
