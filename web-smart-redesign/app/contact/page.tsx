@@ -64,7 +64,7 @@ export default function ContactPage() {
         <div className="absolute inset-0 z-0">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/services/banner-foundation-seo-pack1499-scaled.jpg"
+            src="/images/portfolio/webdesignagency-hertfordshire-location3.jpg"
             alt="Contact Us"
             className="w-full h-full object-cover"
           />
