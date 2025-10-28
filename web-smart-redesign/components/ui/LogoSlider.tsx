@@ -5,11 +5,11 @@ import { motion } from 'framer-motion';
 
 const LogoSlider = () => {
   const logos = [
-    { name: 'Microsoft Solutions Partner', src: '/images/partners/microsoft-solutions-partner.svg' },
-    { name: 'OpenAI', src: '/images/partners/openai.svg' },
-    { name: 'Claude AI', src: '/images/partners/claudai.svg' },
-    { name: 'Eleven Labs', src: '/images/partners/eleven-labs.svg' },
-    { name: 'Runway', src: '/images/partners/runway.svg' },
+    { name: 'Microsoft Solutions Partner', src: '/images/partners/microsoft-solutions-partner.png' },
+    { name: 'OpenAI', src: '/images/partners/openai.png' },
+    { name: 'Claude AI', src: '/images/partners/claudai.png' },
+    { name: 'Eleven Labs', src: '/images/partners/eleven-labs.png' },
+    { name: 'Runway', src: '/images/partners/runway.png' },
     { name: 'Google Cloud', src: '/images/partners/google-cloud.svg' },
     { name: 'Meta Partner', src: '/images/partners/meta-partner.svg' },
   ];
