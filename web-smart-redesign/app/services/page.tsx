@@ -262,7 +262,7 @@ export default function ServicesPage() {
                 transition={{ duration: 0.6 }}
               >
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-black mb-6 leading-tight">
-                  Everything Under One Roof
+                  Our Services
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/95">
                   Comprehensive digital solutions from website development to AI-powered tools.
