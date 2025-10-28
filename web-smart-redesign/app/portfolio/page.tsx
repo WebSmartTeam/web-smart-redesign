@@ -1,42 +1,18 @@
 'use client';
 
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, ExternalLink } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Header from '@/components/layout/Header';
+import { portfolioProjects, categories } from '@/data/portfolio';
 
 export default function PortfolioPage() {
-  const projects = [
-    {
-      title: 'Buzz Website',
-      image: '/images/portfolio/buzz-website.jpg',
-      category: 'Web Design',
-      description: 'Creating a website designed to effectively showcase trending topics, viral content, and the latest news, captivating its audience and creating a buzz-worthy online presence.',
-      tags: ['Web Design', 'Content Strategy', 'Modern UI'],
-    },
-    {
-      title: 'Branding',
-      image: '/images/portfolio/branding-website-design.jpg',
-      category: 'Branding & Design',
-      description: 'Crafted a brand identity that authentically reflects the essence of our client\'s vision, leaving a lasting and memorable impression on their target audience.',
-      tags: ['Brand Identity', 'Logo Design', 'Visual Design'],
-    },
-    {
-      title: 'Internal Website',
-      image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
-      category: 'Content & SEO',
-      description: 'We created blog articles to increase website traffic and establish topical authority in the chosen niche.',
-      tags: ['Content Writing', 'SEO', 'Blog Strategy'],
-    },
-    {
-      title: 'Mobile and Desktop',
-      image: '/images/portfolio/webdesign-cat-1024x682.jpg',
-      category: 'Digital Marketing',
-      description: 'Implemented a comprehensive digital marketing strategy to ensure visibility and accessibility on mobile and desktop devices, expanding reach and engagement with the target audience.',
-      tags: ['Responsive Design', 'Digital Marketing', 'Multi-Platform'],
-    },
-  ];
+  const [activeCategory, setActiveCategory] = useState('All');
+
+  const filteredProjects = activeCategory === 'All'
+    ? portfolioProjects
+    : portfolioProjects.filter(project => project.category === activeCategory);
 
   return (
     <>
@@ -67,7 +43,7 @@ export default function PortfolioPage() {
                   Our Portfolio
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/90">
-                  Explore our successful projects across Hertfordshire
+                  26+ successful projects across Hertfordshire and beyond
                 </p>
               </motion.div>
             </div>
@@ -83,25 +59,46 @@ export default function PortfolioPage() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-center mb-16"
+            className="text-center mb-12"
           >
             <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
               Featured Projects
             </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-8">
               A showcase of our recent work helping businesses across Hertfordshire grow their digital presence
             </p>
+
+            {/* Category Filter */}
+            <div className="flex flex-wrap justify-center gap-3">
+              {categories.map((category) => (
+                <button
+                  key={category}
+                  onClick={() => setActiveCategory(category)}
+                  className={`px-6 py-2 rounded-full font-medium transition-all duration-300 ${
+                    activeCategory === category
+                      ? 'bg-primary text-white shadow-lg'
+                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                  }`}
+                >
+                  {category}
+                </button>
+              ))}
+            </div>
           </motion.div>
 
+          {/* Projects Count */}
+          <p className="text-center text-gray-600 mb-8">
+            Showing {filteredProjects.length} project{filteredProjects.length !== 1 ? 's' : ''}
+          </p>
+
           {/* Projects Grid */}
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-            {projects.map((project, index) => (
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {filteredProjects.map((project, index) => (
               <motion.div
-                key={index}
+                key={project.slug}
                 initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: index * 0.05 }}
                 className="group bg-white border-2 border-gray-100 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full"
               >
                 {/* Image with padding and rounded corners */}
@@ -118,26 +115,26 @@ export default function PortfolioPage() {
 
                 <div className="p-8 pt-6 flex flex-col flex-grow">
                   {/* Category */}
-                  <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wide">
+                  <p className="text-xs font-semibold text-primary mb-3 uppercase tracking-wide">
                     {project.category}
                   </p>
 
                   {/* Title */}
-                  <h3 className="text-2xl font-heading font-bold text-gray-900 mb-4">
+                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
                     {project.title}
                   </h3>
 
                   {/* Description */}
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-600 mb-4 leading-relaxed text-sm flex-grow">
                     {project.description}
                   </p>
 
                   {/* Tags */}
-                  <div className="flex flex-wrap gap-2 mb-6 flex-grow">
-                    {project.tags.map((tag, idx) => (
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {project.tags.slice(0, 3).map((tag, idx) => (
                       <span
                         key={idx}
-                        className="px-3 py-1 bg-secondary text-primary text-xs font-medium rounded-full"
+                        className="px-2 py-1 bg-secondary text-primary text-xs font-medium rounded-full"
                       >
                         {tag}
                       </span>
@@ -145,10 +142,15 @@ export default function PortfolioPage() {
                   </div>
 
                   {/* CTA - Aligned to bottom */}
-                  <div className="flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors cursor-pointer mt-auto">
-                    View Case Study
-                    <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
-                  </div>
+                  <a
+                    href={project.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors text-sm mt-auto"
+                  >
+                    View Live Site
+                    <ExternalLink size={16} className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+                  </a>
                 </div>
               </motion.div>
             ))}
