@@ -17,6 +17,7 @@ import {
 } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Header from '@/components/layout/Header';
+import LogoSlider from '@/components/ui/LogoSlider';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -135,6 +136,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* Logo Slider - AI & Technology Partners */}
+      <LogoSlider />
 
       {/* Intro Section - We Don't Just Make Websites */}
       <section className="w-full bg-secondary py-16 md:py-20">
