@@ -69,7 +69,7 @@ const Footer = () => {
                 <li key={service.name}>
                   <Link
                     href={service.href}
-                    className="text-sm hover:text-primary transition-colors duration-200"
+                    className="text-sm hover:text-white transition-colors duration-200"
                   >
                     {service.name}
                   </Link>
@@ -88,7 +88,7 @@ const Footer = () => {
                 <li key={link.name}>
                   <Link
                     href={link.href}
-                    className="text-sm hover:text-primary transition-colors duration-200"
+                    className="text-sm hover:text-white transition-colors duration-200"
                   >
                     {link.name}
                   </Link>
@@ -106,7 +106,7 @@ const Footer = () => {
               <li>
                 <a
                   href="tel:01462544738"
-                  className="flex items-start gap-3 text-sm hover:text-primary transition-colors duration-200"
+                  className="flex items-start gap-3 text-sm hover:text-white transition-colors duration-200"
                 >
                   <Phone size={18} className="mt-1 flex-shrink-0" />
                   <span>01462 544738</span>
@@ -115,7 +115,7 @@ const Footer = () => {
               <li>
                 <a
                   href="mailto:enquiries@web-smart.co"
-                  className="flex items-start gap-3 text-sm hover:text-primary transition-colors duration-200"
+                  className="flex items-start gap-3 text-sm hover:text-white transition-colors duration-200"
                 >
                   <Mail size={18} className="mt-1 flex-shrink-0" />
                   <span>enquiries@web-smart.co</span>
@@ -150,10 +150,10 @@ const Footer = () => {
             </p>
             <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
               <div className="flex gap-6">
-                <Link href="/privacy" className="hover:text-primary transition-colors">
+                <Link href="/privacy" className="hover:text-white transition-colors">
                   Privacy Policy
                 </Link>
-                <Link href="/terms" className="hover:text-primary transition-colors">
+                <Link href="/terms" className="hover:text-white transition-colors">
                   Terms of Service
                 </Link>
               </div>
