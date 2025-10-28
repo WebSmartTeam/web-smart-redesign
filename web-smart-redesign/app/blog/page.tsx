@@ -225,31 +225,6 @@ export default function BlogPage() {
                   </Link>
                 ))}
               </div>
-
-              {/* Pagination */}
-              <motion.div
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="flex justify-center items-center gap-2 mt-12"
-              >
-                <button className="px-4 py-2 bg-primary text-white rounded-lg font-semibold">
-                  1
-                </button>
-                <button className="px-4 py-2 bg-white hover:bg-primary hover:text-white text-gray-700 rounded-lg font-semibold transition-all">
-                  2
-                </button>
-                <button className="px-4 py-2 bg-white hover:bg-primary hover:text-white text-gray-700 rounded-lg font-semibold transition-all">
-                  3
-                </button>
-                <span className="px-2">...</span>
-                <button className="px-4 py-2 bg-white hover:bg-primary hover:text-white text-gray-700 rounded-lg font-semibold transition-all">
-                  501
-                </button>
-                <button className="px-4 py-2 bg-white hover:bg-primary hover:text-white text-gray-700 rounded-lg font-semibold transition-all">
-                  Next →
-                </button>
-              </motion.div>
             </div>
 
             {/* Blog Sidebar */}
