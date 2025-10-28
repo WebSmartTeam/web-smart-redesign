@@ -149,6 +149,242 @@ export default function BlogPostPage() {
         <p>Need help creating effective email marketing campaigns? <a href="/">Web-Smart.Co</a> offers professional <a href="/services">email marketing services</a> tailored to your business goals in Hertfordshire. <a href="/contact">Contact us today</a> to boost your email engagement and drive more conversions.</p>
       `,
     },
+    'social-media-marketing-hertfordshire': {
+      title: 'Social Media Marketing Strategies for Hertfordshire Businesses',
+      image: '/images/services/ai-seo-strategy.jpg',
+      author: 'Pete Gypps',
+      date: 'October 20, 2024',
+      category: 'Digital Marketing',
+      content: `
+        <p>Unlock the power of <a href="/services">social media marketing</a> to connect with your local audience and grow your Hertfordshire business. In today's digital landscape, social media is essential for building brand awareness, engaging customers, and driving sales.</p>
+
+        <h2>Why Social Media Matters for Local Businesses</h2>
+        <p>Social media platforms offer unprecedented opportunities to reach and engage with your target audience. With over 4.7 billion active <a href="https://datareportal.com/social-media-users" target="_blank" rel="noopener noreferrer">social media users</a> worldwide, these platforms provide direct access to potential customers in Hertfordshire and beyond.</p>
+
+        <h2>Choosing the Right Platforms</h2>
+        <p>Not all social media platforms are created equal. Choose platforms based on your target audience:</p>
+        <ul>
+          <li><strong><a href="https://business.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>:</strong> Excellent for local businesses, with powerful targeting options and community features.</li>
+          <li><strong><a href="https://business.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>:</strong> Perfect for visual businesses - restaurants, retail, design services.</li>
+          <li><strong><a href="https://business.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn</a>:</strong> Ideal for B2B companies and professional services.</li>
+          <li><strong><a href="https://business.twitter.com/" target="_blank" rel="noopener noreferrer">Twitter/X</a>:</strong> Great for real-time updates, news, and customer service.</li>
+        </ul>
+
+        <h2>Content Strategy for Success</h2>
+        <p>Develop a <a href="/services">content strategy</a> that resonates with your local audience:</p>
+        <ul>
+          <li>Share local Hertfordshire news and community involvement</li>
+          <li>Post customer testimonials and success stories</li>
+          <li>Create educational content that adds value</li>
+          <li>Use high-quality visuals and videos</li>
+          <li>Engage with followers through comments and messages</li>
+          <li>Host local contests and promotions</li>
+        </ul>
+
+        <h2>Local Targeting and Hashtags</h2>
+        <p>Maximise your reach in Hertfordshire by:</p>
+        <ul>
+          <li>Using location-specific hashtags (#Hertfordshire, #Hitchin, #StAlbans)</li>
+          <li>Tagging local businesses and partners</li>
+          <li>Participating in local community groups</li>
+          <li>Creating geo-targeted ads for specific postcodes</li>
+          <li>Collaborating with local <a href="https://www.socialmediatoday.com/news/influencer-marketing-guide/593081/" target="_blank" rel="noopener noreferrer">influencers</a></li>
+        </ul>
+
+        <h2>Paid Advertising on Social Media</h2>
+        <p>Organic reach is limited - supplement with paid advertising:</p>
+        <ul>
+          <li><strong>Facebook Ads:</strong> Highly targeted with detailed demographic and interest options.</li>
+          <li><strong>Instagram Ads:</strong> Visual storytelling with shoppable posts and stories.</li>
+          <li><strong>LinkedIn Ads:</strong> B2B targeting based on job titles, industries, and company size.</li>
+          <li><strong>Retargeting:</strong> Re-engage website visitors with targeted social ads.</li>
+        </ul>
+
+        <h2>Measuring ROI and Analytics</h2>
+        <p>Track these key <a href="https://sproutsocial.com/insights/social-media-metrics/" target="_blank" rel="noopener noreferrer">social media metrics</a> to measure success:</p>
+        <ul>
+          <li>Engagement rate (likes, comments, shares)</li>
+          <li>Reach and impressions</li>
+          <li>Click-through rate to your website</li>
+          <li>Conversion rate from social traffic</li>
+          <li>Follower growth rate</li>
+          <li>Customer sentiment and feedback</li>
+        </ul>
+
+        <h2>Let's Grow Your Social Presence</h2>
+        <p>Ready to build a powerful social media presence for your Hertfordshire business? <a href="/">Web-Smart.Co</a> offers comprehensive <a href="/services">social media marketing services</a> including strategy, content creation, and paid advertising. <a href="/contact">Contact us today</a> to start connecting with your local audience and driving real business results.</p>
+      `,
+    },
+    'web-design-seo-performance': {
+      title: 'Maximising Web Design for Enhanced SEO Performance',
+      image: '/images/portfolio/webdesign-cat-1024x682.jpg',
+      author: 'Pete Gypps',
+      date: 'September 28, 2024',
+      category: 'SEO',
+      content: `
+        <p>In today's competitive digital landscape, understanding the synergy between <a href="/services">web design and SEO</a> is crucial for any business aiming to enhance its online visibility. Incorporating SEO best practices into your website design from the ground up can dramatically improve your search rankings and drive more organic traffic.</p>
+
+        <h2>The Relationship Between Design and SEO</h2>
+        <p>Web design and <a href="https://developers.google.com/search/docs" target="_blank" rel="noopener noreferrer">SEO</a> are not separate disciplines - they work together to create a website that both users and search engines love. A beautiful website that's difficult for search engines to crawl won't rank well, while an SEO-optimised site with poor design won't convert visitors.</p>
+
+        <h2>Mobile-First Design for SEO</h2>
+        <p>Google uses <a href="https://developers.google.com/search/mobile-sites/mobile-first-indexing" target="_blank" rel="noopener noreferrer">mobile-first indexing</a>, meaning it primarily uses the mobile version of your site for ranking. Key considerations:</p>
+        <ul>
+          <li>Responsive design that adapts to all screen sizes</li>
+          <li>Fast mobile loading speeds (under 3 seconds)</li>
+          <li>Touch-friendly navigation and buttons</li>
+          <li>Readable text without zooming</li>
+          <li>Accessible content without Flash or unsupported plugins</li>
+        </ul>
+
+        <h2>Site Structure and Navigation</h2>
+        <p>A well-organised site structure helps both users and search engines understand your content:</p>
+        <ul>
+          <li>Clear hierarchy with logical categories</li>
+          <li>Intuitive navigation menus</li>
+          <li>Internal linking between related pages</li>
+          <li>XML sitemap for search engines</li>
+          <li>Breadcrumb navigation for user orientation</li>
+        </ul>
+
+        <h2>Page Speed Optimisation</h2>
+        <p><a href="https://web.dev/performance-scoring/" target="_blank" rel="noopener noreferrer">Page speed</a> is a critical ranking factor. Optimise your website with:</p>
+        <ul>
+          <li>Image compression and WebP format</li>
+          <li>Minified CSS and JavaScript</li>
+          <li>Browser caching</li>
+          <li>Content Delivery Network (CDN)</li>
+          <li>Lazy loading for images and videos</li>
+        </ul>
+
+        <h2>SEO-Friendly URLs and Structure</h2>
+        <ul>
+          <li>Descriptive, keyword-rich URLs</li>
+          <li>Short and readable URLs</li>
+          <li>Proper use of hyphens to separate words</li>
+          <li>Consistent URL structure throughout the site</li>
+          <li>HTTPS security for all pages</li>
+        </ul>
+
+        <h2>Content Design and Readability</h2>
+        <p>Design your content for both users and search engines:</p>
+        <ul>
+          <li>Clear heading hierarchy (H1, H2, H3)</li>
+          <li>Short paragraphs with white space</li>
+          <li>Bullet points and numbered lists</li>
+          <li>Bold and italic for emphasis</li>
+          <li>Alt text for all images</li>
+          <li>Readable fonts and appropriate text sizes</li>
+        </ul>
+
+        <h2>Technical SEO Elements</h2>
+        <ul>
+          <li><strong>Schema Markup:</strong> Help search engines understand your content with <a href="https://schema.org/" target="_blank" rel="noopener noreferrer">structured data</a>.</li>
+          <li><strong>Meta Tags:</strong> Optimised title tags and meta descriptions for every page.</li>
+          <li><strong>Header Tags:</strong> Proper use of H1-H6 tags for content structure.</li>
+          <li><strong>Image Optimisation:</strong> Compressed images with descriptive file names and alt text.</li>
+        </ul>
+
+        <h2>Get Professional SEO Web Design</h2>
+        <p>Ready to create a website that ranks well and converts visitors? <a href="/">Web-Smart.Co</a> specialises in <a href="/services">SEO-optimised web design</a> for Hertfordshire businesses. Our team combines technical SEO expertise with stunning design to help your business succeed online. <a href="/contact">Contact us today</a> for a free <a href="/portfolio">consultation</a>.</p>
+      `,
+    },
+    'seo-tactics-wordpress-ecommerce': {
+      title: 'Effective SEO Tactics for WordPress E-Commerce Sites',
+      image: '/images/blog/pexels-rdne-7414280-1-scaled.jpg',
+      author: 'Pete Gypps',
+      date: 'September 22, 2024',
+      category: 'SEO',
+      content: `
+        <p>Mastering the art of <a href="/services">Search Engine Optimisation (SEO)</a> is essential for any WordPress e-commerce site looking to stand out in the highly competitive online marketplace. With the right tactics, you can dramatically improve your visibility, drive more organic traffic, and increase sales.</p>
+
+        <h2>Why E-Commerce SEO Matters</h2>
+        <p>E-commerce SEO is different from traditional SEO. With product pages, category pages, and potentially thousands of URLs, e-commerce sites face unique challenges. However, <a href="https://woocommerce.com/document/seo-for-woocommerce/" target="_blank" rel="noopener noreferrer">optimising your WooCommerce store</a> can give you a significant competitive advantage.</p>
+
+        <h2>Product Page Optimisation</h2>
+        <p>Your product pages are the heart of your e-commerce site:</p>
+        <ul>
+          <li><strong>Unique Product Descriptions:</strong> Never use manufacturer descriptions - create original, keyword-rich content.</li>
+          <li><strong>High-Quality Images:</strong> Multiple images from different angles with descriptive alt text.</li>
+          <li><strong>Customer Reviews:</strong> User-generated content boosts SEO and builds trust.</li>
+          <li><strong>Product Schema Markup:</strong> Implement <a href="https://schema.org/Product" target="_blank" rel="noopener noreferrer">product schema</a> for rich snippets in search results.</li>
+          <li><strong>Clear Product Titles:</strong> Include primary keywords naturally in product names.</li>
+        </ul>
+
+        <h2>Category Page Strategy</h2>
+        <p>Don't neglect your category pages - they can rank for competitive keywords:</p>
+        <ul>
+          <li>Write unique descriptions for each category (300+ words)</li>
+          <li>Include relevant keywords naturally</li>
+          <li>Add breadcrumb navigation</li>
+          <li>Optimise category meta titles and descriptions</li>
+          <li>Use H1 tags for category names</li>
+        </ul>
+
+        <h2>Technical SEO for E-Commerce</h2>
+        <p>Technical optimisation is crucial for large e-commerce sites:</p>
+        <ul>
+          <li><strong>Site Speed:</strong> Optimise images, use caching, and implement a CDN. Test with <a href="https://pagespeed.web.dev/" target="_blank" rel="noopener noreferrer">Google PageSpeed Insights</a>.</li>
+          <li><strong>Mobile Optimisation:</strong> Ensure your store works flawlessly on mobile devices.</li>
+          <li><strong>URL Structure:</strong> Use clean, descriptive URLs for products and categories.</li>
+          <li><strong>Duplicate Content:</strong> Handle product variations and filters properly to avoid duplicate content.</li>
+          <li><strong>Pagination:</strong> Implement proper rel=prev/next tags for paginated category pages.</li>
+        </ul>
+
+        <h2>Internal Linking Strategy</h2>
+        <p>Build a strong internal linking structure:</p>
+        <ul>
+          <li>Link related products to each other</li>
+          <li>Create "Customers also viewed" sections</li>
+          <li>Link to relevant <a href="/blog">blog content</a> from product pages</li>
+          <li>Build category hierarchy with proper breadcrumbs</li>
+          <li>Use descriptive anchor text for links</li>
+        </ul>
+
+        <h2>Content Marketing for E-Commerce</h2>
+        <p>Content marketing drives organic traffic and supports product discovery:</p>
+        <ul>
+          <li>Create buying guides and product comparisons</li>
+          <li>Write how-to articles related to your products</li>
+          <li>Develop industry news and trend content</li>
+          <li>Produce video content and tutorials</li>
+          <li>Build resource pages that attract backlinks</li>
+        </ul>
+
+        <h2>Local SEO for E-Commerce</h2>
+        <p>If you serve a local area like Hertfordshire:</p>
+        <ul>
+          <li>Create a <a href="https://www.google.com/business/" target="_blank" rel="noopener noreferrer">Google Business Profile</a></li>
+          <li>Include location keywords in content</li>
+          <li>Add location pages for areas you serve</li>
+          <li>Get listed in local directories</li>
+          <li>Encourage customer reviews</li>
+        </ul>
+
+        <h2>Essential WordPress SEO Plugins</h2>
+        <ul>
+          <li><strong><a href="https://yoast.com/wordpress/plugins/seo/" target="_blank" rel="noopener noreferrer">Yoast SEO</a>:</strong> Comprehensive SEO optimisation and analysis.</li>
+          <li><strong>WooCommerce SEO:</strong> Yoast's extension specifically for WooCommerce.</li>
+          <li><strong>Schema Pro:</strong> Advanced schema markup for products.</li>
+          <li><strong>Smush:</strong> Image compression and optimisation.</li>
+          <li><strong>WP Rocket:</strong> Caching and performance optimisation.</li>
+        </ul>
+
+        <h2>Measuring E-Commerce SEO Success</h2>
+        <p>Track these metrics to measure your SEO performance:</p>
+        <ul>
+          <li>Organic traffic growth</li>
+          <li>Keyword rankings for product and category terms</li>
+          <li>Conversion rate from organic traffic</li>
+          <li>Revenue from organic channels</li>
+          <li>Page load speed</li>
+          <li>Bounce rate and time on site</li>
+        </ul>
+
+        <h2>Get Expert E-Commerce SEO Help</h2>
+        <p>Need help optimising your WordPress e-commerce site for search engines? <a href="/">Web-Smart.Co</a> offers specialised <a href="/services">SEO services for WooCommerce stores</a> in Hertfordshire. Our team has extensive experience in driving organic traffic and increasing online sales. <a href="/contact">Contact us today</a> for a comprehensive <a href="/portfolio">SEO audit</a> and strategy consultation.</p>
+      `,
+    },
   };
 
   const currentPost = blogPosts[slug as keyof typeof blogPosts] || blogPosts['maximising-wordpress-support'];
@@ -171,6 +407,12 @@ export default function BlogPostPage() {
       date: 'October 2024',
       slug: 'email-marketing-content-techniques',
       image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
+    },
+    {
+      title: 'Social Media Marketing Strategies for Hertfordshire',
+      date: 'October 2024',
+      slug: 'social-media-marketing-hertfordshire',
+      image: '/images/services/ai-seo-strategy.jpg',
     },
     {
       title: 'Maximising Web Design for Enhanced SEO Performance',

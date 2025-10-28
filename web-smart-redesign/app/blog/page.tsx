@@ -39,6 +39,15 @@ export default function BlogPage() {
       slug: 'email-marketing-content-techniques',
     },
     {
+      title: 'Social Media Marketing Strategies for Hertfordshire Businesses',
+      excerpt: 'Unlock the power of social media marketing to connect with your local audience and grow your Hertfordshire business. From Facebook to Instagram, learn proven strategies that drive real results...',
+      image: '/images/services/ai-seo-strategy.jpg',
+      author: 'Pete Gypps',
+      date: 'October 2024',
+      category: 'Digital Marketing',
+      slug: 'social-media-marketing-hertfordshire',
+    },
+    {
       title: 'Maximising Web Design for Enhanced SEO Performance',
       excerpt: 'In today\'s competitive digital landscape, understanding the synergy between web design and SEO is crucial for any business aiming to enhance its online visibility. Incorporating ...',
       image: '/images/portfolio/webdesign-cat-1024x682.jpg',
@@ -78,6 +87,12 @@ export default function BlogPage() {
       date: 'October 2024',
       slug: 'email-marketing-content-techniques',
       image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
+    },
+    {
+      title: 'Social Media Marketing Strategies for Hertfordshire',
+      date: 'October 2024',
+      slug: 'social-media-marketing-hertfordshire',
+      image: '/images/services/ai-seo-strategy.jpg',
     },
     {
       title: 'Maximising Web Design for Enhanced SEO Performance',
