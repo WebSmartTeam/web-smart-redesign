@@ -182,24 +182,24 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: 'Hertfordshire Business',
+                title: 'Custom Web Design',
                 image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
-                category: 'Local Business',
-              },
-              {
-                title: 'Branding & Design',
-                image: '/images/portfolio/branding-website-design.jpg',
-                category: 'Branding',
-              },
-              {
-                title: 'Web Design Agency',
-                image: '/images/portfolio/webdesign-cat-1024x682.jpg',
                 category: 'Web Design',
               },
               {
-                title: 'E-commerce Platform',
+                title: 'Mobile Applications',
+                image: '/images/portfolio/branding-website-design.jpg',
+                category: 'Mobile Apps',
+              },
+              {
+                title: 'SaaS Platforms',
+                image: '/images/portfolio/webdesign-cat-1024x682.jpg',
+                category: 'Platforms',
+              },
+              {
+                title: 'Web Hosting Solutions',
                 image: '/images/portfolio/buzz-website.jpg',
-                category: 'E-commerce',
+                category: 'Hosting',
               },
             ].map((project, index) => (
               <motion.div
