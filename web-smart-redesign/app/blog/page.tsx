@@ -180,7 +180,7 @@ export default function BlogPage() {
       </section>
 
       {/* Categories Filter */}
-      <section className="w-full py-8 bg-white border-b border-gray-200 sticky top-[72px] z-40">
+      <section className="w-full py-8 bg-white border-b border-gray-200">
         <div className="container-custom">
           <div className="flex flex-wrap justify-center gap-3">
             {categories.map((category, index) => (
