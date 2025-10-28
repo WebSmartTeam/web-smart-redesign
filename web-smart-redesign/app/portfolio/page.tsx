@@ -9,28 +9,32 @@ import Header from '@/components/layout/Header';
 export default function PortfolioPage() {
   const projects = [
     {
-      title: 'Hertfordshire Business',
-      image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
-      category: 'Local Business',
-      description: 'Complete website redesign with modern UI and improved user experience',
-    },
-    {
-      title: 'Branding & Design',
-      image: '/images/portfolio/branding-website-design.jpg',
-      category: 'Branding',
-      description: 'Full branding package including logo design and brand guidelines',
-    },
-    {
-      title: 'Web Design Agency',
-      image: '/images/portfolio/webdesign-cat-1024x682.jpg',
-      category: 'Web Design',
-      description: 'Modern responsive website with custom animations and interactions',
-    },
-    {
-      title: 'E-commerce Platform',
+      title: 'Buzz Website',
       image: '/images/portfolio/buzz-website.jpg',
-      category: 'E-commerce',
-      description: 'Full-featured online store with payment integration and inventory management',
+      category: 'Web Design',
+      description: 'Creating a website designed to effectively showcase trending topics, viral content, and the latest news, captivating its audience and creating a buzz-worthy online presence.',
+      tags: ['Web Design', 'Content Strategy', 'Modern UI'],
+    },
+    {
+      title: 'Branding',
+      image: '/images/portfolio/branding-website-design.jpg',
+      category: 'Branding & Design',
+      description: 'Crafted a brand identity that authentically reflects the essence of our client\'s vision, leaving a lasting and memorable impression on their target audience.',
+      tags: ['Brand Identity', 'Logo Design', 'Visual Design'],
+    },
+    {
+      title: 'Internal Website',
+      image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
+      category: 'Content & SEO',
+      description: 'We created blog articles to increase website traffic and establish topical authority in the chosen niche.',
+      tags: ['Content Writing', 'SEO', 'Blog Strategy'],
+    },
+    {
+      title: 'Mobile and Desktop',
+      image: '/images/portfolio/webdesign-cat-1024x682.jpg',
+      category: 'Digital Marketing',
+      description: 'Implemented a comprehensive digital marketing strategy to ensure visibility and accessibility on mobile and desktop devices, expanding reach and engagement with the target audience.',
+      tags: ['Responsive Design', 'Digital Marketing', 'Multi-Platform'],
     },
   ];
 
@@ -72,9 +76,25 @@ export default function PortfolioPage() {
       </section>
 
       {/* Portfolio Grid */}
-      <section className="w-full py-20 md:py-28 bg-gradient-to-br from-secondary to-white">
+      <section className="w-full py-20 md:py-28 bg-white">
         <div className="container-custom">
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* Section Header */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
+              Featured Projects
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              A showcase of our recent work helping businesses across Hertfordshire grow their digital presence
+            </p>
+          </motion.div>
+
+          {/* Projects Grid */}
+          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {projects.map((project, index) => (
               <motion.div
                 key={index}
@@ -82,25 +102,50 @@ export default function PortfolioPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.1 }}
-                className="group relative bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
+                className="group bg-white border-2 border-gray-100 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full"
               >
-                <div className="aspect-video overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
+                {/* Image with padding and rounded corners */}
+                <div className="p-6 pb-0">
+                  <div className="aspect-video overflow-hidden rounded-xl">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
+                  </div>
                 </div>
-                <div className="p-6">
-                  <p className="text-sm font-medium text-primary mb-2">{project.category}</p>
-                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+
+                <div className="p-8 pt-6 flex flex-col flex-grow">
+                  {/* Category */}
+                  <p className="text-sm font-semibold text-primary mb-3 uppercase tracking-wide">
+                    {project.category}
+                  </p>
+
+                  {/* Title */}
+                  <h3 className="text-2xl font-heading font-bold text-gray-900 mb-4">
                     {project.title}
                   </h3>
-                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">
+
+                  {/* Description */}
+                  <p className="text-gray-600 mb-6 leading-relaxed">
                     {project.description}
                   </p>
-                  <div className="flex items-center gap-2 text-primary font-medium">
+
+                  {/* Tags */}
+                  <div className="flex flex-wrap gap-2 mb-6 flex-grow">
+                    {project.tags.map((tag, idx) => (
+                      <span
+                        key={idx}
+                        className="px-3 py-1 bg-secondary text-primary text-xs font-medium rounded-full"
+                      >
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+
+                  {/* CTA - Aligned to bottom */}
+                  <div className="flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors cursor-pointer mt-auto">
                     View Case Study
                     <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
                   </div>
@@ -108,6 +153,41 @@ export default function PortfolioPage() {
               </motion.div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="w-full py-20 md:py-28 bg-gradient-to-br from-primary to-primary-600">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center text-white"
+          >
+            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-12">
+              Results That Speak for Themselves
+            </h2>
+
+            <div className="grid md:grid-cols-4 gap-8">
+              <div className="text-center">
+                <div className="text-5xl md:text-6xl font-bold mb-3">200+</div>
+                <div className="text-white/90 text-lg">Projects Completed</div>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl md:text-6xl font-bold mb-3">10+</div>
+                <div className="text-white/90 text-lg">Years Experience</div>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl md:text-6xl font-bold mb-3">4.9/5</div>
+                <div className="text-white/90 text-lg">Client Rating</div>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl md:text-6xl font-bold mb-3">98%</div>
+                <div className="text-white/90 text-lg">Client Satisfaction</div>
+              </div>
+            </div>
+          </motion.div>
         </div>
       </section>
 
@@ -132,10 +212,10 @@ export default function PortfolioPage() {
               className="text-center max-w-3xl mx-auto"
             >
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
-                Start Your Project Today
+                Ready to Start Your Project?
               </h2>
               <p className="text-lg text-white/95 mb-8">
-                Ready to create something amazing? Let&apos;s bring your vision to life.
+                Let&apos;s create something amazing together. Get in touch today to discuss your project.
               </p>
               <Button href="/contact" variant="secondary" size="lg" className="group">
                 Get In Touch
