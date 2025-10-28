@@ -195,7 +195,7 @@ export default function BlogPostPage() {
         {/* Hero Content */}
         <div className="relative z-10 w-full py-24 md:py-32 pt-32 md:pt-40">
           <div className="container-custom">
-            <div className="max-w-4xl mx-auto text-white">
+            <div className="text-white">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -235,7 +235,14 @@ export default function BlogPostPage() {
                 className="bg-white rounded-2xl p-8 md:p-12 shadow-md"
               >
                 <div
-                  className="prose prose-lg max-w-none prose-headings:font-heading prose-headings:font-bold prose-h2:text-3xl prose-h2:mt-8 prose-h2:mb-4 prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-4 prose-ul:my-4 prose-li:text-gray-700 prose-strong:text-gray-900"
+                  className="prose prose-lg max-w-none
+                    prose-headings:font-heading prose-headings:font-bold prose-headings:text-gray-900
+                    prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:mt-8 prose-h2:mb-4 prose-h2:leading-tight
+                    prose-p:text-gray-700 prose-p:text-base prose-p:md:text-lg prose-p:leading-relaxed prose-p:mb-6
+                    prose-ul:my-6 prose-ul:space-y-2
+                    prose-li:text-gray-700 prose-li:text-base prose-li:md:text-lg prose-li:leading-relaxed
+                    prose-strong:text-gray-900 prose-strong:font-semibold
+                    prose-a:text-primary prose-a:font-medium prose-a:no-underline hover:prose-a:underline"
                   dangerouslySetInnerHTML={{ __html: currentPost.content }}
                 />
 
