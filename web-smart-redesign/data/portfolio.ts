@@ -181,6 +181,34 @@ export const portfolioProjects = [
     category: 'Web Design',
     url: 'https://bulldogsteelfabrications.netlify.app',
   },
+  {
+    title: 'Advanced Heating & Plumbing',
+    slug: 'advancedheatingplumbing',
+    image: '/images/portfolio/advancedheatingplumbing.jpg',
+    category: 'Web Design',
+    url: 'https://advancedheatingplumbing.co.uk/',
+  },
+  {
+    title: 'J Hare',
+    slug: 'jhare',
+    image: '/images/portfolio/jhare.jpg',
+    category: 'Web Design',
+    url: 'https://jhare.com/',
+  },
+  {
+    title: 'Pinnacle Roofing',
+    slug: 'pinnacle-roofing',
+    image: '/images/portfolio/pinnacle-roofing.jpg',
+    category: 'Web Design',
+    url: 'https://pinnacle-roofing.client-demo.co/',
+  },
+  {
+    title: 'MP Build',
+    slug: 'mpbuild',
+    image: '/images/portfolio/mpbuild.jpg',
+    category: 'Web Design',
+    url: 'http://mpbuild.co.uk/',
+  },
 ];
 
 export const categories = [

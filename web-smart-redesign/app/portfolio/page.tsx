@@ -43,7 +43,7 @@ export default function PortfolioPage() {
                   Our Portfolio
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/90">
-                  26+ successful projects across Hertfordshire and beyond
+                  30+ successful projects across Hertfordshire and beyond
                 </p>
               </motion.div>
             </div>
