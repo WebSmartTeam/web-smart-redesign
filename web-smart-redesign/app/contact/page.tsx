@@ -219,9 +219,9 @@ export default function ContactPage() {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.1 }}
-                      className="bg-gradient-to-br from-secondary to-white rounded-2xl p-6 text-center border-2 border-gray-100 hover:border-primary transition-all duration-300"
+                      className="group bg-gradient-to-br from-secondary to-white rounded-2xl p-6 text-center border border-gray-200 hover:border-primary hover:shadow-lg transition-all duration-300"
                     >
-                      <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4">
+                      <div className="w-14 h-14 bg-primary group-hover:scale-110 rounded-xl flex items-center justify-center mx-auto mb-4 transition-transform duration-300">
                         <Icon className="text-white" size={24} />
                       </div>
                       <h3 className="text-lg font-heading font-bold text-gray-900 mb-2">
