@@ -2,9 +2,14 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Target, Users, Award, TrendingUp, Star, Quote } from 'lucide-react';
+import { ArrowRight, Target, Users, Award, TrendingUp, Star } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Header from '@/components/layout/Header';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
 
 export default function AboutPage() {
   const values = [
@@ -36,28 +41,48 @@ export default function AboutPage() {
       business: 'Thompson & Associates',
       location: 'Hitchin',
       rating: 5,
-      text: 'Web-Smart transformed our online presence completely. The SEO Foundation Pack delivered results within 3 months—we\'re now ranking on page 1 for our key terms.',
+      text: 'Web-Smart transformed our online presence completely. The SEO Foundation Pack delivered results within 3 months—we\'re now ranking on page 1 for our key terms. Pete and his team are knowledgeable, responsive, and truly care about our success.',
+      image: '/images/team/placeholder-avatar.jpg',
     },
     {
       name: 'James Miller',
       business: 'Miller Property Services',
       location: 'Stevenage',
       rating: 5,
-      text: 'Outstanding service from start to finish. Our new WordPress website is beautiful, fast, and easy to manage. Highly recommend Web-Smart to any business in Hertfordshire.',
+      text: 'Outstanding service from start to finish. Our new WordPress website is beautiful, fast, and easy to manage. The training was thorough and the ongoing support has been invaluable. Highly recommend Web-Smart to any business in Hertfordshire.',
+      image: '/images/team/placeholder-avatar.jpg',
     },
     {
       name: 'Emma Clarke',
       business: 'Clarke\'s Boutique',
       location: 'Letchworth',
       rating: 5,
-      text: 'We needed an e-commerce solution that could grow with our business. Web-Smart delivered exactly that. Sales have increased by 40% since launch.',
+      text: 'We needed an e-commerce solution that could grow with our business. Web-Smart delivered exactly that. The site is gorgeous, sales have increased by 40%, and their Google Ads management is bringing in quality leads every day.',
+      image: '/images/team/placeholder-avatar.jpg',
     },
     {
       name: 'David Richards',
       business: 'Richards Accounting',
       location: 'Baldock',
       rating: 5,
-      text: 'Professional, knowledgeable, and always willing to go the extra mile. The SEO improvements have brought us consistent new enquiries every week.',
+      text: 'Professional, knowledgeable, and always willing to go the extra mile. Our website redesign exceeded expectations, and the SEO improvements have brought us consistent new enquiries. Web-Smart is our go-to for all digital marketing needs.',
+      image: '/images/team/placeholder-avatar.jpg',
+    },
+    {
+      name: 'Lisa Patel',
+      business: 'Patel Legal Services',
+      location: 'Hitchin',
+      rating: 5,
+      text: 'The team at Web-Smart created a sophisticated, user-friendly website that perfectly represents our law firm. Their attention to detail and understanding of our sector was impressive. We\'ve seen a significant increase in client enquiries.',
+      image: '/images/team/placeholder-avatar.jpg',
+    },
+    {
+      name: 'Tom Harrison',
+      business: 'Harrison Construction',
+      location: 'Letchworth',
+      rating: 5,
+      text: 'Best decision we made was working with Web-Smart. They built us a modern website showcasing our projects beautifully. The Google Ads campaign they manage delivers quality leads every week. Fantastic ROI and brilliant service throughout.',
+      image: '/images/team/placeholder-avatar.jpg',
     },
   ];
 
@@ -236,7 +261,7 @@ export default function AboutPage() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="w-full py-20 md:py-28 bg-white">
+      <section className="w-full py-20 md:py-28 bg-gradient-to-br from-secondary via-white to-secondary">
         <div className="container-custom">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -244,55 +269,73 @@ export default function AboutPage() {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
-              What Our Clients Say
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
+              Creating Happy Clients
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Don&apos;t just take our word for it—hear from businesses we&apos;ve helped across Hertfordshire
+              Don&apos;t just take our word for it—hear from businesses we&apos;ve helped succeed
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
-            {testimonials.map((testimonial, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="bg-white rounded-2xl p-8 border-2 border-gray-100 hover:border-primary transition-all duration-300 shadow-sm hover:shadow-xl"
-              >
-                {/* Quote Icon */}
-                <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mb-4">
-                  <Quote className="text-primary" size={24} />
-                </div>
+          <div className="w-full">
+            <Swiper
+              modules={[Autoplay, Pagination, Navigation]}
+              spaceBetween={30}
+              slidesPerView={1}
+              slidesPerGroup={1}
+              loop={true}
+              breakpoints={{
+                640: {
+                  slidesPerView: 2,
+                  slidesPerGroup: 1,
+                },
+                1024: {
+                  slidesPerView: 3,
+                  slidesPerGroup: 1,
+                },
+              }}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+              }}
+              speed={800}
+              pagination={{
+                clickable: true,
+                bulletClass: 'swiper-pagination-bullet !bg-primary',
+                bulletActiveClass: 'swiper-pagination-bullet-active !bg-primary',
+              }}
+              navigation={true}
+              className="testimonials-swiper pb-16"
+            >
+              {testimonials.map((testimonial, index) => (
+                <SwiperSlide key={index} className="h-auto">
+                  <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 h-[450px] flex flex-col">
+                    <div className="flex justify-center gap-1 mb-6">
+                      {[...Array(testimonial.rating)].map((_, i) => (
+                        <Star key={i} className="text-accent fill-accent" size={20} />
+                      ))}
+                    </div>
 
-                {/* Rating Stars */}
-                <div className="flex gap-1 mb-4">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} size={16} className="fill-primary text-primary" />
-                  ))}
-                </div>
+                    <p className="text-lg md:text-xl text-gray-700 text-center leading-relaxed mb-8 italic flex-grow">
+                      &quot;{testimonial.text}&quot;
+                    </p>
 
-                {/* Testimonial Text */}
-                <p className="text-gray-700 leading-relaxed mb-6 italic">
-                  &quot;{testimonial.text}&quot;
-                </p>
-
-                {/* Client Info */}
-                <div className="border-t border-gray-100 pt-4">
-                  <p className="font-heading font-bold text-gray-900">
-                    {testimonial.name}
-                  </p>
-                  <p className="text-sm text-gray-600">
-                    {testimonial.business}
-                  </p>
-                  <p className="text-xs text-primary font-medium mt-1">
-                    {testimonial.location}, Hertfordshire
-                  </p>
-                </div>
-              </motion.div>
-            ))}
+                    <div className="flex flex-col items-center">
+                      <div className="font-heading font-bold text-xl text-gray-900">
+                        {testimonial.name}
+                      </div>
+                      <div className="text-primary font-medium">
+                        {testimonial.business}
+                      </div>
+                      <div className="text-sm text-gray-500">
+                        {testimonial.location}, Hertfordshire
+                      </div>
+                    </div>
+                  </div>
+                </SwiperSlide>
+              ))}
+            </Swiper>
           </div>
         </div>
       </section>
