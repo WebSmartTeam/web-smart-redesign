@@ -91,45 +91,9 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Contact Info Cards */}
+      {/* Contact Form and Map Section */}
       <section className="w-full py-20 md:py-28 bg-white">
         <div className="container-custom">
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
-            {contactInfo.map((info, index) => {
-              const Icon = info.icon;
-              return (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, y: 30 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ delay: index * 0.1 }}
-                  className="bg-gradient-to-br from-secondary to-white rounded-2xl p-6 text-center border-2 border-gray-100 hover:border-primary transition-all duration-300"
-                >
-                  <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4">
-                    <Icon className="text-white" size={24} />
-                  </div>
-                  <h3 className="text-lg font-heading font-bold text-gray-900 mb-2">
-                    {info.title}
-                  </h3>
-                  {info.href ? (
-                    <a
-                      href={info.href}
-                      target={info.icon === MapPin ? '_blank' : undefined}
-                      rel={info.icon === MapPin ? 'noopener noreferrer' : undefined}
-                      className="text-gray-600 hover:text-primary transition-colors text-sm"
-                    >
-                      {info.content}
-                    </a>
-                  ) : (
-                    <p className="text-gray-600 text-sm">{info.content}</p>
-                  )}
-                </motion.div>
-              );
-            })}
-          </div>
-
-          {/* Contact Form and Map */}
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
             <motion.div
@@ -237,13 +201,49 @@ export default function ContactPage() {
               </div>
             </motion.div>
 
-            {/* Map and Additional Info */}
+            {/* Contact Info and Map */}
             <motion.div
               initial={{ opacity: 0, x: 30 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
               className="space-y-8"
             >
+              {/* Contact Info Cards */}
+              <div className="grid grid-cols-2 gap-4">
+                {contactInfo.map((info, index) => {
+                  const Icon = info.icon;
+                  return (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 30 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: index * 0.1 }}
+                      className="bg-gradient-to-br from-secondary to-white rounded-2xl p-6 text-center border-2 border-gray-100 hover:border-primary transition-all duration-300"
+                    >
+                      <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center mx-auto mb-4">
+                        <Icon className="text-white" size={24} />
+                      </div>
+                      <h3 className="text-lg font-heading font-bold text-gray-900 mb-2">
+                        {info.title}
+                      </h3>
+                      {info.href ? (
+                        <a
+                          href={info.href}
+                          target={info.icon === MapPin ? '_blank' : undefined}
+                          rel={info.icon === MapPin ? 'noopener noreferrer' : undefined}
+                          className="text-gray-600 hover:text-primary transition-colors text-sm"
+                        >
+                          {info.content}
+                        </a>
+                      ) : (
+                        <p className="text-gray-600 text-sm">{info.content}</p>
+                      )}
+                    </motion.div>
+                  );
+                })}
+              </div>
+
               {/* Google Map */}
               <div className="bg-white rounded-2xl border-2 border-gray-100 overflow-hidden h-[400px]">
                 <iframe
@@ -256,35 +256,6 @@ export default function ContactPage() {
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Web-Smart.Co Office Location"
                 />
-              </div>
-
-              {/* Why Choose Us */}
-              <div className="bg-gradient-to-br from-primary to-primary-600 rounded-2xl p-8 text-white">
-                <h3 className="text-2xl font-heading font-bold mb-4">
-                  Why Choose Web-Smart.Co?
-                </h3>
-                <ul className="space-y-3">
-                  <li className="flex items-start gap-2">
-                    <span className="text-accent text-xl">✓</span>
-                    <span>Local Hertfordshire expertise</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-accent text-xl">✓</span>
-                    <span>10+ years of experience</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-accent text-xl">✓</span>
-                    <span>Proven track record</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-accent text-xl">✓</span>
-                    <span>Personalised service</span>
-                  </li>
-                  <li className="flex items-start gap-2">
-                    <span className="text-accent text-xl">✓</span>
-                    <span>Transparent pricing</span>
-                  </li>
-                </ul>
               </div>
             </motion.div>
           </div>
