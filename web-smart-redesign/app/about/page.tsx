@@ -189,7 +189,7 @@ export default function AboutPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: index * 0.1 }}
-                  className="bg-gradient-to-br from-secondary to-white rounded-2xl p-8 border-2 border-gray-100 hover:border-primary transition-all duration-300"
+                  className="bg-gradient-to-br from-secondary to-white rounded-2xl p-8 border-2 border-gray-100"
                 >
                   <div className="w-14 h-14 bg-primary rounded-xl flex items-center justify-center mb-4">
                     <Icon className="text-white" size={28} />
