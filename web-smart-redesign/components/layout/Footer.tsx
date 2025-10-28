@@ -33,7 +33,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <Link href="/" className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12">
+              <div className="w-20 h-20">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
                   src="/images/logos/ape-face0defined-transparent-1-1011x1024.png"
@@ -45,9 +45,6 @@ const Footer = () => {
                 Web-Smart.Co
               </span>
             </Link>
-            <p className="text-sm leading-relaxed mb-6">
-              Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
-            </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <a
@@ -151,13 +148,26 @@ const Footer = () => {
             <p>
               &copy; {currentYear} Web-Smart.Co. All rights reserved.
             </p>
-            <div className="flex gap-6">
-              <Link href="/privacy" className="hover:text-primary transition-colors">
-                Privacy Policy
-              </Link>
-              <Link href="/terms" className="hover:text-primary transition-colors">
-                Terms of Service
-              </Link>
+            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
+              <div className="flex gap-6">
+                <Link href="/privacy" className="hover:text-primary transition-colors">
+                  Privacy Policy
+                </Link>
+                <Link href="/terms" className="hover:text-primary transition-colors">
+                  Terms of Service
+                </Link>
+              </div>
+              <p className="flex items-center gap-1">
+                Designed by <span className="text-red-500">❤</span>{' '}
+                <a
+                  href="https://aidan.systems"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary-400 font-semibold transition-colors"
+                >
+                  AiDan.Systems
+                </a>
+              </p>
             </div>
           </div>
         </div>
