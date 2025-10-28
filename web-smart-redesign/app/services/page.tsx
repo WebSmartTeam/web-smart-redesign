@@ -72,7 +72,7 @@ export default function ServicesPage() {
                   Our Services
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/90">
-                  Comprehensive digital marketing and web design solutions tailored to your business needs
+                  Comprehensive digital marketing and web design solutions
                 </p>
               </motion.div>
             </div>

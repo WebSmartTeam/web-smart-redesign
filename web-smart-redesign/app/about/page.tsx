@@ -66,7 +66,7 @@ export default function AboutPage() {
                   About Web-Smart.Co
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/90">
-                  Your trusted digital marketing and web design partner in Hertfordshire
+                  Your trusted partner in Hertfordshire
                 </p>
               </motion.div>
             </div>

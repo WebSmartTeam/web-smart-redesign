@@ -83,7 +83,7 @@ export default function ContactPage() {
                   Get In Touch
                 </h1>
                 <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/90">
-                  Let&apos;s discuss how we can help your business grow online
+                  Let&apos;s discuss how we can help your business grow
                 </p>
               </motion.div>
             </div>
