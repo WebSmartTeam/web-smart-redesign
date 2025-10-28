@@ -291,7 +291,7 @@ export default function BlogPostPage() {
     },
     'seo-tactics-wordpress-ecommerce': {
       title: 'Effective SEO Tactics for WordPress E-Commerce Sites',
-      image: '/images/blog/pexels-rdne-7414280-1-scaled.jpg',
+      image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
       author: 'Pete Gypps',
       date: 'September 22, 2024',
       category: 'SEO',
@@ -424,7 +424,7 @@ export default function BlogPostPage() {
       title: 'Effective SEO Tactics for WordPress E-Commerce Sites',
       date: 'October 2024',
       slug: 'seo-tactics-wordpress-ecommerce',
-      image: '/images/blog/pexels-rdne-7414280-1-scaled.jpg',
+      image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
     },
   ];
 

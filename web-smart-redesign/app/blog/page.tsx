@@ -59,7 +59,7 @@ export default function BlogPage() {
     {
       title: 'Effective SEO Tactics for WordPress E-Commerce Sites',
       excerpt: 'Mastering the art of Search Engine Optimisation (SEO) is essential for any WordPress e-commerce site looking to stand out in the highly competitive online marketplace ...',
-      image: '/images/blog/pexels-rdne-7414280-1-scaled.jpg',
+      image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'SEO',
@@ -104,7 +104,7 @@ export default function BlogPage() {
       title: 'Effective SEO Tactics for WordPress E-Commerce Sites',
       date: 'October 2024',
       slug: 'seo-tactics-wordpress-ecommerce',
-      image: '/images/blog/pexels-rdne-7414280-1-scaled.jpg',
+      image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
     },
   ];
 
