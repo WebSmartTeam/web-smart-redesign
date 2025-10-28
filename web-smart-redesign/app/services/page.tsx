@@ -35,6 +35,7 @@ export default function ServicesPage() {
           title: 'Website Development',
           description: 'Websites built for performance, usability, and long-term reliability. Designed with SEO-ready structure and smooth navigation.',
           icon: Globe,
+          image: '/images/services/Web-Design-1225.jpg',
           features: ['Responsive Design', 'SEO-Ready Structure', 'Fast Performance', 'Modern UI/UX'],
           cta: 'Get Quote',
           href: '/services/web-design',
@@ -43,6 +44,7 @@ export default function ServicesPage() {
           title: 'WordPress Development',
           description: 'Custom WordPress solutions with themes, plugins, and complete e-commerce functionality.',
           icon: Grid3x3,
+          image: '/images/services/neve-patterns-6.1.png',
           features: ['Custom Themes', 'Plugin Development', 'WooCommerce', 'Maintenance'],
           cta: 'Get Quote',
           href: '/contact',
@@ -51,6 +53,7 @@ export default function ServicesPage() {
           title: 'React & Next.js Development',
           description: 'Modern, high-performance web applications built with cutting-edge React and Next.js technology.',
           icon: Zap,
+          image: '/images/services/website-multidevice-resize.png',
           features: ['Single Page Apps', 'Server-Side Rendering', 'API Integration', 'Performance Optimised'],
           cta: 'Get Quote',
           href: '/contact',
@@ -65,6 +68,7 @@ export default function ServicesPage() {
           title: 'Search Engine Optimisation',
           description: 'Build a strong foundation for search rankings with structured SEO strategies. Optimised content, technical SEO, and on-page improvements.',
           icon: Search,
+          image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
           features: ['Foundation Pack £1,499', 'Technical SEO', 'Content Optimisation', 'Monthly Reports'],
           cta: 'Foundation Pack Info',
           href: '/services/seo',
@@ -73,6 +77,7 @@ export default function ServicesPage() {
           title: 'Google Ads',
           description: 'Managed ad campaigns that drive results. Keyword research, audience targeting, and performance tracking to maximise ROI.',
           icon: MousePointerClick,
+          image: '/images/services/ai-seo-strategy.jpg',
           features: ['Campaign Management', 'Keyword Research', 'ROI Tracking', 'A/B Testing'],
           cta: 'Get Quote',
           href: '/services/google-ads',
@@ -81,6 +86,7 @@ export default function ServicesPage() {
           title: 'Digital Marketing with AI',
           description: 'Targeted digital strategies to grow your brand and increase engagement. PPC, social media, and data-driven marketing solutions.',
           icon: TrendingUp,
+          image: '/images/services/ai-seo-strategy.jpg',
           features: ['PPC Campaigns', 'Social Media', 'Analytics', 'AI-Powered Insights'],
           cta: 'Get Quote',
           href: '/contact',
@@ -95,6 +101,7 @@ export default function ServicesPage() {
           title: 'AI Video Creation',
           description: 'Create high-quality AI-generated videos for marketing, branding, or social media. Custom scripts, voiceovers, and engaging visuals.',
           icon: Video,
+          image: '/images/services/ai-seo-strategy.jpg',
           features: ['Custom Scripts', 'Professional Voiceovers', 'Engaging Visuals', 'Social Media Ready'],
           cta: 'Get Quote',
           href: '/contact',
@@ -103,6 +110,7 @@ export default function ServicesPage() {
           title: 'AI Assisted Content',
           description: 'Human-quality AI-assisted content for blogs, websites, and marketing. Custom-written for clarity, accuracy, and SEO impact.',
           icon: FileText,
+          image: '/images/services/neve-patterns-21.jpg',
           features: ['SEO Optimised', 'Blog Posts', 'Website Copy', 'Marketing Materials'],
           cta: 'Get Quote',
           href: '/services/content-writing',
@@ -111,6 +119,7 @@ export default function ServicesPage() {
           title: 'Image Magic',
           description: 'Transform ordinary images into stunning, high-quality visuals. Improve quality, remove backgrounds, upscale resolutions, and generate unique imagery.',
           icon: ImageIcon,
+          image: '/images/services/ai-seo-strategy.jpg',
           features: ['Image Enhancement', 'Background Removal', 'AI Image Generation', 'Upscaling'],
           cta: 'Get Quote',
           href: '/ai-images',
@@ -119,6 +128,7 @@ export default function ServicesPage() {
           title: 'AI Tools & Automation',
           description: 'Custom AI tools and automation solutions to streamline your business processes and increase efficiency.',
           icon: Zap,
+          image: '/images/services/ai-seo-strategy.jpg',
           features: ['Process Automation', 'Custom AI Solutions', 'Integration', 'Efficiency Gains'],
           cta: 'Get Quote',
           href: '/contact',
@@ -133,6 +143,7 @@ export default function ServicesPage() {
           title: 'Branding',
           description: 'Distinctive branding solutions that reflect your identity. Logos, colour palettes, and design assets tailored to your business.',
           icon: Palette,
+          image: '/images/services/neve-patterns-20.jpg',
           features: ['Logo Design', 'Brand Guidelines', 'Colour Palettes', 'Marketing Collateral'],
           cta: 'Get Quote',
           href: '/contact',
@@ -141,6 +152,7 @@ export default function ServicesPage() {
           title: 'UX/UI Design',
           description: 'Modern, user-friendly interface designs that enhance engagement and improve user experience. Designed for web and mobile applications.',
           icon: Laptop,
+          image: '/images/services/Web-Design-1225.jpg',
           features: ['User Research', 'Wireframing', 'Prototyping', 'Mobile & Web'],
           cta: 'Get Quote',
           href: '/contact',
@@ -149,6 +161,7 @@ export default function ServicesPage() {
           title: 'Content Writing',
           description: 'Professional content writing tailored to your business. We profile your business to create website copy, blogs, and marketing materials.',
           icon: FileText,
+          image: '/images/services/neve-patterns-21.jpg',
           features: ['Website Copy', 'Blog Posts', 'SEO Content', 'Marketing Copy'],
           cta: 'Get Quote',
           href: '/services/content-writing',
@@ -163,6 +176,7 @@ export default function ServicesPage() {
           title: 'Remote IT Support',
           description: 'IT specialists with over 20 years in IT support for businesses—desktops, routers, Office 365, Google Workspace—you name it, we can do it.',
           icon: Cloud,
+          image: '/images/services/Web-Design-1662.jpg',
           features: ['Desktop Support', 'Network Support', 'Office 365', 'Google Workspace'],
           cta: 'Get Quote',
           href: '/contact',
@@ -171,6 +185,7 @@ export default function ServicesPage() {
           title: 'SaaS Products',
           description: 'Custom Software-as-a-Service solutions tailored to your business needs with scalable cloud infrastructure.',
           icon: Cloud,
+          image: '/images/services/website-multidevice-resize.png',
           features: ['Custom Development', 'Cloud Infrastructure', 'Scalable Solutions', 'Ongoing Support'],
           cta: 'Get Quote',
           href: '/contact',
@@ -179,6 +194,7 @@ export default function ServicesPage() {
           title: 'Mobile Applications',
           description: 'Native and cross-platform mobile applications for iOS and Android with modern features and seamless performance.',
           icon: Smartphone,
+          image: '/images/services/website-multidevice-resize.png',
           features: ['iOS & Android', 'Cross-Platform', 'Modern Features', 'App Store Publishing'],
           cta: 'Get Quote',
           href: '/contact',
@@ -187,6 +203,7 @@ export default function ServicesPage() {
           title: 'Chrome Extensions & Tools',
           description: 'Custom Chrome extensions and browser tools to enhance productivity and automate workflows.',
           icon: Chrome,
+          image: '/images/services/Web-Design-1225.jpg',
           features: ['Custom Extensions', 'Browser Automation', 'Productivity Tools', 'Chrome Web Store'],
           cta: 'Get Quote',
           href: '/contact',
@@ -201,6 +218,7 @@ export default function ServicesPage() {
           title: 'Web Hosting',
           description: 'Fast, reliable, and secure web hosting solutions with 99.9% uptime guarantee and expert support.',
           icon: Cloud,
+          image: '/images/services/Web-Design-1662.jpg',
           features: ['99.9% Uptime', 'SSL Certificates', 'Daily Backups', 'Expert Support'],
           cta: 'Get Quote',
           href: '/contact',
@@ -209,6 +227,7 @@ export default function ServicesPage() {
           title: 'WordPress Hosting',
           description: 'Optimised WordPress hosting with automatic updates, security, and performance enhancements.',
           icon: Grid3x3,
+          image: '/images/services/neve-patterns-6.1.png',
           features: ['Optimised Performance', 'Auto Updates', 'Security Hardening', 'Expert Support'],
           cta: 'Get Quote',
           href: '/contact',
@@ -288,17 +307,28 @@ export default function ServicesPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: serviceIndex * 0.1 }}
-                  className="group bg-white border-2 border-gray-100 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
+                  className="group bg-white border-2 border-gray-100 rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
                 >
-                  {/* Icon */}
-                  <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                    <service.icon className="text-primary" size={28} />
+                  {/* Image */}
+                  <div className="aspect-video overflow-hidden">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
                   </div>
 
-                  {/* Title */}
-                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
-                    {service.title}
-                  </h3>
+                  <div className="p-8">
+                    {/* Icon */}
+                    <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                      <service.icon className="text-primary" size={28} />
+                    </div>
+
+                    {/* Title */}
+                    <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+                      {service.title}
+                    </h3>
 
                   {/* Description */}
                   <p className="text-gray-600 mb-6 leading-relaxed text-sm">
@@ -315,61 +345,21 @@ export default function ServicesPage() {
                     ))}
                   </ul>
 
-                  {/* CTA */}
-                  <Link
-                    href={service.href}
-                    className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors text-sm"
-                  >
-                    {service.cta}
-                    <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
-                  </Link>
+                    {/* CTA */}
+                    <Link
+                      href={service.href}
+                      className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors text-sm"
+                    >
+                      {service.cta}
+                      <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
+                    </Link>
+                  </div>
                 </motion.div>
               ))}
             </div>
           </div>
         </section>
       ))}
-
-      {/* Why Choose Us Section */}
-      <section className="w-full py-20 md:py-28 bg-gradient-to-br from-primary to-primary-600">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center max-w-4xl mx-auto text-white"
-          >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
-              Why Choose Web-Smart.Co?
-            </h2>
-            <p className="text-lg md:text-xl leading-relaxed mb-12 text-white/95">
-              We&apos;re not just a service provider—we&apos;re your technology partner. With over 20 years of
-              IT experience and expertise across web development, digital marketing, AI, and infrastructure,
-              we deliver everything you need under one roof.
-            </p>
-
-            <div className="grid md:grid-cols-3 gap-8 mb-12">
-              <div className="text-center">
-                <div className="text-5xl font-bold mb-2">20+</div>
-                <div className="text-white/90">Years Experience</div>
-              </div>
-              <div className="text-center">
-                <div className="text-5xl font-bold mb-2">200+</div>
-                <div className="text-white/90">Projects Delivered</div>
-              </div>
-              <div className="text-center">
-                <div className="text-5xl font-bold mb-2">4.9/5</div>
-                <div className="text-white/90">Client Satisfaction</div>
-              </div>
-            </div>
-
-            <Button href="/contact" variant="secondary" size="lg" className="group">
-              Start Your Project Today
-              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-            </Button>
-          </motion.div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="w-full px-[10px] pb-[10px]">
@@ -399,15 +389,10 @@ export default function ServicesPage() {
                 <br />
                 Want to learn how we can help your business grow?
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button href="/contact" variant="secondary" size="lg" className="group">
-                  Book a Demo
-                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-                </Button>
-                <Button href="tel:01462544738" variant="outline" size="lg" className="bg-white/10 border-white/30 hover:bg-white/20">
-                  Call 01462 544738
-                </Button>
-              </div>
+              <Button href="/contact" variant="secondary" size="lg" className="group">
+                Book a Demo
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+              </Button>
             </motion.div>
           </div>
         </div>
