@@ -3,43 +3,217 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { ArrowRight, CheckCircle } from 'lucide-react';
+import {
+  ArrowRight,
+  Globe,
+  Search,
+  TrendingUp,
+  MousePointerClick,
+  Video,
+  FileText,
+  Image as ImageIcon,
+  Palette,
+  Laptop,
+  Grid3x3,
+  Sparkles,
+  Wrench,
+  Chrome,
+  Zap,
+  Smartphone,
+  Cloud,
+} from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Header from '@/components/layout/Header';
 
 export default function ServicesPage() {
-  const services = [
+  const serviceCategories = [
     {
-      title: 'Web Design Services',
-      description: 'Professional website design that captures your brand and engages your audience.',
-      features: ['Responsive Design', 'Modern UI/UX', 'Custom Solutions', 'Fast Loading'],
-      price: 'From £500',
-      href: '/services/web-design',
-      image: '/images/services/Web-Design-1225.jpg',
+      category: 'Website Development',
+      icon: Globe,
+      services: [
+        {
+          title: 'Website Development',
+          description: 'Websites built for performance, usability, and long-term reliability. Designed with SEO-ready structure and smooth navigation.',
+          icon: Globe,
+          features: ['Responsive Design', 'SEO-Ready Structure', 'Fast Performance', 'Modern UI/UX'],
+          cta: 'Get Quote',
+          href: '/services/web-design',
+        },
+        {
+          title: 'WordPress Development',
+          description: 'Custom WordPress solutions with themes, plugins, and complete e-commerce functionality.',
+          icon: Grid3x3,
+          features: ['Custom Themes', 'Plugin Development', 'WooCommerce', 'Maintenance'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+        {
+          title: 'React & Next.js Development',
+          description: 'Modern, high-performance web applications built with cutting-edge React and Next.js technology.',
+          icon: Zap,
+          features: ['Single Page Apps', 'Server-Side Rendering', 'API Integration', 'Performance Optimised'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+      ],
     },
     {
-      title: 'SEO Services',
-      description: 'Boost your online visibility and rank higher on search engines.',
-      features: ['Keyword Research', 'On-Page SEO', 'Link Building', 'Monthly Reports'],
-      price: '£1,499',
-      href: '/services/seo',
-      image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
+      category: 'Digital Marketing',
+      icon: TrendingUp,
+      services: [
+        {
+          title: 'Search Engine Optimisation',
+          description: 'Build a strong foundation for search rankings with structured SEO strategies. Optimised content, technical SEO, and on-page improvements.',
+          icon: Search,
+          features: ['Foundation Pack £1,499', 'Technical SEO', 'Content Optimisation', 'Monthly Reports'],
+          cta: 'Foundation Pack Info',
+          href: '/services/seo',
+        },
+        {
+          title: 'Google Ads',
+          description: 'Managed ad campaigns that drive results. Keyword research, audience targeting, and performance tracking to maximise ROI.',
+          icon: MousePointerClick,
+          features: ['Campaign Management', 'Keyword Research', 'ROI Tracking', 'A/B Testing'],
+          cta: 'Get Quote',
+          href: '/services/google-ads',
+        },
+        {
+          title: 'Digital Marketing with AI',
+          description: 'Targeted digital strategies to grow your brand and increase engagement. PPC, social media, and data-driven marketing solutions.',
+          icon: TrendingUp,
+          features: ['PPC Campaigns', 'Social Media', 'Analytics', 'AI-Powered Insights'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+      ],
     },
     {
-      title: 'Content Writing',
-      description: 'Engaging content that speaks to your audience and drives conversions.',
-      features: ['SEO-Optimized', 'Professional Copy', 'AI-Powered', 'Regular Updates'],
-      price: 'Custom',
-      href: '/services/content-writing',
-      image: '/images/services/neve-patterns-21.jpg',
+      category: 'AI-Powered Services',
+      icon: Sparkles,
+      services: [
+        {
+          title: 'AI Video Creation',
+          description: 'Create high-quality AI-generated videos for marketing, branding, or social media. Custom scripts, voiceovers, and engaging visuals.',
+          icon: Video,
+          features: ['Custom Scripts', 'Professional Voiceovers', 'Engaging Visuals', 'Social Media Ready'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+        {
+          title: 'AI Assisted Content',
+          description: 'Human-quality AI-assisted content for blogs, websites, and marketing. Custom-written for clarity, accuracy, and SEO impact.',
+          icon: FileText,
+          features: ['SEO Optimised', 'Blog Posts', 'Website Copy', 'Marketing Materials'],
+          cta: 'Get Quote',
+          href: '/services/content-writing',
+        },
+        {
+          title: 'Image Magic',
+          description: 'Transform ordinary images into stunning, high-quality visuals. Improve quality, remove backgrounds, upscale resolutions, and generate unique imagery.',
+          icon: ImageIcon,
+          features: ['Image Enhancement', 'Background Removal', 'AI Image Generation', 'Upscaling'],
+          cta: 'Get Quote',
+          href: '/ai-images',
+        },
+        {
+          title: 'AI Tools & Automation',
+          description: 'Custom AI tools and automation solutions to streamline your business processes and increase efficiency.',
+          icon: Zap,
+          features: ['Process Automation', 'Custom AI Solutions', 'Integration', 'Efficiency Gains'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+      ],
     },
     {
-      title: 'Google Ads Management',
-      description: 'Strategic Google Ads campaigns that deliver results and maximize ROI.',
-      features: ['Campaign Setup', 'Keyword Strategy', 'Ad Optimization', 'Performance Tracking'],
-      price: 'Custom',
-      href: '/services/google-ads',
-      image: '/images/services/ai-seo-strategy.jpg',
+      category: 'Design & Branding',
+      icon: Palette,
+      services: [
+        {
+          title: 'Branding',
+          description: 'Distinctive branding solutions that reflect your identity. Logos, colour palettes, and design assets tailored to your business.',
+          icon: Palette,
+          features: ['Logo Design', 'Brand Guidelines', 'Colour Palettes', 'Marketing Collateral'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+        {
+          title: 'UX/UI Design',
+          description: 'Modern, user-friendly interface designs that enhance engagement and improve user experience. Designed for web and mobile applications.',
+          icon: Laptop,
+          features: ['User Research', 'Wireframing', 'Prototyping', 'Mobile & Web'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+        {
+          title: 'Content Writing',
+          description: 'Professional content writing tailored to your business. We profile your business to create website copy, blogs, and marketing materials.',
+          icon: FileText,
+          features: ['Website Copy', 'Blog Posts', 'SEO Content', 'Marketing Copy'],
+          cta: 'Get Quote',
+          href: '/services/content-writing',
+        },
+      ],
+    },
+    {
+      category: 'Technology Solutions',
+      icon: Wrench,
+      services: [
+        {
+          title: 'Remote IT Support',
+          description: 'IT specialists with over 20 years in IT support for businesses—desktops, routers, Office 365, Google Workspace—you name it, we can do it.',
+          icon: Cloud,
+          features: ['Desktop Support', 'Network Support', 'Office 365', 'Google Workspace'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+        {
+          title: 'SaaS Products',
+          description: 'Custom Software-as-a-Service solutions tailored to your business needs with scalable cloud infrastructure.',
+          icon: Cloud,
+          features: ['Custom Development', 'Cloud Infrastructure', 'Scalable Solutions', 'Ongoing Support'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+        {
+          title: 'Mobile Applications',
+          description: 'Native and cross-platform mobile applications for iOS and Android with modern features and seamless performance.',
+          icon: Smartphone,
+          features: ['iOS & Android', 'Cross-Platform', 'Modern Features', 'App Store Publishing'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+        {
+          title: 'Chrome Extensions & Tools',
+          description: 'Custom Chrome extensions and browser tools to enhance productivity and automate workflows.',
+          icon: Chrome,
+          features: ['Custom Extensions', 'Browser Automation', 'Productivity Tools', 'Chrome Web Store'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+      ],
+    },
+    {
+      category: 'Hosting & Infrastructure',
+      icon: Cloud,
+      services: [
+        {
+          title: 'Web Hosting',
+          description: 'Fast, reliable, and secure web hosting solutions with 99.9% uptime guarantee and expert support.',
+          icon: Cloud,
+          features: ['99.9% Uptime', 'SSL Certificates', 'Daily Backups', 'Expert Support'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+        {
+          title: 'WordPress Hosting',
+          description: 'Optimised WordPress hosting with automatic updates, security, and performance enhancements.',
+          icon: Grid3x3,
+          features: ['Optimised Performance', 'Auto Updates', 'Security Hardening', 'Expert Support'],
+          cta: 'Get Quote',
+          href: '/contact',
+        },
+      ],
     },
   ];
 
@@ -57,22 +231,24 @@ export default function ServicesPage() {
             alt="Our Services"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black/75"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/75"></div>
         </div>
 
         <div className="relative z-10 w-full py-24 md:py-32 pt-32 md:pt-40">
           <div className="container-custom">
-            <div className="max-w-3xl mx-auto text-center text-white">
+            <div className="max-w-4xl mx-auto text-center text-white">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-black mb-6 leading-tight">
-                  Our Services
+                  Everything Under One Roof
                 </h1>
-                <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/90">
-                  Comprehensive digital marketing and web design solutions
+                <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/95">
+                  Comprehensive digital solutions from website development to AI-powered tools.
+                  <br />
+                  <span className="font-semibold">Hertfordshire • Bedfordshire • London • UK • USA</span>
                 </p>
               </motion.div>
             </div>
@@ -80,56 +256,118 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Services Grid */}
-      <section className="w-full py-20 md:py-28 bg-white">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-            {services.map((service, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="group bg-white border-2 border-gray-200 rounded-xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
-              >
-                <div className="aspect-video overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={service.image}
-                    alt={service.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-8">
-                  <div className="flex items-center justify-between mb-4">
-                    <h3 className="text-2xl font-heading font-bold text-gray-900">
-                      {service.title}
-                    </h3>
-                    <span className="text-primary font-bold text-xl">{service.price}</span>
+      {/* Services Categories */}
+      {serviceCategories.map((category, categoryIndex) => (
+        <section
+          key={categoryIndex}
+          className={`w-full py-16 md:py-20 ${categoryIndex % 2 === 0 ? 'bg-white' : 'bg-gray-50'}`}
+        >
+          <div className="container-custom">
+            {/* Category Header */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="text-center mb-12"
+            >
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-4">
+                <category.icon className="text-primary" size={32} />
+              </div>
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-3">
+                {category.category}
+              </h2>
+              <div className="w-24 h-1 bg-primary mx-auto rounded-full"></div>
+            </motion.div>
+
+            {/* Services Grid */}
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+              {category.services.map((service, serviceIndex) => (
+                <motion.div
+                  key={serviceIndex}
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: serviceIndex * 0.1 }}
+                  className="group bg-white border-2 border-gray-100 rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
+                >
+                  {/* Icon */}
+                  <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                    <service.icon className="text-primary" size={28} />
                   </div>
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+
+                  {/* Title */}
+                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+                    {service.title}
+                  </h3>
+
+                  {/* Description */}
+                  <p className="text-gray-600 mb-6 leading-relaxed text-sm">
                     {service.description}
                   </p>
-                  <ul className="space-y-3 mb-6">
+
+                  {/* Features */}
+                  <ul className="space-y-2 mb-6">
                     {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-center gap-2">
-                        <CheckCircle className="text-accent flex-shrink-0" size={18} />
+                      <li key={idx} className="flex items-start gap-2 text-sm">
+                        <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                         <span className="text-gray-700">{feature}</span>
                       </li>
                     ))}
                   </ul>
+
+                  {/* CTA */}
                   <Link
                     href={service.href}
-                    className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors"
+                    className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors text-sm"
                   >
-                    Learn More
-                    <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
+                    {service.cta}
+                    <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
                   </Link>
-                </div>
-              </motion.div>
-            ))}
+                </motion.div>
+              ))}
+            </div>
           </div>
+        </section>
+      ))}
+
+      {/* Why Choose Us Section */}
+      <section className="w-full py-20 md:py-28 bg-gradient-to-br from-primary to-primary-600">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center max-w-4xl mx-auto text-white"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
+              Why Choose Web-Smart.Co?
+            </h2>
+            <p className="text-lg md:text-xl leading-relaxed mb-12 text-white/95">
+              We&apos;re not just a service provider—we&apos;re your technology partner. With over 20 years of
+              IT experience and expertise across web development, digital marketing, AI, and infrastructure,
+              we deliver everything you need under one roof.
+            </p>
+
+            <div className="grid md:grid-cols-3 gap-8 mb-12">
+              <div className="text-center">
+                <div className="text-5xl font-bold mb-2">20+</div>
+                <div className="text-white/90">Years Experience</div>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl font-bold mb-2">200+</div>
+                <div className="text-white/90">Projects Delivered</div>
+              </div>
+              <div className="text-center">
+                <div className="text-5xl font-bold mb-2">4.9/5</div>
+                <div className="text-white/90">Client Satisfaction</div>
+              </div>
+            </div>
+
+            <Button href="/contact" variant="secondary" size="lg" className="group">
+              Start Your Project Today
+              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+            </Button>
+          </motion.div>
         </div>
       </section>
 
@@ -154,15 +392,22 @@ export default function ServicesPage() {
               className="text-center max-w-3xl mx-auto"
             >
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
-                Ready to Get Started?
+                Ready to Launch?
               </h2>
               <p className="text-lg text-white/95 mb-8">
-                Let&apos;s discuss how we can help your business grow online. Get in touch for a free consultation.
+                Let&apos;s build you a high-impact website that looks great and performs even better.
+                <br />
+                Want to learn how we can help your business grow?
               </p>
-              <Button href="/contact" variant="secondary" size="lg" className="group">
-                Start Your Project Today
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-              </Button>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <Button href="/contact" variant="secondary" size="lg" className="group">
+                  Book a Demo
+                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+                </Button>
+                <Button href="tel:01462544738" variant="outline" size="lg" className="bg-white/10 border-white/30 hover:bg-white/20">
+                  Call 01462 544738
+                </Button>
+              </div>
             </motion.div>
           </div>
         </div>
