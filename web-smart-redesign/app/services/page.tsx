@@ -307,48 +307,45 @@ export default function ServicesPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: serviceIndex * 0.1 }}
-                  className="group bg-white border-2 border-gray-100 rounded-2xl overflow-hidden hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-primary"
+                  className="group bg-white border-2 border-gray-100 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-primary flex flex-col h-full"
                 >
-                  {/* Image */}
-                  <div className="aspect-video overflow-hidden">
-                    {/* eslint-disable-next-line @next/next/no-img-element */}
-                    <img
-                      src={service.image}
-                      alt={service.title}
-                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    />
+                  {/* Image with padding and rounded bottom corners */}
+                  <div className="p-6 pb-0">
+                    <div className="aspect-video overflow-hidden rounded-xl">
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={service.image}
+                        alt={service.title}
+                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      />
+                    </div>
                   </div>
 
-                  <div className="p-8">
-                    {/* Icon */}
-                    <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
-                      <service.icon className="text-primary" size={28} />
-                    </div>
-
+                  <div className="p-8 pt-6 flex flex-col flex-grow">
                     {/* Title */}
                     <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
                       {service.title}
                     </h3>
 
-                  {/* Description */}
-                  <p className="text-gray-600 mb-6 leading-relaxed text-sm">
-                    {service.description}
-                  </p>
+                    {/* Description */}
+                    <p className="text-gray-600 mb-6 leading-relaxed text-sm">
+                      {service.description}
+                    </p>
 
-                  {/* Features */}
-                  <ul className="space-y-2 mb-6">
-                    {service.features.map((feature, idx) => (
-                      <li key={idx} className="flex items-start gap-2 text-sm">
-                        <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
-                        <span className="text-gray-700">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
+                    {/* Features */}
+                    <ul className="space-y-2 mb-6 flex-grow">
+                      {service.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-start gap-2 text-sm">
+                          <div className="w-1.5 h-1.5 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                          <span className="text-gray-700">{feature}</span>
+                        </li>
+                      ))}
+                    </ul>
 
-                    {/* CTA */}
+                    {/* CTA - Aligned to bottom */}
                     <Link
                       href={service.href}
-                      className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors text-sm"
+                      className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors text-sm mt-auto"
                     >
                       {service.cta}
                       <ArrowRight size={16} className="group-hover:translate-x-2 transition-transform" />
