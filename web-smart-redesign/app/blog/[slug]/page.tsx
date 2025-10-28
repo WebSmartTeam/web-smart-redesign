@@ -155,22 +155,34 @@ export default function BlogPostPage() {
 
   const recentPosts = [
     {
-      title: 'Maximising Your Website\'s Potential with Elite WordPress Support',
-      date: 'October 2024',
-      slug: 'maximising-wordpress-support',
-      image: '/images/services/Web-Design-1225.jpg',
-    },
-    {
       title: 'Web Design Essentials for Small Businesses in Aldenham',
       date: 'October 2024',
       slug: 'web-design-essentials-aldenham',
       image: '/images/services/Web-Design-1662.jpg',
     },
     {
+      title: 'Maximising Your Website\'s Potential with Elite WordPress Support',
+      date: 'October 2024',
+      slug: 'maximising-wordpress-support',
+      image: '/images/services/Web-Design-1225.jpg',
+    },
+    {
       title: 'Effective Email Marketing Content Techniques',
       date: 'October 2024',
       slug: 'email-marketing-content-techniques',
       image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
+    },
+    {
+      title: 'Maximising Web Design for Enhanced SEO Performance',
+      date: 'October 2024',
+      slug: 'web-design-seo-performance',
+      image: '/images/portfolio/webdesign-cat-1024x682.jpg',
+    },
+    {
+      title: 'Effective SEO Tactics for WordPress E-Commerce Sites',
+      date: 'October 2024',
+      slug: 'seo-tactics-wordpress-ecommerce',
+      image: '/images/blog/pexels-rdne-7414280-1-scaled.jpg',
     },
   ];
 

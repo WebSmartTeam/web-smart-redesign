@@ -12,15 +12,6 @@ export default function BlogPage() {
 
   const blogPosts = [
     {
-      title: 'Maximising Your Website\'s Potential with Elite WordPress Support',
-      excerpt: 'For businesses aiming to thrive online, ensuring your WordPress website receives top-tier support and maintenance is non-negotiable. To not just survive but excel in the ...',
-      image: '/images/services/Web-Design-1225.jpg',
-      author: 'Pete Gypps',
-      date: 'October 2024',
-      category: 'Web Design',
-      slug: 'maximising-wordpress-support',
-    },
-    {
       title: 'Web Design Essentials for Small Businesses in Aldenham, Hertfordshire',
       excerpt: 'Welcome to the definitive guide on kickstarting your small business\'s online presence with the right web design strategies in Aldenham, Hertfordshire. In today\'s digital age...',
       image: '/images/services/Web-Design-1662.jpg',
@@ -28,6 +19,15 @@ export default function BlogPage() {
       date: 'October 2024',
       category: 'Web Design',
       slug: 'web-design-essentials-aldenham',
+    },
+    {
+      title: 'Maximising Your Website\'s Potential with Elite WordPress Support',
+      excerpt: 'For businesses aiming to thrive online, ensuring your WordPress website receives top-tier support and maintenance is non-negotiable. To not just survive but excel in the ...',
+      image: '/images/services/Web-Design-1225.jpg',
+      author: 'Pete Gypps',
+      date: 'October 2024',
+      category: 'Web Design',
+      slug: 'maximising-wordpress-support',
     },
     {
       title: 'Effective Email Marketing Content Techniques to Boost Engagement',
@@ -39,58 +39,13 @@ export default function BlogPage() {
       slug: 'email-marketing-content-techniques',
     },
     {
-      title: 'Data-Driven Decision Making with WordPress Analytics',
-      excerpt: 'In today\'s competitive online landscape, leveraging data for making informed decisions is not just preferable but indispensable for businesses. Especially when utilising platforms like WordPress, analytics can play a ...',
-      image: '/images/services/ai-seo-strategy.jpg',
-      author: 'Pete Gypps',
-      date: 'October 2024',
-      category: 'SEO',
-      slug: 'wordpress-analytics-data-driven',
-    },
-    {
-      title: 'Maximising Web Presence: Content Repurposing Strategies',
-      excerpt: 'In the realm of web design and development, the efficiency of content utilisation can often determine a site\'s visibility and engagement levels. As a followed...',
-      image: '/images/services/neve-patterns-21.jpg',
-      author: 'Pete Gypps',
-      date: 'October 2024',
-      category: 'Digital Marketing',
-      slug: 'content-repurposing-strategies',
-    },
-    {
-      title: 'Optimising Your WordPress Site for Mobile-First Design',
-      excerpt: 'With the increasing prevalence of smartphones, optimising your WordPress site for mobile-first design is no longer optional. It\'s essential for enhancing user experience, improving search ...',
-      image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
-      author: 'Pete Gypps',
-      date: 'October 2024',
-      category: 'Web Design',
-      slug: 'wordpress-mobile-first-design',
-    },
-    {
-      title: 'Maximising WooCommerce for Advanced E-commerce Success',
-      excerpt: 'In the realm of e-commerce, creating a robust online store that caters to the evolving needs of customers can be a challenging endeavour. Utilising advanced ...',
-      image: '/images/portfolio/branding-website-design.jpg',
-      author: 'Pete Gypps',
-      date: 'October 2024',
-      category: 'Video Optimisation',
-      slug: 'woocommerce-ecommerce-success',
-    },
-    {
       title: 'Maximising Web Design for Enhanced SEO Performance',
       excerpt: 'In today\'s competitive digital landscape, understanding the synergy between web design and SEO is crucial for any business aiming to enhance its online visibility. Incorporating ...',
       image: '/images/portfolio/webdesign-cat-1024x682.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
-      category: 'Web Design',
+      category: 'SEO',
       slug: 'web-design-seo-performance',
-    },
-    {
-      title: 'Maximising WordPress Analytics for Data-Driven Decisions',
-      excerpt: 'Understanding your website\'s data is crucial for making informed decisions that drive growth. WordPress, being one of the most popular content management systems, offers comprehensive ...',
-      image: '/images/portfolio/buzz-website.jpg',
-      author: 'Pete Gypps',
-      date: 'October 2024',
-      category: 'Web Design',
-      slug: 'wordpress-analytics-decisions',
     },
     {
       title: 'Effective SEO Tactics for WordPress E-Commerce Sites',
@@ -103,20 +58,20 @@ export default function BlogPage() {
     },
   ];
 
-  const categories = ['All', 'Digital Marketing', 'Fixed!', 'SEO', 'Uncategorised', 'Video Optimisation', 'Web Design'];
+  const categories = ['All', 'Digital Marketing', 'SEO', 'Web Design'];
 
   const recentPosts = [
-    {
-      title: 'Maximising Your Website\'s Potential with Elite WordPress Support',
-      date: 'October 2024',
-      slug: 'maximising-wordpress-support',
-      image: '/images/services/Web-Design-1225.jpg',
-    },
     {
       title: 'Web Design Essentials for Small Businesses in Aldenham',
       date: 'October 2024',
       slug: 'web-design-essentials-aldenham',
       image: '/images/services/Web-Design-1662.jpg',
+    },
+    {
+      title: 'Maximising Your Website\'s Potential with Elite WordPress Support',
+      date: 'October 2024',
+      slug: 'maximising-wordpress-support',
+      image: '/images/services/Web-Design-1225.jpg',
     },
     {
       title: 'Effective Email Marketing Content Techniques',
@@ -125,16 +80,16 @@ export default function BlogPage() {
       image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
     },
     {
-      title: 'Data-Driven Decision Making with WordPress Analytics',
+      title: 'Maximising Web Design for Enhanced SEO Performance',
       date: 'October 2024',
-      slug: 'wordpress-analytics-data-driven',
-      image: '/images/services/ai-seo-strategy.jpg',
+      slug: 'web-design-seo-performance',
+      image: '/images/portfolio/webdesign-cat-1024x682.jpg',
     },
     {
-      title: 'Maximising Web Presence: Content Repurposing',
+      title: 'Effective SEO Tactics for WordPress E-Commerce Sites',
       date: 'October 2024',
-      slug: 'content-repurposing-strategies',
-      image: '/images/services/neve-patterns-21.jpg',
+      slug: 'seo-tactics-wordpress-ecommerce',
+      image: '/images/blog/pexels-rdne-7414280-1-scaled.jpg',
     },
   ];
 
