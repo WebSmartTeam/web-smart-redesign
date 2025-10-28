@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Target, Users, Award, TrendingUp } from 'lucide-react';
+import { ArrowRight, Target, Users, Award, TrendingUp, Star, Quote } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Header from '@/components/layout/Header';
 
@@ -27,6 +27,37 @@ export default function AboutPage() {
       icon: TrendingUp,
       title: 'Continuous Growth',
       description: 'We stay ahead of digital trends and technologies to provide cutting-edge solutions for your business.',
+    },
+  ];
+
+  const testimonials = [
+    {
+      name: 'Sarah Thompson',
+      business: 'Thompson & Associates',
+      location: 'Hitchin',
+      rating: 5,
+      text: 'Web-Smart transformed our online presence completely. The SEO Foundation Pack delivered results within 3 months—we\'re now ranking on page 1 for our key terms.',
+    },
+    {
+      name: 'James Miller',
+      business: 'Miller Property Services',
+      location: 'Stevenage',
+      rating: 5,
+      text: 'Outstanding service from start to finish. Our new WordPress website is beautiful, fast, and easy to manage. Highly recommend Web-Smart to any business in Hertfordshire.',
+    },
+    {
+      name: 'Emma Clarke',
+      business: 'Clarke\'s Boutique',
+      location: 'Letchworth',
+      rating: 5,
+      text: 'We needed an e-commerce solution that could grow with our business. Web-Smart delivered exactly that. Sales have increased by 40% since launch.',
+    },
+    {
+      name: 'David Richards',
+      business: 'Richards Accounting',
+      location: 'Baldock',
+      rating: 5,
+      text: 'Professional, knowledgeable, and always willing to go the extra mile. The SEO improvements have brought us consistent new enquiries every week.',
     },
   ];
 
@@ -201,6 +232,68 @@ export default function AboutPage() {
               </div>
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      {/* Testimonials Section */}
+      <section className="w-full py-20 md:py-28 bg-white">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-4">
+              What Our Clients Say
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Don&apos;t just take our word for it—hear from businesses we&apos;ve helped across Hertfordshire
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+            {testimonials.map((testimonial, index) => (
+              <motion.div
+                key={index}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: index * 0.1 }}
+                className="bg-white rounded-2xl p-8 border-2 border-gray-100 hover:border-primary transition-all duration-300 shadow-sm hover:shadow-xl"
+              >
+                {/* Quote Icon */}
+                <div className="w-12 h-12 bg-secondary rounded-full flex items-center justify-center mb-4">
+                  <Quote className="text-primary" size={24} />
+                </div>
+
+                {/* Rating Stars */}
+                <div className="flex gap-1 mb-4">
+                  {[...Array(testimonial.rating)].map((_, i) => (
+                    <Star key={i} size={16} className="fill-primary text-primary" />
+                  ))}
+                </div>
+
+                {/* Testimonial Text */}
+                <p className="text-gray-700 leading-relaxed mb-6 italic">
+                  &quot;{testimonial.text}&quot;
+                </p>
+
+                {/* Client Info */}
+                <div className="border-t border-gray-100 pt-4">
+                  <p className="font-heading font-bold text-gray-900">
+                    {testimonial.name}
+                  </p>
+                  <p className="text-sm text-gray-600">
+                    {testimonial.business}
+                  </p>
+                  <p className="text-xs text-primary font-medium mt-1">
+                    {testimonial.location}, Hertfordshire
+                  </p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
         </div>
       </section>
 
