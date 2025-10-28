@@ -19,17 +19,6 @@ const LogoSlider = () => {
 
   return (
     <section className="w-full py-16 bg-gradient-to-br from-secondary to-white overflow-hidden">
-      <div className="container-custom mb-8">
-        <div className="text-center">
-          <h2 className="text-2xl md:text-3xl font-heading font-bold text-gray-900 mb-2">
-            Trusted AI & Technology Partners
-          </h2>
-          <p className="text-gray-600">
-            Leveraging cutting-edge technology to deliver exceptional results
-          </p>
-        </div>
-      </div>
-
       <div className="relative w-full">
         {/* Logo Slider Track */}
         <motion.div
