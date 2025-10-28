@@ -51,7 +51,7 @@ export default function AboutPage() {
             alt="About Web-Smart.Co"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-br from-primary/90 to-primary-600/90"></div>
+          <div className="absolute inset-0 bg-black/75"></div>
         </div>
 
         <div className="relative z-10 w-full py-24 md:py-32 pt-32 md:pt-40">
