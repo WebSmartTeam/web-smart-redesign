@@ -18,13 +18,13 @@ const LogoSlider = () => {
   const duplicatedLogos = [...logos, ...logos];
 
   return (
-    <section className="w-full py-16 bg-gradient-to-br from-secondary to-white overflow-hidden">
+    <section className="w-full py-8 bg-gradient-to-br from-secondary to-white overflow-hidden">
       <div className="relative w-full">
         {/* Logo Slider Track */}
         <motion.div
           className="flex gap-12 md:gap-16"
           animate={{
-            x: [0, -50 * logos.length + '%'],
+            x: ['-50%', '0%'],
           }}
           transition={{
             x: {
