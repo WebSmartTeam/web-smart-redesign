@@ -289,9 +289,6 @@ export default function ServicesPage() {
               viewport={{ once: true }}
               className="text-center mb-12"
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-primary/10 rounded-2xl mb-4">
-                <category.icon className="text-primary" size={32} />
-              </div>
               <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-3">
                 {category.category}
               </h2>
