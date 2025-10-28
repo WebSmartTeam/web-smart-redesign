@@ -232,7 +232,7 @@ export default function HomePage() {
             ))}
 
             {/* AI Works Card - 5th Card - Spans 2 columns on large screens */}
-            <Link href="/ai-works" className="lg:col-span-2">
+            <Link href="/ai-projects" className="lg:col-span-2">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
