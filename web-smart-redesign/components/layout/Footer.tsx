@@ -41,17 +41,17 @@ const Footer = () => {
                   className="w-full h-full object-contain"
                 />
               </div>
-              <span className="text-xl font-heading font-bold text-white">
-                Web-Smart.Co
-              </span>
             </Link>
+            <p className="text-sm leading-relaxed mb-6">
+              Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+            </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
                   href={social.href}
                   aria-label={social.label}
-                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary transition-colors duration-200"
+                  className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-white hover:text-gray-900 transition-colors duration-200"
                 >
                   <social.icon size={18} />
                 </a>
@@ -163,7 +163,7 @@ const Footer = () => {
                   href="https://aidan.systems"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-primary hover:text-primary-400 font-semibold transition-colors"
+                  className="text-primary hover:text-white font-semibold transition-colors"
                 >
                   AiDan.Systems
                 </a>
