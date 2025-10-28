@@ -113,33 +113,16 @@ export default function PortfolioPage() {
                   </div>
                 </div>
 
-                <div className="p-8 pt-6 flex flex-col flex-grow">
-                  {/* Category */}
-                  <p className="text-xs font-semibold text-primary mb-3 uppercase tracking-wide">
+                <div className="p-6 pt-4 flex flex-col flex-grow">
+                  {/* Category Badge */}
+                  <span className="inline-block px-3 py-1 bg-secondary text-primary text-xs font-semibold rounded-full mb-3 self-start uppercase tracking-wide">
                     {project.category}
-                  </p>
+                  </span>
 
                   {/* Title */}
-                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-3">
+                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-4 flex-grow">
                     {project.title}
                   </h3>
-
-                  {/* Description */}
-                  <p className="text-gray-600 mb-4 leading-relaxed text-sm flex-grow">
-                    {project.description}
-                  </p>
-
-                  {/* Tags */}
-                  <div className="flex flex-wrap gap-2 mb-4">
-                    {project.tags.slice(0, 3).map((tag, idx) => (
-                      <span
-                        key={idx}
-                        className="px-2 py-1 bg-secondary text-primary text-xs font-medium rounded-full"
-                      >
-                        {tag}
-                      </span>
-                    ))}
-                  </div>
 
                   {/* CTA - Aligned to bottom */}
                   <a
