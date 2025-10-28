@@ -304,7 +304,7 @@ export default function ServicesPage() {
                   whileInView={{ opacity: 1, y: 0 }}
                   viewport={{ once: true }}
                   transition={{ delay: serviceIndex * 0.1 }}
-                  className="group bg-white border-2 border-gray-100 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 hover:border-primary flex flex-col h-full"
+                  className="group bg-white border-2 border-gray-100 rounded-2xl hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 flex flex-col h-full"
                 >
                   {/* Image with padding and rounded bottom corners */}
                   <div className="p-6 pb-0">
