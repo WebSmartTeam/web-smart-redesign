@@ -261,44 +261,6 @@ export default function ContactPage() {
           </div>
         </div>
       </section>
-
-      {/* CTA Section */}
-      <section className="w-full px-[10px] pb-[10px]">
-        <div className="relative w-full py-20 md:py-28 text-white overflow-hidden rounded-3xl">
-          <div className="absolute inset-0 z-0 rounded-3xl overflow-hidden">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img
-              src="/images/services/Web-Design-1662.jpg"
-              alt="Start Your Project"
-              className="w-full h-full object-cover"
-            />
-            <div className="absolute inset-0 bg-black/75"></div>
-          </div>
-
-          <div className="relative z-10 container-custom">
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              className="text-center max-w-3xl mx-auto"
-            >
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold mb-6">
-                Prefer to Call?
-              </h2>
-              <p className="text-lg text-white/95 mb-8">
-                Speak directly with our team for immediate assistance.
-              </p>
-              <a
-                href="tel:01462544738"
-                className="inline-flex items-center gap-3 bg-secondary hover:bg-secondary/90 text-primary font-semibold py-4 px-8 rounded-lg transition-all duration-300"
-              >
-                <Phone size={20} />
-                <span>01462 544738</span>
-              </a>
-            </motion.div>
-          </div>
-        </div>
-      </section>
     </>
   );
 }
