@@ -857,32 +857,93 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Website Creation Hub CTA - with 20px padding */}
-      <section className="w-full px-[20px] pb-[20px]">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="relative w-full py-16 md:py-20 text-white overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary-600"
-        >
-          <div className="relative z-10 container-custom text-center max-w-4xl mx-auto">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black mb-6">
-              Ready to Launch Your Website?
-            </h2>
-            <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
-              From concept to launch in weeks, not months. Beautiful design meets powerful performance.
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button href="/contact" variant="secondary" size="lg" className="group">
-                Start Your Project
-                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-              </Button>
-              <Button href="/portfolio" variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10 hover:border-white/50">
-                View Our Work
-              </Button>
+      {/* Website Creation Hub CTA - Interactive with 20px padding */}
+      <section className="w-full bg-white">
+        <div className="px-5 pb-5">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="relative w-full py-12 md:py-16 text-white overflow-hidden rounded-3xl bg-gradient-to-br from-primary to-primary-600 group"
+          >
+            {/* Interactive animated background blobs */}
+            <div className="absolute inset-0 opacity-20 pointer-events-none">
+              <div className="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-2xl animate-pulse"></div>
+              <div className="absolute bottom-10 right-10 w-40 h-40 bg-white rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }}></div>
+              <div className="absolute top-1/2 left-1/3 w-24 h-24 bg-white rounded-full blur-xl animate-pulse" style={{ animationDelay: '0.5s' }}></div>
             </div>
-          </div>
-        </motion.div>
+
+            <div className="relative z-10 container-custom">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                {/* Left: Text Content */}
+                <motion.div
+                  initial={{ opacity: 0, x: -20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.2 }}
+                >
+                  <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black mb-4 leading-tight">
+                    Ready to Launch Your Website?
+                  </h2>
+                  <p className="text-lg md:text-xl text-white/90 mb-6 leading-relaxed">
+                    From concept to launch in weeks, not months. Beautiful design meets powerful performance.
+                  </p>
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <Button href="/contact" variant="secondary" size="lg" className="group/btn">
+                      Start Your Project
+                      <ArrowRight className="ml-2 group-hover/btn:translate-x-1 transition-transform" size={20} />
+                    </Button>
+                    <Button href="/portfolio" variant="outline" size="lg" className="border-white/30 text-white hover:bg-white/10 hover:border-white/50">
+                      View Our Work
+                    </Button>
+                  </div>
+                </motion.div>
+
+                {/* Right: Interactive Stats Grid */}
+                <motion.div
+                  initial={{ opacity: 0, x: 20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.3 }}
+                  className="grid grid-cols-2 gap-4"
+                >
+                  <motion.div
+                    whileHover={{ scale: 1.05, y: -5 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                    className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 cursor-default hover:bg-white/20 transition-colors"
+                  >
+                    <div className="text-4xl font-black text-white mb-2">30+</div>
+                    <div className="text-sm text-white/80">Projects</div>
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.05, y: -5 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                    className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 cursor-default hover:bg-white/20 transition-colors"
+                  >
+                    <div className="text-4xl font-black text-white mb-2">2-4</div>
+                    <div className="text-sm text-white/80">Weeks</div>
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.05, y: -5 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                    className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 cursor-default hover:bg-white/20 transition-colors"
+                  >
+                    <div className="text-4xl font-black text-white mb-2">4.9</div>
+                    <div className="text-sm text-white/80">Rating</div>
+                  </motion.div>
+                  <motion.div
+                    whileHover={{ scale: 1.05, y: -5 }}
+                    transition={{ type: "spring", stiffness: 300 }}
+                    className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 cursor-default hover:bg-white/20 transition-colors"
+                  >
+                    <div className="text-4xl font-black text-white mb-2">10+</div>
+                    <div className="text-sm text-white/80">Years</div>
+                  </motion.div>
+                </motion.div>
+              </div>
+            </div>
+          </motion.div>
+        </div>
       </section>
 
       {/* Final CTA Section */}
