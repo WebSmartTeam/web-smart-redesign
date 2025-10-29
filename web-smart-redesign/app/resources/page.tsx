@@ -287,16 +287,10 @@ export default function ResourcesPage() {
               <p className="text-lg text-white/95 mb-8">
                 While these resources are valuable, nothing beats professional expertise. Let our team help you create a stunning, high-performing website.
               </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Button href="/contact" variant="secondary" size="lg" className="group">
-                  Get In Touch
-                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-                </Button>
-                <Button href="/services/web-design" variant="outline" size="lg" className="group">
-                  View Our Services
-                  <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-                </Button>
-              </div>
+              <Button href="/contact" variant="secondary" size="lg" className="group">
+                Get In Touch
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+              </Button>
             </motion.div>
           </div>
         </div>
