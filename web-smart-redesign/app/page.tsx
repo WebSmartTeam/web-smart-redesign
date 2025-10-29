@@ -809,33 +809,30 @@ export default function HomePage() {
         <div className="w-full">
           <WorldMap
             dots={[
-              // UK to London
+              // Hertfordshire/Bedfordshire to London (35 miles)
               {
                 start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
                 end: { lat: 51.5074, lng: -0.1278, label: "London" },
               },
-              // Europe
+              // To Birmingham (Midlands - 80 miles northwest)
               {
                 start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                end: { lat: 48.8566, lng: 2.3522, label: "Paris" },
+                end: { lat: 52.4862, lng: -1.8904, label: "Birmingham" },
               },
-              // North America
+              // To Manchester (North England - 170 miles)
+              {
+                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                end: { lat: 53.4808, lng: -2.2426, label: "Manchester" },
+              },
+              // USA East Coast
               {
                 start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
                 end: { lat: 40.7128, lng: -74.0060, label: "New York" },
               },
+              // USA West Coast
               {
                 start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
                 end: { lat: 34.0522, lng: -118.2437, label: "Los Angeles" },
-              },
-              // Asia Pacific
-              {
-                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                end: { lat: 25.2048, lng: 55.2708, label: "Dubai" },
-              },
-              {
-                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                end: { lat: 1.3521, lng: 103.8198, label: "Singapore" },
               },
             ]}
             lineColor="#672F8F"
