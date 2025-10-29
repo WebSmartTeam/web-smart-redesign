@@ -200,11 +200,12 @@ export default function ResourcesPage() {
 
                   <a
                     href={resource.downloadUrl}
-                    download
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors group"
                   >
                     <Download size={20} />
-                    Download Free PDF
+                    View & Download PDF
                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                   </a>
                 </motion.div>
