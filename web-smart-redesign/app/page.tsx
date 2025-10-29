@@ -768,6 +768,95 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Free Resources Section */}
+      <section className="w-full py-20 md:py-28 bg-white">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Text Column */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <div className="flex items-center gap-3 mb-4">
+                <Download className="text-primary" size={40} />
+                <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900">
+                  Free Resources
+                </h2>
+              </div>
+              <p className="text-lg text-gray-600 mb-6 leading-relaxed">
+                Download our professional guides, templates, and checklists to help your business succeed online. All completely free!
+              </p>
+              <div className="space-y-4 mb-8">
+                <div className="flex items-start gap-3">
+                  <CheckCircle className="text-primary mt-1 flex-shrink-0" size={20} />
+                  <div>
+                    <h3 className="font-bold text-gray-900">Website Launch Checklist</h3>
+                    <p className="text-sm text-gray-600">50-point checklist for perfect launches</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <CheckCircle className="text-primary mt-1 flex-shrink-0" size={20} />
+                  <div>
+                    <h3 className="font-bold text-gray-900">SEO Audit Template</h3>
+                    <p className="text-sm text-gray-600">Professional SEO analysis template</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <CheckCircle className="text-primary mt-1 flex-shrink-0" size={20} />
+                  <div>
+                    <h3 className="font-bold text-gray-900">Web Design Style Guide</h3>
+                    <p className="text-sm text-gray-600">Create consistent brand identity</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <CheckCircle className="text-primary mt-1 flex-shrink-0" size={20} />
+                  <div>
+                    <h3 className="font-bold text-gray-900">+ 5 More Resources</h3>
+                    <p className="text-sm text-gray-600">Content planner, analytics guide, and more</p>
+                  </div>
+                </div>
+              </div>
+              <Button href="/resources" variant="primary" size="lg" className="group">
+                Get Free Resources
+                <Download className="ml-2 group-hover:translate-y-1 transition-transform" size={20} />
+              </Button>
+            </motion.div>
+
+            {/* Image Column */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="relative"
+            >
+              <div className="grid grid-cols-2 gap-4">
+                <div className="bg-gradient-to-br from-primary to-primary-600 rounded-2xl p-6 text-white">
+                  <FileText size={40} className="mb-3" />
+                  <h3 className="font-bold text-xl mb-2">8 Guides</h3>
+                  <p className="text-sm text-white/80">Professional templates</p>
+                </div>
+                <div className="bg-gradient-to-br from-secondary to-white border-2 border-gray-100 rounded-2xl p-6">
+                  <Lightbulb size={40} className="text-primary mb-3" />
+                  <h3 className="font-bold text-xl mb-2 text-gray-900">6 Tools</h3>
+                  <p className="text-sm text-gray-600">Recommended resources</p>
+                </div>
+                <div className="bg-gradient-to-br from-accent/10 to-accent/5 border-2 border-accent/20 rounded-2xl p-6">
+                  <TrendingUp size={40} className="text-accent mb-3" />
+                  <h3 className="font-bold text-xl mb-2 text-gray-900">100% Free</h3>
+                  <p className="text-sm text-gray-600">No hidden costs</p>
+                </div>
+                <div className="bg-gradient-to-br from-blue-50 to-blue-100 border-2 border-blue-200 rounded-2xl p-6">
+                  <Sparkles size={40} className="text-blue-600 mb-3" />
+                  <h3 className="font-bold text-xl mb-2 text-gray-900">Instant Access</h3>
+                  <p className="text-sm text-gray-600">Download immediately</p>
+                </div>
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
       {/* Final CTA Section */}
       <section className="w-full px-[10px] pb-[10px]">
         <div className="relative w-full section-padding text-white overflow-hidden rounded-3xl">
