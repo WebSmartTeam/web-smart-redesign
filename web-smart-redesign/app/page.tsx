@@ -140,25 +140,98 @@ export default function HomePage() {
       {/* Logo Slider - AI & Technology Partners */}
       <LogoSlider />
 
-      {/* Intro Section - We Don't Just Make Websites */}
-      <section className="w-full bg-secondary py-16 md:py-20">
+      {/* Interactive Website Creation CTA */}
+      <section className="w-full bg-white py-16 md:py-20">
         <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="max-w-3xl mx-auto text-center"
-          >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
-              We Don&apos;t Just Make Websites<br />We Make Them Work
-            </h2>
-            <p className="text-lg md:text-xl text-gray-600 leading-relaxed mb-8">
-              Combining beautiful design with effective SEO strategy to drive traffic and attract quality leads to your business.
-            </p>
-            <Button href="/portfolio" variant="primary" size="lg">
-              See What We Can Build For You
-            </Button>
-          </motion.div>
+          <div className="max-w-5xl mx-auto">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="relative bg-gradient-to-br from-primary via-primary-600 to-primary rounded-3xl p-8 md:p-12 overflow-hidden group"
+            >
+              {/* Animated background pattern */}
+              <div className="absolute inset-0 opacity-10">
+                <div className="absolute top-0 left-0 w-64 h-64 bg-white rounded-full blur-3xl transform -translate-x-1/2 -translate-y-1/2 group-hover:scale-150 transition-transform duration-1000"></div>
+                <div className="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full blur-3xl transform translate-x-1/3 translate-y-1/3 group-hover:scale-150 transition-transform duration-1000"></div>
+              </div>
+
+              <div className="relative z-10 grid md:grid-cols-[1.5fr,1fr] gap-8 items-center">
+                {/* Left: Text Content */}
+                <div className="text-white">
+                  <motion.h2
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.1 }}
+                    className="text-3xl md:text-4xl lg:text-5xl font-heading font-black mb-4 leading-tight"
+                  >
+                    Ready to Launch Your Website?
+                  </motion.h2>
+                  <motion.p
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.2 }}
+                    className="text-lg md:text-xl text-white/90 mb-6 leading-relaxed"
+                  >
+                    From concept to launch in weeks, not months. Beautiful design meets powerful performance.
+                  </motion.p>
+                  <motion.div
+                    initial={{ opacity: 0, x: -20 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: 0.3 }}
+                    className="flex flex-col sm:flex-row gap-4"
+                  >
+                    <Button
+                      href="/contact"
+                      variant="secondary"
+                      size="lg"
+                      className="group/btn"
+                    >
+                      Start Your Project
+                      <ArrowRight className="ml-2 group-hover/btn:translate-x-1 transition-transform" size={20} />
+                    </Button>
+                    <Button
+                      href="/portfolio"
+                      variant="outline"
+                      size="lg"
+                      className="border-white/30 text-white hover:bg-white/10 hover:border-white/50"
+                    >
+                      View Our Work
+                    </Button>
+                  </motion.div>
+                </div>
+
+                {/* Right: Quick Stats */}
+                <motion.div
+                  initial={{ opacity: 0, x: 20 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.2 }}
+                  className="grid grid-cols-2 gap-4"
+                >
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 hover:bg-white/20 transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-default">
+                    <div className="text-4xl font-black text-white mb-2">30+</div>
+                    <div className="text-sm text-white/80">Projects Delivered</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 hover:bg-white/20 transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-default">
+                    <div className="text-4xl font-black text-white mb-2">2-4</div>
+                    <div className="text-sm text-white/80">Weeks Timeline</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 hover:bg-white/20 transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-default">
+                    <div className="text-4xl font-black text-white mb-2">4.9</div>
+                    <div className="text-sm text-white/80">Google Rating</div>
+                  </div>
+                  <div className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 hover:bg-white/20 transition-all duration-300 hover:scale-105 hover:shadow-2xl cursor-default">
+                    <div className="text-4xl font-black text-white mb-2">10+</div>
+                    <div className="text-sm text-white/80">Years Experience</div>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
