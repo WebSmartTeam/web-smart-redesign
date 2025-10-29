@@ -233,7 +233,7 @@ export default function AIProjectsPage() {
             alt="AI-Powered Projects"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/75"></div>
+          <div className="absolute inset-0 bg-black/75"></div>
         </div>
 
         <div className="relative z-10 w-full py-24 md:py-32 pt-32 md:pt-40">
@@ -244,12 +244,9 @@ export default function AIProjectsPage() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <div className="flex items-center justify-center gap-3 mb-6">
-                  <Sparkles className="text-white" size={40} />
-                  <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-black leading-tight">
-                    AI-Powered Projects
-                  </h1>
-                </div>
+                <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-black leading-tight mb-6">
+                  AI-Powered Projects
+                </h1>
                 <p className="text-xl md:text-2xl mb-8 leading-relaxed font-light text-white/90">
                   25+ websites created using cutting-edge AI technology
                 </p>
