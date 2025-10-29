@@ -28,7 +28,7 @@ export default function LocationMap({ className = '' }: LocationMapProps) {
 
   useEffect(() => {
     // Fix for Leaflet in Next.js SSR
-    delete (L.Icon.Default.prototype as any)._getIconUrl;
+    delete (L.Icon.Default.prototype as unknown as Record<string, unknown>)._getIconUrl;
   }, []);
 
   return (
