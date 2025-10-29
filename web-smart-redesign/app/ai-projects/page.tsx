@@ -334,8 +334,58 @@ export default function AIProjectsPage() {
         </div>
       </section>
 
-      {/* Projects Grid */}
+      {/* AI Services Demo Video Section */}
       <section className="w-full py-20 md:py-28 bg-white">
+        <div className="container-custom">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            {/* Video Column */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="relative"
+            >
+              <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                <video
+                  controls
+                  autoPlay
+                  muted
+                  loop
+                  playsInline
+                  className="w-full h-auto rounded-2xl"
+                  poster="/images/services/ai-seo-strategy.jpg"
+                >
+                  <source src="/videos/ai-services-demo.mp4" type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+              </div>
+            </motion.div>
+
+            {/* Text Column */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-3xl md:text-4xl font-heading font-bold text-gray-900 mb-6">
+                See Our AI-Powered Solutions in Action
+              </h2>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+                Watch how we leverage cutting-edge artificial intelligence to create stunning, high-performance websites for businesses across Hertfordshire and beyond.
+              </p>
+              <p className="text-gray-600 mb-4 leading-relaxed">
+                Our AI-powered approach combines the best of machine learning, automated design systems, and intelligent content generation to deliver exceptional results in record time.
+              </p>
+              <p className="text-gray-600 leading-relaxed">
+                From initial concept to final deployment, see how our AI technology transforms ideas into professional, conversion-optimized websites that help businesses grow online.
+              </p>
+            </motion.div>
+          </div>
+        </div>
+      </section>
+
+      {/* Projects Grid */}
+      <section className="w-full py-20 md:py-28 bg-gradient-to-br from-secondary to-white">
         <div className="container-custom">
           {/* Section Header */}
           <motion.div
