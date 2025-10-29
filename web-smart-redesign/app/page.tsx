@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
+import dynamic from 'next/dynamic';
 import {
   ArrowRight,
   CheckCircle,
@@ -13,7 +14,11 @@ import {
   Palette,
   FileText,
   TrendingUp,
-  Lightbulb
+  Lightbulb,
+  MapPin,
+  Phone,
+  Mail,
+  Clock
 } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Header from '@/components/layout/Header';
@@ -23,6 +28,16 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+
+// Dynamic import for LocationMap to avoid SSR issues with Leaflet
+const LocationMap = dynamic(() => import('@/components/ui/LocationMap'), {
+  ssr: false,
+  loading: () => (
+    <div className="w-full h-[400px] bg-gray-200 rounded-2xl animate-pulse flex items-center justify-center">
+      <span className="text-gray-500">Loading map...</span>
+    </div>
+  ),
+});
 
 export default function HomePage() {
   const testimonials = [
@@ -764,6 +779,136 @@ export default function HomePage() {
                 </SwiperSlide>
               ))}
             </Swiper>
+          </div>
+        </div>
+      </section>
+
+      {/* Location Section */}
+      <section className="w-full py-20 md:py-28 bg-white">
+        <div className="container-custom">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-center mb-16"
+          >
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
+              Visit Our Hertfordshire Office
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Based in Hitchin, Hertfordshire, we&apos;re perfectly positioned to serve businesses across the region
+            </p>
+          </motion.div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            {/* Map Column */}
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="order-2 md:order-1"
+            >
+              <LocationMap className="h-[450px] w-full" />
+            </motion.div>
+
+            {/* Contact Information Column */}
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="order-1 md:order-2 space-y-6"
+            >
+              <div className="bg-gradient-to-br from-secondary to-white rounded-2xl p-8 border-2 border-gray-100">
+                <h3 className="text-2xl font-heading font-bold text-gray-900 mb-6">Get In Touch</h3>
+
+                <div className="space-y-6">
+                  {/* Address */}
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                      <MapPin className="text-white" size={24} />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Address</h4>
+                      <p className="text-gray-600 leading-relaxed">
+                        52 Walsworth Rd<br />
+                        Hitchin, Hertfordshire<br />
+                        SG4 9SX, United Kingdom
+                      </p>
+                      <a
+                        href="https://www.google.com/maps/dir/?api=1&destination=52+Walsworth+Rd,+Hitchin,+Hertfordshire+SG4+9SX,+UK"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-primary hover:underline text-sm font-medium inline-flex items-center gap-1 mt-2"
+                      >
+                        Get Directions <ArrowRight size={14} />
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Phone */}
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Phone className="text-white" size={24} />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Phone</h4>
+                      <a
+                        href="tel:01462544738"
+                        className="text-gray-600 hover:text-primary transition-colors"
+                      >
+                        01462 544738
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Email */}
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Mail className="text-white" size={24} />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Email</h4>
+                      <a
+                        href="mailto:enquiries@web-smart.co"
+                        className="text-gray-600 hover:text-primary transition-colors"
+                      >
+                        enquiries@web-smart.co
+                      </a>
+                    </div>
+                  </div>
+
+                  {/* Hours */}
+                  <div className="flex items-start gap-4">
+                    <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
+                      <Clock className="text-white" size={24} />
+                    </div>
+                    <div>
+                      <h4 className="font-bold text-gray-900 mb-1">Business Hours</h4>
+                      <p className="text-gray-600">
+                        Monday - Friday<br />
+                        09:00 - 18:00
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* CTA Button */}
+                <div className="mt-8 pt-8 border-t-2 border-gray-200">
+                  <Button href="/contact" variant="primary" size="lg" className="w-full group">
+                    Contact Us Today
+                    <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+                  </Button>
+                </div>
+              </div>
+
+              {/* Service Areas Card */}
+              <div className="bg-white rounded-2xl p-6 border-2 border-gray-100 shadow-md">
+                <h4 className="font-bold text-gray-900 mb-3">Service Areas</h4>
+                <p className="text-gray-600 text-sm leading-relaxed">
+                  We proudly serve businesses throughout <strong>Hitchin</strong>, <strong>Stevenage</strong>, <strong>Letchworth</strong>, <strong>Baldock</strong>, and the wider <strong>Hertfordshire</strong> area.
+                </p>
+              </div>
+            </motion.div>
           </div>
         </div>
       </section>
