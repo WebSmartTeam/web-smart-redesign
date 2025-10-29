@@ -185,25 +185,25 @@ export default function HomePage() {
                 title: 'Custom Web Design',
                 image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
                 category: 'Web Design',
-                link: '/services/web-design',
+                link: '/services',
               },
               {
                 title: 'Mobile Applications',
                 image: '/images/services/neve-patterns-20.jpg',
                 category: 'Mobile Apps',
-                link: '/services/web-design',
+                link: '/services',
               },
               {
                 title: 'SaaS Platforms',
                 image: '/images/services/website-multidevice-resize.png',
                 category: 'Platforms',
-                link: '/services/web-design',
+                link: '/services',
               },
               {
                 title: 'Design & Branding',
                 image: '/images/portfolio/branding-website-design.jpg',
                 category: 'Branding',
-                link: '/services/content-writing',
+                link: '/services',
               },
             ].map((project, index) => (
               <Link key={index} href={project.link}>
