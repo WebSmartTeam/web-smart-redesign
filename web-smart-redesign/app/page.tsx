@@ -793,10 +793,10 @@ export default function HomePage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
-              Visit Our Hertfordshire Office
+              Our Global Presence
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Based in Hitchin, Hertfordshire, we&apos;re perfectly positioned to serve businesses across the region
+              Serving businesses worldwide from our UK headquarters, with a growing international presence across the United Kingdom and United States
             </p>
           </motion.div>
 
@@ -810,6 +810,7 @@ export default function HomePage() {
             >
               <WorldMap
                 dots={[
+                  // UK Locations
                   {
                     start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
                     end: { lat: 51.9024, lng: -0.2023, label: "Stevenage" },
@@ -825,6 +826,15 @@ export default function HomePage() {
                   {
                     start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
                     end: { lat: 51.8787, lng: -0.4200, label: "Luton" },
+                  },
+                  // USA Locations
+                  {
+                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                    end: { lat: 40.7128, lng: -74.0060, label: "New York" },
+                  },
+                  {
+                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                    end: { lat: 34.0522, lng: -118.2437, label: "Los Angeles" },
                   },
                 ]}
                 lineColor="#672F8F"
@@ -842,7 +852,8 @@ export default function HomePage() {
               className="order-1 md:order-2 space-y-6"
             >
               <div className="bg-gradient-to-br from-secondary to-white rounded-2xl p-8 border-2 border-gray-100">
-                <h3 className="text-2xl font-heading font-bold text-gray-900 mb-6">Get In Touch</h3>
+                <h3 className="text-2xl font-heading font-bold text-gray-900 mb-2">UK Headquarters</h3>
+                <p className="text-sm text-gray-600 mb-6">Serving clients worldwide from Hertfordshire</p>
 
                 <div className="space-y-6">
                   {/* Address */}
@@ -924,12 +935,29 @@ export default function HomePage() {
                 </div>
               </div>
 
-              {/* Service Areas Card */}
-              <div className="bg-white rounded-2xl p-6 border-2 border-gray-100 shadow-md">
-                <h4 className="font-bold text-gray-900 mb-3">Service Areas</h4>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  We proudly serve businesses throughout <strong>Hitchin</strong>, <strong>Stevenage</strong>, <strong>Letchworth</strong>, <strong>Baldock</strong>, and the wider <strong>Hertfordshire</strong> area.
-                </p>
+              {/* Global Presence Card */}
+              <div className="bg-gradient-to-br from-primary/5 to-secondary rounded-2xl p-6 border-2 border-primary/10 shadow-md">
+                <h4 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                  <Globe className="text-primary" size={20} />
+                  Global Presence
+                </h4>
+                <div className="space-y-2 text-sm">
+                  <p className="text-gray-700 font-semibold">
+                    🇬🇧 United Kingdom
+                  </p>
+                  <p className="text-gray-600 text-xs pl-6">
+                    Hertfordshire · Bedfordshire · London · Nationwide
+                  </p>
+                  <p className="text-gray-700 font-semibold mt-3">
+                    🇺🇸 United States
+                  </p>
+                  <p className="text-gray-600 text-xs pl-6">
+                    New York · Los Angeles · Nationwide
+                  </p>
+                  <p className="text-gray-500 text-xs mt-4 pt-4 border-t border-gray-200">
+                    Serving clients worldwide with local expertise and global reach
+                  </p>
+                </div>
               </div>
             </motion.div>
           </div>
