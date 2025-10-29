@@ -14,11 +14,7 @@ import {
   Palette,
   FileText,
   TrendingUp,
-  Lightbulb,
-  MapPin,
-  Phone,
-  Mail,
-  Clock
+  Lightbulb
 } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import Header from '@/components/layout/Header';
