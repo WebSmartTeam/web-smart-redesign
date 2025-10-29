@@ -803,6 +803,10 @@ export default function HomePage() {
               collaboration across continents, bringing the world to your workspace.
             </motion.p>
           </div>
+        </div>
+
+        {/* Full Width Map */}
+        <div className="w-full">
           <WorldMap
             dots={[
               // UK Locations
