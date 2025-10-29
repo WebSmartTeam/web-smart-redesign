@@ -13,7 +13,6 @@ interface MapProps {
   }>;
   lineColor?: string;
   showLabels?: boolean;
-  labelClassName?: string;
   animationDuration?: number;
   loop?: boolean;
 }
@@ -22,7 +21,6 @@ export function WorldMap({
   dots = [],
   lineColor = "#0ea5e9",
   showLabels = true,
-  labelClassName = "text-sm",
   animationDuration = 2,
   loop = true
 }: MapProps) {
