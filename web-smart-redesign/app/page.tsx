@@ -809,24 +809,17 @@ export default function HomePage() {
         <div className="w-full">
           <WorldMap
             dots={[
-              // UK Locations
-              {
-                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                end: { lat: 51.9024, lng: -0.2023, label: "Stevenage" },
-              },
-              {
-                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                end: { lat: 52.1363, lng: -0.4671, label: "Bedford" },
-              },
+              // UK to London
               {
                 start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
                 end: { lat: 51.5074, lng: -0.1278, label: "London" },
               },
+              // Europe
               {
                 start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                end: { lat: 51.8787, lng: -0.4200, label: "Luton" },
+                end: { lat: 48.8566, lng: 2.3522, label: "Paris" },
               },
-              // USA Locations
+              // North America
               {
                 start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
                 end: { lat: 40.7128, lng: -74.0060, label: "New York" },
@@ -834,6 +827,15 @@ export default function HomePage() {
               {
                 start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
                 end: { lat: 34.0522, lng: -118.2437, label: "Los Angeles" },
+              },
+              // Asia Pacific
+              {
+                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                end: { lat: 25.2048, lng: 55.2708, label: "Dubai" },
+              },
+              {
+                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                end: { lat: 1.3521, lng: 103.8198, label: "Singapore" },
               },
             ]}
             lineColor="#672F8F"
