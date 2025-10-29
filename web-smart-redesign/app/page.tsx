@@ -29,8 +29,8 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
-// Dynamic import for LocationMap to avoid SSR issues with Leaflet
-const LocationMap = dynamic(() => import('@/components/ui/LocationMap'), {
+// Dynamic import for WorldMap to avoid SSR issues
+const WorldMap = dynamic(() => import('@/components/ui/map').then(mod => ({ default: mod.WorldMap })), {
   ssr: false,
   loading: () => (
     <div className="w-full h-[400px] bg-gray-200 rounded-2xl animate-pulse flex items-center justify-center">
@@ -808,7 +808,30 @@ export default function HomePage() {
               viewport={{ once: true }}
               className="order-2 md:order-1"
             >
-              <LocationMap className="h-[450px] w-full" />
+              <WorldMap
+                dots={[
+                  {
+                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                    end: { lat: 51.9024, lng: -0.2023, label: "Stevenage" },
+                  },
+                  {
+                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                    end: { lat: 52.1363, lng: -0.4671, label: "Bedford" },
+                  },
+                  {
+                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                    end: { lat: 51.5074, lng: -0.1278, label: "London" },
+                  },
+                  {
+                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                    end: { lat: 51.8787, lng: -0.4200, label: "Luton" },
+                  },
+                ]}
+                lineColor="#672F8F"
+                showLabels={true}
+                animationDuration={2.5}
+                loop={true}
+              />
             </motion.div>
 
             {/* Contact Information Column */}
