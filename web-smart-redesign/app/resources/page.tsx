@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React from 'react';
 import { motion } from 'framer-motion';
 import { Download, CheckCircle, FileText, BarChart, Search, Palette, Code, Sparkles, ArrowRight } from 'lucide-react';
 import Header from '@/components/layout/Header';
@@ -113,28 +113,6 @@ const tools = [
 ];
 
 export default function ResourcesPage() {
-  const [email, setEmail] = useState('');
-  const [selectedResource, setSelectedResource] = useState<string | null>(null);
-  const [submitted, setSubmitted] = useState(false);
-
-  const handleDownload = (resource: typeof freeResources[0]) => {
-    setSelectedResource(resource.title);
-    // In production, this would trigger email capture and download
-    alert(`To download "${resource.title}", please enter your email address below.`);
-  };
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (email && selectedResource) {
-      setSubmitted(true);
-      setTimeout(() => {
-        alert(`Thank you! Your download link for "${selectedResource}" has been sent to ${email}`);
-        setEmail('');
-        setSelectedResource(null);
-        setSubmitted(false);
-      }, 1000);
-    }
-  };
 
   return (
     <>
@@ -220,47 +198,19 @@ export default function ResourcesPage() {
                     {resource.description}
                   </p>
 
-                  <button
-                    onClick={() => handleDownload(resource)}
+                  <a
+                    href={resource.downloadUrl}
+                    download
                     className="flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors group"
                   >
                     <Download size={20} />
                     Download Free PDF
                     <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                  </button>
+                  </a>
                 </motion.div>
               );
             })}
           </div>
-
-          {/* Email Capture Form */}
-          {selectedResource && !submitted && (
-            <motion.div
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              className="mt-12 max-w-2xl mx-auto bg-white rounded-2xl p-8 shadow-xl border-2 border-primary"
-            >
-              <h3 className="text-2xl font-heading font-bold text-gray-900 mb-4 text-center">
-                Download: {selectedResource}
-              </h3>
-              <p className="text-gray-600 mb-6 text-center">
-                Enter your email to receive your free download instantly
-              </p>
-              <form onSubmit={handleSubmit} className="flex gap-4">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="your.email@example.com"
-                  required
-                  className="flex-1 px-6 py-3 border-2 border-gray-200 rounded-xl focus:border-primary focus:outline-none"
-                />
-                <Button type="submit" variant="primary" size="md">
-                  Get Free Download
-                </Button>
-              </form>
-            </motion.div>
-          )}
         </div>
       </section>
 

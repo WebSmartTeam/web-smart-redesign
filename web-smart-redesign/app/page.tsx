@@ -783,184 +783,64 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Location Section */}
+      {/* Global Network Section */}
       <section className="w-full py-20 md:py-28 bg-white">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center mb-16"
-          >
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-4">
-              Our Global Presence
-            </h2>
-            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              Serving businesses worldwide from our UK headquarters, with a growing international presence across the United Kingdom and United States
-            </p>
-          </motion.div>
-
-          <div className="grid md:grid-cols-2 gap-12 items-start">
-            {/* Map Column */}
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="order-2 md:order-1"
+              className="font-bold text-3xl md:text-4xl lg:text-5xl text-gray-900 font-heading mb-4"
             >
-              <WorldMap
-                dots={[
-                  // UK Locations
-                  {
-                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                    end: { lat: 51.9024, lng: -0.2023, label: "Stevenage" },
-                  },
-                  {
-                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                    end: { lat: 52.1363, lng: -0.4671, label: "Bedford" },
-                  },
-                  {
-                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                    end: { lat: 51.5074, lng: -0.1278, label: "London" },
-                  },
-                  {
-                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                    end: { lat: 51.8787, lng: -0.4200, label: "Luton" },
-                  },
-                  // USA Locations
-                  {
-                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                    end: { lat: 40.7128, lng: -74.0060, label: "New York" },
-                  },
-                  {
-                    start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
-                    end: { lat: 34.0522, lng: -118.2437, label: "Los Angeles" },
-                  },
-                ]}
-                lineColor="#672F8F"
-                showLabels={true}
-                animationDuration={2.5}
-                loop={true}
-              />
-            </motion.div>
-
-            {/* Contact Information Column */}
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              Global{" "}
+              <span className="text-primary">Network</span>
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="order-1 md:order-2 space-y-6"
+              transition={{ delay: 0.1 }}
+              className="text-base md:text-lg text-gray-600 max-w-2xl mx-auto"
             >
-              <div className="bg-gradient-to-br from-secondary to-white rounded-2xl p-8 border-2 border-gray-100">
-                <h3 className="text-2xl font-heading font-bold text-gray-900 mb-2">UK Headquarters</h3>
-                <p className="text-sm text-gray-600 mb-6">Serving clients worldwide from Hertfordshire</p>
-
-                <div className="space-y-6">
-                  {/* Address */}
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
-                      <MapPin className="text-white" size={24} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 mb-1">Address</h4>
-                      <p className="text-gray-600 leading-relaxed">
-                        52 Walsworth Rd<br />
-                        Hitchin, Hertfordshire<br />
-                        SG4 9SX, United Kingdom
-                      </p>
-                      <a
-                        href="https://www.google.com/maps/dir/?api=1&destination=52+Walsworth+Rd,+Hitchin,+Hertfordshire+SG4+9SX,+UK"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-primary hover:underline text-sm font-medium inline-flex items-center gap-1 mt-2"
-                      >
-                        Get Directions <ArrowRight size={14} />
-                      </a>
-                    </div>
-                  </div>
-
-                  {/* Phone */}
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
-                      <Phone className="text-white" size={24} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 mb-1">Phone</h4>
-                      <a
-                        href="tel:01462544738"
-                        className="text-gray-600 hover:text-primary transition-colors"
-                      >
-                        01462 544738
-                      </a>
-                    </div>
-                  </div>
-
-                  {/* Email */}
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
-                      <Mail className="text-white" size={24} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 mb-1">Email</h4>
-                      <a
-                        href="mailto:enquiries@web-smart.co"
-                        className="text-gray-600 hover:text-primary transition-colors"
-                      >
-                        enquiries@web-smart.co
-                      </a>
-                    </div>
-                  </div>
-
-                  {/* Hours */}
-                  <div className="flex items-start gap-4">
-                    <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center flex-shrink-0">
-                      <Clock className="text-white" size={24} />
-                    </div>
-                    <div>
-                      <h4 className="font-bold text-gray-900 mb-1">Business Hours</h4>
-                      <p className="text-gray-600">
-                        Monday - Friday<br />
-                        09:00 - 18:00
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-                {/* CTA Button */}
-                <div className="mt-8 pt-8 border-t-2 border-gray-200">
-                  <Button href="/contact" variant="primary" size="lg" className="w-full group">
-                    Contact Us Today
-                    <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
-                  </Button>
-                </div>
-              </div>
-
-              {/* Global Presence Card */}
-              <div className="bg-gradient-to-br from-primary/5 to-secondary rounded-2xl p-6 border-2 border-primary/10 shadow-md">
-                <h4 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
-                  <Globe className="text-primary" size={20} />
-                  Global Presence
-                </h4>
-                <div className="space-y-2 text-sm">
-                  <p className="text-gray-700 font-semibold">
-                    🇬🇧 United Kingdom
-                  </p>
-                  <p className="text-gray-600 text-xs pl-6">
-                    Hertfordshire · Bedfordshire · London · Nationwide
-                  </p>
-                  <p className="text-gray-700 font-semibold mt-3">
-                    🇺🇸 United States
-                  </p>
-                  <p className="text-gray-600 text-xs pl-6">
-                    New York · Los Angeles · Nationwide
-                  </p>
-                  <p className="text-gray-500 text-xs mt-4 pt-4 border-t border-gray-200">
-                    Serving clients worldwide with local expertise and global reach
-                  </p>
-                </div>
-              </div>
-            </motion.div>
+              Connect with teams and clients worldwide. Our platform enables seamless
+              collaboration across continents, bringing the world to your workspace.
+            </motion.p>
           </div>
+          <WorldMap
+            dots={[
+              // UK Locations
+              {
+                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                end: { lat: 51.9024, lng: -0.2023, label: "Stevenage" },
+              },
+              {
+                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                end: { lat: 52.1363, lng: -0.4671, label: "Bedford" },
+              },
+              {
+                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                end: { lat: 51.5074, lng: -0.1278, label: "London" },
+              },
+              {
+                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                end: { lat: 51.8787, lng: -0.4200, label: "Luton" },
+              },
+              // USA Locations
+              {
+                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                end: { lat: 40.7128, lng: -74.0060, label: "New York" },
+              },
+              {
+                start: { lat: 51.9498, lng: -0.2772, label: "Hitchin" },
+                end: { lat: 34.0522, lng: -118.2437, label: "Los Angeles" },
+              },
+            ]}
+            lineColor="#672F8F"
+            showLabels={true}
+            animationDuration={2.5}
+            loop={true}
+          />
         </div>
       </section>
 
