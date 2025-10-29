@@ -1,0 +1,232 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - link "Web-Smart.Co" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Web-Smart.Co" [ref=e8]
+      - button "Toggle menu" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+    - generic [ref=e11]:
+      - img "About Us" [ref=e13]
+      - generic [ref=e18]:
+        - heading "About Us" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Your trusted digital partner in Hertfordshire
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - heading "Best SEO Agency in Hertfordshire" [level=2] [ref=e25]
+        - paragraph [ref=e26]: Based in Hitchin, Hertfordshire, Web-Smart.Co has been helping local businesses succeed online for over 10 years. We specialise in SEO, web design, content writing, and Google Ads management.
+        - paragraph [ref=e27]: "Our mission is simple: to help your business grow through effective digital marketing strategies and stunning web design that converts visitors into customers."
+        - paragraph [ref=e28]: We understand the local Hertfordshire market and know what it takes to stand out in competitive industries. Our team combines technical expertise with creative flair to deliver exceptional results.
+      - img "Web-Smart.Co Team" [ref=e30]
+    - generic [ref=e32]:
+      - generic [ref=e33]:
+        - heading "Our Values" [level=2] [ref=e34]
+        - paragraph [ref=e35]: The principles that guide everything we do
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - img [ref=e39]
+          - heading "Results-Driven" [level=3] [ref=e43]
+          - paragraph [ref=e44]: We focus on delivering measurable results that help your business grow and succeed online.
+        - generic [ref=e45]:
+          - img [ref=e47]
+          - heading "Client-Focused" [level=3] [ref=e52]
+          - paragraph [ref=e53]: Your success is our priority. We work closely with you to understand your goals and deliver solutions that exceed expectations.
+        - generic [ref=e54]:
+          - img [ref=e56]
+          - heading "Quality Excellence" [level=3] [ref=e59]
+          - paragraph [ref=e60]: We maintain the highest standards in every project, ensuring professional, high-quality deliverables.
+        - generic [ref=e61]:
+          - img [ref=e63]
+          - heading "Continuous Growth" [level=3] [ref=e66]
+          - paragraph [ref=e67]: We stay ahead of digital trends and technologies to provide cutting-edge solutions for your business.
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - heading "Meet Pete Gypps" [level=2] [ref=e71]
+        - paragraph [ref=e72]: Founder and Lead Digital Strategist
+      - generic [ref=e75]:
+        - img "Pete Gypps" [ref=e77]
+        - generic [ref=e78]:
+          - heading "Pete Gypps" [level=3] [ref=e79]
+          - paragraph [ref=e80]: Founder & Digital Strategist
+          - paragraph [ref=e81]: With over 10 years of experience in digital marketing and web design, Pete has helped hundreds of businesses across Hertfordshire establish and grow their online presence.
+          - paragraph [ref=e82]: His expertise spans SEO, web design, content strategy, and paid advertising, making him a trusted partner for businesses looking to succeed online.
+    - generic [ref=e84]:
+      - generic [ref=e85]:
+        - heading "Creating Happy Clients" [level=2] [ref=e86]
+        - paragraph [ref=e87]: Don't just take our word for it—hear from businesses we've helped succeed
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - generic [ref=e92]:
+            - generic [ref=e93]:
+              - img [ref=e94]
+              - img [ref=e96]
+              - img [ref=e98]
+              - img [ref=e100]
+              - img [ref=e102]
+            - paragraph [ref=e104]: "\"Web-Smart transformed our online presence completely. The SEO Foundation Pack delivered results within 3 months—we're now ranking on page 1 for our key terms. Pete and his team are knowledgeable, responsive, and truly care about our success.\""
+            - generic [ref=e105]:
+              - generic [ref=e106]: Sarah Thompson
+              - generic [ref=e107]: Thompson & Associates
+              - generic [ref=e108]: Hitchin, Hertfordshire
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - img [ref=e112]
+              - img [ref=e114]
+              - img [ref=e116]
+              - img [ref=e118]
+              - img [ref=e120]
+            - paragraph [ref=e122]: "\"Outstanding service from start to finish. Our new WordPress website is beautiful, fast, and easy to manage. The training was thorough and the ongoing support has been invaluable. Highly recommend Web-Smart to any business in Hertfordshire.\""
+            - generic [ref=e123]:
+              - generic [ref=e124]: James Miller
+              - generic [ref=e125]: Miller Property Services
+              - generic [ref=e126]: Stevenage, Hertfordshire
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - img [ref=e130]
+              - img [ref=e132]
+              - img [ref=e134]
+              - img [ref=e136]
+              - img [ref=e138]
+            - paragraph [ref=e140]: "\"We needed an e-commerce solution that could grow with our business. Web-Smart delivered exactly that. The site is gorgeous, sales have increased by 40%, and their Google Ads management is bringing in quality leads every day.\""
+            - generic [ref=e141]:
+              - generic [ref=e142]: Emma Clarke
+              - generic [ref=e143]: Clarke's Boutique
+              - generic [ref=e144]: Letchworth, Hertfordshire
+          - generic [ref=e146]:
+            - generic [ref=e147]:
+              - img [ref=e148]
+              - img [ref=e150]
+              - img [ref=e152]
+              - img [ref=e154]
+              - img [ref=e156]
+            - paragraph [ref=e158]: "\"Professional, knowledgeable, and always willing to go the extra mile. Our website redesign exceeded expectations, and the SEO improvements have brought us consistent new enquiries. Web-Smart is our go-to for all digital marketing needs.\""
+            - generic [ref=e159]:
+              - generic [ref=e160]: David Richards
+              - generic [ref=e161]: Richards Accounting
+              - generic [ref=e162]: Baldock, Hertfordshire
+          - generic [ref=e164]:
+            - generic [ref=e165]:
+              - img [ref=e166]
+              - img [ref=e168]
+              - img [ref=e170]
+              - img [ref=e172]
+              - img [ref=e174]
+            - paragraph [ref=e176]: "\"The team at Web-Smart created a sophisticated, user-friendly website that perfectly represents our law firm. Their attention to detail and understanding of our sector was impressive. We've seen a significant increase in client enquiries.\""
+            - generic [ref=e177]:
+              - generic [ref=e178]: Lisa Patel
+              - generic [ref=e179]: Patel Legal Services
+              - generic [ref=e180]: Hitchin, Hertfordshire
+          - generic [ref=e182]:
+            - generic [ref=e183]:
+              - img [ref=e184]
+              - img [ref=e186]
+              - img [ref=e188]
+              - img [ref=e190]
+              - img [ref=e192]
+            - paragraph [ref=e194]: "\"Best decision we made was working with Web-Smart. They built us a modern website showcasing our projects beautifully. The Google Ads campaign they manage delivers quality leads every week. Fantastic ROI and brilliant service throughout.\""
+            - generic [ref=e195]:
+              - generic [ref=e196]: Tom Harrison
+              - generic [ref=e197]: Harrison Construction
+              - generic [ref=e198]: Letchworth, Hertfordshire
+        - generic [ref=e199] [cursor=pointer]:
+          - img
+        - generic [ref=e200] [cursor=pointer]:
+          - img
+    - generic [ref=e209]:
+      - img "Work With Us" [ref=e211]
+      - generic [ref=e214]:
+        - heading "Ready to Work Together?" [level=2] [ref=e215]
+        - paragraph [ref=e216]: Let's discuss how we can help your business grow online.
+        - link "Get In Touch" [ref=e217] [cursor=pointer]:
+          - /url: /contact
+          - text: Get In Touch
+          - img [ref=e218]
+  - contentinfo [ref=e220]:
+    - generic [ref=e222]:
+      - generic [ref=e223]:
+        - link "Web-Smart.Co" [ref=e224] [cursor=pointer]:
+          - /url: /
+          - img "Web-Smart.Co" [ref=e226]
+        - paragraph [ref=e227]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e228]:
+          - link "Facebook" [ref=e229] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e230]
+          - link "Twitter" [ref=e232] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e233]
+          - link "LinkedIn" [ref=e235] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e236]
+          - link "Instagram" [ref=e240] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e241]
+      - generic [ref=e244]:
+        - heading "Services" [level=3] [ref=e245]
+        - list [ref=e246]:
+          - listitem [ref=e247]:
+            - link "Web Design" [ref=e248] [cursor=pointer]:
+              - /url: /services#web-design
+          - listitem [ref=e249]:
+            - link "SEO Services" [ref=e250] [cursor=pointer]:
+              - /url: /services#seo
+          - listitem [ref=e251]:
+            - link "Content Writing" [ref=e252] [cursor=pointer]:
+              - /url: /services#content
+          - listitem [ref=e253]:
+            - link "Google Ads" [ref=e254] [cursor=pointer]:
+              - /url: /services#google-ads
+      - generic [ref=e255]:
+        - heading "Quick Links" [level=3] [ref=e256]
+        - list [ref=e257]:
+          - listitem [ref=e258]:
+            - link "About Us" [ref=e259] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e260]:
+            - link "Portfolio" [ref=e261] [cursor=pointer]:
+              - /url: /portfolio
+          - listitem [ref=e262]:
+            - link "Contact" [ref=e263] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e264]:
+        - heading "Contact Us" [level=3] [ref=e265]
+        - list [ref=e266]:
+          - listitem [ref=e267]:
+            - link "01462 544738" [ref=e268] [cursor=pointer]:
+              - /url: tel:01462544738
+              - img [ref=e269]
+              - generic [ref=e271]: 01462 544738
+          - listitem [ref=e272]:
+            - link "enquiries@web-smart.co" [ref=e273] [cursor=pointer]:
+              - /url: mailto:enquiries@web-smart.co
+              - img [ref=e274]
+              - generic [ref=e277]: enquiries@web-smart.co
+          - listitem [ref=e278]:
+            - img [ref=e279]
+            - generic [ref=e282]:
+              - text: 52 Walsworth Rd,
+              - text: Hitchin, Hertfordshire
+              - text: SG4 9SX, UK
+          - listitem [ref=e283]:
+            - img [ref=e284]
+            - generic [ref=e287]:
+              - text: Monday-Friday
+              - text: 09:00-18:00
+    - generic [ref=e290]:
+      - paragraph [ref=e291]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e292]:
+        - generic [ref=e293]:
+          - link "Privacy Policy" [ref=e294] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e295] [cursor=pointer]:
+            - /url: /terms
+        - paragraph [ref=e296]:
+          - text: Designed by
+          - generic [ref=e297]: ❤
+          - link "AiDan.Systems" [ref=e298] [cursor=pointer]:
+            - /url: https://aidan.systems
+  - alert [ref=e299]
+```

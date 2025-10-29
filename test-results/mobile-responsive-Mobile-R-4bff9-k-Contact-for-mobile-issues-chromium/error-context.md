@@ -1,0 +1,157 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - link "Web-Smart.Co" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Web-Smart.Co" [ref=e8]
+      - button "Toggle menu" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+    - generic [ref=e11]:
+      - img "Contact Us" [ref=e13]
+      - generic [ref=e18]:
+        - heading "Get In Touch" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Let's discuss how we can help your business grow
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - heading "Send Us a Message" [level=2] [ref=e26]
+        - generic [ref=e27]:
+          - generic [ref=e28]:
+            - generic [ref=e29]: Your Name *
+            - textbox "Your Name *" [ref=e30]:
+              - /placeholder: John Smith
+          - generic [ref=e31]:
+            - generic [ref=e32]: Email Address *
+            - textbox "Email Address *" [ref=e33]:
+              - /placeholder: john@example.com
+          - generic [ref=e34]:
+            - generic [ref=e35]: Phone Number
+            - textbox "Phone Number" [ref=e36]:
+              - /placeholder: 01462 544738
+          - generic [ref=e37]:
+            - generic [ref=e38]: Subject *
+            - combobox "Subject *" [ref=e39]:
+              - option "Select a service..." [selected]
+              - option "Web Design"
+              - option "SEO Services"
+              - option "Content Writing"
+              - option "Google Ads"
+              - option "Other"
+          - generic [ref=e40]:
+            - generic [ref=e41]: Your Message *
+            - textbox "Your Message *" [ref=e42]:
+              - /placeholder: Tell us about your project...
+          - button "Send Message" [ref=e43] [cursor=pointer]:
+            - text: Send Message
+            - img [ref=e44]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - img [ref=e51]
+            - heading "Phone" [level=3] [ref=e53]
+            - link "01462 544738" [ref=e54] [cursor=pointer]:
+              - /url: tel:01462544738
+          - generic [ref=e55]:
+            - img [ref=e57]
+            - heading "Email" [level=3] [ref=e60]
+            - link "enquiries@web-smart.co" [ref=e61] [cursor=pointer]:
+              - /url: mailto:enquiries@web-smart.co
+          - generic [ref=e62]:
+            - img [ref=e64]
+            - heading "Address" [level=3] [ref=e67]
+            - link "52 Walsworth Rd, Hitchin, Hertfordshire SG4 9SX, UK" [ref=e68] [cursor=pointer]:
+              - /url: https://maps.google.com/?q=52+Walsworth+Rd+Hitchin+Hertfordshire+SG4+9SX+UK
+          - generic [ref=e69]:
+            - img [ref=e71]
+            - heading "Business Hours" [level=3] [ref=e74]
+            - paragraph [ref=e75]: "Monday - Friday: 09:00 - 18:00"
+        - iframe [ref=e77]:
+          
+  - contentinfo [ref=e78]:
+    - generic [ref=e80]:
+      - generic [ref=e81]:
+        - link "Web-Smart.Co" [ref=e82] [cursor=pointer]:
+          - /url: /
+          - img "Web-Smart.Co" [ref=e84]
+        - paragraph [ref=e85]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e86]:
+          - link "Facebook" [ref=e87] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e88]
+          - link "Twitter" [ref=e90] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e91]
+          - link "LinkedIn" [ref=e93] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e94]
+          - link "Instagram" [ref=e98] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e99]
+      - generic [ref=e102]:
+        - heading "Services" [level=3] [ref=e103]
+        - list [ref=e104]:
+          - listitem [ref=e105]:
+            - link "Web Design" [ref=e106] [cursor=pointer]:
+              - /url: /services#web-design
+          - listitem [ref=e107]:
+            - link "SEO Services" [ref=e108] [cursor=pointer]:
+              - /url: /services#seo
+          - listitem [ref=e109]:
+            - link "Content Writing" [ref=e110] [cursor=pointer]:
+              - /url: /services#content
+          - listitem [ref=e111]:
+            - link "Google Ads" [ref=e112] [cursor=pointer]:
+              - /url: /services#google-ads
+      - generic [ref=e113]:
+        - heading "Quick Links" [level=3] [ref=e114]
+        - list [ref=e115]:
+          - listitem [ref=e116]:
+            - link "About Us" [ref=e117] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e118]:
+            - link "Portfolio" [ref=e119] [cursor=pointer]:
+              - /url: /portfolio
+          - listitem [ref=e120]:
+            - link "Contact" [ref=e121] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e122]:
+        - heading "Contact Us" [level=3] [ref=e123]
+        - list [ref=e124]:
+          - listitem [ref=e125]:
+            - link "01462 544738" [ref=e126] [cursor=pointer]:
+              - /url: tel:01462544738
+              - img [ref=e127]
+              - generic [ref=e129]: 01462 544738
+          - listitem [ref=e130]:
+            - link "enquiries@web-smart.co" [ref=e131] [cursor=pointer]:
+              - /url: mailto:enquiries@web-smart.co
+              - img [ref=e132]
+              - generic [ref=e135]: enquiries@web-smart.co
+          - listitem [ref=e136]:
+            - img [ref=e137]
+            - generic [ref=e140]:
+              - text: 52 Walsworth Rd,
+              - text: Hitchin, Hertfordshire
+              - text: SG4 9SX, UK
+          - listitem [ref=e141]:
+            - img [ref=e142]
+            - generic [ref=e145]:
+              - text: Monday-Friday
+              - text: 09:00-18:00
+    - generic [ref=e148]:
+      - paragraph [ref=e149]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - link "Privacy Policy" [ref=e152] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e153] [cursor=pointer]:
+            - /url: /terms
+        - paragraph [ref=e154]:
+          - text: Designed by
+          - generic [ref=e155]: ❤
+          - link "AiDan.Systems" [ref=e156] [cursor=pointer]:
+            - /url: https://aidan.systems
+  - alert [ref=e157]
+```

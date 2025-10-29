@@ -1,0 +1,171 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - link "Web-Smart.Co" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Web-Smart.Co" [ref=e8]
+      - button "Toggle menu" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+    - generic [ref=e11]:
+      - img "Professional Content Writing" [ref=e13]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - img [ref=e20]
+          - heading "Content Writing Services" [level=1] [ref=e23]
+        - paragraph [ref=e24]: Professional content that engages, informs, and converts
+        - generic [ref=e25]:
+          - link "Get Started" [ref=e26] [cursor=pointer]:
+            - /url: /contact
+            - text: Get Started
+            - img [ref=e27]
+          - link "View Services" [ref=e29] [cursor=pointer]:
+            - /url: "#services"
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - heading "Our Content Writing Services" [level=2] [ref=e33]
+        - paragraph [ref=e34]: From AI-powered content to traditional copywriting, we create content that works
+      - generic [ref=e35]:
+        - generic [ref=e36]:
+          - img [ref=e38]
+          - heading "Website Copy" [level=3] [ref=e41]
+          - paragraph [ref=e42]: Compelling copy that converts visitors into customers
+        - generic [ref=e43]:
+          - img [ref=e45]
+          - heading "AI-Generated Content" [level=3] [ref=e48]
+          - paragraph [ref=e49]: Fast, SEO-optimized content powered by artificial intelligence
+        - generic [ref=e50]:
+          - img [ref=e52]
+          - heading "Blog Posts" [level=3] [ref=e55]
+          - paragraph [ref=e56]: Engaging blog articles that attract and retain readers
+        - generic [ref=e57]:
+          - img [ref=e59]
+          - heading "SEO Content" [level=3] [ref=e62]
+          - paragraph [ref=e63]: Content optimized to rank higher on search engines
+        - generic [ref=e64]:
+          - img [ref=e66]
+          - heading "Social Media Copy" [level=3] [ref=e71]
+          - paragraph [ref=e72]: Engaging posts for Facebook, LinkedIn, Twitter and more
+        - generic [ref=e73]:
+          - img [ref=e75]
+          - heading "Product Descriptions" [level=3] [ref=e79]
+          - paragraph [ref=e80]: Persuasive descriptions that boost e-commerce sales
+    - generic [ref=e82]:
+      - heading "Why Choose Our Content Services" [level=2] [ref=e84]
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - img [ref=e88]
+          - heading "Fast Turnaround" [level=3] [ref=e90]
+          - paragraph [ref=e91]: Get quality content quickly with our efficient process
+        - generic [ref=e92]:
+          - img [ref=e94]
+          - heading "SEO Optimized" [level=3] [ref=e98]
+          - paragraph [ref=e99]: All content optimized for search engines
+        - generic [ref=e100]:
+          - img [ref=e102]
+          - heading "Professional Quality" [level=3] [ref=e105]
+          - paragraph [ref=e106]: Expert writers and AI-powered perfection
+        - generic [ref=e107]:
+          - img [ref=e109]
+          - heading "Audience Focused" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Content tailored to your target audience
+    - generic [ref=e117]:
+      - img "Start Your Content Project" [ref=e119]
+      - generic [ref=e122]:
+        - heading "Ready for Professional Content?" [level=2] [ref=e123]
+        - paragraph [ref=e124]: Let's create content that engages your audience and drives results
+        - generic [ref=e125]:
+          - link "Get Started" [ref=e126] [cursor=pointer]:
+            - /url: /contact
+            - text: Get Started
+            - img [ref=e127]
+          - link "Call 01462 544738" [ref=e129] [cursor=pointer]:
+            - /url: tel:01462544738
+  - contentinfo [ref=e130]:
+    - generic [ref=e132]:
+      - generic [ref=e133]:
+        - link "Web-Smart.Co" [ref=e134] [cursor=pointer]:
+          - /url: /
+          - img "Web-Smart.Co" [ref=e136]
+        - paragraph [ref=e137]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e138]:
+          - link "Facebook" [ref=e139] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e140]
+          - link "Twitter" [ref=e142] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e143]
+          - link "LinkedIn" [ref=e145] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e146]
+          - link "Instagram" [ref=e150] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e151]
+      - generic [ref=e154]:
+        - heading "Services" [level=3] [ref=e155]
+        - list [ref=e156]:
+          - listitem [ref=e157]:
+            - link "Web Design" [ref=e158] [cursor=pointer]:
+              - /url: /services#web-design
+          - listitem [ref=e159]:
+            - link "SEO Services" [ref=e160] [cursor=pointer]:
+              - /url: /services#seo
+          - listitem [ref=e161]:
+            - link "Content Writing" [ref=e162] [cursor=pointer]:
+              - /url: /services#content
+          - listitem [ref=e163]:
+            - link "Google Ads" [ref=e164] [cursor=pointer]:
+              - /url: /services#google-ads
+      - generic [ref=e165]:
+        - heading "Quick Links" [level=3] [ref=e166]
+        - list [ref=e167]:
+          - listitem [ref=e168]:
+            - link "About Us" [ref=e169] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e170]:
+            - link "Portfolio" [ref=e171] [cursor=pointer]:
+              - /url: /portfolio
+          - listitem [ref=e172]:
+            - link "Contact" [ref=e173] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e174]:
+        - heading "Contact Us" [level=3] [ref=e175]
+        - list [ref=e176]:
+          - listitem [ref=e177]:
+            - link "01462 544738" [ref=e178] [cursor=pointer]:
+              - /url: tel:01462544738
+              - img [ref=e179]
+              - generic [ref=e181]: 01462 544738
+          - listitem [ref=e182]:
+            - link "enquiries@web-smart.co" [ref=e183] [cursor=pointer]:
+              - /url: mailto:enquiries@web-smart.co
+              - img [ref=e184]
+              - generic [ref=e187]: enquiries@web-smart.co
+          - listitem [ref=e188]:
+            - img [ref=e189]
+            - generic [ref=e192]:
+              - text: 52 Walsworth Rd,
+              - text: Hitchin, Hertfordshire
+              - text: SG4 9SX, UK
+          - listitem [ref=e193]:
+            - img [ref=e194]
+            - generic [ref=e197]:
+              - text: Monday-Friday
+              - text: 09:00-18:00
+    - generic [ref=e200]:
+      - paragraph [ref=e201]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e202]:
+        - generic [ref=e203]:
+          - link "Privacy Policy" [ref=e204] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e205] [cursor=pointer]:
+            - /url: /terms
+        - paragraph [ref=e206]:
+          - text: Designed by
+          - generic [ref=e207]: ❤
+          - link "AiDan.Systems" [ref=e208] [cursor=pointer]:
+            - /url: https://aidan.systems
+  - alert [ref=e209]
+```

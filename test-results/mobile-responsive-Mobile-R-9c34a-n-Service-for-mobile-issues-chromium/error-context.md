@@ -1,0 +1,316 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - link "Web-Smart.Co" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Web-Smart.Co" [ref=e8]
+      - button "Toggle menu" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+    - generic [ref=e11]:
+      - img "Professional Web Design Services" [ref=e13]
+      - generic [ref=e18]:
+        - generic [ref=e19]:
+          - img [ref=e20]
+          - heading "Web Design Services" [level=1] [ref=e22]
+        - paragraph [ref=e23]: Beautiful, high-performing websites that help Hertfordshire businesses grow online
+        - generic [ref=e24]:
+          - link "Start Your Project" [ref=e25] [cursor=pointer]:
+            - /url: /contact
+            - text: Start Your Project
+            - img [ref=e26]
+          - link "View Our Work" [ref=e28] [cursor=pointer]:
+            - /url: /portfolio
+    - generic [ref=e30]:
+      - generic [ref=e31]:
+        - heading "Our Web Design Services" [level=2] [ref=e32]
+        - paragraph [ref=e33]: From simple brochure sites to complex e-commerce platforms, we build websites that work
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - img [ref=e37]
+          - heading "Static Website Design" [level=3] [ref=e39]
+          - paragraph [ref=e40]: Fast, secure, and cost-effective websites perfect for businesses that need a professional online presence without complex functionality.
+          - list [ref=e41]:
+            - listitem [ref=e42]:
+              - img [ref=e43]
+              - generic [ref=e46]: Lightning-fast loading
+            - listitem [ref=e47]:
+              - img [ref=e48]
+              - generic [ref=e51]: Enhanced security
+            - listitem [ref=e52]:
+              - img [ref=e53]
+              - generic [ref=e56]: Low maintenance
+            - listitem [ref=e57]:
+              - img [ref=e58]
+              - generic [ref=e61]: Mobile responsive
+            - listitem [ref=e62]:
+              - img [ref=e63]
+              - generic [ref=e66]: SEO optimised
+        - generic [ref=e67]:
+          - img [ref=e69]
+          - heading "WordPress Development" [level=3] [ref=e72]
+          - paragraph [ref=e73]: Fully custom WordPress websites with easy-to-use content management, perfect for businesses that need to update content regularly.
+          - list [ref=e74]:
+            - listitem [ref=e75]:
+              - img [ref=e76]
+              - generic [ref=e79]: Easy content management
+            - listitem [ref=e80]:
+              - img [ref=e81]
+              - generic [ref=e84]: Custom themes
+            - listitem [ref=e85]:
+              - img [ref=e86]
+              - generic [ref=e89]: Plugin integration
+            - listitem [ref=e90]:
+              - img [ref=e91]
+              - generic [ref=e94]: E-commerce ready
+            - listitem [ref=e95]:
+              - img [ref=e96]
+              - generic [ref=e99]: Blog functionality
+        - generic [ref=e100]:
+          - img [ref=e102]
+          - heading "Mobile-First Design" [level=3] [ref=e104]
+          - paragraph [ref=e105]: Websites designed from the ground up to look stunning and perform perfectly on all devices, from smartphones to desktops.
+          - list [ref=e106]:
+            - listitem [ref=e107]:
+              - img [ref=e108]
+              - generic [ref=e111]: Responsive layouts
+            - listitem [ref=e112]:
+              - img [ref=e113]
+              - generic [ref=e116]: Touch-optimised
+            - listitem [ref=e117]:
+              - img [ref=e118]
+              - generic [ref=e121]: Fast mobile loading
+            - listitem [ref=e122]:
+              - img [ref=e123]
+              - generic [ref=e126]: Progressive web apps
+            - listitem [ref=e127]:
+              - img [ref=e128]
+              - generic [ref=e131]: App-like experience
+        - generic [ref=e132]:
+          - img [ref=e134]
+          - heading "E-Commerce Solutions" [level=3] [ref=e138]
+          - paragraph [ref=e139]: Complete online stores with secure payment processing, inventory management, and conversion-optimised checkout flows.
+          - list [ref=e140]:
+            - listitem [ref=e141]:
+              - img [ref=e142]
+              - generic [ref=e145]: WooCommerce/Shopify
+            - listitem [ref=e146]:
+              - img [ref=e147]
+              - generic [ref=e150]: Secure payments
+            - listitem [ref=e151]:
+              - img [ref=e152]
+              - generic [ref=e155]: Inventory management
+            - listitem [ref=e156]:
+              - img [ref=e157]
+              - generic [ref=e160]: Order tracking
+            - listitem [ref=e161]:
+              - img [ref=e162]
+              - generic [ref=e165]: Customer accounts
+        - generic [ref=e166]:
+          - img [ref=e168]
+          - heading "Website Redesigns" [level=3] [ref=e170]
+          - paragraph [ref=e171]: Breathe new life into outdated websites with modern design, improved functionality, and enhanced user experience.
+          - list [ref=e172]:
+            - listitem [ref=e173]:
+              - img [ref=e174]
+              - generic [ref=e177]: Modern aesthetics
+            - listitem [ref=e178]:
+              - img [ref=e179]
+              - generic [ref=e182]: UX improvements
+            - listitem [ref=e183]:
+              - img [ref=e184]
+              - generic [ref=e187]: Performance optimization
+            - listitem [ref=e188]:
+              - img [ref=e189]
+              - generic [ref=e192]: Content migration
+            - listitem [ref=e193]:
+              - img [ref=e194]
+              - generic [ref=e197]: SEO preservation
+        - generic [ref=e198]:
+          - img [ref=e200]
+          - heading "Website Maintenance" [level=3] [ref=e202]
+          - paragraph [ref=e203]: Ongoing support, updates, backups, and security monitoring to keep your website running smoothly and securely.
+          - list [ref=e204]:
+            - listitem [ref=e205]:
+              - img [ref=e206]
+              - generic [ref=e209]: Regular updates
+            - listitem [ref=e210]:
+              - img [ref=e211]
+              - generic [ref=e214]: Security monitoring
+            - listitem [ref=e215]:
+              - img [ref=e216]
+              - generic [ref=e219]: Daily backups
+            - listitem [ref=e220]:
+              - img [ref=e221]
+              - generic [ref=e224]: Performance checks
+            - listitem [ref=e225]:
+              - img [ref=e226]
+              - generic [ref=e229]: Priority support
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - heading "Why Choose Web-Smart" [level=2] [ref=e233]
+        - paragraph [ref=e234]: We combine design excellence with technical expertise
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - img [ref=e238]
+          - heading "Custom Design" [level=3] [ref=e244]
+          - paragraph [ref=e245]: Unique designs tailored to your brand, not cookie-cutter templates
+        - generic [ref=e246]:
+          - img [ref=e248]
+          - heading "Conversion Focused" [level=3] [ref=e251]
+          - paragraph [ref=e252]: Designed to turn visitors into customers with strategic CTAs
+        - generic [ref=e253]:
+          - img [ref=e255]
+          - heading "SEO Optimised" [level=3] [ref=e258]
+          - paragraph [ref=e259]: Built with search engines in mind for maximum visibility
+        - generic [ref=e260]:
+          - img [ref=e262]
+          - heading "Scalable Solution" [level=3] [ref=e266]
+          - paragraph [ref=e267]: Grows with your business, easy to expand and add features
+    - generic [ref=e269]:
+      - generic [ref=e270]:
+        - heading "Our Process" [level=2] [ref=e271]
+        - paragraph [ref=e272]: A proven approach that delivers results on time and on budget
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - generic [ref=e275]: "01"
+          - generic [ref=e276]:
+            - generic [ref=e277]: "1"
+            - heading "Discovery & Planning" [level=3] [ref=e278]
+            - paragraph [ref=e279]: We learn about your business, goals, target audience, and competitors to create a strategic plan.
+        - generic [ref=e280]:
+          - generic [ref=e281]: "02"
+          - generic [ref=e282]:
+            - generic [ref=e283]: "2"
+            - heading "Design & Development" [level=3] [ref=e284]
+            - paragraph [ref=e285]: Our designers create mockups, then our developers bring them to life with clean, efficient code.
+        - generic [ref=e286]:
+          - generic [ref=e287]: "03"
+          - generic [ref=e288]:
+            - generic [ref=e289]: "3"
+            - heading "Testing & Launch" [level=3] [ref=e290]
+            - paragraph [ref=e291]: Rigorous testing across devices and browsers, then a smooth launch with full support.
+        - generic [ref=e292]:
+          - generic [ref=e293]: "04"
+          - generic [ref=e294]:
+            - generic [ref=e295]: "4"
+            - heading "Training & Support" [level=3] [ref=e296]
+            - paragraph [ref=e297]: Complete training on managing your website, plus ongoing support whenever you need it.
+    - generic [ref=e299]:
+      - generic [ref=e300]:
+        - heading "Recent Projects" [level=2] [ref=e301]
+        - paragraph [ref=e302]: See our latest web design work for Hertfordshire businesses
+      - generic [ref=e303]:
+        - generic [ref=e304]:
+          - img "Corporate Website" [ref=e306]
+          - heading "Corporate Website" [level=3] [ref=e308]
+        - generic [ref=e309]:
+          - img "Branding & Design" [ref=e311]
+          - heading "Branding & Design" [level=3] [ref=e313]
+        - generic [ref=e314]:
+          - img "Responsive Design" [ref=e316]
+          - heading "Responsive Design" [level=3] [ref=e318]
+      - link "View Full Portfolio" [ref=e320] [cursor=pointer]:
+        - /url: /portfolio
+        - text: View Full Portfolio
+        - img [ref=e321]
+    - generic [ref=e324]:
+      - img "Start Your Project" [ref=e326]
+      - generic [ref=e329]:
+        - heading "Ready to Launch Your Website?" [level=2] [ref=e330]
+        - paragraph [ref=e331]: Let's discuss your project and create a website that helps your business thrive online.
+        - generic [ref=e332]:
+          - link "Get In Touch" [ref=e333] [cursor=pointer]:
+            - /url: /contact
+            - text: Get In Touch
+            - img [ref=e334]
+          - link "Call 01462 544738" [ref=e336] [cursor=pointer]:
+            - /url: tel:01462544738
+  - contentinfo [ref=e337]:
+    - generic [ref=e339]:
+      - generic [ref=e340]:
+        - link "Web-Smart.Co" [ref=e341] [cursor=pointer]:
+          - /url: /
+          - img "Web-Smart.Co" [ref=e343]
+        - paragraph [ref=e344]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e345]:
+          - link "Facebook" [ref=e346] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e347]
+          - link "Twitter" [ref=e349] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e350]
+          - link "LinkedIn" [ref=e352] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e353]
+          - link "Instagram" [ref=e357] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e358]
+      - generic [ref=e361]:
+        - heading "Services" [level=3] [ref=e362]
+        - list [ref=e363]:
+          - listitem [ref=e364]:
+            - link "Web Design" [ref=e365] [cursor=pointer]:
+              - /url: /services#web-design
+          - listitem [ref=e366]:
+            - link "SEO Services" [ref=e367] [cursor=pointer]:
+              - /url: /services#seo
+          - listitem [ref=e368]:
+            - link "Content Writing" [ref=e369] [cursor=pointer]:
+              - /url: /services#content
+          - listitem [ref=e370]:
+            - link "Google Ads" [ref=e371] [cursor=pointer]:
+              - /url: /services#google-ads
+      - generic [ref=e372]:
+        - heading "Quick Links" [level=3] [ref=e373]
+        - list [ref=e374]:
+          - listitem [ref=e375]:
+            - link "About Us" [ref=e376] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e377]:
+            - link "Portfolio" [ref=e378] [cursor=pointer]:
+              - /url: /portfolio
+          - listitem [ref=e379]:
+            - link "Contact" [ref=e380] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e381]:
+        - heading "Contact Us" [level=3] [ref=e382]
+        - list [ref=e383]:
+          - listitem [ref=e384]:
+            - link "01462 544738" [ref=e385] [cursor=pointer]:
+              - /url: tel:01462544738
+              - img [ref=e386]
+              - generic [ref=e388]: 01462 544738
+          - listitem [ref=e389]:
+            - link "enquiries@web-smart.co" [ref=e390] [cursor=pointer]:
+              - /url: mailto:enquiries@web-smart.co
+              - img [ref=e391]
+              - generic [ref=e394]: enquiries@web-smart.co
+          - listitem [ref=e395]:
+            - img [ref=e396]
+            - generic [ref=e399]:
+              - text: 52 Walsworth Rd,
+              - text: Hitchin, Hertfordshire
+              - text: SG4 9SX, UK
+          - listitem [ref=e400]:
+            - img [ref=e401]
+            - generic [ref=e404]:
+              - text: Monday-Friday
+              - text: 09:00-18:00
+    - generic [ref=e407]:
+      - paragraph [ref=e408]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e409]:
+        - generic [ref=e410]:
+          - link "Privacy Policy" [ref=e411] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e412] [cursor=pointer]:
+            - /url: /terms
+        - paragraph [ref=e413]:
+          - text: Designed by
+          - generic [ref=e414]: ❤
+          - link "AiDan.Systems" [ref=e415] [cursor=pointer]:
+            - /url: https://aidan.systems
+  - alert [ref=e416]
+```

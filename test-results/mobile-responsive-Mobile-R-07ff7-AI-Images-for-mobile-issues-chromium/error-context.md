@@ -1,0 +1,228 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - link "Web-Smart.Co" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "Web-Smart.Co" [ref=e8]
+      - button "Toggle menu" [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+    - generic [ref=e11]:
+      - img "FREE AI Generated Images" [ref=e13]
+      - generic [ref=e18]:
+        - heading "FREE AI Generated Images" [level=1] [ref=e19]
+        - paragraph [ref=e20]: Professional, custom images for your business created instantly by artificial intelligence
+        - generic [ref=e21]:
+          - link "Get Free Images" [ref=e22] [cursor=pointer]:
+            - /url: "#request-form"
+            - text: Get Free Images
+            - img [ref=e23]
+          - link "How It Works" [ref=e25] [cursor=pointer]:
+            - /url: "#how-it-works"
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - heading "What You Can Create" [level=2] [ref=e29]
+        - paragraph [ref=e30]: Our AI can generate professional images for any business need
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - img [ref=e34]
+          - heading "Business & Professional" [level=3] [ref=e37]
+          - paragraph [ref=e38]: Corporate headshots, office environments, team photos, and professional settings
+          - generic [ref=e39]:
+            - generic [ref=e40]: Corporate Headshots
+            - generic [ref=e41]: Office Spaces
+            - generic [ref=e42]: Team Meetings
+            - generic [ref=e43]: Professional Settings
+        - generic [ref=e44]:
+          - img [ref=e46]
+          - heading "Marketing & Advertising" [level=3] [ref=e52]
+          - paragraph [ref=e53]: Eye-catching visuals for campaigns, social media, and promotional materials
+          - generic [ref=e54]:
+            - generic [ref=e55]: Social Media Graphics
+            - generic [ref=e56]: Ad Backgrounds
+            - generic [ref=e57]: Hero Images
+            - generic [ref=e58]: Product Mockups
+        - generic [ref=e59]:
+          - img [ref=e61]
+          - heading "E-Commerce & Products" [level=3] [ref=e65]
+          - paragraph [ref=e66]: Product photography, lifestyle shots, and commercial imagery
+          - generic [ref=e67]:
+            - generic [ref=e68]: Product Shots
+            - generic [ref=e69]: Lifestyle Images
+            - generic [ref=e70]: Background Scenes
+            - generic [ref=e71]: Studio Settings
+        - generic [ref=e72]:
+          - img [ref=e74]
+          - heading "Web Design Assets" [level=3] [ref=e77]
+          - paragraph [ref=e78]: Backgrounds, textures, patterns, and decorative elements
+          - generic [ref=e79]:
+            - generic [ref=e80]: Hero Backgrounds
+            - generic [ref=e81]: Section Dividers
+            - generic [ref=e82]: Textures
+            - generic [ref=e83]: Abstract Patterns
+    - generic [ref=e85]:
+      - generic [ref=e86]:
+        - heading "Why Choose AI Generated Images" [level=2] [ref=e87]
+        - paragraph [ref=e88]: Save time and money while getting exactly what you need
+      - generic [ref=e89]:
+        - generic [ref=e90]:
+          - img [ref=e92]
+          - heading "Instant Generation" [level=3] [ref=e94]
+          - paragraph [ref=e95]: Get professional images in seconds, not days
+        - generic [ref=e96]:
+          - img [ref=e98]
+          - heading "Unlimited Variations" [level=3] [ref=e102]
+          - paragraph [ref=e103]: Generate as many options as you need until perfect
+        - generic [ref=e104]:
+          - img [ref=e106]
+          - heading "Commercial Rights" [level=3] [ref=e109]
+          - paragraph [ref=e110]: Use images freely in your business and marketing
+        - generic [ref=e111]:
+          - img [ref=e113]
+          - heading "High Resolution" [level=3] [ref=e116]
+          - paragraph [ref=e117]: Download images in web-optimised or print-ready formats
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - heading "How It Works" [level=2] [ref=e121]
+        - paragraph [ref=e122]: Get professional AI images in three simple steps
+      - generic [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e125]: "01"
+          - generic [ref=e126]:
+            - generic [ref=e127]: "1"
+            - heading "Describe Your Image" [level=3] [ref=e128]
+            - paragraph [ref=e129]: "Tell us what you need: subject, style, setting, mood, and any specific requirements"
+        - generic [ref=e130]:
+          - generic [ref=e131]: "02"
+          - generic [ref=e132]:
+            - generic [ref=e133]: "2"
+            - heading "AI Creates It" [level=3] [ref=e134]
+            - paragraph [ref=e135]: Our advanced AI generates multiple high-quality options based on your description
+        - generic [ref=e136]:
+          - generic [ref=e137]: "03"
+          - generic [ref=e138]:
+            - generic [ref=e139]: "3"
+            - heading "Download & Use" [level=3] [ref=e140]
+            - paragraph [ref=e141]: Choose your favourite, download in high resolution, and use it in your business
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - heading "Request Your FREE AI Images" [level=2] [ref=e146]
+        - paragraph [ref=e147]: Describe what images you need and we'll create them for you
+      - generic [ref=e149]:
+        - generic [ref=e150]:
+          - generic [ref=e151]: Your Email Address *
+          - textbox "Your Email Address *" [ref=e152]:
+            - /placeholder: your.email@example.com
+        - generic [ref=e153]:
+          - generic [ref=e154]: Describe Your Image Requirements *
+          - textbox "Describe Your Image Requirements *" [ref=e155]:
+            - /placeholder: "Example: I need 3 professional headshots of business people in an office setting, modern style, natural lighting..."
+          - paragraph [ref=e156]: "Be as specific as possible: subject, style, setting, colors, mood, etc."
+        - generic [ref=e158]:
+          - img [ref=e159]
+          - generic [ref=e162]:
+            - strong [ref=e163]: 100% FREE
+            - text: "- No credit card required. We'll email you the images within 24 hours."
+        - button "Get My FREE AI Images" [ref=e164] [cursor=pointer]:
+          - text: Get My FREE AI Images
+          - img [ref=e165]
+    - generic [ref=e168]:
+      - img "Need Custom Solutions?" [ref=e170]
+      - generic [ref=e173]:
+        - heading "Need More Than Just Images?" [level=2] [ref=e174]
+        - paragraph [ref=e175]: Our team can create complete websites, branding, and marketing materials tailored to your business.
+        - generic [ref=e176]:
+          - link "Get In Touch" [ref=e177] [cursor=pointer]:
+            - /url: /contact
+            - text: Get In Touch
+            - img [ref=e178]
+          - link "View Our Services" [ref=e180] [cursor=pointer]:
+            - /url: /services
+  - contentinfo [ref=e181]:
+    - generic [ref=e183]:
+      - generic [ref=e184]:
+        - link "Web-Smart.Co" [ref=e185] [cursor=pointer]:
+          - /url: /
+          - img "Web-Smart.Co" [ref=e187]
+        - paragraph [ref=e188]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e189]:
+          - link "Facebook" [ref=e190] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e191]
+          - link "Twitter" [ref=e193] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e194]
+          - link "LinkedIn" [ref=e196] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e197]
+          - link "Instagram" [ref=e201] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e202]
+      - generic [ref=e205]:
+        - heading "Services" [level=3] [ref=e206]
+        - list [ref=e207]:
+          - listitem [ref=e208]:
+            - link "Web Design" [ref=e209] [cursor=pointer]:
+              - /url: /services#web-design
+          - listitem [ref=e210]:
+            - link "SEO Services" [ref=e211] [cursor=pointer]:
+              - /url: /services#seo
+          - listitem [ref=e212]:
+            - link "Content Writing" [ref=e213] [cursor=pointer]:
+              - /url: /services#content
+          - listitem [ref=e214]:
+            - link "Google Ads" [ref=e215] [cursor=pointer]:
+              - /url: /services#google-ads
+      - generic [ref=e216]:
+        - heading "Quick Links" [level=3] [ref=e217]
+        - list [ref=e218]:
+          - listitem [ref=e219]:
+            - link "About Us" [ref=e220] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e221]:
+            - link "Portfolio" [ref=e222] [cursor=pointer]:
+              - /url: /portfolio
+          - listitem [ref=e223]:
+            - link "Contact" [ref=e224] [cursor=pointer]:
+              - /url: /contact
+      - generic [ref=e225]:
+        - heading "Contact Us" [level=3] [ref=e226]
+        - list [ref=e227]:
+          - listitem [ref=e228]:
+            - link "01462 544738" [ref=e229] [cursor=pointer]:
+              - /url: tel:01462544738
+              - img [ref=e230]
+              - generic [ref=e232]: 01462 544738
+          - listitem [ref=e233]:
+            - link "enquiries@web-smart.co" [ref=e234] [cursor=pointer]:
+              - /url: mailto:enquiries@web-smart.co
+              - img [ref=e235]
+              - generic [ref=e238]: enquiries@web-smart.co
+          - listitem [ref=e239]:
+            - img [ref=e240]
+            - generic [ref=e243]:
+              - text: 52 Walsworth Rd,
+              - text: Hitchin, Hertfordshire
+              - text: SG4 9SX, UK
+          - listitem [ref=e244]:
+            - img [ref=e245]
+            - generic [ref=e248]:
+              - text: Monday-Friday
+              - text: 09:00-18:00
+    - generic [ref=e251]:
+      - paragraph [ref=e252]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e253]:
+        - generic [ref=e254]:
+          - link "Privacy Policy" [ref=e255] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=e256] [cursor=pointer]:
+            - /url: /terms
+        - paragraph [ref=e257]:
+          - text: Designed by
+          - generic [ref=e258]: ❤
+          - link "AiDan.Systems" [ref=e259] [cursor=pointer]:
+            - /url: https://aidan.systems
+  - alert [ref=e260]
+```
