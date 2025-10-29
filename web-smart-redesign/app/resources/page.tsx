@@ -127,7 +127,7 @@ export default function ResourcesPage() {
             alt="Free Web Design Resources"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/85 to-primary/75"></div>
+          <div className="absolute inset-0 bg-black/75"></div>
         </div>
 
         <div className="relative z-10 w-full py-24 md:py-32 pt-32 md:pt-40">
