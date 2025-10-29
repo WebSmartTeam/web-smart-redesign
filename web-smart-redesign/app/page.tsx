@@ -185,50 +185,55 @@ export default function HomePage() {
                 title: 'Custom Web Design',
                 image: '/images/portfolio/webdesignagency-hertfordshire-location3.jpg',
                 category: 'Web Design',
+                link: '/services/web-design',
               },
               {
                 title: 'Mobile Applications',
-                image: '/images/portfolio/branding-website-design.jpg',
+                image: '/images/services/neve-patterns-20.jpg',
                 category: 'Mobile Apps',
+                link: '/services/web-design',
               },
               {
                 title: 'SaaS Platforms',
-                image: '/images/portfolio/webdesign-cat-1024x682.jpg',
+                image: '/images/services/website-multidevice-resize.png',
                 category: 'Platforms',
+                link: '/services/web-design',
               },
               {
-                title: 'Web Hosting Solutions',
-                image: '/images/portfolio/buzz-website.jpg',
-                category: 'Hosting',
+                title: 'Design & Branding',
+                image: '/images/portfolio/branding-website-design.jpg',
+                category: 'Branding',
+                link: '/services/content-writing',
               },
             ].map((project, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-                className="group relative bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2"
-              >
-                <div className="aspect-video overflow-hidden">
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img
-                    src={project.image}
-                    alt={project.title}
-                    className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                </div>
-                <div className="p-6">
-                  <p className="text-sm font-medium text-primary mb-2">{project.category}</p>
-                  <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">
-                    {project.title}
-                  </h3>
-                  <div className="flex items-center gap-2 text-primary font-medium">
-                    View Case Study
-                    <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
+              <Link key={index} href={project.link}>
+                <motion.div
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: index * 0.1 }}
+                  className="group relative bg-white rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer"
+                >
+                  <div className="aspect-video overflow-hidden">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                    />
                   </div>
-                </div>
-              </motion.div>
+                  <div className="p-6">
+                    <p className="text-sm font-medium text-primary mb-2">{project.category}</p>
+                    <h3 className="text-xl font-heading font-bold text-gray-900 mb-4">
+                      {project.title}
+                    </h3>
+                    <div className="flex items-center gap-2 text-primary font-medium">
+                      View Case Study
+                      <ArrowRight size={18} className="group-hover:translate-x-2 transition-transform" />
+                    </div>
+                  </div>
+                </motion.div>
+              </Link>
             ))}
 
             {/* AI Works Card - 5th Card - Spans 2 columns on large screens */}
