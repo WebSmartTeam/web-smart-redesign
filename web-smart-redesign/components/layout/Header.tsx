@@ -100,27 +100,31 @@ const Header = () => {
 
                   {/* Mega Menu */}
                   {link.hasMegaMenu && isServicesOpen && (
-                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-3xl">
+                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-2xl">
                       <div className="bg-white rounded-xl shadow-2xl border border-gray-100 p-6">
-                        <div className="grid grid-cols-3 gap-8">
-                          {/* Services Links - 2 Columns of 3 Items */}
-                          <div className="col-span-2 grid grid-cols-2 gap-x-8 gap-y-2">
-                            {services.map((service) => (
-                              <Link
-                                key={service.href}
-                                href={service.href}
-                                className="group py-2 px-3 rounded-lg hover:bg-secondary transition-all duration-200 flex items-center"
-                              >
-                                <div className="w-1.5 h-1.5 rounded-full bg-primary group-hover:scale-125 transition-transform mr-3 flex-shrink-0"></div>
-                                <span className="font-medium text-gray-700 group-hover:text-primary transition-colors text-sm">
-                                  {service.title}
-                                </span>
-                              </Link>
-                            ))}
+                        <div className="grid grid-cols-[1fr_auto] gap-6">
+                          {/* Services Links - Single Column */}
+                          <div className="flex flex-col gap-1.5">
+                            {services.map((service) => {
+                              const IconComponent = service.icon;
+                              return (
+                                <Link
+                                  key={service.href + service.title}
+                                  href={service.href}
+                                  className="group py-3 px-4 rounded-lg hover:bg-primary/10 transition-all duration-200 flex items-center gap-3 border border-transparent hover:border-primary/20"
+                                >
+                                  <IconComponent className="w-5 h-5 text-primary group-hover:scale-110 transition-transform flex-shrink-0" />
+                                  <span className="font-medium text-gray-700 group-hover:text-primary transition-colors text-sm">
+                                    {service.title}
+                                  </span>
+                                  <ArrowRight className="w-4 h-4 text-primary opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all ml-auto" />
+                                </Link>
+                              );
+                            })}
                           </div>
 
                           {/* CTA Section - Right Side */}
-                          <div className="col-span-1 bg-gradient-to-br from-primary to-primary-600 rounded-lg p-5 text-white flex flex-col justify-center">
+                          <div className="bg-gradient-to-br from-primary to-primary-600 rounded-lg p-5 text-white flex flex-col justify-center min-w-[200px]">
                             <h3 className="text-base font-bold mb-3">
                               Need Help?
                             </h3>
