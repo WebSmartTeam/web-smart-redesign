@@ -24,17 +24,17 @@ const Header = () => {
     {
       icon: Globe,
       title: 'Web Design',
-      href: '/services/web-design',
+      href: '/services',
     },
     {
       icon: Search,
       title: 'SEO Services',
-      href: '/services/seo',
+      href: '/services',
     },
     {
       icon: MousePointerClick,
       title: 'Google Ads',
-      href: '/services/google-ads',
+      href: '/services',
     },
     {
       icon: Sparkles,
@@ -44,7 +44,7 @@ const Header = () => {
     {
       icon: Grid3x3,
       title: 'WordPress Development',
-      href: '/contact',
+      href: '/services',
     },
   ];
 
