@@ -105,11 +105,11 @@ const Header = () => {
 
                   {/* Mega Menu */}
                   {link.hasMegaMenu && isServicesOpen && (
-                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-6xl">
+                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-5xl">
                       <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-6">
-                        <div className="grid grid-cols-7 gap-4">
-                          {/* Services Links - Single Row (6 columns) */}
-                          <div className="col-span-6 grid grid-cols-6 gap-3">
+                        <div className="grid grid-cols-4 gap-4">
+                          {/* Services Links - 3x2 Grid (3 columns) */}
+                          <div className="col-span-3 grid grid-cols-3 gap-3">
                             {services.map((service) => {
                               const Icon = service.icon;
                               return (
@@ -129,7 +129,7 @@ const Header = () => {
                             })}
                           </div>
 
-                          {/* CTA Section - Right Side (Compact) */}
+                          {/* CTA Section - Right Side */}
                           <div className="col-span-1 bg-gradient-to-br from-primary to-primary-600 rounded-xl p-4 text-white flex flex-col items-center justify-center text-center">
                             <Sparkles className="mb-3" size={28} />
                             <h3 className="text-sm font-bold mb-2">
