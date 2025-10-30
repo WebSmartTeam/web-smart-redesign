@@ -105,58 +105,52 @@ const Header = () => {
 
                   {/* Mega Menu */}
                   {link.hasMegaMenu && isServicesOpen && (
-                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-4xl">
-                      <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-8">
-                        <div className="grid grid-cols-4 gap-6">
-                          {/* Services Links - Left Side (3 columns) */}
-                          <div className="col-span-3 grid grid-cols-3 gap-3">
+                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-6xl">
+                      <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-6">
+                        <div className="grid grid-cols-7 gap-4">
+                          {/* Services Links - Single Row (6 columns) */}
+                          <div className="col-span-6 grid grid-cols-6 gap-3">
                             {services.map((service) => {
                               const Icon = service.icon;
                               return (
                                 <Link
                                   key={service.href}
                                   href={service.href}
-                                  className="group p-4 rounded-xl hover:bg-secondary transition-all duration-300"
+                                  className="group p-3 rounded-xl hover:bg-secondary transition-all duration-300 flex flex-col items-center text-center"
                                 >
-                                  <div className="flex items-center gap-3">
-                                    <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
-                                      <Icon className="text-primary group-hover:text-white transition-colors" size={20} />
-                                    </div>
-                                    <h3 className="font-semibold text-gray-900 group-hover:text-primary transition-colors text-sm">
-                                      {service.title}
-                                    </h3>
+                                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:scale-110 transition-all duration-300 mb-2">
+                                    <Icon className="text-primary group-hover:text-white transition-colors" size={20} />
                                   </div>
+                                  <h3 className="font-semibold text-gray-900 group-hover:text-primary transition-colors text-xs leading-tight">
+                                    {service.title}
+                                  </h3>
                                 </Link>
                               );
                             })}
                           </div>
 
-                          {/* CTA Section - Right Side */}
-                          <div className="col-span-1 bg-gradient-to-br from-primary to-primary-600 rounded-xl p-6 text-white">
-                            <Sparkles className="mb-4" size={32} />
-                            <h3 className="text-xl font-bold mb-2">
-                              Ready to Transform Your Digital Presence?
+                          {/* CTA Section - Right Side (Compact) */}
+                          <div className="col-span-1 bg-gradient-to-br from-primary to-primary-600 rounded-xl p-4 text-white flex flex-col items-center justify-center text-center">
+                            <Sparkles className="mb-3" size={28} />
+                            <h3 className="text-sm font-bold mb-2">
+                              Get Started
                             </h3>
-                            <p className="text-sm text-white/90 mb-6 leading-relaxed">
-                              Get a free consultation and discover how our services can help your business grow.
-                            </p>
                             <Button
                               href="/contact"
                               variant="secondary"
                               size="sm"
-                              className="w-full group"
+                              className="w-full group text-xs"
                             >
-                              Get Started
-                              <ArrowRight className="group-hover:translate-x-1 transition-transform" size={16} />
+                              Contact Us
+                              <ArrowRight className="group-hover:translate-x-1 transition-transform" size={14} />
                             </Button>
-                            <div className="mt-4 pt-4 border-t border-white/20">
-                              <p className="text-xs text-white/80 mb-2">Or call us directly:</p>
+                            <div className="mt-3 pt-3 border-t border-white/20 w-full">
                               <a
                                 href="tel:01462544738"
-                                className="flex items-center gap-2 text-sm font-semibold hover:text-white/90 transition-colors"
+                                className="flex items-center justify-center gap-1 text-xs font-semibold hover:text-white/90 transition-colors"
                               >
-                                <Phone size={16} />
-                                01462 544738
+                                <Phone size={14} />
+                                <span className="text-[10px]">01462 544738</span>
                               </a>
                             </div>
                           </div>
