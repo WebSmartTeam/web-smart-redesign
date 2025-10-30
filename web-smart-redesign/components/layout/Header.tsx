@@ -130,24 +130,24 @@ const Header = () => {
                                 >
                                   {/* Animated Background */}
                                   <div className={cn(
-                                    "absolute inset-0 bg-gradient-to-r from-primary to-primary-600 transition-all duration-300",
+                                    "absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/30 transition-all duration-300",
                                     isActive ? "opacity-100" : "opacity-0"
                                   )} />
 
                                   {/* Content */}
                                   <IconComponent className={cn(
                                     "w-5 h-5 transition-all duration-300 flex-shrink-0 relative z-10",
-                                    isActive ? "text-white scale-110" : "text-primary"
+                                    isActive ? "text-primary scale-110" : "text-primary"
                                   )} />
                                   <span className={cn(
                                     "font-medium transition-all duration-300 text-sm relative z-10",
-                                    isActive ? "text-white" : "text-gray-700"
+                                    isActive ? "text-gray-900" : "text-gray-700"
                                   )}>
                                     {service.title}
                                   </span>
                                   <ArrowRight className={cn(
                                     "w-4 h-4 transition-all duration-300 ml-auto relative z-10",
-                                    isActive ? "text-white opacity-100 translate-x-0" : "text-primary opacity-0 -translate-x-2"
+                                    isActive ? "text-primary opacity-100 translate-x-0" : "text-primary opacity-0 -translate-x-2"
                                   )} />
                                 </Link>
                               );
