@@ -674,9 +674,6 @@ export default function HomePage() {
                 </li>
               </ul>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button href="/ai-images" size="lg">
-                  Get Free AI Images
-                </Button>
                 <Button href="/contact" variant="outline" size="lg">
                   Book AI Consultation
                 </Button>

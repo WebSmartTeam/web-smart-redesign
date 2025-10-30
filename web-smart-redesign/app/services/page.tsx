@@ -116,15 +116,6 @@ export default function ServicesPage() {
           href: '/services/content-writing',
         },
         {
-          title: 'Image Magic',
-          description: 'Transform ordinary images into stunning, high-quality visuals. Improve quality, remove backgrounds, upscale resolutions, and generate unique imagery.',
-          icon: ImageIcon,
-          image: '/images/services/ai-seo-strategy.jpg',
-          features: ['Image Enhancement', 'Background Removal', 'AI Image Generation', 'Upscaling'],
-          cta: 'Get Quote',
-          href: '/ai-images',
-        },
-        {
           title: 'AI Tools & Automation',
           description: 'Custom AI tools and automation solutions to streamline your business processes and increase efficiency.',
           icon: Zap,
