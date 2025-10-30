@@ -128,7 +128,7 @@ const Header = () => {
                             <h3 className="text-base font-bold mb-3">
                               Need Help?
                             </h3>
-                            <p className="text-xs text-white/90 mb-4 leading-relaxed">
+                            <p className="text-xs text-white/90 mb-6 leading-relaxed">
                               Get in touch with our team
                             </p>
                             <Button
