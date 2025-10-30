@@ -77,262 +77,262 @@
       - generic [ref=e104]:
         - generic [ref=e105]:
           - img [ref=e107]
-          - heading "Keyword Research & Strategy" [level=3] [ref=e110]
-          - paragraph [ref=e111]: In-depth research to identify the keywords your customers are searching for and create a winning strategy
-          - list [ref=e112]:
-            - listitem [ref=e113]:
+          - heading "Keyword Research & Strategy" [level=3]
+          - paragraph: In-depth research to identify the keywords your customers are searching for and create a winning strategy
+          - list:
+            - listitem:
+              - img [ref=e110]
+              - generic [ref=e113]: Competitor analysis
+            - listitem:
               - img [ref=e114]
-              - generic [ref=e117]: Competitor analysis
-            - listitem [ref=e118]:
-              - img [ref=e119]
-              - generic [ref=e122]: Search volume research
-            - listitem [ref=e123]:
-              - img [ref=e124]
-              - generic [ref=e127]: Keyword difficulty assessment
-            - listitem [ref=e128]:
-              - img [ref=e129]
-              - generic [ref=e132]: Content gap analysis
-        - generic [ref=e133]:
-          - img [ref=e135]
-          - heading "On-Page SEO" [level=3] [ref=e139]
-          - paragraph [ref=e140]: Optimise every element of your website to rank higher and provide better user experience
-          - list [ref=e141]:
-            - listitem [ref=e142]:
-              - img [ref=e143]
-              - generic [ref=e146]: Meta tags optimization
-            - listitem [ref=e147]:
-              - img [ref=e148]
-              - generic [ref=e151]: Content optimization
-            - listitem [ref=e152]:
-              - img [ref=e153]
-              - generic [ref=e156]: Internal linking
-            - listitem [ref=e157]:
-              - img [ref=e158]
-              - generic [ref=e161]: Image optimization
-        - generic [ref=e162]:
-          - img [ref=e164]
-          - heading "Technical SEO" [level=3] [ref=e165]
-          - paragraph [ref=e166]: Fix technical issues that prevent search engines from properly crawling and indexing your website
-          - list [ref=e167]:
-            - listitem [ref=e168]:
-              - img [ref=e169]
-              - generic [ref=e172]: Site speed optimization
-            - listitem [ref=e173]:
-              - img [ref=e174]
-              - generic [ref=e177]: Mobile-first indexing
-            - listitem [ref=e178]:
-              - img [ref=e179]
-              - generic [ref=e182]: Schema markup
-            - listitem [ref=e183]:
+              - generic [ref=e117]: Search volume research
+            - listitem:
+              - img [ref=e118]
+              - generic [ref=e121]: Keyword difficulty assessment
+            - listitem:
+              - img [ref=e122]
+              - generic [ref=e125]: Content gap analysis
+        - generic [ref=e126]:
+          - img [ref=e128]
+          - heading "On-Page SEO" [level=3]
+          - paragraph: Optimise every element of your website to rank higher and provide better user experience
+          - list:
+            - listitem:
+              - img [ref=e132]
+              - generic [ref=e135]: Meta tags optimization
+            - listitem:
+              - img [ref=e136]
+              - generic [ref=e139]: Content optimization
+            - listitem:
+              - img [ref=e140]
+              - generic [ref=e143]: Internal linking
+            - listitem:
+              - img [ref=e144]
+              - generic [ref=e147]: Image optimization
+        - generic [ref=e148]:
+          - img [ref=e150]
+          - heading "Technical SEO" [level=3]
+          - paragraph: Fix technical issues that prevent search engines from properly crawling and indexing your website
+          - list:
+            - listitem:
+              - img [ref=e151]
+              - generic [ref=e154]: Site speed optimization
+            - listitem:
+              - img [ref=e155]
+              - generic [ref=e158]: Mobile-first indexing
+            - listitem:
+              - img [ref=e159]
+              - generic [ref=e162]: Schema markup
+            - listitem:
+              - img [ref=e163]
+              - generic [ref=e166]: XML sitemaps
+        - generic [ref=e167]:
+          - img [ref=e169]
+          - heading "Link Building" [level=3]
+          - paragraph: Build high-quality backlinks from authoritative websites to boost your domain authority
+          - list:
+            - listitem:
+              - img [ref=e172]
+              - generic [ref=e175]: Outreach campaigns
+            - listitem:
+              - img [ref=e176]
+              - generic [ref=e179]: Guest posting
+            - listitem:
+              - img [ref=e180]
+              - generic [ref=e183]: Directory submissions
+            - listitem:
               - img [ref=e184]
-              - generic [ref=e187]: XML sitemaps
+              - generic [ref=e187]: Link quality analysis
         - generic [ref=e188]:
           - img [ref=e190]
-          - heading "Link Building" [level=3] [ref=e193]
-          - paragraph [ref=e194]: Build high-quality backlinks from authoritative websites to boost your domain authority
-          - list [ref=e195]:
-            - listitem [ref=e196]:
+          - heading "Local SEO" [level=3]
+          - paragraph: Dominate local search results and attract customers in Hertfordshire and surrounding areas
+          - list:
+            - listitem:
+              - img [ref=e193]
+              - generic [ref=e196]: Google My Business
+            - listitem:
               - img [ref=e197]
-              - generic [ref=e200]: Outreach campaigns
-            - listitem [ref=e201]:
-              - img [ref=e202]
-              - generic [ref=e205]: Guest posting
-            - listitem [ref=e206]:
-              - img [ref=e207]
-              - generic [ref=e210]: Directory submissions
-            - listitem [ref=e211]:
-              - img [ref=e212]
-              - generic [ref=e215]: Link quality analysis
-        - generic [ref=e216]:
-          - img [ref=e218]
-          - heading "Local SEO" [level=3] [ref=e221]
-          - paragraph [ref=e222]: Dominate local search results and attract customers in Hertfordshire and surrounding areas
-          - list [ref=e223]:
-            - listitem [ref=e224]:
-              - img [ref=e225]
-              - generic [ref=e228]: Google My Business
-            - listitem [ref=e229]:
-              - img [ref=e230]
-              - generic [ref=e233]: Local citations
-            - listitem [ref=e234]:
-              - img [ref=e235]
-              - generic [ref=e238]: Review management
-            - listitem [ref=e239]:
-              - img [ref=e240]
-              - generic [ref=e243]: Local content
-        - generic [ref=e244]:
-          - img [ref=e246]
-          - heading "AI-Powered SEO" [level=3] [ref=e249]
-          - paragraph [ref=e250]: Leverage artificial intelligence to gain insights and automate optimization tasks
-          - list [ref=e251]:
-            - listitem [ref=e252]:
-              - img [ref=e253]
-              - generic [ref=e256]: AI content optimization
-            - listitem [ref=e257]:
-              - img [ref=e258]
-              - generic [ref=e261]: Predictive analytics
-            - listitem [ref=e262]:
-              - img [ref=e263]
-              - generic [ref=e266]: Automated reporting
-            - listitem [ref=e267]:
-              - img [ref=e268]
-              - generic [ref=e271]: Trend analysis
-    - generic [ref=e273]:
-      - generic [ref=e274]:
-        - heading "Why Invest in SEO?" [level=2] [ref=e275]
-        - paragraph [ref=e276]: The benefits of professional SEO services for your business
-      - generic [ref=e277]:
-        - generic [ref=e278]:
-          - img [ref=e280]
-          - heading "Increase Organic Traffic" [level=3] [ref=e283]
-          - paragraph [ref=e284]: Get more visitors from Google without paying for ads
-        - generic [ref=e285]:
-          - img [ref=e287]
-          - heading "Target Local Customers" [level=3] [ref=e291]
-          - paragraph [ref=e292]: Attract customers in Hertfordshire searching for your services
-        - generic [ref=e293]:
-          - img [ref=e295]
-          - heading "Build Authority" [level=3] [ref=e298]
-          - paragraph [ref=e299]: Establish your business as an industry leader in your area
-        - generic [ref=e300]:
-          - img [ref=e302]
-          - heading "Long-Term Results" [level=3] [ref=e305]
-          - paragraph [ref=e306]: SEO keeps working for you, providing lasting value
-    - generic [ref=e309]:
-      - generic [ref=e310]:
-        - heading "Why Choose Web-Smart for SEO" [level=2] [ref=e311]
-        - paragraph [ref=e312]: The best SEO agency in Hertfordshire
-      - generic [ref=e313]:
-        - generic [ref=e314]:
-          - img [ref=e315]
-          - generic [ref=e318]: Hertfordshire SEO specialists - we know the local market
-        - generic [ref=e319]:
-          - img [ref=e320]
-          - generic [ref=e323]: Transparent reporting - see exactly what we're doing
-        - generic [ref=e324]:
-          - img [ref=e325]
-          - generic [ref=e328]: No long-term contracts - prove our value every month
-        - generic [ref=e329]:
-          - img [ref=e330]
-          - generic [ref=e333]: White-hat techniques - sustainable, Google-approved methods
-        - generic [ref=e334]:
-          - img [ref=e335]
-          - generic [ref=e338]: Proven track record - 200+ successful SEO campaigns
-        - generic [ref=e339]:
-          - img [ref=e340]
-          - generic [ref=e343]: AI-powered insights - cutting-edge technology
-    - generic [ref=e345]:
-      - generic [ref=e346]:
-        - heading "Our SEO Results" [level=2] [ref=e347]
-        - paragraph [ref=e348]: Real results for Hertfordshire businesses
-      - generic [ref=e349]:
-        - generic [ref=e350]:
-          - generic [ref=e351]: 200+
-          - generic [ref=e352]: Successful Campaigns
-        - generic [ref=e353]:
-          - generic [ref=e354]: 10+
-          - generic [ref=e355]: Years Experience
-        - generic [ref=e356]:
-          - generic [ref=e357]: "4.9"
-          - generic [ref=e358]: Average Rating
-        - generic [ref=e359]:
-          - generic [ref=e360]: 150%
-          - generic [ref=e361]: Average Traffic Increase
-    - generic [ref=e363]:
-      - img "Start Your SEO Campaign" [ref=e365]
-      - generic [ref=e368]:
-        - heading "Ready to Dominate Google?" [level=2] [ref=e369]
-        - paragraph [ref=e370]: Get a free SEO audit and discover how we can help you rank higher and attract more customers.
-        - generic [ref=e371]:
-          - link "Get Free SEO Audit" [ref=e372] [cursor=pointer]:
+              - generic [ref=e200]: Local citations
+            - listitem:
+              - img [ref=e201]
+              - generic [ref=e204]: Review management
+            - listitem:
+              - img [ref=e205]
+              - generic [ref=e208]: Local content
+        - generic [ref=e209]:
+          - img [ref=e211]
+          - heading "AI-Powered SEO" [level=3]
+          - paragraph: Leverage artificial intelligence to gain insights and automate optimization tasks
+          - list:
+            - listitem:
+              - img [ref=e214]
+              - generic [ref=e217]: AI content optimization
+            - listitem:
+              - img [ref=e218]
+              - generic [ref=e221]: Predictive analytics
+            - listitem:
+              - img [ref=e222]
+              - generic [ref=e225]: Automated reporting
+            - listitem:
+              - img [ref=e226]
+              - generic [ref=e229]: Trend analysis
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - heading "Why Invest in SEO?" [level=2] [ref=e233]
+        - paragraph [ref=e234]: The benefits of professional SEO services for your business
+      - generic [ref=e235]:
+        - generic [ref=e236]:
+          - img [ref=e238]
+          - heading "Increase Organic Traffic" [level=3] [ref=e241]
+          - paragraph [ref=e242]: Get more visitors from Google without paying for ads
+        - generic [ref=e243]:
+          - img [ref=e245]
+          - heading "Target Local Customers" [level=3] [ref=e249]
+          - paragraph [ref=e250]: Attract customers in Hertfordshire searching for your services
+        - generic [ref=e251]:
+          - img [ref=e253]
+          - heading "Build Authority" [level=3] [ref=e256]
+          - paragraph [ref=e257]: Establish your business as an industry leader in your area
+        - generic [ref=e258]:
+          - img [ref=e260]
+          - heading "Long-Term Results" [level=3] [ref=e263]
+          - paragraph [ref=e264]: SEO keeps working for you, providing lasting value
+    - generic [ref=e267]:
+      - generic [ref=e268]:
+        - heading "Why Choose Web-Smart for SEO" [level=2] [ref=e269]
+        - paragraph [ref=e270]: The best SEO agency in Hertfordshire
+      - generic [ref=e271]:
+        - generic [ref=e272]:
+          - img [ref=e273]
+          - generic [ref=e276]: Hertfordshire SEO specialists - we know the local market
+        - generic [ref=e277]:
+          - img [ref=e278]
+          - generic [ref=e281]: Transparent reporting - see exactly what we're doing
+        - generic [ref=e282]:
+          - img [ref=e283]
+          - generic [ref=e286]: No long-term contracts - prove our value every month
+        - generic [ref=e287]:
+          - img [ref=e288]
+          - generic [ref=e291]: White-hat techniques - sustainable, Google-approved methods
+        - generic [ref=e292]:
+          - img [ref=e293]
+          - generic [ref=e296]: Proven track record - 200+ successful SEO campaigns
+        - generic [ref=e297]:
+          - img [ref=e298]
+          - generic [ref=e301]: AI-powered insights - cutting-edge technology
+    - generic [ref=e303]:
+      - generic [ref=e304]:
+        - heading "Our SEO Results" [level=2] [ref=e305]
+        - paragraph [ref=e306]: Real results for Hertfordshire businesses
+      - generic [ref=e307]:
+        - generic [ref=e308]:
+          - generic: 200+
+          - generic: Successful Campaigns
+        - generic [ref=e309]:
+          - generic: 10+
+          - generic: Years Experience
+        - generic [ref=e310]:
+          - generic: "4.9"
+          - generic: Average Rating
+        - generic [ref=e311]:
+          - generic: 150%
+          - generic: Average Traffic Increase
+    - generic [ref=e313]:
+      - img "Start Your SEO Campaign" [ref=e315]
+      - generic [ref=e318]:
+        - heading "Ready to Dominate Google?" [level=2] [ref=e319]
+        - paragraph [ref=e320]: Get a free SEO audit and discover how we can help you rank higher and attract more customers.
+        - generic [ref=e321]:
+          - link "Get Free SEO Audit" [ref=e322] [cursor=pointer]:
             - /url: /contact
             - text: Get Free SEO Audit
-            - img [ref=e373]
-          - link "Call 01462 544738" [ref=e375] [cursor=pointer]:
+            - img [ref=e323]
+          - link "Call 01462 544738" [ref=e325] [cursor=pointer]:
             - /url: tel:01462544738
-  - contentinfo [ref=e376]:
-    - generic [ref=e378]:
-      - generic [ref=e379]:
-        - link "Web-Smart.Co" [ref=e380] [cursor=pointer]:
+  - contentinfo [ref=e326]:
+    - generic [ref=e328]:
+      - generic [ref=e329]:
+        - link "Web-Smart.Co" [ref=e330] [cursor=pointer]:
           - /url: /
-          - img "Web-Smart.Co" [ref=e382]
-        - paragraph [ref=e383]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
-        - generic [ref=e384]:
-          - link "Facebook" [ref=e385] [cursor=pointer]:
+          - img "Web-Smart.Co" [ref=e332]
+        - paragraph [ref=e333]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e334]:
+          - link "Facebook" [ref=e335] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e386]
-          - link "Twitter" [ref=e388] [cursor=pointer]:
+            - img [ref=e336]
+          - link "Twitter" [ref=e338] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e389]
-          - link "LinkedIn" [ref=e391] [cursor=pointer]:
+            - img [ref=e339]
+          - link "LinkedIn" [ref=e341] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e392]
-          - link "Instagram" [ref=e396] [cursor=pointer]:
+            - img [ref=e342]
+          - link "Instagram" [ref=e346] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e397]
-      - generic [ref=e400]:
-        - heading "Services" [level=3] [ref=e401]
-        - list [ref=e402]:
-          - listitem [ref=e403]:
-            - link "Web Design" [ref=e404] [cursor=pointer]:
+            - img [ref=e347]
+      - generic [ref=e350]:
+        - heading "Services" [level=3] [ref=e351]
+        - list [ref=e352]:
+          - listitem [ref=e353]:
+            - link "Web Design" [ref=e354] [cursor=pointer]:
               - /url: /services#web-design
-          - listitem [ref=e405]:
-            - link "SEO Services" [ref=e406] [cursor=pointer]:
+          - listitem [ref=e355]:
+            - link "SEO Services" [ref=e356] [cursor=pointer]:
               - /url: /services#seo
-          - listitem [ref=e407]:
-            - link "Content Writing" [ref=e408] [cursor=pointer]:
+          - listitem [ref=e357]:
+            - link "Content Writing" [ref=e358] [cursor=pointer]:
               - /url: /services#content
-          - listitem [ref=e409]:
-            - link "Google Ads" [ref=e410] [cursor=pointer]:
+          - listitem [ref=e359]:
+            - link "Google Ads" [ref=e360] [cursor=pointer]:
               - /url: /services#google-ads
-      - generic [ref=e411]:
-        - heading "Quick Links" [level=3] [ref=e412]
-        - list [ref=e413]:
-          - listitem [ref=e414]:
-            - link "About Us" [ref=e415] [cursor=pointer]:
+      - generic [ref=e361]:
+        - heading "Quick Links" [level=3] [ref=e362]
+        - list [ref=e363]:
+          - listitem [ref=e364]:
+            - link "About Us" [ref=e365] [cursor=pointer]:
               - /url: /about
-          - listitem [ref=e416]:
-            - link "Portfolio" [ref=e417] [cursor=pointer]:
+          - listitem [ref=e366]:
+            - link "Portfolio" [ref=e367] [cursor=pointer]:
               - /url: /portfolio
-          - listitem [ref=e418]:
-            - link "Contact" [ref=e419] [cursor=pointer]:
+          - listitem [ref=e368]:
+            - link "Contact" [ref=e369] [cursor=pointer]:
               - /url: /contact
-      - generic [ref=e420]:
-        - heading "Contact Us" [level=3] [ref=e421]
-        - list [ref=e422]:
-          - listitem [ref=e423]:
-            - link "01462 544738" [ref=e424] [cursor=pointer]:
+      - generic [ref=e370]:
+        - heading "Contact Us" [level=3] [ref=e371]
+        - list [ref=e372]:
+          - listitem [ref=e373]:
+            - link "01462 544738" [ref=e374] [cursor=pointer]:
               - /url: tel:01462544738
-              - img [ref=e425]
-              - generic [ref=e427]: 01462 544738
-          - listitem [ref=e428]:
-            - link "enquiries@web-smart.co" [ref=e429] [cursor=pointer]:
+              - img [ref=e375]
+              - generic [ref=e377]: 01462 544738
+          - listitem [ref=e378]:
+            - link "enquiries@web-smart.co" [ref=e379] [cursor=pointer]:
               - /url: mailto:enquiries@web-smart.co
-              - img [ref=e430]
-              - generic [ref=e433]: enquiries@web-smart.co
-          - listitem [ref=e434]:
-            - img [ref=e435]
-            - generic [ref=e438]:
+              - img [ref=e380]
+              - generic [ref=e383]: enquiries@web-smart.co
+          - listitem [ref=e384]:
+            - img [ref=e385]
+            - generic [ref=e388]:
               - text: 52 Walsworth Rd,
               - text: Hitchin, Hertfordshire
               - text: SG4 9SX, UK
-          - listitem [ref=e439]:
-            - img [ref=e440]
-            - generic [ref=e443]:
+          - listitem [ref=e389]:
+            - img [ref=e390]
+            - generic [ref=e393]:
               - text: Monday-Friday
               - text: 09:00-18:00
-    - generic [ref=e446]:
-      - paragraph [ref=e447]: © 2025 Web-Smart.Co. All rights reserved.
-      - generic [ref=e448]:
-        - generic [ref=e449]:
-          - link "Privacy Policy" [ref=e450] [cursor=pointer]:
+    - generic [ref=e396]:
+      - paragraph [ref=e397]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e398]:
+        - generic [ref=e399]:
+          - link "Privacy Policy" [ref=e400] [cursor=pointer]:
             - /url: /privacy
-          - link "Terms of Service" [ref=e451] [cursor=pointer]:
+          - link "Terms of Service" [ref=e401] [cursor=pointer]:
             - /url: /terms
-        - paragraph [ref=e452]:
+        - paragraph [ref=e402]:
           - text: Designed by
-          - generic [ref=e453]: ❤
-          - link "AiDan.Systems" [ref=e454] [cursor=pointer]:
+          - generic [ref=e403]: ❤
+          - link "AiDan.Systems" [ref=e404] [cursor=pointer]:
             - /url: https://aidan.systems
-  - alert [ref=e455]
+  - alert [ref=e405]
 ```

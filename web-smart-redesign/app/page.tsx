@@ -124,23 +124,23 @@ export default function HomePage() {
                 </p>
 
                 {/* Google Review Widget */}
-                <div className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3">
+                <div className="flex flex-wrap items-center justify-center md:justify-start gap-2 md:gap-3 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 md:px-6 py-2 md:py-3 max-w-full md:inline-flex">
                   <div className="flex items-center gap-1">
                     {[...Array(5)].map((_, i) => (
                       <Star
                         key={i}
                         className={i < 4 ? "text-yellow-400 fill-yellow-400" : "text-yellow-400 fill-yellow-400"}
-                        size={18}
+                        size={16}
                       />
                     ))}
                   </div>
-                  <div className="h-5 w-px bg-white/30"></div>
-                  <div className="flex items-center gap-2">
-                    <span className="text-white font-bold text-lg">4.9</span>
-                    <span className="text-white/80 text-sm">Google Rating</span>
+                  <div className="hidden md:block h-5 w-px bg-white/30"></div>
+                  <div className="flex items-center gap-1.5 md:gap-2">
+                    <span className="text-white font-bold text-base md:text-lg">4.9</span>
+                    <span className="text-white/80 text-xs md:text-sm whitespace-nowrap">Google Rating</span>
                   </div>
-                  <div className="h-5 w-px bg-white/30"></div>
-                  <span className="text-white/80 text-sm">200+ Reviews</span>
+                  <div className="hidden md:block h-5 w-px bg-white/30"></div>
+                  <span className="text-white/80 text-xs md:text-sm whitespace-nowrap">200+ Reviews</span>
                 </div>
               </motion.div>
             </div>
@@ -254,9 +254,9 @@ export default function HomePage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: 0.4 }}
-                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer flex h-[421px]"
+                className="group relative bg-gradient-to-br from-primary to-primary-600 rounded-xl overflow-hidden shadow-md hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 cursor-pointer flex flex-col md:flex-row md:h-[421px]"
               >
-                <div className="w-1/2 overflow-hidden relative">
+                <div className="w-full md:w-1/2 overflow-hidden relative aspect-video md:aspect-auto">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
                     src="/images/services/ai-seo-strategy.jpg"
@@ -265,7 +265,7 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 bg-primary/30"></div>
                 </div>
-                <div className="w-1/2 p-6 text-white flex flex-col justify-center">
+                <div className="w-full md:w-1/2 p-6 text-white flex flex-col justify-center">
                   <p className="text-sm font-medium text-white/90 mb-2">AI Innovation</p>
                   <h3 className="text-xl font-heading font-bold text-white mb-4">
                     Our AI Works

@@ -57,207 +57,222 @@
           - generic [ref=e84]:
             - img "Custom Web Design" [ref=e86]
             - generic [ref=e87]:
-              - paragraph [ref=e88]: Web Design
-              - heading "Custom Web Design" [level=3] [ref=e89]
-              - generic [ref=e90]:
-                - text: View Case Study
-                - img [ref=e91]
-        - link "Mobile Applications Mobile Apps Mobile Applications View Case Study" [ref=e93] [cursor=pointer]:
+              - paragraph: Web Design
+              - heading "Custom Web Design" [level=3]
+              - generic: View Case Study
+        - link "Mobile Applications Mobile Apps Mobile Applications View Case Study" [ref=e89] [cursor=pointer]:
           - /url: /services
-          - generic [ref=e94]:
-            - img "Mobile Applications" [ref=e96]
-            - generic [ref=e97]:
-              - paragraph [ref=e98]: Mobile Apps
-              - heading "Mobile Applications" [level=3] [ref=e99]
-              - generic [ref=e100]:
-                - text: View Case Study
-                - img [ref=e101]
-        - link "SaaS Platforms Platforms SaaS Platforms View Case Study" [ref=e103] [cursor=pointer]:
+          - generic [ref=e90]:
+            - img "Mobile Applications" [ref=e92]
+            - generic [ref=e93]:
+              - paragraph: Mobile Apps
+              - heading "Mobile Applications" [level=3]
+              - generic: View Case Study
+        - link "SaaS Platforms Platforms SaaS Platforms View Case Study" [ref=e95] [cursor=pointer]:
           - /url: /services
-          - generic [ref=e104]:
-            - img "SaaS Platforms" [ref=e106]
-            - generic [ref=e107]:
-              - paragraph [ref=e108]: Platforms
-              - heading "SaaS Platforms" [level=3] [ref=e109]
-              - generic [ref=e110]:
-                - text: View Case Study
-                - img [ref=e111]
-        - link "Design & Branding Branding Design & Branding View Case Study" [ref=e113] [cursor=pointer]:
+          - generic [ref=e96]:
+            - img "SaaS Platforms" [ref=e98]
+            - generic [ref=e99]:
+              - paragraph: Platforms
+              - heading "SaaS Platforms" [level=3]
+              - generic: View Case Study
+        - link "Design & Branding Branding Design & Branding View Case Study" [ref=e101] [cursor=pointer]:
           - /url: /services
-          - generic [ref=e114]:
-            - img "Design & Branding" [ref=e116]
-            - generic [ref=e117]:
-              - paragraph [ref=e118]: Branding
-              - heading "Design & Branding" [level=3] [ref=e119]
-              - generic [ref=e120]:
-                - text: View Case Study
-                - img [ref=e121]
-        - link "AI Works and Solutions AI Innovation Our AI Works Explore cutting-edge AI platforms, tools, and website solutions we're building View AI Projects" [ref=e123] [cursor=pointer]:
+          - generic [ref=e102]:
+            - img "Design & Branding" [ref=e104]
+            - generic [ref=e105]:
+              - paragraph: Branding
+              - heading "Design & Branding" [level=3]
+              - generic: View Case Study
+        - link "AI Works and Solutions AI Innovation Our AI Works Explore cutting-edge AI platforms, tools, and website solutions we're building View AI Projects" [ref=e107] [cursor=pointer]:
           - /url: /ai-projects
-          - generic [ref=e124]:
-            - img "AI Works and Solutions" [ref=e126]
-            - generic [ref=e128]:
-              - paragraph [ref=e129]: AI Innovation
-              - heading "Our AI Works" [level=3] [ref=e130]
-              - paragraph [ref=e131]: Explore cutting-edge AI platforms, tools, and website solutions we're building
-              - generic [ref=e132]:
-                - text: View AI Projects
-                - img [ref=e133]
-      - generic [ref=e136]:
-        - link "Tell Us About Your Project → Get a Quote" [ref=e137] [cursor=pointer]:
+          - generic [ref=e108]:
+            - generic:
+              - img "AI Works and Solutions"
+            - generic [ref=e109]:
+              - paragraph: AI Innovation
+              - heading "Our AI Works" [level=3]
+              - paragraph: Explore cutting-edge AI platforms, tools, and website solutions we're building
+              - generic: View AI Projects
+      - generic [ref=e112]:
+        - link "Tell Us About Your Project → Get a Quote" [ref=e113] [cursor=pointer]:
           - /url: /contact
-        - link "View Full Portfolio" [ref=e138] [cursor=pointer]:
+        - link "View Full Portfolio" [ref=e114] [cursor=pointer]:
           - /url: /portfolio
-    - generic [ref=e140]:
-      - generic [ref=e141]:
-        - heading "Website Packages" [level=2] [ref=e142]
-        - paragraph [ref=e143]: Choose the perfect solution for your business
-      - generic [ref=e144]:
-        - generic [ref=e145]:
-          - img [ref=e147]
-          - generic [ref=e150]: £500
-          - heading "Static Business Website" [level=3] [ref=e151]
-          - paragraph [ref=e152]: Professional, fast-loading website perfect for businesses with stable content
-          - list [ref=e153]:
-            - listitem [ref=e154]:
-              - img [ref=e155]
-              - generic [ref=e158]: Responsive design
-            - listitem [ref=e159]:
-              - img [ref=e160]
-              - generic [ref=e163]: Up to 5 pages
-            - listitem [ref=e164]:
-              - img [ref=e165]
-              - generic [ref=e168]: Contact form
-            - listitem [ref=e169]:
-              - img [ref=e170]
-              - generic [ref=e173]: SEO optimization
-          - link "Learn More" [ref=e174] [cursor=pointer]:
+    - generic [ref=e116]:
+      - generic [ref=e117]:
+        - heading "Website Packages" [level=2] [ref=e118]
+        - paragraph [ref=e119]: Choose the perfect solution for your business
+      - generic [ref=e120]:
+        - generic [ref=e121]:
+          - img [ref=e123]
+          - generic [ref=e126]: £500
+          - heading "Static Business Website" [level=3] [ref=e127]
+          - paragraph [ref=e128]: Professional, fast-loading website perfect for businesses with stable content
+          - list [ref=e129]:
+            - listitem [ref=e130]:
+              - img [ref=e131]
+              - generic [ref=e134]: Responsive design
+            - listitem [ref=e135]:
+              - img [ref=e136]
+              - generic [ref=e139]: Up to 5 pages
+            - listitem [ref=e140]:
+              - img [ref=e141]
+              - generic [ref=e144]: Contact form
+            - listitem [ref=e145]:
+              - img [ref=e146]
+              - generic [ref=e149]: SEO optimization
+          - link "Learn More" [ref=e150] [cursor=pointer]:
             - /url: /services#static
-        - generic [ref=e175]:
-          - img [ref=e177]
-          - generic [ref=e180]: £1,000+
-          - heading "Self-Managed WordPress" [level=3] [ref=e181]
-          - paragraph [ref=e182]: Custom-designed WordPress website with training for self-management
-          - list [ref=e183]:
-            - listitem [ref=e184]:
-              - img [ref=e185]
-              - generic [ref=e188]: Custom design
-            - listitem [ref=e189]:
-              - img [ref=e190]
-              - generic [ref=e193]: CMS (Content Management System)
-            - listitem [ref=e194]:
-              - img [ref=e195]
-              - generic [ref=e198]: Advanced SEO
-            - listitem [ref=e199]:
-              - img [ref=e200]
-              - generic [ref=e203]: 3 months support
-          - link "Learn More" [ref=e204] [cursor=pointer]:
+        - generic [ref=e151]:
+          - img [ref=e153]
+          - generic [ref=e156]: £1,000+
+          - heading "Self-Managed WordPress" [level=3] [ref=e157]
+          - paragraph [ref=e158]: Custom-designed WordPress website with training for self-management
+          - list [ref=e159]:
+            - listitem [ref=e160]:
+              - img [ref=e161]
+              - generic [ref=e164]: Custom design
+            - listitem [ref=e165]:
+              - img [ref=e166]
+              - generic [ref=e169]: CMS (Content Management System)
+            - listitem [ref=e170]:
+              - img [ref=e171]
+              - generic [ref=e174]: Advanced SEO
+            - listitem [ref=e175]:
+              - img [ref=e176]
+              - generic [ref=e179]: 3 months support
+          - link "Learn More" [ref=e180] [cursor=pointer]:
             - /url: /services#wordpress
-        - generic [ref=e205]:
-          - img [ref=e207]
-          - generic [ref=e210]: Custom
-          - heading "Fully Managed & Bespoke" [level=3] [ref=e211]
-          - paragraph [ref=e212]: A completely custom website with advanced features and ongoing management
-          - list [ref=e213]:
-            - listitem [ref=e214]:
-              - img [ref=e215]
-              - generic [ref=e218]: Modern tech stack
-            - listitem [ref=e219]:
-              - img [ref=e220]
-              - generic [ref=e223]: Lightning-fast performance
-            - listitem [ref=e224]:
-              - img [ref=e225]
-              - generic [ref=e228]: Full management
-          - link "Learn More" [ref=e229] [cursor=pointer]:
+        - generic [ref=e181]:
+          - img [ref=e183]
+          - generic [ref=e186]: Custom
+          - heading "Fully Managed & Bespoke" [level=3] [ref=e187]
+          - paragraph [ref=e188]: A completely custom website with advanced features and ongoing management
+          - list [ref=e189]:
+            - listitem [ref=e190]:
+              - img [ref=e191]
+              - generic [ref=e194]: Modern tech stack
+            - listitem [ref=e195]:
+              - img [ref=e196]
+              - generic [ref=e199]: Lightning-fast performance
+            - listitem [ref=e200]:
+              - img [ref=e201]
+              - generic [ref=e204]: Full management
+          - link "Learn More" [ref=e205] [cursor=pointer]:
             - /url: /services#bespoke
-      - link "View All Services" [ref=e231] [cursor=pointer]:
+      - link "View All Services" [ref=e207] [cursor=pointer]:
         - /url: /services
+    - generic [ref=e210]:
+      - generic [ref=e211]:
+        - heading "The Web Creation Hub" [level=2] [ref=e212]
+        - paragraph [ref=e213]: Your central hub for all web and marketing needs. We're not just a web design agency—we're a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
+      - generic [ref=e215]:
+        - img [ref=e217]
+        - heading "Download Web & Marketing Resources" [level=3] [ref=e220]
+        - paragraph [ref=e221]: Actionable guides to help you build a stronger, faster, and more effective website.
+        - link "Get Free Resources" [ref=e222] [cursor=pointer]:
+          - /url: /resources
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - heading "Strategic Branding for Lasting Impact" [level=2] [ref=e227]
+        - paragraph [ref=e228]: Your brand is more than just a logo—it's the complete experience your customers have with your business. We create memorable brand identities that resonate with your target audience and set you apart from the competition.
+        - paragraph [ref=e229]: From visual identity to brand messaging, we ensure every touchpoint reinforces your unique value proposition and builds trust with your customers.
+        - link "Explore Branding Services" [ref=e230] [cursor=pointer]:
+          - /url: /services
+      - img "Strategic Branding Services" [ref=e232]
     - generic [ref=e234]:
       - generic [ref=e235]:
-        - heading "The Web Creation Hub" [level=2] [ref=e236]
-        - paragraph [ref=e237]: Your central hub for all web and marketing needs. We're not just a web design agency—we're a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
-      - generic [ref=e239]:
-        - img [ref=e241]
-        - heading "Download Web & Marketing Resources" [level=3] [ref=e244]
-        - paragraph [ref=e245]: Actionable guides to help you build a stronger, faster, and more effective website.
-        - link "Get Free Resources" [ref=e246] [cursor=pointer]:
-          - /url: /resources
-    - generic [ref=e249]:
-      - generic [ref=e250]:
-        - heading "Strategic Branding for Lasting Impact" [level=2] [ref=e251]
-        - paragraph [ref=e252]: Your brand is more than just a logo—it's the complete experience your customers have with your business. We create memorable brand identities that resonate with your target audience and set you apart from the competition.
-        - paragraph [ref=e253]: From visual identity to brand messaging, we ensure every touchpoint reinforces your unique value proposition and builds trust with your customers.
-        - link "Explore Branding Services" [ref=e254] [cursor=pointer]:
-          - /url: /services
-      - img "Strategic Branding Services" [ref=e256]
-    - generic [ref=e258]:
-      - generic [ref=e259]:
-        - heading "Unique Content Creation" [level=2] [ref=e260]
-        - paragraph [ref=e261]: Stand out with exceptional content that engages your audience and drives results. Our content creation services combine professional copywriting, custom visual design, and AI-powered solutions.
-      - generic [ref=e262]:
-        - generic [ref=e263]:
-          - img [ref=e265]
-          - heading "Professional Copywriting" [level=3] [ref=e268]
-          - paragraph [ref=e269]: SEO-optimized copy that captures your brand voice and converts visitors into customers
-        - generic [ref=e270]:
-          - img [ref=e272]
-          - heading "Custom Visual Design" [level=3] [ref=e278]
-          - paragraph [ref=e279]: Eye-catching graphics, images, and visual assets tailored to your brand
-        - generic [ref=e280]:
-          - img [ref=e282]
-          - heading "AI Video Creation" [level=3] [ref=e285]
-          - paragraph [ref=e286]: Modern AI-powered video content that engages and informs your audience
-        - generic [ref=e287]:
-          - img [ref=e289]
-          - heading "Blog & Article Writing" [level=3] [ref=e292]
-          - paragraph [ref=e293]: Well-researched, informative content that establishes your expertise
-        - generic [ref=e294]:
-          - img [ref=e296]
-          - heading "Social Media Content" [level=3] [ref=e299]
-          - paragraph [ref=e300]: Engaging posts and campaigns that grow your social presence
-        - generic [ref=e301]:
-          - img [ref=e303]
-          - heading "AI-Assisted Content" [level=3] [ref=e305]
-          - paragraph [ref=e306]: Leverage advanced AI technology for depth, breadth, and efficiency
-      - link "Learn More About Content Services" [ref=e308] [cursor=pointer]:
+        - heading "Unique Content Creation" [level=2] [ref=e236]
+        - paragraph [ref=e237]: Stand out with exceptional content that engages your audience and drives results. Our content creation services combine professional copywriting, custom visual design, and AI-powered solutions.
+      - generic [ref=e238]:
+        - generic [ref=e239]:
+          - img [ref=e241]
+          - heading "Professional Copywriting" [level=3]
+          - paragraph: SEO-optimized copy that captures your brand voice and converts visitors into customers
+        - generic [ref=e244]:
+          - img [ref=e246]
+          - heading "Custom Visual Design" [level=3]
+          - paragraph: Eye-catching graphics, images, and visual assets tailored to your brand
+        - generic [ref=e252]:
+          - img [ref=e254]
+          - heading "AI Video Creation" [level=3]
+          - paragraph: Modern AI-powered video content that engages and informs your audience
+        - generic [ref=e257]:
+          - img [ref=e259]
+          - heading "Blog & Article Writing" [level=3]
+          - paragraph: Well-researched, informative content that establishes your expertise
+        - generic [ref=e262]:
+          - img [ref=e264]
+          - heading "Social Media Content" [level=3]
+          - paragraph: Engaging posts and campaigns that grow your social presence
+        - generic [ref=e267]:
+          - img [ref=e269]
+          - heading "AI-Assisted Content" [level=3]
+          - paragraph: Leverage advanced AI technology for depth, breadth, and efficiency
+      - link "Learn More About Content Services" [ref=e272] [cursor=pointer]:
         - /url: /services/content-writing
-    - generic [ref=e311]:
-      - generic [ref=e312]:
-        - heading "Get AI Solutions Tailored to Your Business" [level=2] [ref=e313]
-        - paragraph [ref=e314]: Harness the power of artificial intelligence to transform your digital presence. Our AI-powered services combine cutting-edge technology with marketing expertise to deliver results that traditional methods simply can't match.
-        - list [ref=e315]:
-          - listitem [ref=e316]:
-            - img [ref=e317]
-            - generic [ref=e320]:
+    - generic [ref=e275]:
+      - generic [ref=e276]:
+        - heading "Get AI Solutions Tailored to Your Business" [level=2] [ref=e277]
+        - paragraph [ref=e278]: Harness the power of artificial intelligence to transform your digital presence. Our AI-powered services combine cutting-edge technology with marketing expertise to deliver results that traditional methods simply can't match.
+        - list [ref=e279]:
+          - listitem [ref=e280]:
+            - img [ref=e281]
+            - generic [ref=e284]:
               - text: AI-Generated Content
-              - paragraph [ref=e321]: Well-researched articles and copy produced efficiently
-          - listitem [ref=e322]:
-            - img [ref=e323]
-            - generic [ref=e326]:
+              - paragraph [ref=e285]: Well-researched articles and copy produced efficiently
+          - listitem [ref=e286]:
+            - img [ref=e287]
+            - generic [ref=e290]:
               - text: AI-Enhanced SEO Strategies
-              - paragraph [ref=e327]: Data-driven optimization for better rankings
-          - listitem [ref=e328]:
-            - img [ref=e329]
-            - generic [ref=e332]:
+              - paragraph [ref=e291]: Data-driven optimization for better rankings
+          - listitem [ref=e292]:
+            - img [ref=e293]
+            - generic [ref=e296]:
               - text: Free AI-Generated Images
-              - paragraph [ref=e333]: Professional visuals created with advanced AI
-          - listitem [ref=e334]:
-            - img [ref=e335]
-            - generic [ref=e338]:
+              - paragraph [ref=e297]: Professional visuals created with advanced AI
+          - listitem [ref=e298]:
+            - img [ref=e299]
+            - generic [ref=e302]:
               - text: Modern AI-Driven Marketing
-              - paragraph [ref=e339]: Stay ahead with the latest AI marketing approaches
-        - generic [ref=e340]:
-          - link "Get Free AI Images" [ref=e341] [cursor=pointer]:
+              - paragraph [ref=e303]: Stay ahead with the latest AI marketing approaches
+        - generic [ref=e304]:
+          - link "Get Free AI Images" [ref=e305] [cursor=pointer]:
             - /url: /ai-images
-          - link "Book AI Consultation" [ref=e342] [cursor=pointer]:
+          - link "Book AI Consultation" [ref=e306] [cursor=pointer]:
             - /url: /contact
-      - img "AI Solutions for Your Business" [ref=e344]
-    - generic [ref=e346]:
-      - generic [ref=e347]:
-        - heading "Creating Happy Clients" [level=2] [ref=e348]
-        - paragraph [ref=e349]: Don't just take our word for it—hear from businesses we've helped succeed
-      - generic [ref=e351]:
-        - generic [ref=e352]:
+      - img "AI Solutions for Your Business" [ref=e308]
+    - generic [ref=e310]:
+      - generic [ref=e311]:
+        - heading "Creating Happy Clients" [level=2] [ref=e312]
+        - paragraph [ref=e313]: Don't just take our word for it—hear from businesses we've helped succeed
+      - generic [ref=e315]:
+        - generic [ref=e316]:
+          - generic [ref=e318]:
+            - generic [ref=e319]:
+              - img [ref=e320]
+              - img [ref=e322]
+              - img [ref=e324]
+              - img [ref=e326]
+              - img [ref=e328]
+            - paragraph [ref=e330]: "\"Web-Smart transformed our online presence completely. The SEO Foundation Pack delivered results within 3 months—we're now ranking on page 1 for our key terms. Pete and his team are knowledgeable, responsive, and truly care about our success.\""
+            - generic [ref=e331]:
+              - generic [ref=e332]: Sarah Thompson
+              - generic [ref=e333]: Thompson & Associates
+              - generic [ref=e334]: Hitchin, Hertfordshire
+          - generic [ref=e336]:
+            - generic [ref=e337]:
+              - img [ref=e338]
+              - img [ref=e340]
+              - img [ref=e342]
+              - img [ref=e344]
+              - img [ref=e346]
+            - paragraph [ref=e348]: "\"Outstanding service from start to finish. Our new WordPress website is beautiful, fast, and easy to manage. The training was thorough and the ongoing support has been invaluable. Highly recommend Web-Smart to any business in Hertfordshire.\""
+            - generic [ref=e349]:
+              - generic [ref=e350]: James Miller
+              - generic [ref=e351]: Miller Property Services
+              - generic [ref=e352]: Stevenage, Hertfordshire
           - generic [ref=e354]:
             - generic [ref=e355]:
               - img [ref=e356]
@@ -265,11 +280,11 @@
               - img [ref=e360]
               - img [ref=e362]
               - img [ref=e364]
-            - paragraph [ref=e366]: "\"Web-Smart transformed our online presence completely. The SEO Foundation Pack delivered results within 3 months—we're now ranking on page 1 for our key terms. Pete and his team are knowledgeable, responsive, and truly care about our success.\""
+            - paragraph [ref=e366]: "\"We needed an e-commerce solution that could grow with our business. Web-Smart delivered exactly that. The site is gorgeous, sales have increased by 40%, and their Google Ads management is bringing in quality leads every day.\""
             - generic [ref=e367]:
-              - generic [ref=e368]: Sarah Thompson
-              - generic [ref=e369]: Thompson & Associates
-              - generic [ref=e370]: Hitchin, Hertfordshire
+              - generic [ref=e368]: Emma Clarke
+              - generic [ref=e369]: Clarke's Boutique
+              - generic [ref=e370]: Letchworth, Hertfordshire
           - generic [ref=e372]:
             - generic [ref=e373]:
               - img [ref=e374]
@@ -277,11 +292,11 @@
               - img [ref=e378]
               - img [ref=e380]
               - img [ref=e382]
-            - paragraph [ref=e384]: "\"Outstanding service from start to finish. Our new WordPress website is beautiful, fast, and easy to manage. The training was thorough and the ongoing support has been invaluable. Highly recommend Web-Smart to any business in Hertfordshire.\""
+            - paragraph [ref=e384]: "\"Professional, knowledgeable, and always willing to go the extra mile. Our website redesign exceeded expectations, and the SEO improvements have brought us consistent new enquiries. Web-Smart is our go-to for all digital marketing needs.\""
             - generic [ref=e385]:
-              - generic [ref=e386]: James Miller
-              - generic [ref=e387]: Miller Property Services
-              - generic [ref=e388]: Stevenage, Hertfordshire
+              - generic [ref=e386]: David Richards
+              - generic [ref=e387]: Richards Accounting
+              - generic [ref=e388]: Baldock, Hertfordshire
           - generic [ref=e390]:
             - generic [ref=e391]:
               - img [ref=e392]
@@ -289,11 +304,11 @@
               - img [ref=e396]
               - img [ref=e398]
               - img [ref=e400]
-            - paragraph [ref=e402]: "\"We needed an e-commerce solution that could grow with our business. Web-Smart delivered exactly that. The site is gorgeous, sales have increased by 40%, and their Google Ads management is bringing in quality leads every day.\""
+            - paragraph [ref=e402]: "\"The team at Web-Smart created a sophisticated, user-friendly website that perfectly represents our law firm. Their attention to detail and understanding of our sector was impressive. We've seen a significant increase in client enquiries.\""
             - generic [ref=e403]:
-              - generic [ref=e404]: Emma Clarke
-              - generic [ref=e405]: Clarke's Boutique
-              - generic [ref=e406]: Letchworth, Hertfordshire
+              - generic [ref=e404]: Lisa Patel
+              - generic [ref=e405]: Patel Legal Services
+              - generic [ref=e406]: Hitchin, Hertfordshire
           - generic [ref=e408]:
             - generic [ref=e409]:
               - img [ref=e410]
@@ -301,46 +316,66 @@
               - img [ref=e414]
               - img [ref=e416]
               - img [ref=e418]
-            - paragraph [ref=e420]: "\"Professional, knowledgeable, and always willing to go the extra mile. Our website redesign exceeded expectations, and the SEO improvements have brought us consistent new enquiries. Web-Smart is our go-to for all digital marketing needs.\""
+            - paragraph [ref=e420]: "\"Best decision we made was working with Web-Smart. They built us a modern website showcasing our projects beautifully. The Google Ads campaign they manage delivers quality leads every week. Fantastic ROI and brilliant service throughout.\""
             - generic [ref=e421]:
-              - generic [ref=e422]: David Richards
-              - generic [ref=e423]: Richards Accounting
-              - generic [ref=e424]: Baldock, Hertfordshire
-          - generic [ref=e426]:
-            - generic [ref=e427]:
-              - img [ref=e428]
-              - img [ref=e430]
-              - img [ref=e432]
-              - img [ref=e434]
-              - img [ref=e436]
-            - paragraph [ref=e438]: "\"The team at Web-Smart created a sophisticated, user-friendly website that perfectly represents our law firm. Their attention to detail and understanding of our sector was impressive. We've seen a significant increase in client enquiries.\""
-            - generic [ref=e439]:
-              - generic [ref=e440]: Lisa Patel
-              - generic [ref=e441]: Patel Legal Services
-              - generic [ref=e442]: Hitchin, Hertfordshire
-          - generic [ref=e444]:
-            - generic [ref=e445]:
-              - img [ref=e446]
-              - img [ref=e448]
-              - img [ref=e450]
-              - img [ref=e452]
-              - img [ref=e454]
-            - paragraph [ref=e456]: "\"Best decision we made was working with Web-Smart. They built us a modern website showcasing our projects beautifully. The Google Ads campaign they manage delivers quality leads every week. Fantastic ROI and brilliant service throughout.\""
-            - generic [ref=e457]:
-              - generic [ref=e458]: Tom Harrison
-              - generic [ref=e459]: Harrison Construction
-              - generic [ref=e460]: Letchworth, Hertfordshire
-        - generic [ref=e461] [cursor=pointer]:
+              - generic [ref=e422]: Tom Harrison
+              - generic [ref=e423]: Harrison Construction
+              - generic [ref=e424]: Letchworth, Hertfordshire
+        - generic [ref=e425] [cursor=pointer]:
           - img
-        - generic [ref=e462] [cursor=pointer]:
+        - generic [ref=e426] [cursor=pointer]:
           - img
-    - generic [ref=e470]:
-      - generic [ref=e472]:
-        - paragraph [ref=e473]: Global Network
-        - paragraph [ref=e474]: Connect with teams and clients worldwide. Our platform enables seamless collaboration across continents, bringing the world to your workspace.
-      - generic [ref=e476]:
+    - generic [ref=e434]:
+      - generic [ref=e436]:
+        - paragraph [ref=e437]: Global Network
+        - paragraph [ref=e438]: Connect with teams and clients worldwide. Our platform enables seamless collaboration across continents, bringing the world to your workspace.
+      - generic [ref=e440]:
         - img "world map"
-        - img [ref=e477]:
+        - img [ref=e441]:
+          - generic [ref=e457]:
+            - generic [ref=e458]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Hitchin
+            - generic [ref=e462]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: London
+          - generic [ref=e466]:
+            - generic [ref=e467]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Hitchin
+            - generic [ref=e471]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Birmingham
+          - generic [ref=e475]:
+            - generic [ref=e476]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Hitchin
+            - generic [ref=e480]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Manchester
+          - generic [ref=e484]:
+            - generic [ref=e485]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: Hitchin
+            - generic [ref=e489]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic: New York
           - generic [ref=e493]:
             - generic [ref=e494]:
               - generic:
@@ -351,143 +386,99 @@
               - generic:
                 - generic:
                   - generic:
-                    - generic: London
-          - generic [ref=e502]:
-            - generic [ref=e503]:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic: Hitchin
-            - generic [ref=e507]:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic: Birmingham
-          - generic [ref=e511]:
-            - generic [ref=e512]:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic: Hitchin
-            - generic [ref=e516]:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic: Manchester
-          - generic [ref=e520]:
-            - generic [ref=e521]:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic: Hitchin
-            - generic [ref=e525]:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic: New York
-          - generic [ref=e529]:
-            - generic [ref=e530]:
-              - generic:
-                - generic:
-                  - generic:
-                    - generic: Hitchin
-            - generic [ref=e534]:
-              - generic:
-                - generic:
-                  - generic:
                     - generic: Los Angeles
-    - generic [ref=e539]:
-      - img "Start Your Project" [ref=e541]
-      - generic [ref=e544]:
-        - heading "Ready to Transform Your Online Presence?" [level=2] [ref=e545]
-        - paragraph [ref=e546]: Let's create a website that not only looks stunning but drives real results for your business. Get in touch today for a free consultation.
-        - link "Start Your Project Today" [ref=e547] [cursor=pointer]:
+    - generic [ref=e503]:
+      - img "Start Your Project" [ref=e505]
+      - generic [ref=e508]:
+        - heading "Ready to Transform Your Online Presence?" [level=2] [ref=e509]
+        - paragraph [ref=e510]: Let's create a website that not only looks stunning but drives real results for your business. Get in touch today for a free consultation.
+        - link "Start Your Project Today" [ref=e511] [cursor=pointer]:
           - /url: /contact
           - text: Start Your Project Today
-          - img [ref=e548]
-  - contentinfo [ref=e550]:
-    - generic [ref=e552]:
-      - generic [ref=e553]:
-        - link "Web-Smart.Co" [ref=e554] [cursor=pointer]:
+          - img [ref=e512]
+  - contentinfo [ref=e514]:
+    - generic [ref=e516]:
+      - generic [ref=e517]:
+        - link "Web-Smart.Co" [ref=e518] [cursor=pointer]:
           - /url: /
-          - img "Web-Smart.Co" [ref=e556]
-        - paragraph [ref=e557]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
-        - generic [ref=e558]:
-          - link "Facebook" [ref=e559] [cursor=pointer]:
+          - img "Web-Smart.Co" [ref=e520]
+        - paragraph [ref=e521]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e522]:
+          - link "Facebook" [ref=e523] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e560]
-          - link "Twitter" [ref=e562] [cursor=pointer]:
+            - img [ref=e524]
+          - link "Twitter" [ref=e526] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e563]
-          - link "LinkedIn" [ref=e565] [cursor=pointer]:
+            - img [ref=e527]
+          - link "LinkedIn" [ref=e529] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e566]
-          - link "Instagram" [ref=e570] [cursor=pointer]:
+            - img [ref=e530]
+          - link "Instagram" [ref=e534] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e571]
-      - generic [ref=e574]:
-        - heading "Services" [level=3] [ref=e575]
-        - list [ref=e576]:
-          - listitem [ref=e577]:
-            - link "Web Design" [ref=e578] [cursor=pointer]:
+            - img [ref=e535]
+      - generic [ref=e538]:
+        - heading "Services" [level=3] [ref=e539]
+        - list [ref=e540]:
+          - listitem [ref=e541]:
+            - link "Web Design" [ref=e542] [cursor=pointer]:
               - /url: /services#web-design
-          - listitem [ref=e579]:
-            - link "SEO Services" [ref=e580] [cursor=pointer]:
+          - listitem [ref=e543]:
+            - link "SEO Services" [ref=e544] [cursor=pointer]:
               - /url: /services#seo
-          - listitem [ref=e581]:
-            - link "Content Writing" [ref=e582] [cursor=pointer]:
+          - listitem [ref=e545]:
+            - link "Content Writing" [ref=e546] [cursor=pointer]:
               - /url: /services#content
-          - listitem [ref=e583]:
-            - link "Google Ads" [ref=e584] [cursor=pointer]:
+          - listitem [ref=e547]:
+            - link "Google Ads" [ref=e548] [cursor=pointer]:
               - /url: /services#google-ads
-      - generic [ref=e585]:
-        - heading "Quick Links" [level=3] [ref=e586]
-        - list [ref=e587]:
-          - listitem [ref=e588]:
-            - link "About Us" [ref=e589] [cursor=pointer]:
+      - generic [ref=e549]:
+        - heading "Quick Links" [level=3] [ref=e550]
+        - list [ref=e551]:
+          - listitem [ref=e552]:
+            - link "About Us" [ref=e553] [cursor=pointer]:
               - /url: /about
-          - listitem [ref=e590]:
-            - link "Portfolio" [ref=e591] [cursor=pointer]:
+          - listitem [ref=e554]:
+            - link "Portfolio" [ref=e555] [cursor=pointer]:
               - /url: /portfolio
-          - listitem [ref=e592]:
-            - link "Contact" [ref=e593] [cursor=pointer]:
+          - listitem [ref=e556]:
+            - link "Contact" [ref=e557] [cursor=pointer]:
               - /url: /contact
-      - generic [ref=e594]:
-        - heading "Contact Us" [level=3] [ref=e595]
-        - list [ref=e596]:
-          - listitem [ref=e597]:
-            - link "01462 544738" [ref=e598] [cursor=pointer]:
+      - generic [ref=e558]:
+        - heading "Contact Us" [level=3] [ref=e559]
+        - list [ref=e560]:
+          - listitem [ref=e561]:
+            - link "01462 544738" [ref=e562] [cursor=pointer]:
               - /url: tel:01462544738
-              - img [ref=e599]
-              - generic [ref=e601]: 01462 544738
-          - listitem [ref=e602]:
-            - link "enquiries@web-smart.co" [ref=e603] [cursor=pointer]:
+              - img [ref=e563]
+              - generic [ref=e565]: 01462 544738
+          - listitem [ref=e566]:
+            - link "enquiries@web-smart.co" [ref=e567] [cursor=pointer]:
               - /url: mailto:enquiries@web-smart.co
-              - img [ref=e604]
-              - generic [ref=e607]: enquiries@web-smart.co
-          - listitem [ref=e608]:
-            - img [ref=e609]
-            - generic [ref=e612]:
+              - img [ref=e568]
+              - generic [ref=e571]: enquiries@web-smart.co
+          - listitem [ref=e572]:
+            - img [ref=e573]
+            - generic [ref=e576]:
               - text: 52 Walsworth Rd,
               - text: Hitchin, Hertfordshire
               - text: SG4 9SX, UK
-          - listitem [ref=e613]:
-            - img [ref=e614]
-            - generic [ref=e617]:
+          - listitem [ref=e577]:
+            - img [ref=e578]
+            - generic [ref=e581]:
               - text: Monday-Friday
               - text: 09:00-18:00
-    - generic [ref=e620]:
-      - paragraph [ref=e621]: © 2025 Web-Smart.Co. All rights reserved.
-      - generic [ref=e622]:
-        - generic [ref=e623]:
-          - link "Privacy Policy" [ref=e624] [cursor=pointer]:
+    - generic [ref=e584]:
+      - paragraph [ref=e585]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e586]:
+        - generic [ref=e587]:
+          - link "Privacy Policy" [ref=e588] [cursor=pointer]:
             - /url: /privacy
-          - link "Terms of Service" [ref=e625] [cursor=pointer]:
+          - link "Terms of Service" [ref=e589] [cursor=pointer]:
             - /url: /terms
-        - paragraph [ref=e626]:
+        - paragraph [ref=e590]:
           - text: Designed by
-          - generic [ref=e627]: ❤
-          - link "AiDan.Systems" [ref=e628] [cursor=pointer]:
+          - generic [ref=e591]: ❤
+          - link "AiDan.Systems" [ref=e592] [cursor=pointer]:
             - /url: https://aidan.systems
-  - alert [ref=e629]
+  - alert [ref=e593]
 ```

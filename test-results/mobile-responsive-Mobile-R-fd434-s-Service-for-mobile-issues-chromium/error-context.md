@@ -30,142 +30,142 @@
       - generic [ref=e38]:
         - generic [ref=e39]:
           - img [ref=e41]
-          - heading "Campaign Setup" [level=3] [ref=e45]
-          - paragraph [ref=e46]: Professional Google Ads account setup and campaign structure
-        - generic [ref=e47]:
-          - img [ref=e49]
-          - heading "Performance Optimization" [level=3] [ref=e50]
-          - paragraph [ref=e51]: Continuous monitoring and optimization for maximum ROI
+          - heading "Campaign Setup" [level=3]
+          - paragraph: Professional Google Ads account setup and campaign structure
+        - generic [ref=e45]:
+          - img [ref=e47]
+          - heading "Performance Optimization" [level=3]
+          - paragraph: Continuous monitoring and optimization for maximum ROI
+        - generic [ref=e48]:
+          - img [ref=e50]
+          - heading "Budget Management" [level=3]
+          - paragraph: Strategic budget allocation to maximize your advertising spend
         - generic [ref=e52]:
           - img [ref=e54]
-          - heading "Budget Management" [level=3] [ref=e56]
-          - paragraph [ref=e57]: Strategic budget allocation to maximize your advertising spend
-        - generic [ref=e58]:
-          - img [ref=e60]
-          - heading "Conversion Tracking" [level=3] [ref=e63]
-          - paragraph [ref=e64]: Advanced tracking to measure and improve conversion rates
+          - heading "Conversion Tracking" [level=3]
+          - paragraph: Advanced tracking to measure and improve conversion rates
+        - generic [ref=e57]:
+          - img [ref=e59]
+          - heading "Keyword Research" [level=3]
+          - paragraph: In-depth keyword analysis to target the right audience
         - generic [ref=e65]:
           - img [ref=e67]
-          - heading "Keyword Research" [level=3] [ref=e73]
-          - paragraph [ref=e74]: In-depth keyword analysis to target the right audience
-        - generic [ref=e75]:
-          - img [ref=e77]
-          - heading "Reporting & Analytics" [level=3] [ref=e78]
-          - paragraph [ref=e79]: Detailed monthly reports showing your campaign performance
-    - generic [ref=e81]:
-      - heading "Why Choose Our PPC Services" [level=2] [ref=e83]
-      - generic [ref=e84]:
-        - generic [ref=e85]:
-          - img [ref=e87]
-          - heading "Instant Results" [level=3] [ref=e89]
-          - paragraph [ref=e90]: Start getting traffic and leads immediately
-        - generic [ref=e91]:
-          - img [ref=e93]
-          - heading "Targeted Reach" [level=3] [ref=e97]
-          - paragraph [ref=e98]: Reach customers actively searching for your services
-        - generic [ref=e99]:
-          - img [ref=e101]
-          - heading "Expert Management" [level=3] [ref=e104]
-          - paragraph [ref=e105]: Google Ads certified specialists managing your campaigns
-        - generic [ref=e106]:
-          - img [ref=e108]
-          - heading "Quality Leads" [level=3] [ref=e113]
-          - paragraph [ref=e114]: Attract high-intent customers ready to buy
-    - generic [ref=e116]:
-      - img "Start Your Campaign" [ref=e118]
-      - generic [ref=e121]:
-        - heading "Ready to Start Advertising?" [level=2] [ref=e122]
-        - paragraph [ref=e123]: Get quality leads and instant visibility with professionally managed Google Ads
-        - generic [ref=e124]:
-          - link "Get Started" [ref=e125] [cursor=pointer]:
+          - heading "Reporting & Analytics" [level=3]
+          - paragraph: Detailed monthly reports showing your campaign performance
+    - generic [ref=e69]:
+      - heading "Why Choose Our PPC Services" [level=2] [ref=e71]
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - img [ref=e75]
+          - heading "Instant Results" [level=3] [ref=e77]
+          - paragraph [ref=e78]: Start getting traffic and leads immediately
+        - generic [ref=e79]:
+          - img [ref=e81]
+          - heading "Targeted Reach" [level=3] [ref=e85]
+          - paragraph [ref=e86]: Reach customers actively searching for your services
+        - generic [ref=e87]:
+          - img [ref=e89]
+          - heading "Expert Management" [level=3] [ref=e92]
+          - paragraph [ref=e93]: Google Ads certified specialists managing your campaigns
+        - generic [ref=e94]:
+          - img [ref=e96]
+          - heading "Quality Leads" [level=3] [ref=e101]
+          - paragraph [ref=e102]: Attract high-intent customers ready to buy
+    - generic [ref=e104]:
+      - img "Start Your Campaign" [ref=e106]
+      - generic [ref=e109]:
+        - heading "Ready to Start Advertising?" [level=2] [ref=e110]
+        - paragraph [ref=e111]: Get quality leads and instant visibility with professionally managed Google Ads
+        - generic [ref=e112]:
+          - link "Get Started" [ref=e113] [cursor=pointer]:
             - /url: /contact
             - text: Get Started
-            - img [ref=e126]
-          - link "Call 01462 544738" [ref=e128] [cursor=pointer]:
+            - img [ref=e114]
+          - link "Call 01462 544738" [ref=e116] [cursor=pointer]:
             - /url: tel:01462544738
-  - contentinfo [ref=e129]:
-    - generic [ref=e131]:
-      - generic [ref=e132]:
-        - link "Web-Smart.Co" [ref=e133] [cursor=pointer]:
+  - contentinfo [ref=e117]:
+    - generic [ref=e119]:
+      - generic [ref=e120]:
+        - link "Web-Smart.Co" [ref=e121] [cursor=pointer]:
           - /url: /
-          - img "Web-Smart.Co" [ref=e135]
-        - paragraph [ref=e136]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
-        - generic [ref=e137]:
-          - link "Facebook" [ref=e138] [cursor=pointer]:
+          - img "Web-Smart.Co" [ref=e123]
+        - paragraph [ref=e124]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e125]:
+          - link "Facebook" [ref=e126] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e139]
-          - link "Twitter" [ref=e141] [cursor=pointer]:
+            - img [ref=e127]
+          - link "Twitter" [ref=e129] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e142]
-          - link "LinkedIn" [ref=e144] [cursor=pointer]:
+            - img [ref=e130]
+          - link "LinkedIn" [ref=e132] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e145]
-          - link "Instagram" [ref=e149] [cursor=pointer]:
+            - img [ref=e133]
+          - link "Instagram" [ref=e137] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e150]
-      - generic [ref=e153]:
-        - heading "Services" [level=3] [ref=e154]
-        - list [ref=e155]:
-          - listitem [ref=e156]:
-            - link "Web Design" [ref=e157] [cursor=pointer]:
+            - img [ref=e138]
+      - generic [ref=e141]:
+        - heading "Services" [level=3] [ref=e142]
+        - list [ref=e143]:
+          - listitem [ref=e144]:
+            - link "Web Design" [ref=e145] [cursor=pointer]:
               - /url: /services#web-design
-          - listitem [ref=e158]:
-            - link "SEO Services" [ref=e159] [cursor=pointer]:
+          - listitem [ref=e146]:
+            - link "SEO Services" [ref=e147] [cursor=pointer]:
               - /url: /services#seo
-          - listitem [ref=e160]:
-            - link "Content Writing" [ref=e161] [cursor=pointer]:
+          - listitem [ref=e148]:
+            - link "Content Writing" [ref=e149] [cursor=pointer]:
               - /url: /services#content
-          - listitem [ref=e162]:
-            - link "Google Ads" [ref=e163] [cursor=pointer]:
+          - listitem [ref=e150]:
+            - link "Google Ads" [ref=e151] [cursor=pointer]:
               - /url: /services#google-ads
-      - generic [ref=e164]:
-        - heading "Quick Links" [level=3] [ref=e165]
-        - list [ref=e166]:
-          - listitem [ref=e167]:
-            - link "About Us" [ref=e168] [cursor=pointer]:
+      - generic [ref=e152]:
+        - heading "Quick Links" [level=3] [ref=e153]
+        - list [ref=e154]:
+          - listitem [ref=e155]:
+            - link "About Us" [ref=e156] [cursor=pointer]:
               - /url: /about
-          - listitem [ref=e169]:
-            - link "Portfolio" [ref=e170] [cursor=pointer]:
+          - listitem [ref=e157]:
+            - link "Portfolio" [ref=e158] [cursor=pointer]:
               - /url: /portfolio
-          - listitem [ref=e171]:
-            - link "Contact" [ref=e172] [cursor=pointer]:
+          - listitem [ref=e159]:
+            - link "Contact" [ref=e160] [cursor=pointer]:
               - /url: /contact
-      - generic [ref=e173]:
-        - heading "Contact Us" [level=3] [ref=e174]
-        - list [ref=e175]:
-          - listitem [ref=e176]:
-            - link "01462 544738" [ref=e177] [cursor=pointer]:
+      - generic [ref=e161]:
+        - heading "Contact Us" [level=3] [ref=e162]
+        - list [ref=e163]:
+          - listitem [ref=e164]:
+            - link "01462 544738" [ref=e165] [cursor=pointer]:
               - /url: tel:01462544738
-              - img [ref=e178]
-              - generic [ref=e180]: 01462 544738
-          - listitem [ref=e181]:
-            - link "enquiries@web-smart.co" [ref=e182] [cursor=pointer]:
+              - img [ref=e166]
+              - generic [ref=e168]: 01462 544738
+          - listitem [ref=e169]:
+            - link "enquiries@web-smart.co" [ref=e170] [cursor=pointer]:
               - /url: mailto:enquiries@web-smart.co
-              - img [ref=e183]
-              - generic [ref=e186]: enquiries@web-smart.co
-          - listitem [ref=e187]:
-            - img [ref=e188]
-            - generic [ref=e191]:
+              - img [ref=e171]
+              - generic [ref=e174]: enquiries@web-smart.co
+          - listitem [ref=e175]:
+            - img [ref=e176]
+            - generic [ref=e179]:
               - text: 52 Walsworth Rd,
               - text: Hitchin, Hertfordshire
               - text: SG4 9SX, UK
-          - listitem [ref=e192]:
-            - img [ref=e193]
-            - generic [ref=e196]:
+          - listitem [ref=e180]:
+            - img [ref=e181]
+            - generic [ref=e184]:
               - text: Monday-Friday
               - text: 09:00-18:00
-    - generic [ref=e199]:
-      - paragraph [ref=e200]: © 2025 Web-Smart.Co. All rights reserved.
-      - generic [ref=e201]:
-        - generic [ref=e202]:
-          - link "Privacy Policy" [ref=e203] [cursor=pointer]:
+    - generic [ref=e187]:
+      - paragraph [ref=e188]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e189]:
+        - generic [ref=e190]:
+          - link "Privacy Policy" [ref=e191] [cursor=pointer]:
             - /url: /privacy
-          - link "Terms of Service" [ref=e204] [cursor=pointer]:
+          - link "Terms of Service" [ref=e192] [cursor=pointer]:
             - /url: /terms
-        - paragraph [ref=e205]:
+        - paragraph [ref=e193]:
           - text: Designed by
-          - generic [ref=e206]: ❤
-          - link "AiDan.Systems" [ref=e207] [cursor=pointer]:
+          - generic [ref=e194]: ❤
+          - link "AiDan.Systems" [ref=e195] [cursor=pointer]:
             - /url: https://aidan.systems
-  - alert [ref=e208]
+  - alert [ref=e196]
 ```

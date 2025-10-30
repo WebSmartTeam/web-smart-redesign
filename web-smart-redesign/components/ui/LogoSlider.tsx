@@ -22,7 +22,7 @@ const LogoSlider = () => {
       <div className="relative w-full">
         {/* Logo Slider Track */}
         <motion.div
-          className="flex gap-12 md:gap-16"
+          className="flex gap-6 md:gap-12 lg:gap-16"
           animate={{
             x: ['-50%', '0%'],
           }}
@@ -38,7 +38,7 @@ const LogoSlider = () => {
           {duplicatedLogos.map((logo, index) => (
             <div
               key={`${logo.name}-${index}`}
-              className="flex-shrink-0 w-40 h-20 md:w-48 md:h-24 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300"
+              className="flex-shrink-0 w-24 h-16 md:w-40 md:h-20 lg:w-48 lg:h-24 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img

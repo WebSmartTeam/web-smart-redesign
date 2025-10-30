@@ -26,275 +26,275 @@
           - article [ref=e34]:
             - img "Web Design Essentials for Small Businesses in Aldenham, Hertfordshire" [ref=e36]
             - generic [ref=e37]:
-              - generic [ref=e38]:
-                - generic [ref=e39]: Web Design
-                - generic [ref=e40]: October 2024
-              - heading "Web Design Essentials for Small Businesses in Aldenham, Hertfordshire" [level=2] [ref=e41]
-              - paragraph [ref=e42]: Welcome to the definitive guide on kickstarting your small business's online presence with the right web design strategies in Aldenham, Hertfordshire. In today's digital age...
-              - generic [ref=e43]:
-                - generic [ref=e44]:
-                  - img [ref=e45]
-                  - generic [ref=e48]: Pete Gypps
-                - generic [ref=e49]:
+              - generic:
+                - generic [ref=e38]: Web Design
+                - generic [ref=e39]: October 2024
+              - heading "Web Design Essentials for Small Businesses in Aldenham, Hertfordshire" [level=2]
+              - paragraph: Welcome to the definitive guide on kickstarting your small business's online presence with the right web design strategies in Aldenham, Hertfordshire. In today's digital age...
+              - generic:
+                - generic [ref=e40]:
+                  - img [ref=e41]
+                  - generic [ref=e44]: Pete Gypps
+                - generic [ref=e45]:
                   - text: Read More
-                  - img [ref=e50]
-        - link [ref=e52] [cursor=pointer]:
+                  - img [ref=e46]
+        - link [ref=e48] [cursor=pointer]:
           - /url: /blog/maximising-wordpress-support
-          - article [ref=e53]:
-            - img "Maximising Your Website's Potential with Elite WordPress Support" [ref=e55]
-            - generic [ref=e56]:
-              - generic [ref=e57]:
-                - generic [ref=e58]: Web Design
-                - generic [ref=e59]: October 2024
-              - heading "Maximising Your Website's Potential with Elite WordPress Support" [level=2] [ref=e60]
-              - paragraph [ref=e61]: For businesses aiming to thrive online, ensuring your WordPress website receives top-tier support and maintenance is non-negotiable. To not just survive but excel in the ...
-              - generic [ref=e62]:
-                - generic [ref=e63]:
-                  - img [ref=e64]
-                  - generic [ref=e67]: Pete Gypps
-                - generic [ref=e68]:
+          - article [ref=e49]:
+            - img "Maximising Your Website's Potential with Elite WordPress Support" [ref=e51]
+            - generic [ref=e52]:
+              - generic:
+                - generic [ref=e53]: Web Design
+                - generic [ref=e54]: October 2024
+              - heading "Maximising Your Website's Potential with Elite WordPress Support" [level=2]
+              - paragraph: For businesses aiming to thrive online, ensuring your WordPress website receives top-tier support and maintenance is non-negotiable. To not just survive but excel in the ...
+              - generic:
+                - generic [ref=e55]:
+                  - img [ref=e56]
+                  - generic [ref=e59]: Pete Gypps
+                - generic [ref=e60]:
                   - text: Read More
-                  - img [ref=e69]
-        - link [ref=e71] [cursor=pointer]:
+                  - img [ref=e61]
+        - link [ref=e63] [cursor=pointer]:
           - /url: /blog/email-marketing-content-techniques
-          - article [ref=e72]:
-            - img "Effective Email Marketing Content Techniques to Boost Engagement" [ref=e74]
-            - generic [ref=e75]:
-              - generic [ref=e76]:
-                - generic [ref=e77]: Digital Marketing
-                - generic [ref=e78]: October 2024
-              - heading "Effective Email Marketing Content Techniques to Boost Engagement" [level=2] [ref=e79]
-              - paragraph [ref=e80]: Discover how to elevate your email marketing campaigns with content that captivates your audience and drives engagement. In the realm of digital marketing, email remains ...
-              - generic [ref=e81]:
-                - generic [ref=e82]:
-                  - img [ref=e83]
-                  - generic [ref=e86]: Pete Gypps
-                - generic [ref=e87]:
+          - article [ref=e64]:
+            - img "Effective Email Marketing Content Techniques to Boost Engagement" [ref=e66]
+            - generic [ref=e67]:
+              - generic:
+                - generic [ref=e68]: Digital Marketing
+                - generic [ref=e69]: October 2024
+              - heading "Effective Email Marketing Content Techniques to Boost Engagement" [level=2]
+              - paragraph: Discover how to elevate your email marketing campaigns with content that captivates your audience and drives engagement. In the realm of digital marketing, email remains ...
+              - generic:
+                - generic [ref=e70]:
+                  - img [ref=e71]
+                  - generic [ref=e74]: Pete Gypps
+                - generic [ref=e75]:
                   - text: Read More
-                  - img [ref=e88]
-        - link [ref=e90] [cursor=pointer]:
+                  - img [ref=e76]
+        - link [ref=e78] [cursor=pointer]:
           - /url: /blog/social-media-marketing-hertfordshire
-          - article [ref=e91]:
-            - img "Social Media Marketing Strategies for Hertfordshire Businesses" [ref=e93]
-            - generic [ref=e94]:
-              - generic [ref=e95]:
-                - generic [ref=e96]: Digital Marketing
-                - generic [ref=e97]: October 2024
-              - heading "Social Media Marketing Strategies for Hertfordshire Businesses" [level=2] [ref=e98]
-              - paragraph [ref=e99]: Unlock the power of social media marketing to connect with your local audience and grow your Hertfordshire business. From Facebook to Instagram, learn proven strategies that drive real results...
-              - generic [ref=e100]:
-                - generic [ref=e101]:
-                  - img [ref=e102]
-                  - generic [ref=e105]: Pete Gypps
-                - generic [ref=e106]:
+          - article [ref=e79]:
+            - img "Social Media Marketing Strategies for Hertfordshire Businesses" [ref=e81]
+            - generic [ref=e82]:
+              - generic:
+                - generic [ref=e83]: Digital Marketing
+                - generic [ref=e84]: October 2024
+              - heading "Social Media Marketing Strategies for Hertfordshire Businesses" [level=2]
+              - paragraph: Unlock the power of social media marketing to connect with your local audience and grow your Hertfordshire business. From Facebook to Instagram, learn proven strategies that drive real results...
+              - generic:
+                - generic [ref=e85]:
+                  - img [ref=e86]
+                  - generic [ref=e89]: Pete Gypps
+                - generic [ref=e90]:
                   - text: Read More
-                  - img [ref=e107]
-        - link [ref=e109] [cursor=pointer]:
+                  - img [ref=e91]
+        - link [ref=e93] [cursor=pointer]:
           - /url: /blog/web-design-seo-performance
-          - article [ref=e110]:
-            - img "Maximising Web Design for Enhanced SEO Performance" [ref=e112]
-            - generic [ref=e113]:
-              - generic [ref=e114]:
-                - generic [ref=e115]: SEO
-                - generic [ref=e116]: October 2024
-              - heading "Maximising Web Design for Enhanced SEO Performance" [level=2] [ref=e117]
-              - paragraph [ref=e118]: In today's competitive digital landscape, understanding the synergy between web design and SEO is crucial for any business aiming to enhance its online visibility. Incorporating ...
-              - generic [ref=e119]:
-                - generic [ref=e120]:
-                  - img [ref=e121]
-                  - generic [ref=e124]: Pete Gypps
-                - generic [ref=e125]:
+          - article [ref=e94]:
+            - img "Maximising Web Design for Enhanced SEO Performance" [ref=e96]
+            - generic [ref=e97]:
+              - generic:
+                - generic [ref=e98]: SEO
+                - generic [ref=e99]: October 2024
+              - heading "Maximising Web Design for Enhanced SEO Performance" [level=2]
+              - paragraph: In today's competitive digital landscape, understanding the synergy between web design and SEO is crucial for any business aiming to enhance its online visibility. Incorporating ...
+              - generic:
+                - generic [ref=e100]:
+                  - img [ref=e101]
+                  - generic [ref=e104]: Pete Gypps
+                - generic [ref=e105]:
                   - text: Read More
-                  - img [ref=e126]
-        - link [ref=e128] [cursor=pointer]:
+                  - img [ref=e106]
+        - link [ref=e108] [cursor=pointer]:
           - /url: /blog/seo-tactics-wordpress-ecommerce
-          - article [ref=e129]:
-            - img "Effective SEO Tactics for WordPress E-Commerce Sites" [ref=e131]
-            - generic [ref=e132]:
-              - generic [ref=e133]:
-                - generic [ref=e134]: SEO
-                - generic [ref=e135]: October 2024
-              - heading "Effective SEO Tactics for WordPress E-Commerce Sites" [level=2] [ref=e136]
-              - paragraph [ref=e137]: Mastering the art of Search Engine Optimisation (SEO) is essential for any WordPress e-commerce site looking to stand out in the highly competitive online marketplace ...
-              - generic [ref=e138]:
-                - generic [ref=e139]:
-                  - img [ref=e140]
-                  - generic [ref=e143]: Pete Gypps
-                - generic [ref=e144]:
+          - article [ref=e109]:
+            - img "Effective SEO Tactics for WordPress E-Commerce Sites" [ref=e111]
+            - generic [ref=e112]:
+              - generic:
+                - generic [ref=e113]: SEO
+                - generic [ref=e114]: October 2024
+              - heading "Effective SEO Tactics for WordPress E-Commerce Sites" [level=2]
+              - paragraph: Mastering the art of Search Engine Optimisation (SEO) is essential for any WordPress e-commerce site looking to stand out in the highly competitive online marketplace ...
+              - generic:
+                - generic [ref=e115]:
+                  - img [ref=e116]
+                  - generic [ref=e119]: Pete Gypps
+                - generic [ref=e120]:
                   - text: Read More
-                  - img [ref=e145]
-      - complementary [ref=e147]:
-        - generic [ref=e148]:
-          - generic [ref=e149]:
-            - heading "Search" [level=3] [ref=e150]
-            - generic [ref=e151]:
-              - textbox "Search posts..." [ref=e152]
-              - button [ref=e153] [cursor=pointer]:
-                - img [ref=e154]
-          - generic [ref=e157]:
-            - heading "Recent Posts" [level=3] [ref=e158]
-            - generic [ref=e159]:
-              - link "Web Design Essentials for Small Businesses in Aldenham Web Design Essentials for Small Businesses in Aldenham October 2024" [ref=e160] [cursor=pointer]:
+                  - img [ref=e121]
+      - complementary [ref=e123]:
+        - generic [ref=e124]:
+          - generic [ref=e125]:
+            - heading "Search" [level=3] [ref=e126]
+            - generic [ref=e127]:
+              - textbox "Search posts..." [ref=e128]
+              - button [ref=e129] [cursor=pointer]:
+                - img [ref=e130]
+          - generic [ref=e133]:
+            - heading "Recent Posts" [level=3] [ref=e134]
+            - generic [ref=e135]:
+              - link "Web Design Essentials for Small Businesses in Aldenham Web Design Essentials for Small Businesses in Aldenham October 2024" [ref=e136] [cursor=pointer]:
                 - /url: /blog/web-design-essentials-aldenham
-                - img "Web Design Essentials for Small Businesses in Aldenham" [ref=e162]
-                - generic [ref=e163]:
-                  - heading "Web Design Essentials for Small Businesses in Aldenham" [level=4] [ref=e164]
-                  - paragraph [ref=e165]: October 2024
-              - link "Maximising Your Website's Potential with Elite WordPress Support Maximising Your Website's Potential with Elite WordPress Support October 2024" [ref=e166] [cursor=pointer]:
+                - img "Web Design Essentials for Small Businesses in Aldenham" [ref=e138]
+                - generic [ref=e139]:
+                  - heading "Web Design Essentials for Small Businesses in Aldenham" [level=4] [ref=e140]
+                  - paragraph [ref=e141]: October 2024
+              - link "Maximising Your Website's Potential with Elite WordPress Support Maximising Your Website's Potential with Elite WordPress Support October 2024" [ref=e142] [cursor=pointer]:
                 - /url: /blog/maximising-wordpress-support
-                - img "Maximising Your Website's Potential with Elite WordPress Support" [ref=e168]
-                - generic [ref=e169]:
-                  - heading "Maximising Your Website's Potential with Elite WordPress Support" [level=4] [ref=e170]
-                  - paragraph [ref=e171]: October 2024
-              - link "Effective Email Marketing Content Techniques Effective Email Marketing Content Techniques October 2024" [ref=e172] [cursor=pointer]:
+                - img "Maximising Your Website's Potential with Elite WordPress Support" [ref=e144]
+                - generic [ref=e145]:
+                  - heading "Maximising Your Website's Potential with Elite WordPress Support" [level=4] [ref=e146]
+                  - paragraph [ref=e147]: October 2024
+              - link "Effective Email Marketing Content Techniques Effective Email Marketing Content Techniques October 2024" [ref=e148] [cursor=pointer]:
                 - /url: /blog/email-marketing-content-techniques
-                - img "Effective Email Marketing Content Techniques" [ref=e174]
-                - generic [ref=e175]:
-                  - heading "Effective Email Marketing Content Techniques" [level=4] [ref=e176]
-                  - paragraph [ref=e177]: October 2024
-              - link "Social Media Marketing Strategies for Hertfordshire Social Media Marketing Strategies for Hertfordshire October 2024" [ref=e178] [cursor=pointer]:
+                - img "Effective Email Marketing Content Techniques" [ref=e150]
+                - generic [ref=e151]:
+                  - heading "Effective Email Marketing Content Techniques" [level=4] [ref=e152]
+                  - paragraph [ref=e153]: October 2024
+              - link "Social Media Marketing Strategies for Hertfordshire Social Media Marketing Strategies for Hertfordshire October 2024" [ref=e154] [cursor=pointer]:
                 - /url: /blog/social-media-marketing-hertfordshire
-                - img "Social Media Marketing Strategies for Hertfordshire" [ref=e180]
-                - generic [ref=e181]:
-                  - heading "Social Media Marketing Strategies for Hertfordshire" [level=4] [ref=e182]
-                  - paragraph [ref=e183]: October 2024
-              - link "Maximising Web Design for Enhanced SEO Performance Maximising Web Design for Enhanced SEO Performance October 2024" [ref=e184] [cursor=pointer]:
+                - img "Social Media Marketing Strategies for Hertfordshire" [ref=e156]
+                - generic [ref=e157]:
+                  - heading "Social Media Marketing Strategies for Hertfordshire" [level=4] [ref=e158]
+                  - paragraph [ref=e159]: October 2024
+              - link "Maximising Web Design for Enhanced SEO Performance Maximising Web Design for Enhanced SEO Performance October 2024" [ref=e160] [cursor=pointer]:
                 - /url: /blog/web-design-seo-performance
-                - img "Maximising Web Design for Enhanced SEO Performance" [ref=e186]
-                - generic [ref=e187]:
-                  - heading "Maximising Web Design for Enhanced SEO Performance" [level=4] [ref=e188]
-                  - paragraph [ref=e189]: October 2024
-              - link "Effective SEO Tactics for WordPress E-Commerce Sites Effective SEO Tactics for WordPress E-Commerce Sites October 2024" [ref=e190] [cursor=pointer]:
+                - img "Maximising Web Design for Enhanced SEO Performance" [ref=e162]
+                - generic [ref=e163]:
+                  - heading "Maximising Web Design for Enhanced SEO Performance" [level=4] [ref=e164]
+                  - paragraph [ref=e165]: October 2024
+              - link "Effective SEO Tactics for WordPress E-Commerce Sites Effective SEO Tactics for WordPress E-Commerce Sites October 2024" [ref=e166] [cursor=pointer]:
                 - /url: /blog/seo-tactics-wordpress-ecommerce
-                - img "Effective SEO Tactics for WordPress E-Commerce Sites" [ref=e192]
-                - generic [ref=e193]:
-                  - heading "Effective SEO Tactics for WordPress E-Commerce Sites" [level=4] [ref=e194]
-                  - paragraph [ref=e195]: October 2024
+                - img "Effective SEO Tactics for WordPress E-Commerce Sites" [ref=e168]
+                - generic [ref=e169]:
+                  - heading "Effective SEO Tactics for WordPress E-Commerce Sites" [level=4] [ref=e170]
+                  - paragraph [ref=e171]: October 2024
+          - generic [ref=e172]:
+            - heading "Categories" [level=3] [ref=e173]
+            - generic [ref=e174]:
+              - button "Digital Marketing 2" [ref=e175] [cursor=pointer]:
+                - generic [ref=e176]:
+                  - img [ref=e177]
+                  - generic [ref=e180]: Digital Marketing
+                - generic [ref=e181]: "2"
+              - button "SEO 2" [ref=e182] [cursor=pointer]:
+                - generic [ref=e183]:
+                  - img [ref=e184]
+                  - generic [ref=e187]: SEO
+                - generic [ref=e188]: "2"
+              - button "Web Design 2" [ref=e189] [cursor=pointer]:
+                - generic [ref=e190]:
+                  - img [ref=e191]
+                  - generic [ref=e194]: Web Design
+                - generic [ref=e195]: "2"
           - generic [ref=e196]:
-            - heading "Categories" [level=3] [ref=e197]
-            - generic [ref=e198]:
-              - button "Digital Marketing 2" [ref=e199] [cursor=pointer]:
-                - generic [ref=e200]:
-                  - img [ref=e201]
-                  - generic [ref=e204]: Digital Marketing
-                - generic [ref=e205]: "2"
-              - button "SEO 2" [ref=e206] [cursor=pointer]:
-                - generic [ref=e207]:
-                  - img [ref=e208]
-                  - generic [ref=e211]: SEO
-                - generic [ref=e212]: "2"
-              - button "Web Design 2" [ref=e213] [cursor=pointer]:
-                - generic [ref=e214]:
-                  - img [ref=e215]
-                  - generic [ref=e218]: Web Design
-                - generic [ref=e219]: "2"
-          - generic [ref=e220]:
-            - heading "Newsletter" [level=3] [ref=e221]
-            - paragraph [ref=e222]: Subscribe to get the latest posts delivered to your inbox.
-            - textbox "Your email address" [ref=e223]
-            - button "Subscribe" [ref=e224] [cursor=pointer]
-          - generic [ref=e225]:
-            - heading "Popular Tags" [level=3] [ref=e226]
-            - generic [ref=e227]:
-              - button "WordPress" [ref=e228] [cursor=pointer]
-              - button "SEO" [ref=e229] [cursor=pointer]
-              - button "Web Design" [ref=e230] [cursor=pointer]
-              - button "E-commerce" [ref=e231] [cursor=pointer]
-              - button "Marketing" [ref=e232] [cursor=pointer]
-              - button "Analytics" [ref=e233] [cursor=pointer]
-              - button "Content" [ref=e234] [cursor=pointer]
-    - generic [ref=e236]:
-      - img "Get Started" [ref=e238]
-      - generic [ref=e241]:
-        - heading "Ready to Grow Your Business?" [level=2] [ref=e242]
-        - paragraph [ref=e243]: Let's work together to achieve your digital marketing goals.
-        - link "Get In Touch" [ref=e244] [cursor=pointer]:
+            - heading "Newsletter" [level=3] [ref=e197]
+            - paragraph [ref=e198]: Subscribe to get the latest posts delivered to your inbox.
+            - textbox "Your email address" [ref=e199]
+            - button "Subscribe" [ref=e200] [cursor=pointer]
+          - generic [ref=e201]:
+            - heading "Popular Tags" [level=3] [ref=e202]
+            - generic [ref=e203]:
+              - button "WordPress" [ref=e204] [cursor=pointer]
+              - button "SEO" [ref=e205] [cursor=pointer]
+              - button "Web Design" [ref=e206] [cursor=pointer]
+              - button "E-commerce" [ref=e207] [cursor=pointer]
+              - button "Marketing" [ref=e208] [cursor=pointer]
+              - button "Analytics" [ref=e209] [cursor=pointer]
+              - button "Content" [ref=e210] [cursor=pointer]
+    - generic [ref=e212]:
+      - img "Get Started" [ref=e214]
+      - generic [ref=e217]:
+        - heading "Ready to Grow Your Business?" [level=2] [ref=e218]
+        - paragraph [ref=e219]: Let's work together to achieve your digital marketing goals.
+        - link "Get In Touch" [ref=e220] [cursor=pointer]:
           - /url: /contact
           - text: Get In Touch
-          - img [ref=e245]
-  - contentinfo [ref=e247]:
-    - generic [ref=e249]:
-      - generic [ref=e250]:
-        - link "Web-Smart.Co" [ref=e251] [cursor=pointer]:
+          - img [ref=e221]
+  - contentinfo [ref=e223]:
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - link "Web-Smart.Co" [ref=e227] [cursor=pointer]:
           - /url: /
-          - img "Web-Smart.Co" [ref=e253]
-        - paragraph [ref=e254]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
-        - generic [ref=e255]:
-          - link "Facebook" [ref=e256] [cursor=pointer]:
+          - img "Web-Smart.Co" [ref=e229]
+        - paragraph [ref=e230]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e231]:
+          - link "Facebook" [ref=e232] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e257]
-          - link "Twitter" [ref=e259] [cursor=pointer]:
+            - img [ref=e233]
+          - link "Twitter" [ref=e235] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e260]
-          - link "LinkedIn" [ref=e262] [cursor=pointer]:
+            - img [ref=e236]
+          - link "LinkedIn" [ref=e238] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e263]
-          - link "Instagram" [ref=e267] [cursor=pointer]:
+            - img [ref=e239]
+          - link "Instagram" [ref=e243] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e268]
-      - generic [ref=e271]:
-        - heading "Services" [level=3] [ref=e272]
-        - list [ref=e273]:
-          - listitem [ref=e274]:
-            - link "Web Design" [ref=e275] [cursor=pointer]:
+            - img [ref=e244]
+      - generic [ref=e247]:
+        - heading "Services" [level=3] [ref=e248]
+        - list [ref=e249]:
+          - listitem [ref=e250]:
+            - link "Web Design" [ref=e251] [cursor=pointer]:
               - /url: /services#web-design
-          - listitem [ref=e276]:
-            - link "SEO Services" [ref=e277] [cursor=pointer]:
+          - listitem [ref=e252]:
+            - link "SEO Services" [ref=e253] [cursor=pointer]:
               - /url: /services#seo
-          - listitem [ref=e278]:
-            - link "Content Writing" [ref=e279] [cursor=pointer]:
+          - listitem [ref=e254]:
+            - link "Content Writing" [ref=e255] [cursor=pointer]:
               - /url: /services#content
-          - listitem [ref=e280]:
-            - link "Google Ads" [ref=e281] [cursor=pointer]:
+          - listitem [ref=e256]:
+            - link "Google Ads" [ref=e257] [cursor=pointer]:
               - /url: /services#google-ads
-      - generic [ref=e282]:
-        - heading "Quick Links" [level=3] [ref=e283]
-        - list [ref=e284]:
-          - listitem [ref=e285]:
-            - link "About Us" [ref=e286] [cursor=pointer]:
+      - generic [ref=e258]:
+        - heading "Quick Links" [level=3] [ref=e259]
+        - list [ref=e260]:
+          - listitem [ref=e261]:
+            - link "About Us" [ref=e262] [cursor=pointer]:
               - /url: /about
-          - listitem [ref=e287]:
-            - link "Portfolio" [ref=e288] [cursor=pointer]:
+          - listitem [ref=e263]:
+            - link "Portfolio" [ref=e264] [cursor=pointer]:
               - /url: /portfolio
-          - listitem [ref=e289]:
-            - link "Contact" [ref=e290] [cursor=pointer]:
+          - listitem [ref=e265]:
+            - link "Contact" [ref=e266] [cursor=pointer]:
               - /url: /contact
-      - generic [ref=e291]:
-        - heading "Contact Us" [level=3] [ref=e292]
-        - list [ref=e293]:
-          - listitem [ref=e294]:
-            - link "01462 544738" [ref=e295] [cursor=pointer]:
+      - generic [ref=e267]:
+        - heading "Contact Us" [level=3] [ref=e268]
+        - list [ref=e269]:
+          - listitem [ref=e270]:
+            - link "01462 544738" [ref=e271] [cursor=pointer]:
               - /url: tel:01462544738
-              - img [ref=e296]
-              - generic [ref=e298]: 01462 544738
-          - listitem [ref=e299]:
-            - link "enquiries@web-smart.co" [ref=e300] [cursor=pointer]:
+              - img [ref=e272]
+              - generic [ref=e274]: 01462 544738
+          - listitem [ref=e275]:
+            - link "enquiries@web-smart.co" [ref=e276] [cursor=pointer]:
               - /url: mailto:enquiries@web-smart.co
-              - img [ref=e301]
-              - generic [ref=e304]: enquiries@web-smart.co
-          - listitem [ref=e305]:
-            - img [ref=e306]
-            - generic [ref=e309]:
+              - img [ref=e277]
+              - generic [ref=e280]: enquiries@web-smart.co
+          - listitem [ref=e281]:
+            - img [ref=e282]
+            - generic [ref=e285]:
               - text: 52 Walsworth Rd,
               - text: Hitchin, Hertfordshire
               - text: SG4 9SX, UK
-          - listitem [ref=e310]:
-            - img [ref=e311]
-            - generic [ref=e314]:
+          - listitem [ref=e286]:
+            - img [ref=e287]
+            - generic [ref=e290]:
               - text: Monday-Friday
               - text: 09:00-18:00
-    - generic [ref=e317]:
-      - paragraph [ref=e318]: © 2025 Web-Smart.Co. All rights reserved.
-      - generic [ref=e319]:
-        - generic [ref=e320]:
-          - link "Privacy Policy" [ref=e321] [cursor=pointer]:
+    - generic [ref=e293]:
+      - paragraph [ref=e294]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e295]:
+        - generic [ref=e296]:
+          - link "Privacy Policy" [ref=e297] [cursor=pointer]:
             - /url: /privacy
-          - link "Terms of Service" [ref=e322] [cursor=pointer]:
+          - link "Terms of Service" [ref=e298] [cursor=pointer]:
             - /url: /terms
-        - paragraph [ref=e323]:
+        - paragraph [ref=e299]:
           - text: Designed by
-          - generic [ref=e324]: ❤
-          - link "AiDan.Systems" [ref=e325] [cursor=pointer]:
+          - generic [ref=e300]: ❤
+          - link "AiDan.Systems" [ref=e301] [cursor=pointer]:
             - /url: https://aidan.systems
-  - alert [ref=e326]
+  - alert [ref=e302]
 ```

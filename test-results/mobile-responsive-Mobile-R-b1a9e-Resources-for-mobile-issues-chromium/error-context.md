@@ -24,222 +24,194 @@
         - generic [ref=e31]:
           - img [ref=e33]
           - generic [ref=e36]: Checklist
-          - heading "Website Launch Checklist" [level=3] [ref=e37]
-          - paragraph [ref=e38]: Complete 50-point checklist to ensure your website launch goes smoothly. Covers design, content, SEO, technical setup, and post-launch tasks.
-          - link "View & Download PDF" [ref=e39] [cursor=pointer]:
+          - heading "Website Launch Checklist" [level=3]
+          - paragraph: Complete 50-point checklist to ensure your website launch goes smoothly. Covers design, content, SEO, technical setup, and post-launch tasks.
+          - link "View & Download PDF":
             - /url: /resources/website-launch-checklist.pdf
-            - img [ref=e40]
             - text: View & Download PDF
-            - img [ref=e43]
-        - generic [ref=e45]:
-          - img [ref=e47]
-          - generic [ref=e50]: SEO
-          - heading "SEO Audit Template" [level=3] [ref=e51]
-          - paragraph [ref=e52]: Professional SEO audit template used by our team. Analyze on-page SEO, technical issues, backlinks, and get actionable recommendations.
-          - link "View & Download PDF" [ref=e53] [cursor=pointer]:
+        - generic [ref=e40]:
+          - img [ref=e42]
+          - generic [ref=e45]: SEO
+          - heading "SEO Audit Template" [level=3]
+          - paragraph: Professional SEO audit template used by our team. Analyze on-page SEO, technical issues, backlinks, and get actionable recommendations.
+          - link "View & Download PDF":
             - /url: /resources/seo-audit-template.pdf
-            - img [ref=e54]
             - text: View & Download PDF
-            - img [ref=e57]
-        - generic [ref=e59]:
-          - img [ref=e61]
-          - generic [ref=e67]: Design
-          - heading "Web Design Style Guide" [level=3] [ref=e68]
-          - paragraph [ref=e69]: Create consistent branding with our comprehensive style guide template. Includes colour palettes, typography, spacing, and component guidelines.
-          - link "View & Download PDF" [ref=e70] [cursor=pointer]:
+        - generic [ref=e49]:
+          - img [ref=e51]
+          - generic [ref=e57]: Design
+          - heading "Web Design Style Guide" [level=3]
+          - paragraph: Create consistent branding with our comprehensive style guide template. Includes colour palettes, typography, spacing, and component guidelines.
+          - link "View & Download PDF":
             - /url: /resources/design-style-guide.pdf
-            - img [ref=e71]
             - text: View & Download PDF
-            - img [ref=e74]
-        - generic [ref=e76]:
-          - img [ref=e78]
-          - generic [ref=e81]: Content
-          - heading "Website Content Planner" [level=3] [ref=e82]
-          - paragraph [ref=e83]: Plan your website content strategically. Includes page structure templates, copywriting formulas, and content calendar for 12 weeks.
-          - link "View & Download PDF" [ref=e84] [cursor=pointer]:
+        - generic [ref=e61]:
+          - img [ref=e63]
+          - generic [ref=e66]: Content
+          - heading "Website Content Planner" [level=3]
+          - paragraph: Plan your website content strategically. Includes page structure templates, copywriting formulas, and content calendar for 12 weeks.
+          - link "View & Download PDF":
             - /url: /resources/content-planner.pdf
-            - img [ref=e85]
             - text: View & Download PDF
-            - img [ref=e88]
-        - generic [ref=e90]:
-          - img [ref=e92]
-          - generic [ref=e93]: Analytics
-          - heading "Google Analytics Setup Guide" [level=3] [ref=e94]
-          - paragraph [ref=e95]: Step-by-step guide to set up GA4, configure goals, track conversions, and understand your website traffic. Includes dashboard templates.
-          - link "View & Download PDF" [ref=e96] [cursor=pointer]:
+        - generic [ref=e70]:
+          - img [ref=e72]
+          - generic [ref=e73]: Analytics
+          - heading "Google Analytics Setup Guide" [level=3]
+          - paragraph: Step-by-step guide to set up GA4, configure goals, track conversions, and understand your website traffic. Includes dashboard templates.
+          - link "View & Download PDF":
             - /url: /resources/analytics-setup-guide.pdf
-            - img [ref=e97]
             - text: View & Download PDF
-            - img [ref=e100]
-        - generic [ref=e102]:
-          - img [ref=e104]
-          - generic [ref=e107]: Security
-          - heading "WordPress Security Checklist" [level=3] [ref=e108]
-          - paragraph [ref=e109]: Protect your WordPress site with our 30-point security checklist. Covers plugins, backups, user permissions, and malware prevention.
-          - link "View & Download PDF" [ref=e110] [cursor=pointer]:
+        - generic [ref=e77]:
+          - img [ref=e79]
+          - generic [ref=e82]: Security
+          - heading "WordPress Security Checklist" [level=3]
+          - paragraph: Protect your WordPress site with our 30-point security checklist. Covers plugins, backups, user permissions, and malware prevention.
+          - link "View & Download PDF":
             - /url: /resources/wordpress-security-checklist.pdf
-            - img [ref=e111]
             - text: View & Download PDF
-            - img [ref=e114]
-        - generic [ref=e116]:
-          - img [ref=e118]
-          - generic [ref=e121]: SEO
-          - heading "Local SEO Optimisation Guide" [level=3] [ref=e122]
-          - paragraph [ref=e123]: Rank higher in local search results. Complete guide to Google My Business, local citations, reviews, and location-based keywords.
-          - link "View & Download PDF" [ref=e124] [cursor=pointer]:
+        - generic [ref=e86]:
+          - img [ref=e88]
+          - generic [ref=e91]: SEO
+          - heading "Local SEO Optimisation Guide" [level=3]
+          - paragraph: Rank higher in local search results. Complete guide to Google My Business, local citations, reviews, and location-based keywords.
+          - link "View & Download PDF":
             - /url: /resources/local-seo-guide.pdf
-            - img [ref=e125]
             - text: View & Download PDF
-            - img [ref=e128]
-        - generic [ref=e130]:
-          - img [ref=e132]
-          - generic [ref=e135]: Accessibility
-          - heading "Website Accessibility Checklist" [level=3] [ref=e136]
-          - paragraph [ref=e137]: Make your website accessible to all users. WCAG 2.1 compliance checklist covering navigation, forms, images, and assistive technologies.
-          - link "View & Download PDF" [ref=e138] [cursor=pointer]:
+        - generic [ref=e95]:
+          - img [ref=e97]
+          - generic [ref=e100]: Accessibility
+          - heading "Website Accessibility Checklist" [level=3]
+          - paragraph: Make your website accessible to all users. WCAG 2.1 compliance checklist covering navigation, forms, images, and assistive technologies.
+          - link "View & Download PDF":
             - /url: /resources/accessibility-checklist.pdf
-            - img [ref=e139]
             - text: View & Download PDF
-            - img [ref=e142]
-    - generic [ref=e145]:
-      - generic [ref=e146]:
-        - heading "Recommended Tools" [level=2] [ref=e147]
-        - paragraph [ref=e148]: Our curated list of free online tools to help you design, optimise, and analyse your website
-      - generic [ref=e149]:
-        - link "PageSpeed Insights Analyse your website performance and get optimisation recommendations Performance" [ref=e150] [cursor=pointer]:
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - heading "Recommended Tools" [level=2] [ref=e107]
+        - paragraph [ref=e108]: Our curated list of free online tools to help you design, optimise, and analyse your website
+      - generic [ref=e109]:
+        - link "PageSpeed Insights Analyse your website performance and get optimisation recommendations Performance" [ref=e110] [cursor=pointer]:
           - /url: https://pagespeed.web.dev/
-          - generic [ref=e151]:
-            - heading "PageSpeed Insights" [level=3] [ref=e152]
-            - img [ref=e153]
-          - paragraph [ref=e155]: Analyse your website performance and get optimisation recommendations
-          - generic [ref=e156]: Performance
-        - link "Google Search Console Monitor your website search performance and fix indexing issues SEO" [ref=e157] [cursor=pointer]:
+          - heading "PageSpeed Insights" [level=3] [ref=e111]
+          - paragraph: Analyse your website performance and get optimisation recommendations
+          - generic [ref=e113]: Performance
+        - link "Google Search Console Monitor your website search performance and fix indexing issues SEO" [ref=e114] [cursor=pointer]:
           - /url: https://search.google.com/search-console
-          - generic [ref=e158]:
-            - heading "Google Search Console" [level=3] [ref=e159]
-            - img [ref=e160]
-          - paragraph [ref=e162]: Monitor your website search performance and fix indexing issues
-          - generic [ref=e163]: SEO
-        - link "GTmetrix Detailed website speed analysis with waterfall charts and recommendations Performance" [ref=e164] [cursor=pointer]:
+          - heading "Google Search Console" [level=3] [ref=e115]
+          - paragraph: Monitor your website search performance and fix indexing issues
+          - generic [ref=e117]: SEO
+        - link "GTmetrix Detailed website speed analysis with waterfall charts and recommendations Performance" [ref=e118] [cursor=pointer]:
           - /url: https://gtmetrix.com/
-          - generic [ref=e165]:
-            - heading "GTmetrix" [level=3] [ref=e166]
-            - img [ref=e167]
-          - paragraph [ref=e169]: Detailed website speed analysis with waterfall charts and recommendations
-          - generic [ref=e170]: Performance
-        - link "Coolors Generate beautiful colour palettes for your website design Design" [ref=e171] [cursor=pointer]:
+          - heading "GTmetrix" [level=3] [ref=e119]
+          - paragraph: Detailed website speed analysis with waterfall charts and recommendations
+          - generic [ref=e121]: Performance
+        - link "Coolors Generate beautiful colour palettes for your website design Design" [ref=e122] [cursor=pointer]:
           - /url: https://coolors.co/
-          - generic [ref=e172]:
-            - heading "Coolors" [level=3] [ref=e173]
-            - img [ref=e174]
-          - paragraph [ref=e176]: Generate beautiful colour palettes for your website design
-          - generic [ref=e177]: Design
-        - link "TinyPNG Compress images without losing quality to improve page speed Optimisation" [ref=e178] [cursor=pointer]:
+          - heading "Coolors" [level=3] [ref=e123]
+          - paragraph: Generate beautiful colour palettes for your website design
+          - generic [ref=e125]: Design
+        - link "TinyPNG Compress images without losing quality to improve page speed Optimisation" [ref=e126] [cursor=pointer]:
           - /url: https://tinypng.com/
-          - generic [ref=e179]:
-            - heading "TinyPNG" [level=3] [ref=e180]
-            - img [ref=e181]
-          - paragraph [ref=e183]: Compress images without losing quality to improve page speed
-          - generic [ref=e184]: Optimisation
-        - link "CanIUse Check browser compatibility for CSS, HTML, and JavaScript features Development" [ref=e185] [cursor=pointer]:
+          - heading "TinyPNG" [level=3] [ref=e127]
+          - paragraph: Compress images without losing quality to improve page speed
+          - generic [ref=e129]: Optimisation
+        - link "CanIUse Check browser compatibility for CSS, HTML, and JavaScript features Development" [ref=e130] [cursor=pointer]:
           - /url: https://caniuse.com/
-          - generic [ref=e186]:
-            - heading "CanIUse" [level=3] [ref=e187]
-            - img [ref=e188]
-          - paragraph [ref=e190]: Check browser compatibility for CSS, HTML, and JavaScript features
-          - generic [ref=e191]: Development
-    - generic [ref=e193]:
-      - img "Get Expert Help" [ref=e195]
-      - generic [ref=e198]:
-        - heading "Need Expert Help?" [level=2] [ref=e199]
-        - paragraph [ref=e200]: While these resources are valuable, nothing beats professional expertise. Let our team help you create a stunning, high-performing website.
-        - link "Get In Touch" [ref=e201] [cursor=pointer]:
+          - heading "CanIUse" [level=3] [ref=e131]
+          - paragraph: Check browser compatibility for CSS, HTML, and JavaScript features
+          - generic [ref=e133]: Development
+    - generic [ref=e135]:
+      - img "Get Expert Help" [ref=e137]
+      - generic [ref=e140]:
+        - heading "Need Expert Help?" [level=2] [ref=e141]
+        - paragraph [ref=e142]: While these resources are valuable, nothing beats professional expertise. Let our team help you create a stunning, high-performing website.
+        - link "Get In Touch" [ref=e143] [cursor=pointer]:
           - /url: /contact
           - text: Get In Touch
-          - img [ref=e202]
-  - contentinfo [ref=e204]:
-    - generic [ref=e206]:
-      - generic [ref=e207]:
-        - link "Web-Smart.Co" [ref=e208] [cursor=pointer]:
+          - img [ref=e144]
+  - contentinfo [ref=e146]:
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - link "Web-Smart.Co" [ref=e150] [cursor=pointer]:
           - /url: /
-          - img "Web-Smart.Co" [ref=e210]
-        - paragraph [ref=e211]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
-        - generic [ref=e212]:
-          - link "Facebook" [ref=e213] [cursor=pointer]:
+          - img "Web-Smart.Co" [ref=e152]
+        - paragraph [ref=e153]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e154]:
+          - link "Facebook" [ref=e155] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e214]
-          - link "Twitter" [ref=e216] [cursor=pointer]:
+            - img [ref=e156]
+          - link "Twitter" [ref=e158] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e217]
-          - link "LinkedIn" [ref=e219] [cursor=pointer]:
+            - img [ref=e159]
+          - link "LinkedIn" [ref=e161] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e220]
-          - link "Instagram" [ref=e224] [cursor=pointer]:
+            - img [ref=e162]
+          - link "Instagram" [ref=e166] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e225]
-      - generic [ref=e228]:
-        - heading "Services" [level=3] [ref=e229]
-        - list [ref=e230]:
-          - listitem [ref=e231]:
-            - link "Web Design" [ref=e232] [cursor=pointer]:
+            - img [ref=e167]
+      - generic [ref=e170]:
+        - heading "Services" [level=3] [ref=e171]
+        - list [ref=e172]:
+          - listitem [ref=e173]:
+            - link "Web Design" [ref=e174] [cursor=pointer]:
               - /url: /services#web-design
-          - listitem [ref=e233]:
-            - link "SEO Services" [ref=e234] [cursor=pointer]:
+          - listitem [ref=e175]:
+            - link "SEO Services" [ref=e176] [cursor=pointer]:
               - /url: /services#seo
-          - listitem [ref=e235]:
-            - link "Content Writing" [ref=e236] [cursor=pointer]:
+          - listitem [ref=e177]:
+            - link "Content Writing" [ref=e178] [cursor=pointer]:
               - /url: /services#content
-          - listitem [ref=e237]:
-            - link "Google Ads" [ref=e238] [cursor=pointer]:
+          - listitem [ref=e179]:
+            - link "Google Ads" [ref=e180] [cursor=pointer]:
               - /url: /services#google-ads
-      - generic [ref=e239]:
-        - heading "Quick Links" [level=3] [ref=e240]
-        - list [ref=e241]:
-          - listitem [ref=e242]:
-            - link "About Us" [ref=e243] [cursor=pointer]:
+      - generic [ref=e181]:
+        - heading "Quick Links" [level=3] [ref=e182]
+        - list [ref=e183]:
+          - listitem [ref=e184]:
+            - link "About Us" [ref=e185] [cursor=pointer]:
               - /url: /about
-          - listitem [ref=e244]:
-            - link "Portfolio" [ref=e245] [cursor=pointer]:
+          - listitem [ref=e186]:
+            - link "Portfolio" [ref=e187] [cursor=pointer]:
               - /url: /portfolio
-          - listitem [ref=e246]:
-            - link "Contact" [ref=e247] [cursor=pointer]:
+          - listitem [ref=e188]:
+            - link "Contact" [ref=e189] [cursor=pointer]:
               - /url: /contact
-      - generic [ref=e248]:
-        - heading "Contact Us" [level=3] [ref=e249]
-        - list [ref=e250]:
-          - listitem [ref=e251]:
-            - link "01462 544738" [ref=e252] [cursor=pointer]:
+      - generic [ref=e190]:
+        - heading "Contact Us" [level=3] [ref=e191]
+        - list [ref=e192]:
+          - listitem [ref=e193]:
+            - link "01462 544738" [ref=e194] [cursor=pointer]:
               - /url: tel:01462544738
-              - img [ref=e253]
-              - generic [ref=e255]: 01462 544738
-          - listitem [ref=e256]:
-            - link "enquiries@web-smart.co" [ref=e257] [cursor=pointer]:
+              - img [ref=e195]
+              - generic [ref=e197]: 01462 544738
+          - listitem [ref=e198]:
+            - link "enquiries@web-smart.co" [ref=e199] [cursor=pointer]:
               - /url: mailto:enquiries@web-smart.co
-              - img [ref=e258]
-              - generic [ref=e261]: enquiries@web-smart.co
-          - listitem [ref=e262]:
-            - img [ref=e263]
-            - generic [ref=e266]:
+              - img [ref=e200]
+              - generic [ref=e203]: enquiries@web-smart.co
+          - listitem [ref=e204]:
+            - img [ref=e205]
+            - generic [ref=e208]:
               - text: 52 Walsworth Rd,
               - text: Hitchin, Hertfordshire
               - text: SG4 9SX, UK
-          - listitem [ref=e267]:
-            - img [ref=e268]
-            - generic [ref=e271]:
+          - listitem [ref=e209]:
+            - img [ref=e210]
+            - generic [ref=e213]:
               - text: Monday-Friday
               - text: 09:00-18:00
-    - generic [ref=e274]:
-      - paragraph [ref=e275]: © 2025 Web-Smart.Co. All rights reserved.
-      - generic [ref=e276]:
-        - generic [ref=e277]:
-          - link "Privacy Policy" [ref=e278] [cursor=pointer]:
+    - generic [ref=e216]:
+      - paragraph [ref=e217]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e218]:
+        - generic [ref=e219]:
+          - link "Privacy Policy" [ref=e220] [cursor=pointer]:
             - /url: /privacy
-          - link "Terms of Service" [ref=e279] [cursor=pointer]:
+          - link "Terms of Service" [ref=e221] [cursor=pointer]:
             - /url: /terms
-        - paragraph [ref=e280]:
+        - paragraph [ref=e222]:
           - text: Designed by
-          - generic [ref=e281]: ❤
-          - link "AiDan.Systems" [ref=e282] [cursor=pointer]:
+          - generic [ref=e223]: ❤
+          - link "AiDan.Systems" [ref=e224] [cursor=pointer]:
             - /url: https://aidan.systems
-  - alert [ref=e283]
+  - alert [ref=e225]
 ```

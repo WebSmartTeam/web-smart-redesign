@@ -61,438 +61,438 @@
       - paragraph [ref=e79]: Showing 25 AI-powered projects
       - generic [ref=e80]:
         - generic [ref=e81]:
-          - generic [ref=e83]:
-            - img "DY-Cut" [ref=e84]
-            - generic [ref=e85]:
-              - img [ref=e86]
-              - text: AI
-          - generic [ref=e89]:
-            - generic [ref=e90]: Industrial & Manufacturing
-            - heading "DY-Cut" [level=3] [ref=e91]
-            - paragraph [ref=e92]: Precision cutting services website built with AI-powered design
-            - link "View Live Site" [ref=e93] [cursor=pointer]:
+          - generic [ref=e82]:
+            - generic:
+              - img "DY-Cut"
+              - generic [ref=e83]:
+                - img [ref=e84]
+                - text: AI
+          - generic [ref=e87]:
+            - generic [ref=e88]: Industrial & Manufacturing
+            - heading "DY-Cut" [level=3]
+            - paragraph: Precision cutting services website built with AI-powered design
+            - link "View Live Site":
               - /url: https://dy-cut.netlify.app
               - text: View Live Site
-              - img [ref=e94]
-        - generic [ref=e98]:
-          - generic [ref=e100]:
-            - img "DH Plumbing" [ref=e101]
-            - generic [ref=e102]:
-              - img [ref=e103]
-              - text: AI
-          - generic [ref=e106]:
-            - generic [ref=e107]: Plumbing & Heating
-            - heading "DH Plumbing" [level=3] [ref=e108]
-            - paragraph [ref=e109]: Professional plumbing services site created using AI technology
-            - link "View Live Site" [ref=e110] [cursor=pointer]:
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - generic:
+              - img "DH Plumbing"
+              - generic [ref=e94]:
+                - img [ref=e95]
+                - text: AI
+          - generic [ref=e98]:
+            - generic [ref=e99]: Plumbing & Heating
+            - heading "DH Plumbing" [level=3]
+            - paragraph: Professional plumbing services site created using AI technology
+            - link "View Live Site":
               - /url: https://dh-plumbing.netlify.app
               - text: View Live Site
-              - img [ref=e111]
-        - generic [ref=e115]:
-          - generic [ref=e117]:
-            - img "A1 Cars" [ref=e118]
-            - generic [ref=e119]:
-              - img [ref=e120]
-              - text: AI
-          - generic [ref=e123]:
-            - generic [ref=e124]: Automotive
-            - heading "A1 Cars" [level=3] [ref=e125]
-            - paragraph [ref=e126]: Car dealership website designed with AI assistance
-            - link "View Live Site" [ref=e127] [cursor=pointer]:
+        - generic [ref=e103]:
+          - generic [ref=e104]:
+            - generic:
+              - img "A1 Cars"
+              - generic [ref=e105]:
+                - img [ref=e106]
+                - text: AI
+          - generic [ref=e109]:
+            - generic [ref=e110]: Automotive
+            - heading "A1 Cars" [level=3]
+            - paragraph: Car dealership website designed with AI assistance
+            - link "View Live Site":
               - /url: https://a1-cars.netlify.app
               - text: View Live Site
-              - img [ref=e128]
-        - generic [ref=e132]:
-          - generic [ref=e134]:
-            - img "Optima Accountancy" [ref=e135]
-            - generic [ref=e136]:
-              - img [ref=e137]
-              - text: AI
-          - generic [ref=e140]:
-            - generic [ref=e141]: Financial Services
-            - heading "Optima Accountancy" [level=3] [ref=e142]
-            - paragraph [ref=e143]: Professional accountancy firm website built with AI
-            - link "View Live Site" [ref=e144] [cursor=pointer]:
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic:
+              - img "Optima Accountancy"
+              - generic [ref=e116]:
+                - img [ref=e117]
+                - text: AI
+          - generic [ref=e120]:
+            - generic [ref=e121]: Financial Services
+            - heading "Optima Accountancy" [level=3]
+            - paragraph: Professional accountancy firm website built with AI
+            - link "View Live Site":
               - /url: https://optima-accountancy.netlify.app
               - text: View Live Site
-              - img [ref=e145]
-        - generic [ref=e149]:
-          - generic [ref=e151]:
-            - img "Newstart Financial" [ref=e152]
-            - generic [ref=e153]:
-              - img [ref=e154]
-              - text: AI
-          - generic [ref=e157]:
-            - generic [ref=e158]: Financial Services
-            - heading "Newstart Financial" [level=3] [ref=e159]
-            - paragraph [ref=e160]: Financial services website created using AI-powered tools
-            - link "View Live Site" [ref=e161] [cursor=pointer]:
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic:
+              - img "Newstart Financial"
+              - generic [ref=e127]:
+                - img [ref=e128]
+                - text: AI
+          - generic [ref=e131]:
+            - generic [ref=e132]: Financial Services
+            - heading "Newstart Financial" [level=3]
+            - paragraph: Financial services website created using AI-powered tools
+            - link "View Live Site":
               - /url: https://newstart-financial.netlify.app
               - text: View Live Site
-              - img [ref=e162]
-        - generic [ref=e166]:
-          - generic [ref=e168]:
-            - img "Arba Studios" [ref=e169]
-            - generic [ref=e170]:
-              - img [ref=e171]
-              - text: AI
-          - generic [ref=e174]:
-            - generic [ref=e175]: Creative & Design
-            - heading "Arba Studios" [level=3] [ref=e176]
-            - paragraph [ref=e177]: Creative studio portfolio site designed with AI
-            - link "View Live Site" [ref=e178] [cursor=pointer]:
+        - generic [ref=e136]:
+          - generic [ref=e137]:
+            - generic:
+              - img "Arba Studios"
+              - generic [ref=e138]:
+                - img [ref=e139]
+                - text: AI
+          - generic [ref=e142]:
+            - generic [ref=e143]: Creative & Design
+            - heading "Arba Studios" [level=3]
+            - paragraph: Creative studio portfolio site designed with AI
+            - link "View Live Site":
               - /url: https://arba-studios.netlify.app
               - text: View Live Site
-              - img [ref=e179]
-        - generic [ref=e183]:
-          - generic [ref=e185]:
-            - img "Brikform Construction" [ref=e186]
-            - generic [ref=e187]:
-              - img [ref=e188]
-              - text: AI
-          - generic [ref=e191]:
-            - generic [ref=e192]: Construction & Building
-            - heading "Brikform Construction" [level=3] [ref=e193]
-            - paragraph [ref=e194]: Construction company website built with AI technology
-            - link "View Live Site" [ref=e195] [cursor=pointer]:
+        - generic [ref=e147]:
+          - generic [ref=e148]:
+            - generic:
+              - img "Brikform Construction"
+              - generic [ref=e149]:
+                - img [ref=e150]
+                - text: AI
+          - generic [ref=e153]:
+            - generic [ref=e154]: Construction & Building
+            - heading "Brikform Construction" [level=3]
+            - paragraph: Construction company website built with AI technology
+            - link "View Live Site":
               - /url: https://brikform-construction.netlify.app
               - text: View Live Site
-              - img [ref=e196]
-        - generic [ref=e200]:
-          - generic [ref=e202]:
-            - img "Copper Box" [ref=e203]
-            - generic [ref=e204]:
-              - img [ref=e205]
-              - text: AI
-          - generic [ref=e208]:
-            - generic [ref=e209]: E-commerce & Retail
-            - heading "Copper Box" [level=3] [ref=e210]
-            - paragraph [ref=e211]: E-commerce platform created using AI-powered design
-            - link "View Live Site" [ref=e212] [cursor=pointer]:
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - generic:
+              - img "Copper Box"
+              - generic [ref=e160]:
+                - img [ref=e161]
+                - text: AI
+          - generic [ref=e164]:
+            - generic [ref=e165]: E-commerce & Retail
+            - heading "Copper Box" [level=3]
+            - paragraph: E-commerce platform created using AI-powered design
+            - link "View Live Site":
               - /url: https://copper-box.netlify.app
               - text: View Live Site
-              - img [ref=e213]
-        - generic [ref=e217]:
-          - generic [ref=e219]:
-            - img "Henlow Parish Council" [ref=e220]
-            - generic [ref=e221]:
-              - img [ref=e222]
-              - text: AI
-          - generic [ref=e225]:
-            - generic [ref=e226]: Community & Government
-            - heading "Henlow Parish Council" [level=3] [ref=e227]
-            - paragraph [ref=e228]: Government website designed with AI assistance
-            - link "View Live Site" [ref=e229] [cursor=pointer]:
+        - generic [ref=e169]:
+          - generic [ref=e170]:
+            - generic:
+              - img "Henlow Parish Council"
+              - generic [ref=e171]:
+                - img [ref=e172]
+                - text: AI
+          - generic [ref=e175]:
+            - generic [ref=e176]: Community & Government
+            - heading "Henlow Parish Council" [level=3]
+            - paragraph: Government website designed with AI assistance
+            - link "View Live Site":
               - /url: https://henlow-pc-gov-uk.netlify.app
               - text: View Live Site
-              - img [ref=e230]
-        - generic [ref=e234]:
-          - generic [ref=e236]:
-            - img "Hewitt Day" [ref=e237]
-            - generic [ref=e238]:
-              - img [ref=e239]
-              - text: AI
-          - generic [ref=e242]:
-            - generic [ref=e243]: Professional Services
-            - heading "Hewitt Day" [level=3] [ref=e244]
-            - paragraph [ref=e245]: Professional services site built with AI technology
-            - link "View Live Site" [ref=e246] [cursor=pointer]:
+        - generic [ref=e180]:
+          - generic [ref=e181]:
+            - generic:
+              - img "Hewitt Day"
+              - generic [ref=e182]:
+                - img [ref=e183]
+                - text: AI
+          - generic [ref=e186]:
+            - generic [ref=e187]: Professional Services
+            - heading "Hewitt Day" [level=3]
+            - paragraph: Professional services site built with AI technology
+            - link "View Live Site":
               - /url: https://hewittday.netlify.app
               - text: View Live Site
-              - img [ref=e247]
-        - generic [ref=e251]:
-          - generic [ref=e253]:
-            - img "SDL Solutions" [ref=e254]
-            - generic [ref=e255]:
-              - img [ref=e256]
-              - text: AI
-          - generic [ref=e259]:
-            - generic [ref=e260]: Technology & IT
-            - heading "SDL Solutions" [level=3] [ref=e261]
-            - paragraph [ref=e262]: IT solutions website created with AI-powered tools
-            - link "View Live Site" [ref=e263] [cursor=pointer]:
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - generic:
+              - img "SDL Solutions"
+              - generic [ref=e193]:
+                - img [ref=e194]
+                - text: AI
+          - generic [ref=e197]:
+            - generic [ref=e198]: Technology & IT
+            - heading "SDL Solutions" [level=3]
+            - paragraph: IT solutions website created with AI-powered tools
+            - link "View Live Site":
               - /url: https://sdlsolutions.netlify.app
               - text: View Live Site
-              - img [ref=e264]
-        - generic [ref=e268]:
-          - generic [ref=e270]:
-            - img "Demso" [ref=e271]
-            - generic [ref=e272]:
-              - img [ref=e273]
-              - text: AI
-          - generic [ref=e276]:
-            - generic [ref=e277]: Professional Services
-            - heading "Demso" [level=3] [ref=e278]
-            - paragraph [ref=e279]: Business services platform designed with AI
-            - link "View Live Site" [ref=e280] [cursor=pointer]:
+        - generic [ref=e202]:
+          - generic [ref=e203]:
+            - generic:
+              - img "Demso"
+              - generic [ref=e204]:
+                - img [ref=e205]
+                - text: AI
+          - generic [ref=e208]:
+            - generic [ref=e209]: Professional Services
+            - heading "Demso" [level=3]
+            - paragraph: Business services platform designed with AI
+            - link "View Live Site":
               - /url: https://demso.netlify.app
               - text: View Live Site
-              - img [ref=e281]
-        - generic [ref=e285]:
-          - generic [ref=e287]:
-            - img "Rayners School" [ref=e288]
-            - generic [ref=e289]:
-              - img [ref=e290]
-              - text: AI
-          - generic [ref=e293]:
-            - generic [ref=e294]: Education
-            - heading "Rayners School" [level=3] [ref=e295]
-            - paragraph [ref=e296]: Educational institution website built with AI
-            - link "View Live Site" [ref=e297] [cursor=pointer]:
+        - generic [ref=e213]:
+          - generic [ref=e214]:
+            - generic:
+              - img "Rayners School"
+              - generic [ref=e215]:
+                - img [ref=e216]
+                - text: AI
+          - generic [ref=e219]:
+            - generic [ref=e220]: Education
+            - heading "Rayners School" [level=3]
+            - paragraph: Educational institution website built with AI
+            - link "View Live Site":
               - /url: https://rayners-school.netlify.app
               - text: View Live Site
-              - img [ref=e298]
-        - generic [ref=e302]:
-          - generic [ref=e304]:
-            - img "My Jennco" [ref=e305]
-            - generic [ref=e306]:
-              - img [ref=e307]
-              - text: AI
-          - generic [ref=e310]:
-            - generic [ref=e311]: Professional Services
-            - heading "My Jennco" [level=3] [ref=e312]
-            - paragraph [ref=e313]: Business website created using AI technology
-            - link "View Live Site" [ref=e314] [cursor=pointer]:
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - generic:
+              - img "My Jennco"
+              - generic [ref=e226]:
+                - img [ref=e227]
+                - text: AI
+          - generic [ref=e230]:
+            - generic [ref=e231]: Professional Services
+            - heading "My Jennco" [level=3]
+            - paragraph: Business website created using AI technology
+            - link "View Live Site":
               - /url: https://myjennco.netlify.app
               - text: View Live Site
-              - img [ref=e315]
-        - generic [ref=e319]:
-          - generic [ref=e321]:
-            - img "Digital Brains Henlow" [ref=e322]
-            - generic [ref=e323]:
-              - img [ref=e324]
-              - text: AI
-          - generic [ref=e327]:
-            - generic [ref=e328]: Technology & IT
-            - heading "Digital Brains Henlow" [level=3] [ref=e329]
-            - paragraph [ref=e330]: Digital marketing agency site designed with AI
-            - link "View Live Site" [ref=e331] [cursor=pointer]:
+        - generic [ref=e235]:
+          - generic [ref=e236]:
+            - generic:
+              - img "Digital Brains Henlow"
+              - generic [ref=e237]:
+                - img [ref=e238]
+                - text: AI
+          - generic [ref=e241]:
+            - generic [ref=e242]: Technology & IT
+            - heading "Digital Brains Henlow" [level=3]
+            - paragraph: Digital marketing agency site designed with AI
+            - link "View Live Site":
               - /url: https://digital-brains-henlow.netlify.app
               - text: View Live Site
-              - img [ref=e332]
-        - generic [ref=e336]:
-          - generic [ref=e338]:
-            - img "Bar Stop" [ref=e339]
-            - generic [ref=e340]:
-              - img [ref=e341]
-              - text: AI
-          - generic [ref=e344]:
-            - generic [ref=e345]: Hospitality & Food
-            - heading "Bar Stop" [level=3] [ref=e346]
-            - paragraph [ref=e347]: Restaurant and bar website built with AI assistance
-            - link "View Live Site" [ref=e348] [cursor=pointer]:
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - generic:
+              - img "Bar Stop"
+              - generic [ref=e248]:
+                - img [ref=e249]
+                - text: AI
+          - generic [ref=e252]:
+            - generic [ref=e253]: Hospitality & Food
+            - heading "Bar Stop" [level=3]
+            - paragraph: Restaurant and bar website built with AI assistance
+            - link "View Live Site":
               - /url: https://bar-stop.netlify.app
               - text: View Live Site
-              - img [ref=e349]
-        - generic [ref=e353]:
-          - generic [ref=e355]:
-            - img "Visitor Aware" [ref=e356]
-            - generic [ref=e357]:
-              - img [ref=e358]
-              - text: AI
-          - generic [ref=e361]:
-            - generic [ref=e362]: Security & Safety
-            - heading "Visitor Aware" [level=3] [ref=e363]
-            - paragraph [ref=e364]: Security management platform created with AI
-            - link "View Live Site" [ref=e365] [cursor=pointer]:
+        - generic [ref=e257]:
+          - generic [ref=e258]:
+            - generic:
+              - img "Visitor Aware"
+              - generic [ref=e259]:
+                - img [ref=e260]
+                - text: AI
+          - generic [ref=e263]:
+            - generic [ref=e264]: Security & Safety
+            - heading "Visitor Aware" [level=3]
+            - paragraph: Security management platform created with AI
+            - link "View Live Site":
               - /url: https://visitor-aware.netlify.app
               - text: View Live Site
-              - img [ref=e366]
-        - generic [ref=e370]:
-          - generic [ref=e372]:
-            - img "Hitchin Market" [ref=e373]
-            - generic [ref=e374]:
-              - img [ref=e375]
-              - text: AI
-          - generic [ref=e378]:
-            - generic [ref=e379]: Community & Government
-            - heading "Hitchin Market" [level=3] [ref=e380]
-            - paragraph [ref=e381]: Community marketplace website designed with AI
-            - link "View Live Site" [ref=e382] [cursor=pointer]:
+        - generic [ref=e268]:
+          - generic [ref=e269]:
+            - generic:
+              - img "Hitchin Market"
+              - generic [ref=e270]:
+                - img [ref=e271]
+                - text: AI
+          - generic [ref=e274]:
+            - generic [ref=e275]: Community & Government
+            - heading "Hitchin Market" [level=3]
+            - paragraph: Community marketplace website designed with AI
+            - link "View Live Site":
               - /url: https://hitchinmarket-aug.netlify.app
               - text: View Live Site
-              - img [ref=e383]
-        - generic [ref=e387]:
-          - generic [ref=e389]:
-            - img "Admiral Welding" [ref=e390]
-            - generic [ref=e391]:
-              - img [ref=e392]
-              - text: AI
-          - generic [ref=e395]:
-            - generic [ref=e396]: Industrial & Manufacturing
-            - heading "Admiral Welding" [level=3] [ref=e397]
-            - paragraph [ref=e398]: Welding services site built with AI technology
-            - link "View Live Site" [ref=e399] [cursor=pointer]:
+        - generic [ref=e279]:
+          - generic [ref=e280]:
+            - generic:
+              - img "Admiral Welding"
+              - generic [ref=e281]:
+                - img [ref=e282]
+                - text: AI
+          - generic [ref=e285]:
+            - generic [ref=e286]: Industrial & Manufacturing
+            - heading "Admiral Welding" [level=3]
+            - paragraph: Welding services site built with AI technology
+            - link "View Live Site":
               - /url: https://admiral-welding.netlify.app
               - text: View Live Site
-              - img [ref=e400]
-        - generic [ref=e404]:
-          - generic [ref=e406]:
-            - img "LawData" [ref=e407]
-            - generic [ref=e408]:
-              - img [ref=e409]
-              - text: AI
-          - generic [ref=e412]:
-            - generic [ref=e413]: Professional Services
-            - heading "LawData" [level=3] [ref=e414]
-            - paragraph [ref=e415]: Legal technology platform created with AI
-            - link "View Live Site" [ref=e416] [cursor=pointer]:
+        - generic [ref=e290]:
+          - generic [ref=e291]:
+            - generic:
+              - img "LawData"
+              - generic [ref=e292]:
+                - img [ref=e293]
+                - text: AI
+          - generic [ref=e296]:
+            - generic [ref=e297]: Professional Services
+            - heading "LawData" [level=3]
+            - paragraph: Legal technology platform created with AI
+            - link "View Live Site":
               - /url: https://lawdata.netlify.app
               - text: View Live Site
-              - img [ref=e417]
-        - generic [ref=e421]:
-          - generic [ref=e423]:
-            - img "Home Heating Scheme" [ref=e424]
-            - generic [ref=e425]:
-              - img [ref=e426]
-              - text: AI
-          - generic [ref=e429]:
-            - generic [ref=e430]: Plumbing & Heating
-            - heading "Home Heating Scheme" [level=3] [ref=e431]
-            - paragraph [ref=e432]: Heating services website designed with AI
-            - link "View Live Site" [ref=e433] [cursor=pointer]:
+        - generic [ref=e301]:
+          - generic [ref=e302]:
+            - generic:
+              - img "Home Heating Scheme"
+              - generic [ref=e303]:
+                - img [ref=e304]
+                - text: AI
+          - generic [ref=e307]:
+            - generic [ref=e308]: Plumbing & Heating
+            - heading "Home Heating Scheme" [level=3]
+            - paragraph: Heating services website designed with AI
+            - link "View Live Site":
               - /url: https://homeheatingscheme.netlify.app
               - text: View Live Site
-              - img [ref=e434]
-        - generic [ref=e438]:
-          - generic [ref=e440]:
-            - img "WWBA" [ref=e441]
-            - generic [ref=e442]:
-              - img [ref=e443]
-              - text: AI
-          - generic [ref=e446]:
-            - generic [ref=e447]: Community & Government
-            - heading "WWBA" [level=3] [ref=e448]
-            - paragraph [ref=e449]: Business association site built with AI assistance
-            - link "View Live Site" [ref=e450] [cursor=pointer]:
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - generic:
+              - img "WWBA"
+              - generic [ref=e314]:
+                - img [ref=e315]
+                - text: AI
+          - generic [ref=e318]:
+            - generic [ref=e319]: Community & Government
+            - heading "WWBA" [level=3]
+            - paragraph: Business association site built with AI assistance
+            - link "View Live Site":
               - /url: https://wwba.netlify.app
               - text: View Live Site
-              - img [ref=e451]
-        - generic [ref=e455]:
-          - generic [ref=e457]:
-            - img "Cycle Dealia" [ref=e458]
-            - generic [ref=e459]:
-              - img [ref=e460]
-              - text: AI
-          - generic [ref=e463]:
-            - generic [ref=e464]: E-commerce & Retail
-            - heading "Cycle Dealia" [level=3] [ref=e465]
-            - paragraph [ref=e466]: Bicycle e-commerce platform created with AI
-            - link "View Live Site" [ref=e467] [cursor=pointer]:
+        - generic [ref=e323]:
+          - generic [ref=e324]:
+            - generic:
+              - img "Cycle Dealia"
+              - generic [ref=e325]:
+                - img [ref=e326]
+                - text: AI
+          - generic [ref=e329]:
+            - generic [ref=e330]: E-commerce & Retail
+            - heading "Cycle Dealia" [level=3]
+            - paragraph: Bicycle e-commerce platform created with AI
+            - link "View Live Site":
               - /url: https://cycledealia.netlify.app
               - text: View Live Site
-              - img [ref=e468]
-        - generic [ref=e472]:
-          - generic [ref=e474]:
-            - img "Enhance Cosmetics Solutions" [ref=e475]
-            - generic [ref=e476]:
-              - img [ref=e477]
-              - text: AI
-          - generic [ref=e480]:
-            - generic [ref=e481]: Beauty & Cosmetics
-            - heading "Enhance Cosmetics Solutions" [level=3] [ref=e482]
-            - paragraph [ref=e483]: Beauty services website designed with AI technology
-            - link "View Live Site" [ref=e484] [cursor=pointer]:
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - generic:
+              - img "Enhance Cosmetics Solutions"
+              - generic [ref=e336]:
+                - img [ref=e337]
+                - text: AI
+          - generic [ref=e340]:
+            - generic [ref=e341]: Beauty & Cosmetics
+            - heading "Enhance Cosmetics Solutions" [level=3]
+            - paragraph: Beauty services website designed with AI technology
+            - link "View Live Site":
               - /url: https://enhancecosmeticssolutions.netlify.app
               - text: View Live Site
-              - img [ref=e485]
-        - generic [ref=e489]:
-          - generic [ref=e491]:
-            - img "Bulldog Steel Fabrications" [ref=e492]
-            - generic [ref=e493]:
-              - img [ref=e494]
-              - text: AI
-          - generic [ref=e497]:
-            - generic [ref=e498]: Industrial & Manufacturing
-            - heading "Bulldog Steel Fabrications" [level=3] [ref=e499]
-            - paragraph [ref=e500]: Steel fabrication company site built with AI
-            - link "View Live Site" [ref=e501] [cursor=pointer]:
+        - generic [ref=e345]:
+          - generic [ref=e346]:
+            - generic:
+              - img "Bulldog Steel Fabrications"
+              - generic [ref=e347]:
+                - img [ref=e348]
+                - text: AI
+          - generic [ref=e351]:
+            - generic [ref=e352]: Industrial & Manufacturing
+            - heading "Bulldog Steel Fabrications" [level=3]
+            - paragraph: Steel fabrication company site built with AI
+            - link "View Live Site":
               - /url: https://bulldogsteelfabrications.netlify.app
               - text: View Live Site
-              - img [ref=e502]
-  - contentinfo [ref=e506]:
-    - generic [ref=e508]:
-      - generic [ref=e509]:
-        - link "Web-Smart.Co" [ref=e510] [cursor=pointer]:
+  - contentinfo [ref=e356]:
+    - generic [ref=e358]:
+      - generic [ref=e359]:
+        - link "Web-Smart.Co" [ref=e360] [cursor=pointer]:
           - /url: /
-          - img "Web-Smart.Co" [ref=e512]
-        - paragraph [ref=e513]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
-        - generic [ref=e514]:
-          - link "Facebook" [ref=e515] [cursor=pointer]:
+          - img "Web-Smart.Co" [ref=e362]
+        - paragraph [ref=e363]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e364]:
+          - link "Facebook" [ref=e365] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e516]
-          - link "Twitter" [ref=e518] [cursor=pointer]:
+            - img [ref=e366]
+          - link "Twitter" [ref=e368] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e519]
-          - link "LinkedIn" [ref=e521] [cursor=pointer]:
+            - img [ref=e369]
+          - link "LinkedIn" [ref=e371] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e522]
-          - link "Instagram" [ref=e526] [cursor=pointer]:
+            - img [ref=e372]
+          - link "Instagram" [ref=e376] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e527]
-      - generic [ref=e530]:
-        - heading "Services" [level=3] [ref=e531]
-        - list [ref=e532]:
-          - listitem [ref=e533]:
-            - link "Web Design" [ref=e534] [cursor=pointer]:
+            - img [ref=e377]
+      - generic [ref=e380]:
+        - heading "Services" [level=3] [ref=e381]
+        - list [ref=e382]:
+          - listitem [ref=e383]:
+            - link "Web Design" [ref=e384] [cursor=pointer]:
               - /url: /services#web-design
-          - listitem [ref=e535]:
-            - link "SEO Services" [ref=e536] [cursor=pointer]:
+          - listitem [ref=e385]:
+            - link "SEO Services" [ref=e386] [cursor=pointer]:
               - /url: /services#seo
-          - listitem [ref=e537]:
-            - link "Content Writing" [ref=e538] [cursor=pointer]:
+          - listitem [ref=e387]:
+            - link "Content Writing" [ref=e388] [cursor=pointer]:
               - /url: /services#content
-          - listitem [ref=e539]:
-            - link "Google Ads" [ref=e540] [cursor=pointer]:
+          - listitem [ref=e389]:
+            - link "Google Ads" [ref=e390] [cursor=pointer]:
               - /url: /services#google-ads
-      - generic [ref=e541]:
-        - heading "Quick Links" [level=3] [ref=e542]
-        - list [ref=e543]:
-          - listitem [ref=e544]:
-            - link "About Us" [ref=e545] [cursor=pointer]:
+      - generic [ref=e391]:
+        - heading "Quick Links" [level=3] [ref=e392]
+        - list [ref=e393]:
+          - listitem [ref=e394]:
+            - link "About Us" [ref=e395] [cursor=pointer]:
               - /url: /about
-          - listitem [ref=e546]:
-            - link "Portfolio" [ref=e547] [cursor=pointer]:
+          - listitem [ref=e396]:
+            - link "Portfolio" [ref=e397] [cursor=pointer]:
               - /url: /portfolio
-          - listitem [ref=e548]:
-            - link "Contact" [ref=e549] [cursor=pointer]:
+          - listitem [ref=e398]:
+            - link "Contact" [ref=e399] [cursor=pointer]:
               - /url: /contact
-      - generic [ref=e550]:
-        - heading "Contact Us" [level=3] [ref=e551]
-        - list [ref=e552]:
-          - listitem [ref=e553]:
-            - link "01462 544738" [ref=e554] [cursor=pointer]:
+      - generic [ref=e400]:
+        - heading "Contact Us" [level=3] [ref=e401]
+        - list [ref=e402]:
+          - listitem [ref=e403]:
+            - link "01462 544738" [ref=e404] [cursor=pointer]:
               - /url: tel:01462544738
-              - img [ref=e555]
-              - generic [ref=e557]: 01462 544738
-          - listitem [ref=e558]:
-            - link "enquiries@web-smart.co" [ref=e559] [cursor=pointer]:
+              - img [ref=e405]
+              - generic [ref=e407]: 01462 544738
+          - listitem [ref=e408]:
+            - link "enquiries@web-smart.co" [ref=e409] [cursor=pointer]:
               - /url: mailto:enquiries@web-smart.co
-              - img [ref=e560]
-              - generic [ref=e563]: enquiries@web-smart.co
-          - listitem [ref=e564]:
-            - img [ref=e565]
-            - generic [ref=e568]:
+              - img [ref=e410]
+              - generic [ref=e413]: enquiries@web-smart.co
+          - listitem [ref=e414]:
+            - img [ref=e415]
+            - generic [ref=e418]:
               - text: 52 Walsworth Rd,
               - text: Hitchin, Hertfordshire
               - text: SG4 9SX, UK
-          - listitem [ref=e569]:
-            - img [ref=e570]
-            - generic [ref=e573]:
+          - listitem [ref=e419]:
+            - img [ref=e420]
+            - generic [ref=e423]:
               - text: Monday-Friday
               - text: 09:00-18:00
-    - generic [ref=e576]:
-      - paragraph [ref=e577]: © 2025 Web-Smart.Co. All rights reserved.
-      - generic [ref=e578]:
-        - generic [ref=e579]:
-          - link "Privacy Policy" [ref=e580] [cursor=pointer]:
+    - generic [ref=e426]:
+      - paragraph [ref=e427]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e428]:
+        - generic [ref=e429]:
+          - link "Privacy Policy" [ref=e430] [cursor=pointer]:
             - /url: /privacy
-          - link "Terms of Service" [ref=e581] [cursor=pointer]:
+          - link "Terms of Service" [ref=e431] [cursor=pointer]:
             - /url: /terms
-        - paragraph [ref=e582]:
+        - paragraph [ref=e432]:
           - text: Designed by
-          - generic [ref=e583]: ❤
-          - link "AiDan.Systems" [ref=e584] [cursor=pointer]:
+          - generic [ref=e433]: ❤
+          - link "AiDan.Systems" [ref=e434] [cursor=pointer]:
             - /url: https://aidan.systems
-  - alert [ref=e585]
+  - alert [ref=e435]
 ```

@@ -37,382 +37,412 @@
       - paragraph [ref=e42]: Showing 30 projects
       - generic [ref=e43]:
         - generic [ref=e44]:
-          - img "DY-Cut" [ref=e47]
-          - generic [ref=e48]:
-            - generic [ref=e49]: Industrial & Manufacturing
-            - heading "DY-Cut" [level=3] [ref=e50]
-            - link "View Live Site" [ref=e51] [cursor=pointer]:
+          - generic [ref=e45]:
+            - generic:
+              - img "DY-Cut"
+          - generic [ref=e46]:
+            - generic [ref=e47]: Industrial & Manufacturing
+            - heading "DY-Cut" [level=3]
+            - link "View Live Site":
               - /url: https://dy-cut.netlify.app
               - text: View Live Site
-              - img [ref=e52]
-        - generic [ref=e56]:
-          - img "DH Plumbing" [ref=e59]
-          - generic [ref=e60]:
-            - generic [ref=e61]: Plumbing & Heating
-            - heading "DH Plumbing" [level=3] [ref=e62]
-            - link "View Live Site" [ref=e63] [cursor=pointer]:
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic:
+              - img "DH Plumbing"
+          - generic [ref=e53]:
+            - generic [ref=e54]: Plumbing & Heating
+            - heading "DH Plumbing" [level=3]
+            - link "View Live Site":
               - /url: https://dh-plumbing.netlify.app
               - text: View Live Site
-              - img [ref=e64]
-        - generic [ref=e68]:
-          - img "A1 Cars" [ref=e71]
-          - generic [ref=e72]:
-            - generic [ref=e73]: Automotive
-            - heading "A1 Cars" [level=3] [ref=e74]
-            - link "View Live Site" [ref=e75] [cursor=pointer]:
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - generic:
+              - img "A1 Cars"
+          - generic [ref=e60]:
+            - generic [ref=e61]: Automotive
+            - heading "A1 Cars" [level=3]
+            - link "View Live Site":
               - /url: https://a1-cars.netlify.app
               - text: View Live Site
-              - img [ref=e76]
-        - generic [ref=e80]:
-          - img "Optima Accountancy" [ref=e83]
-          - generic [ref=e84]:
-            - generic [ref=e85]: Financial Services
-            - heading "Optima Accountancy" [level=3] [ref=e86]
-            - link "View Live Site" [ref=e87] [cursor=pointer]:
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - generic:
+              - img "Optima Accountancy"
+          - generic [ref=e67]:
+            - generic [ref=e68]: Financial Services
+            - heading "Optima Accountancy" [level=3]
+            - link "View Live Site":
               - /url: https://optima-accountancy.netlify.app
               - text: View Live Site
-              - img [ref=e88]
-        - generic [ref=e92]:
-          - img "Newstart Financial" [ref=e95]
-          - generic [ref=e96]:
-            - generic [ref=e97]: Financial Services
-            - heading "Newstart Financial" [level=3] [ref=e98]
-            - link "View Live Site" [ref=e99] [cursor=pointer]:
+        - generic [ref=e72]:
+          - generic [ref=e73]:
+            - generic:
+              - img "Newstart Financial"
+          - generic [ref=e74]:
+            - generic [ref=e75]: Financial Services
+            - heading "Newstart Financial" [level=3]
+            - link "View Live Site":
               - /url: https://newstart-financial.netlify.app
               - text: View Live Site
-              - img [ref=e100]
-        - generic [ref=e104]:
-          - img "Arba Studios" [ref=e107]
-          - generic [ref=e108]:
-            - generic [ref=e109]: Creative & Design
-            - heading "Arba Studios" [level=3] [ref=e110]
-            - link "View Live Site" [ref=e111] [cursor=pointer]:
+        - generic [ref=e79]:
+          - generic [ref=e80]:
+            - generic:
+              - img "Arba Studios"
+          - generic [ref=e81]:
+            - generic [ref=e82]: Creative & Design
+            - heading "Arba Studios" [level=3]
+            - link "View Live Site":
               - /url: https://arba-studios.netlify.app
               - text: View Live Site
-              - img [ref=e112]
-        - generic [ref=e116]:
-          - img "Brikform Construction" [ref=e119]
-          - generic [ref=e120]:
-            - generic [ref=e121]: Construction & Building
-            - heading "Brikform Construction" [level=3] [ref=e122]
-            - link "View Live Site" [ref=e123] [cursor=pointer]:
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - generic:
+              - img "Brikform Construction"
+          - generic [ref=e88]:
+            - generic [ref=e89]: Construction & Building
+            - heading "Brikform Construction" [level=3]
+            - link "View Live Site":
               - /url: https://brikform-construction.netlify.app
               - text: View Live Site
-              - img [ref=e124]
-        - generic [ref=e128]:
-          - img "Copper Box" [ref=e131]
-          - generic [ref=e132]:
-            - generic [ref=e133]: E-commerce & Retail
-            - heading "Copper Box" [level=3] [ref=e134]
-            - link "View Live Site" [ref=e135] [cursor=pointer]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - generic:
+              - img "Copper Box"
+          - generic [ref=e95]:
+            - generic [ref=e96]: E-commerce & Retail
+            - heading "Copper Box" [level=3]
+            - link "View Live Site":
               - /url: https://copper-box.netlify.app
               - text: View Live Site
-              - img [ref=e136]
-        - generic [ref=e140]:
-          - img "Henlow Parish Council" [ref=e143]
-          - generic [ref=e144]:
-            - generic [ref=e145]: Community & Government
-            - heading "Henlow Parish Council" [level=3] [ref=e146]
-            - link "View Live Site" [ref=e147] [cursor=pointer]:
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - generic:
+              - img "Henlow Parish Council"
+          - generic [ref=e102]:
+            - generic [ref=e103]: Community & Government
+            - heading "Henlow Parish Council" [level=3]
+            - link "View Live Site":
               - /url: https://henlow-pc-gov-uk.netlify.app
               - text: View Live Site
-              - img [ref=e148]
-        - generic [ref=e152]:
-          - img "Hewitt Day" [ref=e155]
-          - generic [ref=e156]:
-            - generic [ref=e157]: Professional Services
-            - heading "Hewitt Day" [level=3] [ref=e158]
-            - link "View Live Site" [ref=e159] [cursor=pointer]:
+        - generic [ref=e107]:
+          - generic [ref=e108]:
+            - generic:
+              - img "Hewitt Day"
+          - generic [ref=e109]:
+            - generic [ref=e110]: Professional Services
+            - heading "Hewitt Day" [level=3]
+            - link "View Live Site":
               - /url: https://hewittday.netlify.app
               - text: View Live Site
-              - img [ref=e160]
-        - generic [ref=e164]:
-          - img "SDL Solutions" [ref=e167]
-          - generic [ref=e168]:
-            - generic [ref=e169]: Technology & IT
-            - heading "SDL Solutions" [level=3] [ref=e170]
-            - link "View Live Site" [ref=e171] [cursor=pointer]:
+        - generic [ref=e114]:
+          - generic [ref=e115]:
+            - generic:
+              - img "SDL Solutions"
+          - generic [ref=e116]:
+            - generic [ref=e117]: Technology & IT
+            - heading "SDL Solutions" [level=3]
+            - link "View Live Site":
               - /url: https://sdlsolutions.netlify.app
               - text: View Live Site
-              - img [ref=e172]
-        - generic [ref=e176]:
-          - img "Demso" [ref=e179]
-          - generic [ref=e180]:
-            - generic [ref=e181]: Professional Services
-            - heading "Demso" [level=3] [ref=e182]
-            - link "View Live Site" [ref=e183] [cursor=pointer]:
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic:
+              - img "Demso"
+          - generic [ref=e123]:
+            - generic [ref=e124]: Professional Services
+            - heading "Demso" [level=3]
+            - link "View Live Site":
               - /url: https://demso.netlify.app
               - text: View Live Site
-              - img [ref=e184]
-        - generic [ref=e188]:
-          - img "Rayners School" [ref=e191]
-          - generic [ref=e192]:
-            - generic [ref=e193]: Education
-            - heading "Rayners School" [level=3] [ref=e194]
-            - link "View Live Site" [ref=e195] [cursor=pointer]:
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - generic:
+              - img "Rayners School"
+          - generic [ref=e130]:
+            - generic [ref=e131]: Education
+            - heading "Rayners School" [level=3]
+            - link "View Live Site":
               - /url: https://rayners-school.netlify.app
               - text: View Live Site
-              - img [ref=e196]
-        - generic [ref=e200]:
-          - img "AiDan Systems" [ref=e203]
-          - generic [ref=e204]:
-            - generic [ref=e205]: Technology & IT
-            - heading "AiDan Systems" [level=3] [ref=e206]
-            - link "View Live Site" [ref=e207] [cursor=pointer]:
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic:
+              - img "AiDan Systems"
+          - generic [ref=e137]:
+            - generic [ref=e138]: Technology & IT
+            - heading "AiDan Systems" [level=3]
+            - link "View Live Site":
               - /url: https://aidan.systems
               - text: View Live Site
-              - img [ref=e208]
-        - generic [ref=e212]:
-          - img "My Jennco" [ref=e215]
-          - generic [ref=e216]:
-            - generic [ref=e217]: Professional Services
-            - heading "My Jennco" [level=3] [ref=e218]
-            - link "View Live Site" [ref=e219] [cursor=pointer]:
+        - generic [ref=e142]:
+          - generic [ref=e143]:
+            - generic:
+              - img "My Jennco"
+          - generic [ref=e144]:
+            - generic [ref=e145]: Professional Services
+            - heading "My Jennco" [level=3]
+            - link "View Live Site":
               - /url: https://myjennco.netlify.app
               - text: View Live Site
-              - img [ref=e220]
-        - generic [ref=e224]:
-          - img "Digital Brains Henlow" [ref=e227]
-          - generic [ref=e228]:
-            - generic [ref=e229]: Technology & IT
-            - heading "Digital Brains Henlow" [level=3] [ref=e230]
-            - link "View Live Site" [ref=e231] [cursor=pointer]:
+        - generic [ref=e149]:
+          - generic [ref=e150]:
+            - generic:
+              - img "Digital Brains Henlow"
+          - generic [ref=e151]:
+            - generic [ref=e152]: Technology & IT
+            - heading "Digital Brains Henlow" [level=3]
+            - link "View Live Site":
               - /url: https://digital-brains-henlow.netlify.app
               - text: View Live Site
-              - img [ref=e232]
-        - generic [ref=e236]:
-          - img "Bar Stop" [ref=e239]
-          - generic [ref=e240]:
-            - generic [ref=e241]: Hospitality & Food
-            - heading "Bar Stop" [level=3] [ref=e242]
-            - link "View Live Site" [ref=e243] [cursor=pointer]:
+        - generic [ref=e156]:
+          - generic [ref=e157]:
+            - generic:
+              - img "Bar Stop"
+          - generic [ref=e158]:
+            - generic [ref=e159]: Hospitality & Food
+            - heading "Bar Stop" [level=3]
+            - link "View Live Site":
               - /url: https://bar-stop.netlify.app
               - text: View Live Site
-              - img [ref=e244]
-        - generic [ref=e248]:
-          - img "Visitor Aware" [ref=e251]
-          - generic [ref=e252]:
-            - generic [ref=e253]: Security & Safety
-            - heading "Visitor Aware" [level=3] [ref=e254]
-            - link "View Live Site" [ref=e255] [cursor=pointer]:
+        - generic [ref=e163]:
+          - generic [ref=e164]:
+            - generic:
+              - img "Visitor Aware"
+          - generic [ref=e165]:
+            - generic [ref=e166]: Security & Safety
+            - heading "Visitor Aware" [level=3]
+            - link "View Live Site":
               - /url: https://visitor-aware.netlify.app
               - text: View Live Site
-              - img [ref=e256]
-        - generic [ref=e260]:
-          - img "Hitchin Market" [ref=e263]
-          - generic [ref=e264]:
-            - generic [ref=e265]: Community & Government
-            - heading "Hitchin Market" [level=3] [ref=e266]
-            - link "View Live Site" [ref=e267] [cursor=pointer]:
+        - generic [ref=e170]:
+          - generic [ref=e171]:
+            - generic:
+              - img "Hitchin Market"
+          - generic [ref=e172]:
+            - generic [ref=e173]: Community & Government
+            - heading "Hitchin Market" [level=3]
+            - link "View Live Site":
               - /url: https://hitchinmarket-aug.netlify.app
               - text: View Live Site
-              - img [ref=e268]
-        - generic [ref=e272]:
-          - img "Admiral Welding" [ref=e275]
-          - generic [ref=e276]:
-            - generic [ref=e277]: Industrial & Manufacturing
-            - heading "Admiral Welding" [level=3] [ref=e278]
-            - link "View Live Site" [ref=e279] [cursor=pointer]:
+        - generic [ref=e177]:
+          - generic [ref=e178]:
+            - generic:
+              - img "Admiral Welding"
+          - generic [ref=e179]:
+            - generic [ref=e180]: Industrial & Manufacturing
+            - heading "Admiral Welding" [level=3]
+            - link "View Live Site":
               - /url: https://admiral-welding.netlify.app
               - text: View Live Site
-              - img [ref=e280]
-        - generic [ref=e284]:
-          - img "LawData" [ref=e287]
-          - generic [ref=e288]:
-            - generic [ref=e289]: Professional Services
-            - heading "LawData" [level=3] [ref=e290]
-            - link "View Live Site" [ref=e291] [cursor=pointer]:
+        - generic [ref=e184]:
+          - generic [ref=e185]:
+            - generic:
+              - img "LawData"
+          - generic [ref=e186]:
+            - generic [ref=e187]: Professional Services
+            - heading "LawData" [level=3]
+            - link "View Live Site":
               - /url: https://lawdata.netlify.app
               - text: View Live Site
-              - img [ref=e292]
-        - generic [ref=e296]:
-          - img "Home Heating Scheme" [ref=e299]
-          - generic [ref=e300]:
-            - generic [ref=e301]: Plumbing & Heating
-            - heading "Home Heating Scheme" [level=3] [ref=e302]
-            - link "View Live Site" [ref=e303] [cursor=pointer]:
+        - generic [ref=e191]:
+          - generic [ref=e192]:
+            - generic:
+              - img "Home Heating Scheme"
+          - generic [ref=e193]:
+            - generic [ref=e194]: Plumbing & Heating
+            - heading "Home Heating Scheme" [level=3]
+            - link "View Live Site":
               - /url: https://homeheatingscheme.netlify.app
               - text: View Live Site
-              - img [ref=e304]
-        - generic [ref=e308]:
-          - img "WWBA" [ref=e311]
-          - generic [ref=e312]:
-            - generic [ref=e313]: Community & Government
-            - heading "WWBA" [level=3] [ref=e314]
-            - link "View Live Site" [ref=e315] [cursor=pointer]:
+        - generic [ref=e198]:
+          - generic [ref=e199]:
+            - generic:
+              - img "WWBA"
+          - generic [ref=e200]:
+            - generic [ref=e201]: Community & Government
+            - heading "WWBA" [level=3]
+            - link "View Live Site":
               - /url: https://wwba.netlify.app
               - text: View Live Site
-              - img [ref=e316]
-        - generic [ref=e320]:
-          - img "Cycle Dealia" [ref=e323]
-          - generic [ref=e324]:
-            - generic [ref=e325]: E-commerce & Retail
-            - heading "Cycle Dealia" [level=3] [ref=e326]
-            - link "View Live Site" [ref=e327] [cursor=pointer]:
+        - generic [ref=e205]:
+          - generic [ref=e206]:
+            - generic:
+              - img "Cycle Dealia"
+          - generic [ref=e207]:
+            - generic [ref=e208]: E-commerce & Retail
+            - heading "Cycle Dealia" [level=3]
+            - link "View Live Site":
               - /url: https://cycledealia.netlify.app
               - text: View Live Site
-              - img [ref=e328]
-        - generic [ref=e332]:
-          - img "Enhance Cosmetics Solutions" [ref=e335]
-          - generic [ref=e336]:
-            - generic [ref=e337]: Beauty & Cosmetics
-            - heading "Enhance Cosmetics Solutions" [level=3] [ref=e338]
-            - link "View Live Site" [ref=e339] [cursor=pointer]:
+        - generic [ref=e212]:
+          - generic [ref=e213]:
+            - generic:
+              - img "Enhance Cosmetics Solutions"
+          - generic [ref=e214]:
+            - generic [ref=e215]: Beauty & Cosmetics
+            - heading "Enhance Cosmetics Solutions" [level=3]
+            - link "View Live Site":
               - /url: https://enhancecosmeticssolutions.netlify.app
               - text: View Live Site
-              - img [ref=e340]
-        - generic [ref=e344]:
-          - img "Bulldog Steel Fabrications" [ref=e347]
-          - generic [ref=e348]:
-            - generic [ref=e349]: Industrial & Manufacturing
-            - heading "Bulldog Steel Fabrications" [level=3] [ref=e350]
-            - link "View Live Site" [ref=e351] [cursor=pointer]:
+        - generic [ref=e219]:
+          - generic [ref=e220]:
+            - generic:
+              - img "Bulldog Steel Fabrications"
+          - generic [ref=e221]:
+            - generic [ref=e222]: Industrial & Manufacturing
+            - heading "Bulldog Steel Fabrications" [level=3]
+            - link "View Live Site":
               - /url: https://bulldogsteelfabrications.netlify.app
               - text: View Live Site
-              - img [ref=e352]
-        - generic [ref=e356]:
-          - img "Advanced Heating & Plumbing" [ref=e359]
-          - generic [ref=e360]:
-            - generic [ref=e361]: Plumbing & Heating
-            - heading "Advanced Heating & Plumbing" [level=3] [ref=e362]
-            - link "View Live Site" [ref=e363] [cursor=pointer]:
+        - generic [ref=e226]:
+          - generic [ref=e227]:
+            - generic:
+              - img "Advanced Heating & Plumbing"
+          - generic [ref=e228]:
+            - generic [ref=e229]: Plumbing & Heating
+            - heading "Advanced Heating & Plumbing" [level=3]
+            - link "View Live Site":
               - /url: https://advancedheatingplumbing.co.uk/
               - text: View Live Site
-              - img [ref=e364]
-        - generic [ref=e368]:
-          - img "J Hare" [ref=e371]
-          - generic [ref=e372]:
-            - generic [ref=e373]: Construction & Building
-            - heading "J Hare" [level=3] [ref=e374]
-            - link "View Live Site" [ref=e375] [cursor=pointer]:
+        - generic [ref=e233]:
+          - generic [ref=e234]:
+            - generic:
+              - img "J Hare"
+          - generic [ref=e235]:
+            - generic [ref=e236]: Construction & Building
+            - heading "J Hare" [level=3]
+            - link "View Live Site":
               - /url: https://jhare.com/
               - text: View Live Site
-              - img [ref=e376]
-        - generic [ref=e380]:
-          - img "Pinnacle Roofing" [ref=e383]
-          - generic [ref=e384]:
-            - generic [ref=e385]: Construction & Building
-            - heading "Pinnacle Roofing" [level=3] [ref=e386]
-            - link "View Live Site" [ref=e387] [cursor=pointer]:
+        - generic [ref=e240]:
+          - generic [ref=e241]:
+            - generic:
+              - img "Pinnacle Roofing"
+          - generic [ref=e242]:
+            - generic [ref=e243]: Construction & Building
+            - heading "Pinnacle Roofing" [level=3]
+            - link "View Live Site":
               - /url: https://pinnacle-roofing.client-demo.co/
               - text: View Live Site
-              - img [ref=e388]
-        - generic [ref=e392]:
-          - img "MP Build" [ref=e395]
-          - generic [ref=e396]:
-            - generic [ref=e397]: Construction & Building
-            - heading "MP Build" [level=3] [ref=e398]
-            - link "View Live Site" [ref=e399] [cursor=pointer]:
+        - generic [ref=e247]:
+          - generic [ref=e248]:
+            - generic:
+              - img "MP Build"
+          - generic [ref=e249]:
+            - generic [ref=e250]: Construction & Building
+            - heading "MP Build" [level=3]
+            - link "View Live Site":
               - /url: http://mpbuild.co.uk/
               - text: View Live Site
-              - img [ref=e400]
-    - generic [ref=e406]:
-      - heading "Results That Speak for Themselves" [level=2] [ref=e407]
-      - generic [ref=e408]:
-        - generic [ref=e409]:
-          - generic [ref=e410]: 200+
-          - generic [ref=e411]: Projects Completed
-        - generic [ref=e412]:
-          - generic [ref=e413]: 10+
-          - generic [ref=e414]: Years Experience
-        - generic [ref=e415]:
-          - generic [ref=e416]: 4.9/5
-          - generic [ref=e417]: Client Rating
-        - generic [ref=e418]:
-          - generic [ref=e419]: 98%
-          - generic [ref=e420]: Client Satisfaction
-    - generic [ref=e422]:
-      - img "Start Your Project" [ref=e424]
-      - generic [ref=e427]:
-        - heading "Ready to Start Your Project?" [level=2] [ref=e428]
-        - paragraph [ref=e429]: Let's create something amazing together. Get in touch today to discuss your project.
-        - link "Get In Touch" [ref=e430] [cursor=pointer]:
+    - generic [ref=e256]:
+      - heading "Results That Speak for Themselves" [level=2] [ref=e257]
+      - generic [ref=e258]:
+        - generic [ref=e259]:
+          - generic [ref=e260]: 200+
+          - generic [ref=e261]: Projects Completed
+        - generic [ref=e262]:
+          - generic [ref=e263]: 10+
+          - generic [ref=e264]: Years Experience
+        - generic [ref=e265]:
+          - generic [ref=e266]: 4.9/5
+          - generic [ref=e267]: Client Rating
+        - generic [ref=e268]:
+          - generic [ref=e269]: 98%
+          - generic [ref=e270]: Client Satisfaction
+    - generic [ref=e272]:
+      - img "Start Your Project" [ref=e274]
+      - generic [ref=e277]:
+        - heading "Ready to Start Your Project?" [level=2] [ref=e278]
+        - paragraph [ref=e279]: Let's create something amazing together. Get in touch today to discuss your project.
+        - link "Get In Touch" [ref=e280] [cursor=pointer]:
           - /url: /contact
           - text: Get In Touch
-          - img [ref=e431]
-  - contentinfo [ref=e433]:
-    - generic [ref=e435]:
-      - generic [ref=e436]:
-        - link "Web-Smart.Co" [ref=e437] [cursor=pointer]:
+          - img [ref=e281]
+  - contentinfo [ref=e283]:
+    - generic [ref=e285]:
+      - generic [ref=e286]:
+        - link "Web-Smart.Co" [ref=e287] [cursor=pointer]:
           - /url: /
-          - img "Web-Smart.Co" [ref=e439]
-        - paragraph [ref=e440]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
-        - generic [ref=e441]:
-          - link "Facebook" [ref=e442] [cursor=pointer]:
+          - img "Web-Smart.Co" [ref=e289]
+        - paragraph [ref=e290]: Best SEO Agency in Hertfordshire. We specialise in web design, SEO services, content writing, and digital marketing solutions for local businesses.
+        - generic [ref=e291]:
+          - link "Facebook" [ref=e292] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e443]
-          - link "Twitter" [ref=e445] [cursor=pointer]:
+            - img [ref=e293]
+          - link "Twitter" [ref=e295] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e446]
-          - link "LinkedIn" [ref=e448] [cursor=pointer]:
+            - img [ref=e296]
+          - link "LinkedIn" [ref=e298] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e449]
-          - link "Instagram" [ref=e453] [cursor=pointer]:
+            - img [ref=e299]
+          - link "Instagram" [ref=e303] [cursor=pointer]:
             - /url: "#"
-            - img [ref=e454]
-      - generic [ref=e457]:
-        - heading "Services" [level=3] [ref=e458]
-        - list [ref=e459]:
-          - listitem [ref=e460]:
-            - link "Web Design" [ref=e461] [cursor=pointer]:
+            - img [ref=e304]
+      - generic [ref=e307]:
+        - heading "Services" [level=3] [ref=e308]
+        - list [ref=e309]:
+          - listitem [ref=e310]:
+            - link "Web Design" [ref=e311] [cursor=pointer]:
               - /url: /services#web-design
-          - listitem [ref=e462]:
-            - link "SEO Services" [ref=e463] [cursor=pointer]:
+          - listitem [ref=e312]:
+            - link "SEO Services" [ref=e313] [cursor=pointer]:
               - /url: /services#seo
-          - listitem [ref=e464]:
-            - link "Content Writing" [ref=e465] [cursor=pointer]:
+          - listitem [ref=e314]:
+            - link "Content Writing" [ref=e315] [cursor=pointer]:
               - /url: /services#content
-          - listitem [ref=e466]:
-            - link "Google Ads" [ref=e467] [cursor=pointer]:
+          - listitem [ref=e316]:
+            - link "Google Ads" [ref=e317] [cursor=pointer]:
               - /url: /services#google-ads
-      - generic [ref=e468]:
-        - heading "Quick Links" [level=3] [ref=e469]
-        - list [ref=e470]:
-          - listitem [ref=e471]:
-            - link "About Us" [ref=e472] [cursor=pointer]:
+      - generic [ref=e318]:
+        - heading "Quick Links" [level=3] [ref=e319]
+        - list [ref=e320]:
+          - listitem [ref=e321]:
+            - link "About Us" [ref=e322] [cursor=pointer]:
               - /url: /about
-          - listitem [ref=e473]:
-            - link "Portfolio" [ref=e474] [cursor=pointer]:
+          - listitem [ref=e323]:
+            - link "Portfolio" [ref=e324] [cursor=pointer]:
               - /url: /portfolio
-          - listitem [ref=e475]:
-            - link "Contact" [ref=e476] [cursor=pointer]:
+          - listitem [ref=e325]:
+            - link "Contact" [ref=e326] [cursor=pointer]:
               - /url: /contact
-      - generic [ref=e477]:
-        - heading "Contact Us" [level=3] [ref=e478]
-        - list [ref=e479]:
-          - listitem [ref=e480]:
-            - link "01462 544738" [ref=e481] [cursor=pointer]:
+      - generic [ref=e327]:
+        - heading "Contact Us" [level=3] [ref=e328]
+        - list [ref=e329]:
+          - listitem [ref=e330]:
+            - link "01462 544738" [ref=e331] [cursor=pointer]:
               - /url: tel:01462544738
-              - img [ref=e482]
-              - generic [ref=e484]: 01462 544738
-          - listitem [ref=e485]:
-            - link "enquiries@web-smart.co" [ref=e486] [cursor=pointer]:
+              - img [ref=e332]
+              - generic [ref=e334]: 01462 544738
+          - listitem [ref=e335]:
+            - link "enquiries@web-smart.co" [ref=e336] [cursor=pointer]:
               - /url: mailto:enquiries@web-smart.co
-              - img [ref=e487]
-              - generic [ref=e490]: enquiries@web-smart.co
-          - listitem [ref=e491]:
-            - img [ref=e492]
-            - generic [ref=e495]:
+              - img [ref=e337]
+              - generic [ref=e340]: enquiries@web-smart.co
+          - listitem [ref=e341]:
+            - img [ref=e342]
+            - generic [ref=e345]:
               - text: 52 Walsworth Rd,
               - text: Hitchin, Hertfordshire
               - text: SG4 9SX, UK
-          - listitem [ref=e496]:
-            - img [ref=e497]
-            - generic [ref=e500]:
+          - listitem [ref=e346]:
+            - img [ref=e347]
+            - generic [ref=e350]:
               - text: Monday-Friday
               - text: 09:00-18:00
-    - generic [ref=e503]:
-      - paragraph [ref=e504]: © 2025 Web-Smart.Co. All rights reserved.
-      - generic [ref=e505]:
-        - generic [ref=e506]:
-          - link "Privacy Policy" [ref=e507] [cursor=pointer]:
+    - generic [ref=e353]:
+      - paragraph [ref=e354]: © 2025 Web-Smart.Co. All rights reserved.
+      - generic [ref=e355]:
+        - generic [ref=e356]:
+          - link "Privacy Policy" [ref=e357] [cursor=pointer]:
             - /url: /privacy
-          - link "Terms of Service" [ref=e508] [cursor=pointer]:
+          - link "Terms of Service" [ref=e358] [cursor=pointer]:
             - /url: /terms
-        - paragraph [ref=e509]:
+        - paragraph [ref=e359]:
           - text: Designed by
-          - generic [ref=e510]: ❤
-          - link "AiDan.Systems" [ref=e511] [cursor=pointer]:
+          - generic [ref=e360]: ❤
+          - link "AiDan.Systems" [ref=e361] [cursor=pointer]:
             - /url: https://aidan.systems
-  - alert [ref=e512]
+  - alert [ref=e362]
 ```
