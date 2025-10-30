@@ -65,7 +65,7 @@ export function WorldMap({
   const fullCycleDuration = totalAnimationTime + pauseTime;
 
   return (
-    <div className="w-full aspect-[4/3] md:aspect-[3/1] lg:aspect-[3.5/1] dark:bg-black bg-white rounded-lg relative font-sans overflow-hidden">
+    <div className="w-full aspect-[1/1] md:aspect-[3/1] lg:aspect-[3.5/1] dark:bg-black bg-white rounded-lg relative font-sans overflow-hidden">
       <Image
         src={`data:image/svg+xml;utf8,${encodeURIComponent(svgMap)}`}
         className="h-full w-full pointer-events-none select-none object-cover"
@@ -136,7 +136,7 @@ export function WorldMap({
 
               {loop && (
                 <motion.circle
-                  r="4"
+                  r="6"
                   fill={lineColor}
                   initial={{ offsetDistance: "0%", opacity: 0 }}
                   animate={{
@@ -177,7 +177,7 @@ export function WorldMap({
                   <circle
                     cx={startPoint.x}
                     cy={startPoint.y}
-                    r="3"
+                    r="5"
                     fill={lineColor}
                     filter="url(#glow)"
                     className="drop-shadow-lg"
@@ -185,14 +185,14 @@ export function WorldMap({
                   <circle
                     cx={startPoint.x}
                     cy={startPoint.y}
-                    r="3"
+                    r="5"
                     fill={lineColor}
                     opacity="0.5"
                   >
                     <animate
                       attributeName="r"
-                      from="3"
-                      to="12"
+                      from="5"
+                      to="15"
                       dur="2s"
                       begin="0s"
                       repeatCount="indefinite"
@@ -244,7 +244,7 @@ export function WorldMap({
                   <circle
                     cx={endPoint.x}
                     cy={endPoint.y}
-                    r="3"
+                    r="5"
                     fill={lineColor}
                     filter="url(#glow)"
                     className="drop-shadow-lg"
@@ -252,14 +252,14 @@ export function WorldMap({
                   <circle
                     cx={endPoint.x}
                     cy={endPoint.y}
-                    r="3"
+                    r="5"
                     fill={lineColor}
                     opacity="0.5"
                   >
                     <animate
                       attributeName="r"
-                      from="3"
-                      to="12"
+                      from="5"
+                      to="15"
                       dur="2s"
                       begin="0.5s"
                       repeatCount="indefinite"
