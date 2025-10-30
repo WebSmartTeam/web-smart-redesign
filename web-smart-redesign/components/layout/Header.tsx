@@ -105,54 +105,49 @@ const Header = () => {
 
                   {/* Mega Menu */}
                   {link.hasMegaMenu && isServicesOpen && (
-                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-5xl">
-                      <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-6">
-                        <div className="grid grid-cols-4 gap-4">
-                          {/* Services Links - 3x2 Grid (3 columns) */}
-                          <div className="col-span-3 grid grid-cols-3 gap-3">
-                            {services.map((service) => {
-                              const Icon = service.icon;
-                              return (
-                                <Link
-                                  key={service.href}
-                                  href={service.href}
-                                  className="group p-3 rounded-xl hover:bg-secondary transition-all duration-300 flex flex-col items-center text-center"
-                                >
-                                  <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center group-hover:bg-primary group-hover:scale-110 transition-all duration-300 mb-2">
-                                    <Icon className="text-primary group-hover:text-white transition-colors" size={20} />
-                                  </div>
-                                  <h3 className="font-semibold text-gray-900 group-hover:text-primary transition-colors text-xs leading-tight">
-                                    {service.title}
-                                  </h3>
-                                </Link>
-                              );
-                            })}
+                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-3xl">
+                      <div className="bg-white rounded-xl shadow-2xl border border-gray-100 p-6">
+                        <div className="grid grid-cols-3 gap-8">
+                          {/* Services Links - 2 Columns of 3 Items */}
+                          <div className="col-span-2 grid grid-cols-2 gap-x-8 gap-y-2">
+                            {services.map((service) => (
+                              <Link
+                                key={service.href}
+                                href={service.href}
+                                className="group py-2 px-3 rounded-lg hover:bg-secondary transition-all duration-200 flex items-center"
+                              >
+                                <div className="w-1.5 h-1.5 rounded-full bg-primary group-hover:scale-125 transition-transform mr-3 flex-shrink-0"></div>
+                                <span className="font-medium text-gray-700 group-hover:text-primary transition-colors text-sm">
+                                  {service.title}
+                                </span>
+                              </Link>
+                            ))}
                           </div>
 
                           {/* CTA Section - Right Side */}
-                          <div className="col-span-1 bg-gradient-to-br from-primary to-primary-600 rounded-xl p-4 text-white flex flex-col items-center justify-center text-center">
-                            <Sparkles className="mb-3" size={28} />
-                            <h3 className="text-sm font-bold mb-2">
-                              Get Started
+                          <div className="col-span-1 bg-gradient-to-br from-primary to-primary-600 rounded-lg p-5 text-white flex flex-col justify-center">
+                            <h3 className="text-base font-bold mb-3">
+                              Need Help?
                             </h3>
+                            <p className="text-xs text-white/90 mb-4 leading-relaxed">
+                              Get in touch with our team
+                            </p>
                             <Button
                               href="/contact"
                               variant="secondary"
                               size="sm"
-                              className="w-full group text-xs"
+                              className="w-full group mb-3"
                             >
                               Contact Us
                               <ArrowRight className="group-hover:translate-x-1 transition-transform" size={14} />
                             </Button>
-                            <div className="mt-3 pt-3 border-t border-white/20 w-full">
-                              <a
-                                href="tel:01462544738"
-                                className="flex items-center justify-center gap-1 text-xs font-semibold hover:text-white/90 transition-colors"
-                              >
-                                <Phone size={14} />
-                                <span className="text-[10px]">01462 544738</span>
-                              </a>
-                            </div>
+                            <a
+                              href="tel:01462544738"
+                              className="flex items-center justify-center gap-2 text-xs font-semibold hover:text-white/90 transition-colors"
+                            >
+                              <Phone size={14} />
+                              01462 544738
+                            </a>
                           </div>
                         </div>
                       </div>
