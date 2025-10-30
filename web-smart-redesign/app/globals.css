@@ -149,10 +149,5 @@ h3 {
       height: auto;
       max-width: 100%;
     }
-
-    /* Ensure grids don't overflow */
-    .grid {
-      grid-template-columns: repeat(auto-fit, minmax(0, 1fr));
-    }
   }
 }
