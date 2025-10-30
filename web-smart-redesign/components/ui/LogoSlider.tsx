@@ -18,8 +18,8 @@ const LogoSlider = () => {
   const duplicatedLogos = [...logos, ...logos];
 
   return (
-    <section className="w-full py-8 bg-gradient-to-br from-secondary to-white overflow-hidden">
-      <div className="relative w-full">
+    <section className="w-full py-8 bg-gradient-to-br from-secondary to-white overflow-hidden max-w-full">
+      <div className="relative w-full overflow-hidden">
         {/* Logo Slider Track */}
         <motion.div
           className="flex gap-6 md:gap-12 lg:gap-16"

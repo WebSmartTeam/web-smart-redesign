@@ -1,0 +1,4587 @@
+{
+  "Homepage": [
+    {
+      "element": "section.relative.w-full.min-h-[700px]",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "0px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.flex-wrap.items-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "496px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "509px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-1.5",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "505px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.gap-6.md:gap-12",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "732px from top",
+      "details": "14 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 47px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "754px from top",
+      "details": "Overflow: 47px"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 167px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "754px from top",
+      "details": "Overflow: 167px"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 287px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "752px from top",
+      "details": "Overflow: 287px"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 407px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "754px from top",
+      "details": "Overflow: 407px"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 527px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "754px from top",
+      "details": "Overflow: 527px"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 647px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "754px from top",
+      "details": "Overflow: 647px"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 767px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "749px from top",
+      "details": "Overflow: 757px"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 887px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "754px from top",
+      "details": "Overflow: 887px"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 1007px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "754px from top",
+      "details": "Overflow: 1007px"
+    },
+    {
+      "element": "div.flex-shrink-0.w-24.h-16",
+      "issue": "Element extends beyond viewport",
+      "position": "732px from top",
+      "details": "Overflow: 1127px"
+    },
+    {
+      "element": "img.max-w-full.max-h-full.object-contain",
+      "issue": "Element extends beyond viewport",
+      "position": "752px from top",
+      "details": "Overflow: 1127px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "1577px from top",
+      "details": "11 columns, 5 children",
+      "gridTemplateColumns": "43px 43px 43px 43px 43px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2061px from top",
+      "details": "Overflow: 54px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2600px from top",
+      "details": "14 columns, 3 children",
+      "gridTemplateColumns": "98.3281px 98.3281px 98.3438px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3176px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3228px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3300px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3352px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3149px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3201px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3293px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3345px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3204px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3276px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-sm.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "3276px from top",
+      "details": "Overflow: 31px"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3348px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-sm.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "3348px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-3.gap-8",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "3731px from top",
+      "details": "11 columns, 2 children",
+      "gridTemplateColumns": "155.5px 155.5px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.md:col-span-1",
+      "issue": "Element extends beyond viewport",
+      "position": "3731px from top",
+      "details": "Overflow: 14px"
+    },
+    {
+      "element": "div.bg-gradient-to-br.from-primary.to-primary-600",
+      "issue": "Element extends beyond viewport",
+      "position": "3731px from top",
+      "details": "Overflow: 14px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.gap-12",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "4650px from top",
+      "details": "7 columns, 2 children",
+      "gridTemplateColumns": "147.5px 147.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.relative",
+      "issue": "Element extends beyond viewport",
+      "position": "5010px from top",
+      "details": "Overflow: 14px"
+    },
+    {
+      "element": "img.w-full.h-[400px].object-cover",
+      "issue": "Element extends beyond viewport",
+      "position": "5010px from top",
+      "details": "Overflow: 14px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "6259px from top",
+      "details": "14 columns, 6 children",
+      "gridTemplateColumns": "37.1562px 37.1719px 37.1719px 37.1562px 37.1719px 37.1719px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.inline-flex.items-center.justify-center",
+      "issue": "Element extends beyond viewport",
+      "position": "6314px from top",
+      "details": "Overflow: 20px"
+    },
+    {
+      "element": "svg.lucide.lucide-lightbulb",
+      "issue": "Element extends beyond viewport",
+      "position": "6326px from top",
+      "details": "Overflow: 8px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "6328px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.gap-12",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "7033px from top",
+      "details": "7 columns, 2 children",
+      "gridTemplateColumns": "147.5px 147.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "7729px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "7925px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8094px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8289px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.swiper-wrapper",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "9040px from top",
+      "details": "6 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "9072px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "9072px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.swiper-slide.swiper-slide-next.h-auto",
+      "issue": "Element extends beyond viewport",
+      "position": "9040px from top",
+      "details": "Overflow: 357px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.shadow-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "9040px from top",
+      "details": "Overflow: 357px"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "9072px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 325px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 148px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 146px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 172px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 170px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 196px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 194px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 220px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 218px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 244px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 242px"
+    },
+    {
+      "element": "p.text-lg.md:text-xl.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "9116px from top",
+      "details": "Overflow: 325px"
+    },
+    {
+      "element": "div.flex.flex-col.items-center",
+      "issue": "Element extends beyond viewport",
+      "position": "9385px from top",
+      "details": "Overflow: 325px"
+    },
+    {
+      "element": "div.font-heading.font-bold.text-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "9385px from top",
+      "details": "Overflow: 255px"
+    },
+    {
+      "element": "div.text-primary.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "9413px from top",
+      "details": "Overflow: 253px"
+    },
+    {
+      "element": "div.text-sm.text-gray-500",
+      "issue": "Element extends beyond viewport",
+      "position": "9438px from top",
+      "details": "Overflow: 271px"
+    },
+    {
+      "element": "div.swiper-slide.h-auto",
+      "issue": "Element extends beyond viewport",
+      "position": "9040px from top",
+      "details": "Overflow: 730px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.shadow-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "9040px from top",
+      "details": "Overflow: 730px"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "9072px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 698px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 521px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 519px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 545px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 543px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 569px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 567px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 593px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 591px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 617px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 615px"
+    },
+    {
+      "element": "p.text-lg.md:text-xl.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "9116px from top",
+      "details": "Overflow: 698px"
+    },
+    {
+      "element": "div.flex.flex-col.items-center",
+      "issue": "Element extends beyond viewport",
+      "position": "9385px from top",
+      "details": "Overflow: 698px"
+    },
+    {
+      "element": "div.font-heading.font-bold.text-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "9385px from top",
+      "details": "Overflow: 636px"
+    },
+    {
+      "element": "div.text-primary.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "9413px from top",
+      "details": "Overflow: 638px"
+    },
+    {
+      "element": "div.text-sm.text-gray-500",
+      "issue": "Element extends beyond viewport",
+      "position": "9438px from top",
+      "details": "Overflow: 633px"
+    },
+    {
+      "element": "div.swiper-slide.h-auto",
+      "issue": "Element extends beyond viewport",
+      "position": "9040px from top",
+      "details": "Overflow: 1103px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.shadow-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "9040px from top",
+      "details": "Overflow: 1103px"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "9072px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 1071px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 894px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 892px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 918px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 916px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 942px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 940px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 966px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 964px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 990px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 988px"
+    },
+    {
+      "element": "p.text-lg.md:text-xl.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "9116px from top",
+      "details": "Overflow: 1071px"
+    },
+    {
+      "element": "div.flex.flex-col.items-center",
+      "issue": "Element extends beyond viewport",
+      "position": "9412px from top",
+      "details": "Overflow: 1071px"
+    },
+    {
+      "element": "div.font-heading.font-bold.text-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "9412px from top",
+      "details": "Overflow: 980px"
+    },
+    {
+      "element": "div.text-primary.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "9440px from top",
+      "details": "Overflow: 1009px"
+    },
+    {
+      "element": "div.text-sm.text-gray-500",
+      "issue": "Element extends beyond viewport",
+      "position": "9465px from top",
+      "details": "Overflow: 1002px"
+    },
+    {
+      "element": "div.swiper-slide.h-auto",
+      "issue": "Element extends beyond viewport",
+      "position": "9040px from top",
+      "details": "Overflow: 1476px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.shadow-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "9040px from top",
+      "details": "Overflow: 1476px"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "9072px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 1444px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 1267px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 1265px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 1291px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 1289px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 1315px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 1313px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 1339px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 1337px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "9072px from top",
+      "details": "Overflow: 1363px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "9074px from top",
+      "details": "Overflow: 1361px"
+    },
+    {
+      "element": "p.text-lg.md:text-xl.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "9116px from top",
+      "details": "Overflow: 1444px"
+    },
+    {
+      "element": "div.flex.flex-col.items-center",
+      "issue": "Element extends beyond viewport",
+      "position": "9412px from top",
+      "details": "Overflow: 1444px"
+    },
+    {
+      "element": "div.font-heading.font-bold.text-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "9412px from top",
+      "details": "Overflow: 1374px"
+    },
+    {
+      "element": "div.text-primary.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "9440px from top",
+      "details": "Overflow: 1389px"
+    },
+    {
+      "element": "div.text-sm.text-gray-500",
+      "issue": "Element extends beyond viewport",
+      "position": "9465px from top",
+      "details": "Overflow: 1390px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "10613px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "11196px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "10693px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "10693px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "10749px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "10749px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "10805px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "10805px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "10941px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "10941px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "11361px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "11397px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "About": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.gap-12",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "572px from top",
+      "details": "7 columns, 2 children",
+      "gridTemplateColumns": "147.5px 147.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.relative",
+      "issue": "Element extends beyond viewport",
+      "position": "927px from top",
+      "details": "Overflow: 14px"
+    },
+    {
+      "element": "img.w-full.h-[400px].object-cover",
+      "issue": "Element extends beyond viewport",
+      "position": "927px from top",
+      "details": "Overflow: 14px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-4",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2014px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.w-14.h-14.bg-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "2078px from top",
+      "details": "Overflow: 12px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.gap-0",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "3076px from top",
+      "details": "343 columns, 2 children",
+      "gridTemplateColumns": "171.5px 171.5px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.swiper-wrapper",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4447px from top",
+      "details": "6 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4479px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.swiper-slide.swiper-slide-next.h-auto",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 357px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.shadow-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 357px"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4479px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 325px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 148px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 146px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 172px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 170px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 196px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 194px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 220px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 218px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 244px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 242px"
+    },
+    {
+      "element": "p.text-lg.md:text-xl.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "4523px from top",
+      "details": "Overflow: 325px"
+    },
+    {
+      "element": "div.flex.flex-col.items-center",
+      "issue": "Element extends beyond viewport",
+      "position": "4818px from top",
+      "details": "Overflow: 325px"
+    },
+    {
+      "element": "div.font-heading.font-bold.text-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4818px from top",
+      "details": "Overflow: 251px"
+    },
+    {
+      "element": "div.text-primary.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "4846px from top",
+      "details": "Overflow: 277px"
+    },
+    {
+      "element": "div.text-sm.text-gray-500",
+      "issue": "Element extends beyond viewport",
+      "position": "4872px from top",
+      "details": "Overflow: 268px"
+    },
+    {
+      "element": "div.swiper-slide.h-auto",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 730px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.shadow-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 730px"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4479px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 698px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 521px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 519px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 545px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 543px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 569px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 567px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 593px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 591px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 617px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 615px"
+    },
+    {
+      "element": "p.text-lg.md:text-xl.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "4523px from top",
+      "details": "Overflow: 698px"
+    },
+    {
+      "element": "div.flex.flex-col.items-center",
+      "issue": "Element extends beyond viewport",
+      "position": "4791px from top",
+      "details": "Overflow: 698px"
+    },
+    {
+      "element": "div.font-heading.font-bold.text-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4791px from top",
+      "details": "Overflow: 628px"
+    },
+    {
+      "element": "div.text-primary.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "4819px from top",
+      "details": "Overflow: 626px"
+    },
+    {
+      "element": "div.text-sm.text-gray-500",
+      "issue": "Element extends beyond viewport",
+      "position": "4845px from top",
+      "details": "Overflow: 644px"
+    },
+    {
+      "element": "div.swiper-slide.h-auto",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 1103px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.shadow-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 1103px"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4479px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1071px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 894px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 892px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 918px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 916px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 942px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 940px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 966px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 964px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 990px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 988px"
+    },
+    {
+      "element": "p.text-lg.md:text-xl.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "4523px from top",
+      "details": "Overflow: 1071px"
+    },
+    {
+      "element": "div.flex.flex-col.items-center",
+      "issue": "Element extends beyond viewport",
+      "position": "4791px from top",
+      "details": "Overflow: 1071px"
+    },
+    {
+      "element": "div.font-heading.font-bold.text-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4791px from top",
+      "details": "Overflow: 1009px"
+    },
+    {
+      "element": "div.text-primary.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "4819px from top",
+      "details": "Overflow: 1011px"
+    },
+    {
+      "element": "div.text-sm.text-gray-500",
+      "issue": "Element extends beyond viewport",
+      "position": "4845px from top",
+      "details": "Overflow: 1006px"
+    },
+    {
+      "element": "div.swiper-slide.h-auto",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 1476px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.shadow-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 1476px"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4479px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1444px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1267px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1265px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1291px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1289px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1315px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1313px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1339px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1337px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1363px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1361px"
+    },
+    {
+      "element": "p.text-lg.md:text-xl.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "4523px from top",
+      "details": "Overflow: 1444px"
+    },
+    {
+      "element": "div.flex.flex-col.items-center",
+      "issue": "Element extends beyond viewport",
+      "position": "4818px from top",
+      "details": "Overflow: 1444px"
+    },
+    {
+      "element": "div.font-heading.font-bold.text-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4818px from top",
+      "details": "Overflow: 1353px"
+    },
+    {
+      "element": "div.text-primary.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "4846px from top",
+      "details": "Overflow: 1382px"
+    },
+    {
+      "element": "div.text-sm.text-gray-500",
+      "issue": "Element extends beyond viewport",
+      "position": "4872px from top",
+      "details": "Overflow: 1375px"
+    },
+    {
+      "element": "div.swiper-slide.h-auto",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 1849px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.shadow-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4447px from top",
+      "details": "Overflow: 1849px"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4479px from top",
+      "details": "5 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.justify-center.gap-1",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1817px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1640px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1638px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1664px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1662px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1688px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1686px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1712px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1710px"
+    },
+    {
+      "element": "svg.lucide.lucide-star.text-accent",
+      "issue": "Element extends beyond viewport",
+      "position": "4479px from top",
+      "details": "Overflow: 1736px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4480px from top",
+      "details": "Overflow: 1734px"
+    },
+    {
+      "element": "p.text-lg.md:text-xl.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "4523px from top",
+      "details": "Overflow: 1817px"
+    },
+    {
+      "element": "div.flex.flex-col.items-center",
+      "issue": "Element extends beyond viewport",
+      "position": "4818px from top",
+      "details": "Overflow: 1817px"
+    },
+    {
+      "element": "div.font-heading.font-bold.text-xl",
+      "issue": "Element extends beyond viewport",
+      "position": "4818px from top",
+      "details": "Overflow: 1747px"
+    },
+    {
+      "element": "div.text-primary.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "4846px from top",
+      "details": "Overflow: 1762px"
+    },
+    {
+      "element": "div.text-sm.text-gray-500",
+      "issue": "Element extends beyond viewport",
+      "position": "4872px from top",
+      "details": "Overflow: 1763px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "5447px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "6030px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5527px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5527px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5583px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5583px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5639px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5639px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5775px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5775px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "6195px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "6231px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "Services": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "section.relative.w-full.min-h-[500px]",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "-8px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "656px from top",
+      "details": "14 columns, 3 children",
+      "gridTemplateColumns": "98.3281px 98.3281px 98.3438px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1241px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1289px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1357px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1405px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1104px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1152px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1200px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1228px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1206px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1274px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "1274px from top",
+      "details": "Overflow: 1px"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1342px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "1342px from top",
+      "details": "Overflow: 5px"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1390px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "1390px from top",
+      "details": "Overflow: 19px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "1741px from top",
+      "details": "14 columns, 3 children",
+      "gridTemplateColumns": "98.3281px 98.3281px 98.3438px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2399px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2467px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2515px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2563px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2303px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2351px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2399px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2447px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2404px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "2404px from top",
+      "details": "Overflow: 8px"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2452px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2500px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2528px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2899px from top",
+      "details": "14 columns, 4 children",
+      "gridTemplateColumns": "67.75px 67.75px 67.75px 67.75px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "3454px from top",
+      "details": "Overflow: 40px"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "3502px from top",
+      "details": "Overflow: 25px"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "3570px from top",
+      "details": "Overflow: 35px"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "3598px from top",
+      "details": "Overflow: 29px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "3762px from top",
+      "details": "Overflow: 18px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "4017px from top",
+      "details": "14 columns, 3 children",
+      "gridTemplateColumns": "98.3281px 98.3281px 98.3438px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4574px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4622px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4670px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4718px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4625px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4673px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4701px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4729px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4648px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4696px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4744px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4792px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "4792px from top",
+      "details": "Overflow: 0px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "5128px from top",
+      "details": "14 columns, 4 children",
+      "gridTemplateColumns": "67.75px 67.75px 67.75px 67.75px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "5638px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "5686px from top",
+      "details": "Overflow: 40px"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "5734px from top",
+      "details": "Overflow: 43px"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "5782px from top",
+      "details": "Overflow: 17px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "6153px from top",
+      "details": "Overflow: 18px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "6444px from top",
+      "details": "14 columns, 2 children",
+      "gridTemplateColumns": "159.5px 159.5px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "6881px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "6929px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "6977px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "7025px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "6859px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "6907px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "6955px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "li.flex.items-start.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "7003px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "7715px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8298px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "7795px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "7795px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "7851px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "7851px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "7907px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "7907px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8043px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "8043px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8463px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8499px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "Web Design Service": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "section.relative.w-full.min-h-[500px]",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "-8px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.justify-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "120px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "900px from top",
+      "details": "11 columns, 6 children",
+      "gridTemplateColumns": "30.5px 30.5px 30.5px 30.5px 30.5px 30.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1698px from top",
+      "details": "Overflow: 45px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1678px from top",
+      "details": "Overflow: 17px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1726px from top",
+      "details": "Overflow: 43px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1774px from top",
+      "details": "Overflow: 35px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1822px from top",
+      "details": "Overflow: 11px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1870px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.p-8",
+      "issue": "Element extends beyond viewport",
+      "position": "930px from top",
+      "details": "Overflow: 22px"
+    },
+    {
+      "element": "div.w-16.h-16.bg-indigo-500",
+      "issue": "Element extends beyond viewport",
+      "position": "964px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "svg.lucide.lucide-shield.text-white",
+      "issue": "Element extends beyond viewport",
+      "position": "980px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "982px from top",
+      "details": "Overflow: 30px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "1680px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1681px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1682px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1678px from top",
+      "details": "Overflow: 65px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "1728px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1729px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1730px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1726px from top",
+      "details": "Overflow: 82px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "1776px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1777px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1778px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1774px from top",
+      "details": "Overflow: 68px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "1824px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1825px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1826px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1822px from top",
+      "details": "Overflow: 97px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "1872px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1873px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1874px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1870px from top",
+      "details": "Overflow: 63px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-4",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2282px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-4",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2992px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.w-12.h-12.bg-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "3056px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-3.gap-8",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "3942px from top",
+      "details": "11 columns, 3 children",
+      "gridTemplateColumns": "93px 93px 93px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "5084px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5667px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5164px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5164px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5220px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5220px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5276px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5276px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5412px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5412px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5832px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5868px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "SEO Service": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "section.relative.w-full.min-h-[500px]",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "-8px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.justify-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "120px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-baseline.justify-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "904px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.gap-4",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "1048px from top",
+      "details": "16 columns, 10 children",
+      "gridTemplateColumns": "12.6875px 12.7031px 12.7031px 12.7031px 12.6875px 12.7031px 12.7031px 12.7031px 12.7031px 12.6875px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "1060px from top",
+      "details": "Overflow: 12px"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1048px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-gray-700",
+      "issue": "Element extends beyond viewport",
+      "position": "1060px from top",
+      "details": "Overflow: 77px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "1744px from top",
+      "details": "11 columns, 6 children",
+      "gridTemplateColumns": "30.5px 30.5px 30.5px 30.5px 30.5px 30.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2518px from top",
+      "details": "Overflow: 8px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2586px from top",
+      "details": "Overflow: 5px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2634px from top",
+      "details": "Overflow: 35px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.p-8",
+      "issue": "Element extends beyond viewport",
+      "position": "1774px from top",
+      "details": "Overflow: 22px"
+    },
+    {
+      "element": "div.w-16.h-16.bg-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "1808px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "svg.lucide.lucide-sparkles.text-white",
+      "issue": "Element extends beyond viewport",
+      "position": "1824px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1827px from top",
+      "details": "Overflow: 33px"
+    },
+    {
+      "element": "circle",
+      "issue": "Element extends beyond viewport",
+      "position": "1848px from top",
+      "details": "Overflow: 12px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "2540px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2541px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2543px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2538px from top",
+      "details": "Overflow: 92px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "2588px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2589px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2591px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2586px from top",
+      "details": "Overflow: 77px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "2636px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2637px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2639px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2634px from top",
+      "details": "Overflow: 84px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "2684px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2685px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2687px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2682px from top",
+      "details": "Overflow: 65px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-4",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "3058px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.gap-6",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "3792px from top",
+      "details": "14 columns, 6 children",
+      "gridTemplateColumns": "37.1562px 37.1719px 37.1719px 37.1562px 37.1719px 37.1719px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3792px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3792px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3792px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3792px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3792px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span.text-gray-700.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "3810px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3792px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Element extends beyond viewport",
+      "position": "3792px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "svg.lucide.lucide-circle-check-big.text-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "3814px from top",
+      "details": "Overflow: 9px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "3816px from top",
+      "details": "Overflow: 7px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "3818px from top",
+      "details": "Overflow: 7px"
+    },
+    {
+      "element": "span.text-gray-700.font-medium",
+      "issue": "Element extends beyond viewport",
+      "position": "3810px from top",
+      "details": "Overflow: 106px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-4.gap-8",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "4309px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "5160px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5743px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5240px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5240px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5296px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5296px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5352px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5352px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5488px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5488px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5908px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5944px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "Content Writing Service": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "section.relative.w-full.min-h-[500px]",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "-8px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.justify-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "120px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "867px from top",
+      "details": "11 columns, 6 children",
+      "gridTemplateColumns": "30.5px 30.5px 30.5px 30.5px 30.5px 30.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.p-8",
+      "issue": "Element extends beyond viewport",
+      "position": "897px from top",
+      "details": "Overflow: 22px"
+    },
+    {
+      "element": "div.w-16.h-16.bg-indigo-500",
+      "issue": "Element extends beyond viewport",
+      "position": "931px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "svg.lucide.lucide-target.text-white",
+      "issue": "Element extends beyond viewport",
+      "position": "947px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "circle",
+      "issue": "Element extends beyond viewport",
+      "position": "950px from top",
+      "details": "Overflow: 33px"
+    },
+    {
+      "element": "circle",
+      "issue": "Element extends beyond viewport",
+      "position": "955px from top",
+      "details": "Overflow: 28px"
+    },
+    {
+      "element": "circle",
+      "issue": "Element extends beyond viewport",
+      "position": "960px from top",
+      "details": "Overflow: 22px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-4",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "1615px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2599px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3182px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2679px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2679px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2735px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2735px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2791px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2791px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2927px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2927px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3347px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3383px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "Google Ads Service": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "section.relative.w-full.min-h-[500px]",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "-8px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.justify-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "120px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "872px from top",
+      "details": "11 columns, 6 children",
+      "gridTemplateColumns": "30.5px 30.5px 30.5px 30.5px 30.5px 30.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.p-8",
+      "issue": "Element extends beyond viewport",
+      "position": "902px from top",
+      "details": "Overflow: 22px"
+    },
+    {
+      "element": "div.w-16.h-16.bg-indigo-500",
+      "issue": "Element extends beyond viewport",
+      "position": "936px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "svg.lucide.lucide-chart-no-axes-column-increasing.text-white",
+      "issue": "Element extends beyond viewport",
+      "position": "952px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-4",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "1618px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2594px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3177px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2674px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2674px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2730px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2730px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2786px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2786px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2922px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2922px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3342px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3378px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "Portfolio": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "1477px from top",
+      "details": "11 columns, 30 children",
+      "gridTemplateColumns": "2.07812px 2.09375px 2.09375px 2.09375px 2.09375px 2.07812px 2.09375px 2.09375px 2.09375px 2.09375px 2.07812px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1519px from top",
+      "details": "Overflow: 3px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1519px from top",
+      "details": "Overflow: 53px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1712px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1712px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1519px from top",
+      "details": "Overflow: 93px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1712px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1712px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1715px from top",
+      "details": "Overflow: 33px"
+    },
+    {
+      "element": "div.p-6.pb-0",
+      "issue": "Element extends beyond viewport",
+      "position": "1479px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "div.p-6.pt-4.flex",
+      "issue": "Element extends beyond viewport",
+      "position": "1503px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1519px from top",
+      "details": "Overflow: 119px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1712px from top",
+      "details": "Overflow: 71px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1712px from top",
+      "details": "Overflow: 71px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1715px from top",
+      "details": "Overflow: 68px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1847px from top",
+      "details": "Overflow: 19px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1847px from top",
+      "details": "Overflow: 74px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2040px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2040px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1847px from top",
+      "details": "Overflow: 93px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2040px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2040px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2043px from top",
+      "details": "Overflow: 33px"
+    },
+    {
+      "element": "div.p-6.pb-0",
+      "issue": "Element extends beyond viewport",
+      "position": "1807px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "div.p-6.pt-4.flex",
+      "issue": "Element extends beyond viewport",
+      "position": "1831px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1847px from top",
+      "details": "Overflow: 98px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2040px from top",
+      "details": "Overflow: 71px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2040px from top",
+      "details": "Overflow: 71px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2043px from top",
+      "details": "Overflow: 68px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "2175px from top",
+      "details": "Overflow: 31px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-4.gap-8",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2767px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "3431px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4014px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3511px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3511px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3567px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3567px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3623px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3623px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3759px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3759px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4179px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4215px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "Blog": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.flex-wrap.justify-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "524px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.lg:grid-cols-4.gap-12",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "721px from top",
+      "details": "7 columns, 2 children",
+      "gridTemplateColumns": "147.5px 147.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.gap-8",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "721px from top",
+      "details": "5 columns, 6 children",
+      "gridTemplateColumns": "3.89062px 3.90625px 3.89062px 3.90625px 3.90625px"
+    },
+    {
+      "element": "div.flex.items-center.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "998px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "998px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "998px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "998px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "990px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1334px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.group.flex.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "987px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.group.flex.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1083px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.group.flex.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1179px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.group.flex.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1275px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.group.flex.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1371px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.group.flex.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1467px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "button.w-full.flex.items-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1663px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1671px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "button.w-full.flex.items-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1727px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1735px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "button.w-full.flex.items-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1771px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.gap-2",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1779px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "3105px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3688px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3185px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3185px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3241px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3241px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3297px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3297px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3433px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3433px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3853px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3889px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "Contact": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.lg:grid-cols-2.gap-12",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "572px from top",
+      "details": "7 columns, 2 children",
+      "gridTemplateColumns": "147.5px 147.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.grid-cols-2.gap-4",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "572px from top",
+      "details": "9 columns, 4 children",
+      "gridTemplateColumns": "24.875px 24.875px 24.875px 24.875px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "a.text-gray-600.hover:text-primary.transition-colors",
+      "issue": "Element extends beyond viewport",
+      "position": "708px from top",
+      "details": "Overflow: 10px"
+    },
+    {
+      "element": "a.text-gray-600.hover:text-primary.transition-colors",
+      "issue": "Element extends beyond viewport",
+      "position": "708px from top",
+      "details": "Overflow: 30px"
+    },
+    {
+      "element": "div.group.bg-gradient-to-br.from-secondary",
+      "issue": "Element extends beyond viewport",
+      "position": "572px from top",
+      "details": "Overflow: 7px"
+    },
+    {
+      "element": "div.w-14.h-14.bg-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "596px from top",
+      "details": "Overflow: 39px"
+    },
+    {
+      "element": "svg.lucide.lucide-clock.text-white",
+      "issue": "Element extends beyond viewport",
+      "position": "612px from top",
+      "details": "Overflow: 23px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "618px from top",
+      "details": "Overflow: 15px"
+    },
+    {
+      "element": "circle",
+      "issue": "Element extends beyond viewport",
+      "position": "614px from top",
+      "details": "Overflow: 21px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "1714px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2297px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1794px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1794px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1850px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1850px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "1906px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "1906px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2042px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "2042px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2462px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "2498px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "Resources": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "section.relative.w-full.min-h-[500px]",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "-8px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.flex.items-center.justify-center",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "159px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "808px from top",
+      "details": "11 columns, 8 children",
+      "gridTemplateColumns": "14.875px 14.875px 14.875px 14.875px 14.875px 14.875px 14.875px 14.875px 0px 0px 0px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1690px from top",
+      "details": "Overflow: 22px"
+    },
+    {
+      "element": "div.w-16.h-16.bg-cyan-500",
+      "issue": "Element extends beyond viewport",
+      "position": "872px from top",
+      "details": "Overflow: 20px"
+    },
+    {
+      "element": "svg.lucide.lucide-sparkles.text-white",
+      "issue": "Element extends beyond viewport",
+      "position": "888px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "891px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "952px from top",
+      "details": "Overflow: 5px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1690px from top",
+      "details": "Overflow: 69px"
+    },
+    {
+      "element": "div.bg-white.rounded-2xl.p-8",
+      "issue": "Element extends beyond viewport",
+      "position": "838px from top",
+      "details": "Overflow: 37px"
+    },
+    {
+      "element": "div.w-16.h-16.bg-pink-500",
+      "issue": "Element extends beyond viewport",
+      "position": "872px from top",
+      "details": "Overflow: 67px"
+    },
+    {
+      "element": "svg.lucide.lucide-file-text.text-white",
+      "issue": "Element extends beyond viewport",
+      "position": "888px from top",
+      "details": "Overflow: 51px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "891px from top",
+      "details": "Overflow: 46px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "891px from top",
+      "details": "Overflow: 46px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "952px from top",
+      "details": "Overflow: 121px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1699px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1694px from top",
+      "details": "Overflow: 20px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "1690px from top",
+      "details": "Overflow: 116px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2097px from top",
+      "details": "14 columns, 6 children",
+      "gridTemplateColumns": "37.1562px 37.1719px 37.1719px 37.1562px 37.1719px 37.1719px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2158px from top",
+      "details": "Overflow: 9px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "2387px from top",
+      "details": "Overflow: 27px"
+    },
+    {
+      "element": "h3.text-lg.font-heading.font-bold",
+      "issue": "Element extends beyond viewport",
+      "position": "2153px from top",
+      "details": "Overflow: 50px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "2158px from top",
+      "details": "Overflow: 69px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "2387px from top",
+      "details": "Overflow: 91px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "3033px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3616px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3113px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3113px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3169px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3169px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3225px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3225px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3361px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "3361px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3781px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "3817px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "AI Images": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "section.relative.w-full.min-h-[500px]",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "-8px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.gap-8",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "836px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.w-16.h-16.bg-primary",
+      "issue": "Element extends beyond viewport",
+      "position": "900px from top",
+      "details": "Overflow: 20px"
+    },
+    {
+      "element": "svg.lucide.lucide-wand-sparkles.text-white",
+      "issue": "Element extends beyond viewport",
+      "position": "916px from top",
+      "details": "Overflow: 4px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "918px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1260px from top",
+      "details": "Overflow: 69px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1316px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1372px from top",
+      "details": "Overflow: 39px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "1408px from top",
+      "details": "Overflow: 38px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-4",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "1972px from top",
+      "details": "11 columns, 4 children",
+      "gridTemplateColumns": "61.75px 61.75px 61.75px 61.75px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-3.gap-8",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2656px from top",
+      "details": "11 columns, 3 children",
+      "gridTemplateColumns": "93px 93px 93px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4061px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "4868px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5451px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "4948px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "4948px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5004px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5004px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5060px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5060px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5196px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5196px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5616px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5652px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ],
+  "AI Projects": [
+    {
+      "element": "div.flex.items-center.justify-between",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "8px from top",
+      "details": "3 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "section.relative.w-full.min-h-[500px]",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "-8px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.gap-12",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "572px from top",
+      "details": "7 columns, 2 children",
+      "gridTemplateColumns": "147.5px 147.5px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-3.gap-8",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "2072px from top",
+      "details": "11 columns, 3 children",
+      "gridTemplateColumns": "93px 93px 93px 0px 0px 0px 0px 0px 0px 0px 0px"
+    },
+    {
+      "element": "div.grid.md:grid-cols-2.lg:grid-cols-3",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "3645px from top",
+      "details": "11 columns, 25 children",
+      "gridTemplateColumns": "2.07812px 2.09375px 2.09375px 2.09375px 2.09375px 2.07812px 2.09375px 2.09375px 2.09375px 2.09375px 2.07812px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "3687px from top",
+      "details": "Overflow: 3px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "3687px from top",
+      "details": "Overflow: 53px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4028px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4028px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "3687px from top",
+      "details": "Overflow: 93px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4028px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4028px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4031px from top",
+      "details": "Overflow: 33px"
+    },
+    {
+      "element": "div.p-6.pb-0",
+      "issue": "Element extends beyond viewport",
+      "position": "3647px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "div.p-6.pt-4.flex",
+      "issue": "Element extends beyond viewport",
+      "position": "3671px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "3687px from top",
+      "details": "Overflow: 119px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4028px from top",
+      "details": "Overflow: 71px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4028px from top",
+      "details": "Overflow: 71px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4031px from top",
+      "details": "Overflow: 68px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "4163px from top",
+      "details": "Overflow: 40px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "4163px from top",
+      "details": "Overflow: 59px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4492px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4492px from top",
+      "details": "Overflow: 2px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "4163px from top",
+      "details": "Overflow: 64px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4492px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4492px from top",
+      "details": "Overflow: 36px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4495px from top",
+      "details": "Overflow: 33px"
+    },
+    {
+      "element": "div.p-6.pb-0",
+      "issue": "Element extends beyond viewport",
+      "position": "4123px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "div.p-6.pt-4.flex",
+      "issue": "Element extends beyond viewport",
+      "position": "4147px from top",
+      "details": "Overflow: 32px"
+    },
+    {
+      "element": "span.inline-block.px-3.py-1",
+      "issue": "Element extends beyond viewport",
+      "position": "4163px from top",
+      "details": "Overflow: 121px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4492px from top",
+      "details": "Overflow: 71px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4492px from top",
+      "details": "Overflow: 71px"
+    },
+    {
+      "element": "path",
+      "issue": "Element extends beyond viewport",
+      "position": "4495px from top",
+      "details": "Overflow: 68px"
+    },
+    {
+      "element": "div.grid.grid-cols-1.md:grid-cols-2",
+      "issue": "Grid layout with multiple columns on mobile",
+      "position": "5161px from top",
+      "details": "7 columns, 4 children",
+      "gridTemplateColumns": "49.75px 49.75px 49.75px 49.75px 0px 0px 0px"
+    },
+    {
+      "element": "div.flex.gap-4",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5744px from top",
+      "details": "4 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5241px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5241px from top",
+      "details": "Overflow: 16px"
+    },
+    {
+      "element": "a.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5297px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5297px from top",
+      "details": "Overflow: 73px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5353px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5353px from top",
+      "details": "Overflow: 52px"
+    },
+    {
+      "element": "li.flex.items-start.gap-3",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5489px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "span",
+      "issue": "Element extends beyond viewport",
+      "position": "5489px from top",
+      "details": "Overflow: 24px"
+    },
+    {
+      "element": "div.flex.gap-6",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5909px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    },
+    {
+      "element": "p.flex.items-center.gap-1",
+      "issue": "Flex row layout with side-by-side children on mobile",
+      "position": "5945px from top",
+      "details": "2 children in flex-row",
+      "flexDirection": "row"
+    }
+  ]
+}
