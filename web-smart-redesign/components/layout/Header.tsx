@@ -10,6 +10,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [activeService, setActiveService] = useState<number | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,6 +20,15 @@ const Header = () => {
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
+
+  // Set Web Design as active when mega menu opens
+  useEffect(() => {
+    if (isServicesOpen) {
+      setActiveService(0); // Set first item (Web Design) as active
+    } else {
+      setActiveService(null); // Reset when menu closes
+    }
+  }, [isServicesOpen]);
 
   const services = [
     {
@@ -105,19 +115,40 @@ const Header = () => {
                         <div className="grid grid-cols-[auto_260px] gap-4">
                           {/* Services Links - Single Column */}
                           <div className="flex flex-col gap-1.5">
-                            {services.map((service) => {
+                            {services.map((service, index) => {
                               const IconComponent = service.icon;
+                              const isActive = activeService === index;
                               return (
                                 <Link
                                   key={service.href + service.title}
                                   href={service.href}
-                                  className="group py-3 px-4 rounded-lg hover:bg-primary/10 transition-all duration-200 flex items-center gap-3 border border-transparent hover:border-primary/20"
+                                  onMouseEnter={() => setActiveService(index)}
+                                  className={cn(
+                                    "relative py-3 px-4 rounded-lg transition-all duration-300 flex items-center gap-3 border border-transparent overflow-hidden",
+                                    isActive ? "border-primary/20" : "hover:border-primary/20"
+                                  )}
                                 >
-                                  <IconComponent className="w-5 h-5 text-primary group-hover:scale-110 transition-transform flex-shrink-0" />
-                                  <span className="font-medium text-gray-700 group-hover:text-primary transition-colors text-sm">
+                                  {/* Animated Background */}
+                                  <div className={cn(
+                                    "absolute inset-0 bg-gradient-to-r from-primary to-primary-600 transition-all duration-300",
+                                    isActive ? "opacity-100" : "opacity-0"
+                                  )} />
+
+                                  {/* Content */}
+                                  <IconComponent className={cn(
+                                    "w-5 h-5 transition-all duration-300 flex-shrink-0 relative z-10",
+                                    isActive ? "text-white scale-110" : "text-primary"
+                                  )} />
+                                  <span className={cn(
+                                    "font-medium transition-all duration-300 text-sm relative z-10",
+                                    isActive ? "text-white" : "text-gray-700"
+                                  )}>
                                     {service.title}
                                   </span>
-                                  <ArrowRight className="w-4 h-4 text-primary opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all ml-auto" />
+                                  <ArrowRight className={cn(
+                                    "w-4 h-4 transition-all duration-300 ml-auto relative z-10",
+                                    isActive ? "text-white opacity-100 translate-x-0" : "text-primary opacity-0 -translate-x-2"
+                                  )} />
                                 </Link>
                               );
                             })}
