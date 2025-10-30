@@ -10,6 +10,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const [activeService, setActiveService] = useState<number | null>(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -101,50 +102,69 @@ const Header = () => {
                   {/* Mega Menu */}
                   {link.hasMegaMenu && isServicesOpen && (
                     <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-2xl">
-                      <div className="bg-white rounded-xl shadow-2xl border border-gray-100 p-6">
+                      <div className="bg-white rounded-xl shadow-2xl border border-gray-100 p-5">
                         <div className="grid grid-cols-[1fr_auto] gap-6">
-                          {/* Services Links - Single Column */}
-                          <div className="flex flex-col gap-1.5">
-                            {services.map((service) => {
+                          {/* Services Links - Two Column Grid */}
+                          <div className="relative grid grid-cols-2 gap-x-3 gap-y-1">
+                            {services.map((service, index) => {
                               const IconComponent = service.icon;
                               return (
                                 <Link
                                   key={service.href + service.title}
                                   href={service.href}
-                                  className="group py-3 px-4 rounded-lg hover:bg-primary/10 transition-all duration-200 flex items-center gap-3 border border-transparent hover:border-primary/20"
+                                  onMouseEnter={() => setActiveService(index)}
+                                  onMouseLeave={() => setActiveService(null)}
+                                  className={cn(
+                                    "relative z-10 py-2.5 px-3 rounded-lg transition-all duration-200 flex items-center gap-3",
+                                    activeService === index ? "text-white" : "text-gray-700"
+                                  )}
                                 >
-                                  <IconComponent className="w-5 h-5 text-primary group-hover:scale-110 transition-transform flex-shrink-0" />
-                                  <span className="font-medium text-gray-700 group-hover:text-primary transition-colors text-sm">
+                                  <IconComponent className={cn(
+                                    "w-4 h-4 transition-all duration-200 flex-shrink-0",
+                                    activeService === index ? "text-white scale-110" : "text-primary"
+                                  )} />
+                                  <span className={cn(
+                                    "font-medium transition-colors text-sm",
+                                    activeService === index ? "text-white" : "text-gray-700"
+                                  )}>
                                     {service.title}
                                   </span>
-                                  <ArrowRight className="w-4 h-4 text-primary opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all ml-auto" />
+                                  <ArrowRight className={cn(
+                                    "w-3.5 h-3.5 transition-all ml-auto",
+                                    activeService === index ? "text-white opacity-100 translate-x-0" : "text-primary opacity-0 -translate-x-2"
+                                  )} />
+
+                                  {/* Animated Background Indicator */}
+                                  {activeService === index && (
+                                    <div className="absolute inset-0 bg-gradient-to-r from-primary to-primary-600 rounded-lg -z-10 animate-in fade-in slide-in-from-left-2 duration-200" />
+                                  )}
                                 </Link>
                               );
                             })}
                           </div>
 
                           {/* CTA Section - Right Side */}
-                          <div className="bg-gradient-to-br from-primary to-primary-600 rounded-lg p-5 text-white flex flex-col justify-center min-w-[200px]">
-                            <h3 className="text-base font-bold mb-3">
+                          <div className="bg-gradient-to-br from-primary to-primary-600 rounded-lg p-4 text-white flex flex-col justify-center min-w-[180px]">
+                            <h3 className="text-sm font-bold mb-2">
                               Need Help?
                             </h3>
-                            <p className="text-xs text-white/90 mb-4 leading-relaxed">
+                            <p className="text-xs text-white/90 mb-3 leading-relaxed">
                               Get in touch with our team
                             </p>
                             <Button
                               href="/contact"
                               variant="secondary"
                               size="sm"
-                              className="w-full group mb-3"
+                              className="w-full group mb-2 text-xs"
                             >
                               Contact Us
-                              <ArrowRight className="group-hover:translate-x-1 transition-transform" size={14} />
+                              <ArrowRight className="group-hover:translate-x-1 transition-transform" size={12} />
                             </Button>
                             <a
                               href="tel:01462544738"
                               className="flex items-center justify-center gap-2 text-xs font-semibold hover:text-white/90 transition-colors"
                             >
-                              <Phone size={14} />
+                              <Phone size={12} />
                               01462 544738
                             </a>
                           </div>
