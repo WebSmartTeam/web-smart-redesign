@@ -102,7 +102,7 @@ const Header = () => {
                   {link.hasMegaMenu && isServicesOpen && (
                     <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-2xl">
                       <div className="bg-white rounded-xl shadow-2xl border border-gray-100 p-6">
-                        <div className="grid grid-cols-[1fr_auto] gap-6">
+                        <div className="grid grid-cols-[auto_260px] gap-4">
                           {/* Services Links - Single Column */}
                           <div className="flex flex-col gap-1.5">
                             {services.map((service) => {
@@ -124,7 +124,7 @@ const Header = () => {
                           </div>
 
                           {/* CTA Section - Right Side */}
-                          <div className="bg-gradient-to-br from-primary to-primary-600 rounded-lg p-5 text-white flex flex-col justify-center min-w-[200px]">
+                          <div className="bg-gradient-to-br from-primary to-primary-600 rounded-lg p-5 text-white flex flex-col justify-center">
                             <h3 className="text-base font-bold mb-3">
                               Need Help?
                             </h3>
