@@ -11,7 +11,6 @@ import {
   MousePointerClick,
   Video,
   FileText,
-  Image as ImageIcon,
   Palette,
   Laptop,
   Grid3x3,
