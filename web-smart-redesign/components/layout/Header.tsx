@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, Phone, Globe, Search, FileText, MousePointerClick, ArrowRight, Sparkles } from 'lucide-react';
+import { Menu, X, Phone, Globe, Search, FileText, MousePointerClick, ArrowRight, Sparkles, Grid3x3 } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import { cn } from '@/lib/utils';
 
@@ -24,26 +24,32 @@ const Header = () => {
     {
       icon: Globe,
       title: 'Web Design',
-      description: 'Custom websites that convert visitors into customers',
       href: '/services/web-design',
     },
     {
       icon: Search,
       title: 'SEO Services',
-      description: 'Dominate search results and attract organic traffic',
       href: '/services/seo',
     },
     {
       icon: FileText,
       title: 'Content Writing',
-      description: 'Engaging content that ranks and resonates',
       href: '/services/content-writing',
     },
     {
       icon: MousePointerClick,
       title: 'Google Ads',
-      description: 'Targeted campaigns that deliver measurable ROI',
       href: '/services/google-ads',
+    },
+    {
+      icon: Sparkles,
+      title: 'AI Projects',
+      href: '/ai-projects',
+    },
+    {
+      icon: Grid3x3,
+      title: 'WordPress Development',
+      href: '/contact',
     },
   ];
 
@@ -101,9 +107,9 @@ const Header = () => {
                   {link.hasMegaMenu && isServicesOpen && (
                     <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-4xl">
                       <div className="bg-white rounded-2xl shadow-2xl border border-gray-100 p-8">
-                        <div className="grid grid-cols-3 gap-8">
-                          {/* Services Links - Left Side (2 columns) */}
-                          <div className="col-span-2 grid grid-cols-2 gap-4">
+                        <div className="grid grid-cols-4 gap-6">
+                          {/* Services Links - Left Side (3 columns) */}
+                          <div className="col-span-3 grid grid-cols-3 gap-3">
                             {services.map((service) => {
                               const Icon = service.icon;
                               return (
@@ -112,18 +118,13 @@ const Header = () => {
                                   href={service.href}
                                   className="group p-4 rounded-xl hover:bg-secondary transition-all duration-300"
                                 >
-                                  <div className="flex items-start gap-3">
+                                  <div className="flex items-center gap-3">
                                     <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                                       <Icon className="text-primary group-hover:text-white transition-colors" size={20} />
                                     </div>
-                                    <div>
-                                      <h3 className="font-semibold text-gray-900 mb-1 group-hover:text-primary transition-colors">
-                                        {service.title}
-                                      </h3>
-                                      <p className="text-sm text-gray-600 leading-snug">
-                                        {service.description}
-                                      </p>
-                                    </div>
+                                    <h3 className="font-semibold text-gray-900 group-hover:text-primary transition-colors text-sm">
+                                      {service.title}
+                                    </h3>
                                   </div>
                                 </Link>
                               );
