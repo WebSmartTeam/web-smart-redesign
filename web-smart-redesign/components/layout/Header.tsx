@@ -2,7 +2,7 @@
 
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Menu, X, Phone, Globe, Search, FileText, MousePointerClick, ArrowRight, Sparkles, Grid3x3 } from 'lucide-react';
+import { Menu, X, Phone, Globe, Search, MousePointerClick, ArrowRight, Sparkles, Grid3x3 } from 'lucide-react';
 import Button from '@/components/ui/Button';
 import { cn } from '@/lib/utils';
 
@@ -30,11 +30,6 @@ const Header = () => {
       icon: Search,
       title: 'SEO Services',
       href: '/services/seo',
-    },
-    {
-      icon: FileText,
-      title: 'Content Writing',
-      href: '/services/content-writing',
     },
     {
       icon: MousePointerClick,
