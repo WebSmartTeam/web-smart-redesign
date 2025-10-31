@@ -12,6 +12,8 @@ const LogoSlider = () => {
     { name: 'Runway', src: '/images/partners/runway.png' },
     { name: 'Google Cloud', src: '/images/partners/google-cloud.svg' },
     { name: 'Meta Partner', src: '/images/partners/meta-partner.svg' },
+    { name: 'Netlify', src: '/images/partners/netlify.png' },
+    { name: 'Vercel', src: '/images/partners/vercel.png' },
   ];
 
   // Duplicate logos for seamless loop
