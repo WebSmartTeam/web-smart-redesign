@@ -579,8 +579,8 @@ export default function HomePage() {
               },
               {
                 icon: <TrendingUp size={24} />,
-                title: 'Marketing Copy',
-                description: 'Compelling sales pages and marketing materials that drive conversions',
+                title: 'Website Content',
+                description: 'Professional website content that engages visitors and drives conversions',
               },
               {
                 icon: <Lightbulb size={24} />,
