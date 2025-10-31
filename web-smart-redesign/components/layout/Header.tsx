@@ -155,29 +155,33 @@ const Header = () => {
                           </div>
 
                           {/* CTA Section - Right Side */}
-                          <div className="bg-gradient-to-br from-primary to-primary-600 rounded-lg p-5 text-white flex flex-col justify-center">
-                            <h3 className="text-base font-bold mb-3">
-                              Need Help?
-                            </h3>
-                            <p className="text-xs text-white/90 mb-6 leading-relaxed">
-                              Get in touch with our team
-                            </p>
-                            <Button
-                              href="/contact"
-                              variant="secondary"
-                              size="sm"
-                              className="w-full group mb-3"
-                            >
-                              Contact Us
-                              <ArrowRight className="group-hover:translate-x-1 transition-transform" size={14} />
-                            </Button>
-                            <a
-                              href="tel:01462544738"
-                              className="flex items-center justify-center gap-2 text-xs font-semibold hover:text-white/90 transition-colors"
-                            >
-                              <Phone size={14} />
-                              01462 544738
-                            </a>
+                          <div className="bg-gradient-to-br from-primary to-primary-600 rounded-lg p-6 text-white flex flex-col justify-between h-full">
+                            <div>
+                              <h3 className="text-lg font-bold mb-2">
+                                Need Help?
+                              </h3>
+                              <p className="text-sm text-white/95 mb-6 leading-relaxed">
+                                Get in touch with our team for expert advice
+                              </p>
+                            </div>
+                            <div className="space-y-3">
+                              <Button
+                                href="/contact"
+                                variant="secondary"
+                                size="sm"
+                                className="w-full group justify-center"
+                              >
+                                Contact Us
+                                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={14} />
+                              </Button>
+                              <a
+                                href="tel:01462544738"
+                                className="flex items-center justify-center gap-2 text-sm font-semibold hover:text-white/90 transition-colors py-2"
+                              >
+                                <Phone size={16} />
+                                01462 544738
+                              </a>
+                            </div>
                           </div>
                         </div>
                       </div>
