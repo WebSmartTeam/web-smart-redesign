@@ -50,7 +50,9 @@ const LogoSlider = () => {
               <img
                 src={logo.src}
                 alt={logo.name}
-                className="max-w-full max-h-full object-contain opacity-60 hover:opacity-100 transition-opacity duration-300"
+                className={`object-contain opacity-60 hover:opacity-100 transition-opacity duration-300 ${
+                  logo.name === 'AWS' ? 'max-w-[70%] max-h-[70%]' : 'max-w-full max-h-full'
+                }`}
               />
             </div>
           ))}
