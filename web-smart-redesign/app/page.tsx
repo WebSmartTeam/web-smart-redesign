@@ -474,7 +474,7 @@ export default function HomePage() {
                 The Web Creation Hub
               </h2>
               <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                Your central hub for all web and marketing needs. We&apos;re not just a web design agency—we&apos;re a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, AI-powered content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
+                Your central hub for all web and marketing needs. We&apos;re not just a web design agency—we&apos;re a comprehensive digital solutions provider. From stunning website designs to powerful SEO strategies, professional content creation to strategic branding, we bring everything together under one roof to help your business thrive online.
               </p>
             </motion.div>
 
@@ -556,7 +556,7 @@ export default function HomePage() {
               Unique Content Creation
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-              Stand out with exceptional content that engages your audience and drives results. Our content creation services combine professional copywriting, custom visual design, and AI-powered solutions.
+              Stand out with exceptional content that engages your audience and drives results. Our content creation services combine professional copywriting and custom visual design.
             </p>
           </motion.div>
 
@@ -573,11 +573,6 @@ export default function HomePage() {
                 description: 'Eye-catching graphics, images, and visual assets tailored to your brand',
               },
               {
-                icon: <Sparkles size={24} />,
-                title: 'AI Video Creation',
-                description: 'Modern AI-powered video content that engages and informs your audience',
-              },
-              {
                 icon: <FileText size={24} />,
                 title: 'Blog & Article Writing',
                 description: 'Well-researched, informative content that establishes your expertise',
@@ -589,8 +584,13 @@ export default function HomePage() {
               },
               {
                 icon: <Lightbulb size={24} />,
-                title: 'AI-Assisted Content',
-                description: 'Leverage advanced AI technology for depth, breadth, and efficiency',
+                title: 'Content Strategy',
+                description: 'Comprehensive content planning that drives engagement and conversions',
+              },
+              {
+                icon: <Sparkles size={24} />,
+                title: 'Video Content Creation',
+                description: 'Engaging video content that informs and connects with your audience',
               },
             ].map((service, index) => (
               <motion.div
@@ -624,75 +624,6 @@ export default function HomePage() {
               Learn More About Content Services
             </Button>
           </motion.div>
-        </div>
-      </section>
-
-      {/* AI Solutions Section */}
-      <section className="w-full section-padding bg-gradient-to-br from-secondary to-white">
-        <div className="container-custom">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <motion.div
-              initial={{ opacity: 0, x: -30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="order-2 md:order-1"
-            >
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-black text-gray-900 mb-6">
-                Get AI Solutions Tailored to Your Business
-              </h2>
-              <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                Harness the power of artificial intelligence to transform your digital presence. Our AI-powered services combine cutting-edge technology with marketing expertise to deliver results that traditional methods simply can&apos;t match.
-              </p>
-              <ul className="space-y-4 mb-8">
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={20} />
-                  <div>
-                    <span className="font-semibold text-gray-900">AI-Generated Content</span>
-                    <p className="text-gray-600">Well-researched articles and copy produced efficiently</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={20} />
-                  <div>
-                    <span className="font-semibold text-gray-900">AI-Enhanced SEO Strategies</span>
-                    <p className="text-gray-600">Data-driven optimization for better rankings</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={20} />
-                  <div>
-                    <span className="font-semibold text-gray-900">Free AI-Generated Images</span>
-                    <p className="text-gray-600">Professional visuals created with advanced AI</p>
-                  </div>
-                </li>
-                <li className="flex items-start gap-3">
-                  <CheckCircle className="text-accent flex-shrink-0 mt-1" size={20} />
-                  <div>
-                    <span className="font-semibold text-gray-900">Modern AI-Driven Marketing</span>
-                    <p className="text-gray-600">Stay ahead with the latest AI marketing approaches</p>
-                  </div>
-                </li>
-              </ul>
-              <div className="flex flex-col sm:flex-row gap-4">
-                <Button href="/contact" variant="outline" size="lg">
-                  Book AI Consultation
-                </Button>
-              </div>
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              className="order-1 md:order-2"
-            >
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img
-                src="/images/services/ai-seo-strategy.jpg"
-                alt="AI Solutions for Your Business"
-                className="w-full max-h-[500px] object-cover rounded-2xl shadow-2xl"
-              />
-            </motion.div>
-          </div>
         </div>
       </section>
 
