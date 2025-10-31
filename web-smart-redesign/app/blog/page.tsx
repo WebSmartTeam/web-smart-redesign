@@ -41,7 +41,7 @@ export default function BlogPage() {
     {
       title: 'Social Media Marketing Strategies for Hertfordshire Businesses',
       excerpt: 'Unlock the power of social media marketing to connect with your local audience and grow your Hertfordshire business. From Facebook to Instagram, learn proven strategies that drive real results...',
-      image: '/images/services/live/service-5.png',
+      image: '/images/services/live/service-3.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Digital Marketing',
@@ -95,7 +95,7 @@ export default function BlogPage() {
     {
       title: 'Local SEO Strategies to Dominate Hertfordshire Search Results',
       excerpt: 'Want to appear at the top of local search results? Discover proven local SEO tactics that help Hertfordshire businesses attract more customers from their local area...',
-      image: '/images/services/banner-foundation-seo-pack1499-scaled.jpg',
+      image: '/images/services/live/service-13.jpg',
       author: 'Pete Gypps',
       date: 'October 2024',
       category: 'Local SEO',
