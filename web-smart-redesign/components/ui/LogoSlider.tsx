@@ -40,7 +40,7 @@ const LogoSlider = () => {
           {duplicatedLogos.map((logo, index) => (
             <div
               key={`${logo.name}-${index}`}
-              className="flex-shrink-0 w-24 h-16 md:w-40 md:h-20 lg:w-48 lg:h-24 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300"
+              className="flex-shrink-0 w-20 h-12 md:w-32 md:h-16 lg:w-36 lg:h-18 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300"
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
