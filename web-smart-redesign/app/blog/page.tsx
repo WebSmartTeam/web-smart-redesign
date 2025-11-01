@@ -310,7 +310,7 @@ export default function BlogPage() {
 
             {/* Blog Sidebar */}
             <aside className="lg:col-span-1">
-              <div className="sticky top-40 space-y-6">
+              <div className="sticky top-24 space-y-6">
                 {/* Search Widget */}
                 <motion.div
                   initial={{ opacity: 0, x: 30 }}
