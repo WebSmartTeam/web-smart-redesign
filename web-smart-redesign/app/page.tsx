@@ -358,7 +358,7 @@ export default function HomePage() {
                   <span className="text-sm text-gray-700">SEO optimization</span>
                 </li>
               </ul>
-              <Button href="/services#static" variant="outline" className="w-full mt-auto">
+              <Button href="/contact" variant="outline" className="w-full mt-auto">
                 Learn More
               </Button>
             </motion.div>
@@ -401,7 +401,7 @@ export default function HomePage() {
                   <span className="text-sm text-white/90">3 months support</span>
                 </li>
               </ul>
-              <Button href="/services#wordpress" variant="secondary" className="w-full mt-auto">
+              <Button href="/contact" variant="secondary" className="w-full mt-auto">
                 Learn More
               </Button>
             </motion.div>
@@ -440,7 +440,7 @@ export default function HomePage() {
                   <span className="text-sm text-gray-700">Full management</span>
                 </li>
               </ul>
-              <Button href="/services#bespoke" variant="outline" className="w-full mt-auto">
+              <Button href="/contact" variant="outline" className="w-full mt-auto">
                 Learn More
               </Button>
             </motion.div>
