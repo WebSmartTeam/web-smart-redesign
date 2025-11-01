@@ -68,7 +68,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="sticky top-0 w-full transition-all duration-300 px-4 z-50">
+    <header className="fixed top-0 left-0 right-0 w-full transition-all duration-300 px-4 z-50">
       <div
         className={cn(
           'mx-auto max-w-[1600px] transition-all duration-300 rounded-b-2xl px-4 sm:px-6 lg:px-8',
