@@ -317,7 +317,7 @@ export default function TermsAndConditionsPage() {
                 Questions About Our Terms?
               </h2>
               <p className="text-lg text-white/95 mb-8 leading-relaxed">
-                If you have any questions about these Terms and Conditions or need clarification on any aspect of our services, please don't hesitate to contact us:
+                If you have any questions about these Terms and Conditions or need clarification on any aspect of our services, please don&apos;t hesitate to contact us:
               </p>
 
               <div className="grid md:grid-cols-3 gap-6 max-w-3xl mx-auto">
@@ -349,7 +349,7 @@ export default function TermsAndConditionsPage() {
               </div>
 
               <p className="text-sm text-white/80 mt-8">
-                We're here to help clarify any questions you may have about working with Web-Smart.Co.
+                We&apos;re here to help clarify any questions you may have about working with Web-Smart.Co.
               </p>
             </motion.div>
           </div>

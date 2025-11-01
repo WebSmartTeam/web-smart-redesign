@@ -313,7 +313,7 @@ export default function PrivacyPolicyPage() {
               </div>
 
               <p className="text-sm text-white/80 mt-8">
-                You also have the right to lodge a complaint with the Information Commissioner's Office (ICO), the UK supervisory authority for data protection issues.
+                You also have the right to lodge a complaint with the Information Commissioner&apos;s Office (ICO), the UK supervisory authority for data protection issues.
               </p>
             </motion.div>
           </div>
