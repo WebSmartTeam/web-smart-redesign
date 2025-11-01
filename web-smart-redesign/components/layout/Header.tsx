@@ -77,7 +77,7 @@ const Header = () => {
             : 'bg-white/95 backdrop-blur-sm py-2'
         )}
       >
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between relative">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <div className="w-16 h-16">
@@ -90,120 +90,117 @@ const Header = () => {
             </div>
           </Link>
 
-          {/* Desktop Navigation and CTA - Right Side */}
-          <div className="hidden lg:flex items-center gap-8">
-            {/* Navigation Links */}
-            <nav className="flex items-center gap-8">
-              {navLinks.map((link) => (
-                <div
-                  key={link.href}
-                  className="relative"
-                  onMouseEnter={() => link.hasMegaMenu && setIsServicesOpen(true)}
-                  onMouseLeave={() => link.hasMegaMenu && setIsServicesOpen(false)}
+          {/* Desktop Navigation - Centered */}
+          <nav className="hidden lg:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
+            {navLinks.map((link) => (
+              <div
+                key={link.href}
+                className="relative"
+                onMouseEnter={() => link.hasMegaMenu && setIsServicesOpen(true)}
+                onMouseLeave={() => link.hasMegaMenu && setIsServicesOpen(false)}
+              >
+                <Link
+                  href={link.href}
+                  className="text-gray-700 hover:text-primary font-medium transition-colors duration-200"
                 >
-                  <Link
-                    href={link.href}
-                    className="text-gray-700 hover:text-primary font-medium transition-colors duration-200"
-                  >
-                    {link.label}
-                  </Link>
+                  {link.label}
+                </Link>
 
-                  {/* Mega Menu */}
-                  {link.hasMegaMenu && isServicesOpen && (
-                    <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-2xl">
-                      <div className="bg-white rounded-xl shadow-2xl border border-gray-100 p-6">
-                        <div className="grid grid-cols-[auto_260px] gap-4">
-                          {/* Services Links - Single Column */}
-                          <div className="flex flex-col gap-1.5">
-                            {services.map((service, index) => {
-                              const IconComponent = service.icon;
-                              const isActive = activeService === index;
-                              return (
-                                <Link
-                                  key={service.href + service.title}
-                                  href={service.href}
-                                  onMouseEnter={() => setActiveService(index)}
-                                  className={cn(
-                                    "relative py-3 px-4 rounded-lg transition-all duration-300 flex items-center gap-3 border border-transparent overflow-hidden",
-                                    isActive ? "border-primary/20" : "hover:border-primary/20"
-                                  )}
-                                >
-                                  {/* Animated Background */}
-                                  <div className={cn(
-                                    "absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/30 transition-all duration-300",
-                                    isActive ? "opacity-100" : "opacity-0"
-                                  )} />
+                {/* Mega Menu */}
+                {link.hasMegaMenu && isServicesOpen && (
+                  <div className="absolute left-1/2 -translate-x-1/2 top-full pt-4 w-screen max-w-2xl">
+                    <div className="bg-white rounded-xl shadow-2xl border border-gray-100 p-6">
+                      <div className="grid grid-cols-[auto_260px] gap-4">
+                        {/* Services Links - Single Column */}
+                        <div className="flex flex-col gap-1.5">
+                          {services.map((service, index) => {
+                            const IconComponent = service.icon;
+                            const isActive = activeService === index;
+                            return (
+                              <Link
+                                key={service.href + service.title}
+                                href={service.href}
+                                onMouseEnter={() => setActiveService(index)}
+                                className={cn(
+                                  "relative py-3 px-4 rounded-lg transition-all duration-300 flex items-center gap-3 border border-transparent overflow-hidden",
+                                  isActive ? "border-primary/20" : "hover:border-primary/20"
+                                )}
+                              >
+                                {/* Animated Background */}
+                                <div className={cn(
+                                  "absolute inset-0 bg-gradient-to-r from-primary/20 to-primary/30 transition-all duration-300",
+                                  isActive ? "opacity-100" : "opacity-0"
+                                )} />
 
-                                  {/* Content */}
-                                  <IconComponent className={cn(
-                                    "w-5 h-5 transition-all duration-300 flex-shrink-0 relative z-10",
-                                    isActive ? "text-primary scale-110" : "text-primary"
-                                  )} />
-                                  <span className={cn(
-                                    "font-medium transition-all duration-300 text-sm relative z-10",
-                                    isActive ? "text-gray-900" : "text-gray-700"
-                                  )}>
-                                    {service.title}
-                                  </span>
-                                  <ArrowRight className={cn(
-                                    "w-4 h-4 transition-all duration-300 ml-auto relative z-10",
-                                    isActive ? "text-primary opacity-100 translate-x-0" : "text-primary opacity-0 -translate-x-2"
-                                  )} />
-                                </Link>
-                              );
-                            })}
+                                {/* Content */}
+                                <IconComponent className={cn(
+                                  "w-5 h-5 transition-all duration-300 flex-shrink-0 relative z-10",
+                                  isActive ? "text-primary scale-110" : "text-primary"
+                                )} />
+                                <span className={cn(
+                                  "font-medium transition-all duration-300 text-sm relative z-10",
+                                  isActive ? "text-gray-900" : "text-gray-700"
+                                )}>
+                                  {service.title}
+                                </span>
+                                <ArrowRight className={cn(
+                                  "w-4 h-4 transition-all duration-300 ml-auto relative z-10",
+                                  isActive ? "text-primary opacity-100 translate-x-0" : "text-primary opacity-0 -translate-x-2"
+                                )} />
+                              </Link>
+                            );
+                          })}
+                        </div>
+
+                        {/* CTA Section - Right Side */}
+                        <div className="bg-gradient-to-br from-primary to-primary-600 rounded-lg p-6 text-white flex flex-col justify-between h-full">
+                          <div>
+                            <h3 className="text-lg font-bold mb-2">
+                              Need Help?
+                            </h3>
+                            <p className="text-sm text-white/95 mb-6 leading-relaxed">
+                              Get in touch with our team for expert advice
+                            </p>
                           </div>
-
-                          {/* CTA Section - Right Side */}
-                          <div className="bg-gradient-to-br from-primary to-primary-600 rounded-lg p-6 text-white flex flex-col justify-between h-full">
-                            <div>
-                              <h3 className="text-lg font-bold mb-2">
-                                Need Help?
-                              </h3>
-                              <p className="text-sm text-white/95 mb-6 leading-relaxed">
-                                Get in touch with our team for expert advice
-                              </p>
-                            </div>
-                            <div className="space-y-3">
-                              <Button
-                                href="/contact"
-                                variant="secondary"
-                                size="sm"
-                                className="w-full group justify-center"
-                              >
-                                Contact Us
-                                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={14} />
-                              </Button>
-                              <a
-                                href="tel:01462544738"
-                                className="flex items-center justify-center gap-2 text-sm font-semibold hover:text-white/90 transition-colors py-2"
-                              >
-                                <Phone size={16} />
-                                01462 544738
-                              </a>
-                            </div>
+                          <div className="space-y-3">
+                            <Button
+                              href="/contact"
+                              variant="secondary"
+                              size="sm"
+                              className="w-full group justify-center"
+                            >
+                              Contact Us
+                              <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={14} />
+                            </Button>
+                            <a
+                              href="tel:01462544738"
+                              className="flex items-center justify-center gap-2 text-sm font-semibold hover:text-white/90 transition-colors py-2"
+                            >
+                              <Phone size={16} />
+                              01462 544738
+                            </a>
                           </div>
                         </div>
                       </div>
                     </div>
-                  )}
-                </div>
-              ))}
-            </nav>
+                  </div>
+                )}
+              </div>
+            ))}
+          </nav>
 
-            {/* CTA Buttons */}
-            <div className="flex items-center gap-4 ml-4">
-              <a
-                href="tel:01462544738"
-                className="flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors"
-              >
-                <Phone size={18} />
-                <span>01462 544738</span>
-              </a>
-              <Button href="/contact" size="md">
-                Get Started
-              </Button>
-            </div>
+          {/* CTA Buttons - Right Side */}
+          <div className="hidden lg:flex items-center gap-4">
+            <a
+              href="tel:01462544738"
+              className="flex items-center gap-2 text-primary font-semibold hover:text-primary-600 transition-colors"
+            >
+              <Phone size={18} />
+              <span>01462 544738</span>
+            </a>
+            <Button href="/contact" size="md">
+              Get Started
+            </Button>
           </div>
 
           {/* Mobile Menu Button */}
