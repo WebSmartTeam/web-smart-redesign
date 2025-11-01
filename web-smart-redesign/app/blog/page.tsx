@@ -1,14 +1,16 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, User, Search, Tag } from 'lucide-react';
+import { ArrowRight, User, Search, Tag, ChevronLeft, ChevronRight } from 'lucide-react';
 import Header from '@/components/layout/Header';
 import Link from 'next/link';
 
 export default function BlogPage() {
   const [activeCategory, setActiveCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
+  const [currentPage, setCurrentPage] = useState(1);
+  const POSTS_PER_PAGE = 6;
 
   const blogPosts = [
     {
@@ -193,6 +195,35 @@ export default function BlogPage() {
     ? blogPosts
     : blogPosts.filter(post => post.category === activeCategory);
 
+  // Reset to page 1 when category changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [activeCategory]);
+
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredPosts.length / POSTS_PER_PAGE);
+  const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
+  const endIndex = startIndex + POSTS_PER_PAGE;
+  const currentPosts = filteredPosts.slice(startIndex, endIndex);
+
+  // Pagination handlers
+  const goToPage = (page: number) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 400, behavior: 'smooth' });
+  };
+
+  const goToPrevPage = () => {
+    if (currentPage > 1) {
+      goToPage(currentPage - 1);
+    }
+  };
+
+  const goToNextPage = () => {
+    if (currentPage < totalPages) {
+      goToPage(currentPage + 1);
+    }
+  };
+
   return (
     <>
       {/* Header - Sticky throughout site */}
@@ -261,7 +292,7 @@ export default function BlogPage() {
             {/* Blog Posts Grid */}
             <div className="lg:col-span-3">
               <div className="grid md:grid-cols-2 gap-8">
-                {filteredPosts.map((post, index) => (
+                {currentPosts.map((post, index) => (
                   <Link key={index} href={`/blog/${post.slug}`}>
                     <motion.article
                       initial={{ opacity: 0, y: 30 }}
@@ -306,6 +337,60 @@ export default function BlogPage() {
                   </Link>
                 ))}
               </div>
+
+              {/* Pagination */}
+              {totalPages > 1 && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  className="mt-12 flex justify-center items-center gap-2"
+                >
+                  {/* Previous Button */}
+                  <button
+                    onClick={goToPrevPage}
+                    disabled={currentPage === 1}
+                    className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300 ${
+                      currentPage === 1
+                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                        : 'bg-white text-primary hover:bg-primary hover:text-white shadow-md hover:shadow-lg'
+                    }`}
+                  >
+                    <ChevronLeft size={18} />
+                    <span className="hidden sm:inline">Previous</span>
+                  </button>
+
+                  {/* Page Numbers */}
+                  <div className="flex gap-2">
+                    {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+                      <button
+                        key={page}
+                        onClick={() => goToPage(page)}
+                        className={`w-10 h-10 rounded-lg font-semibold text-sm transition-all duration-300 ${
+                          currentPage === page
+                            ? 'bg-primary text-white shadow-lg scale-110'
+                            : 'bg-white text-gray-700 hover:bg-primary hover:text-white shadow-md hover:shadow-lg'
+                        }`}
+                      >
+                        {page}
+                      </button>
+                    ))}
+                  </div>
+
+                  {/* Next Button */}
+                  <button
+                    onClick={goToNextPage}
+                    disabled={currentPage === totalPages}
+                    className={`flex items-center gap-2 px-4 py-2 rounded-lg font-semibold text-sm transition-all duration-300 ${
+                      currentPage === totalPages
+                        ? 'bg-gray-100 text-gray-400 cursor-not-allowed'
+                        : 'bg-white text-primary hover:bg-primary hover:text-white shadow-md hover:shadow-lg'
+                    }`}
+                  >
+                    <span className="hidden sm:inline">Next</span>
+                    <ChevronRight size={18} />
+                  </button>
+                </motion.div>
+              )}
             </div>
 
             {/* Blog Sidebar */}
