@@ -153,27 +153,17 @@ const Footer = () => {
             <p>
               &copy; {currentYear} Web-Smart.Co. All rights reserved.
             </p>
-            <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
-              <div className="flex gap-6">
-                <Link href="/privacy-policy" className="hover:text-white transition-colors">
-                  Privacy Policy
-                </Link>
-                <Link href="/terms-and-conditions" className="hover:text-white transition-colors">
-                  Terms & Conditions
-                </Link>
-              </div>
-              <p className="flex items-center gap-1">
-                Designed by <span className="text-red-500">❤</span>{' '}
-                <a
-                  href="https://aidan.systems"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-white font-semibold transition-colors"
-                >
-                  AiDan.Systems
-                </a>
-              </p>
-            </div>
+            <p className="flex items-center gap-1">
+              Designed by <span className="text-red-500">❤</span>{' '}
+              <a
+                href="https://aidan.systems"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-primary hover:text-white font-semibold transition-colors"
+              >
+                AiDan.Systems
+              </a>
+            </p>
           </div>
         </div>
       </div>
