@@ -213,7 +213,7 @@ export default function TermsAndConditionsPage() {
       <section className="relative w-full min-h-[400px] flex items-center -mt-[88px] bg-gradient-to-br from-primary to-primary-600">
         <div className="relative z-10 w-full py-24 md:py-32 pt-32 md:pt-40">
           <div className="container-custom">
-            <div className="max-w-4xl mx-auto text-center text-white">
+            <div className="max-w-3xl mx-auto text-center text-white">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -240,7 +240,7 @@ export default function TermsAndConditionsPage() {
       {/* Introduction */}
       <section className="w-full py-16 bg-white">
         <div className="container-custom">
-          <div className="max-w-4xl mx-auto">
+          <div>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
@@ -268,7 +268,7 @@ export default function TermsAndConditionsPage() {
           className={`w-full py-16 ${index % 2 === 0 ? 'bg-gray-50' : 'bg-white'}`}
         >
           <div className="container-custom">
-            <div className="max-w-4xl mx-auto">
+            <div>
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
