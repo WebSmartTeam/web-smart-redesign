@@ -141,41 +141,6 @@ export default function PortfolioPage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="w-full py-20 md:py-28 bg-gradient-to-br from-primary to-primary-600">
-        <div className="container-custom">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="text-center text-white"
-          >
-            <h2 className="text-3xl md:text-4xl font-heading font-bold mb-12">
-              Results That Speak for Themselves
-            </h2>
-
-            <div className="grid md:grid-cols-4 gap-8">
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold mb-3">200+</div>
-                <div className="text-white/90 text-lg">Projects Completed</div>
-              </div>
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold mb-3">10+</div>
-                <div className="text-white/90 text-lg">Years Experience</div>
-              </div>
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold mb-3">4.9/5</div>
-                <div className="text-white/90 text-lg">Client Rating</div>
-              </div>
-              <div className="text-center">
-                <div className="text-5xl md:text-6xl font-bold mb-3">98%</div>
-                <div className="text-white/90 text-lg">Client Satisfaction</div>
-              </div>
-            </div>
-          </motion.div>
-        </div>
-      </section>
-
       {/* CTA Section */}
       <section className="w-full px-[10px] pb-[10px]">
         <div className="relative w-full py-20 md:py-28 text-white overflow-hidden rounded-3xl">
