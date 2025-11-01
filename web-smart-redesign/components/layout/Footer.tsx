@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Phone, Mail, MapPin, Clock, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Phone, Mail, MapPin, Clock, Facebook, Twitter, Linkedin, Instagram, Youtube } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,10 +19,10 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { icon: Facebook, href: '#', label: 'Facebook' },
-    { icon: Twitter, href: '#', label: 'Twitter' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
+    { icon: Facebook, href: 'https://www.facebook.com/aiwebsmartco/', label: 'Facebook' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/company/web-smart-co/', label: 'LinkedIn' },
+    { icon: Instagram, href: 'https://www.instagram.com/websmartco/', label: 'Instagram' },
+    { icon: Youtube, href: 'https://www.youtube.com/channel/UCDxiPVa9wpCfTBTl1govXog', label: 'YouTube' },
   ];
 
   return (
@@ -50,6 +50,8 @@ const Footer = () => {
                 <a
                   key={social.label}
                   href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={social.label}
                   className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-white hover:text-gray-900 transition-colors duration-200"
                 >
